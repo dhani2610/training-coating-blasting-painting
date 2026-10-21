@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Jasa Coating Blasting Painting ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi Jasa Proteksi Korosi & Blasting Painting Resmi')
-@section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi K3 Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew) di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
+@section('title', 'Training Coating Blasting Painting ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi Training Proteksi Korosi & Blasting Painting Resmi')
+@section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi K3 Training Proteksi Korosi & Blasting Painting (Training Coating Blasting Painting Crew) di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
@@ -31,11 +31,11 @@
             </div>
 
             <h1 class="hero-title" style="margin-left: 0; font-size: 2.2rem; line-height: 1.25; margin-bottom: 14px;">
-                Jasa Coating Blasting Painting <span>Kecamatan {{ $kecamatanData['name'] }}</span>
+                Training Coating Blasting Painting <span>Kecamatan {{ $kecamatanData['name'] }}</span>
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 880px; margin-bottom: 22px;">
-                Penyelenggaraan layanan jasa kompetensi Operator Keselamatan & Kesehatan Kerja Korporat (Jasa Coating Blasting Painting) di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}, Provinsi {{ $kecamatanData['province']['name'] }}. Menguasai standar manajemen keselamatan kerja, keselamatan tempat kerja (Auditor SMK3), operasional menara (Analis Risiko HIRADC), pengendalian tekanan sumur (Manajemen Risiko K3 ISO 45001 & IADC), pengujian BOP bertekanan tinggi, dan formulasi keselamatan proses industri (Pengurus P2K3 Bipartit).
+                Penyelenggaraan program training kompetensi Operator Keselamatan & Kesehatan Kerja Korporat (Training Coating Blasting Painting) di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}, Provinsi {{ $kecamatanData['province']['name'] }}. Menguasai standar manajemen keselamatan kerja, keselamatan tempat kerja (Auditor SMK3), operasional menara (Analis Risiko HIRADC), pengendalian tekanan sumur (Manajemen Risiko K3 ISO 45001 & IADC), pengujian BOP bertekanan tinggi, dan formulasi keselamatan proses industri (Pengurus P2K3 Bipartit).
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -51,14 +51,14 @@
         </div>
     </section>
 
-    <!-- 6 PROGRAM LAYANAN JASA -->
+    <!-- 6 PROGRAM PROGRAM TRAINING -->
     <section class="section-py">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">6 Program Resmi di {{ $kecamatanData['name'] }}</span>
-                <h2 class="section-title">Layanan Jasa Proteksi Korosi Industri, Blasting Sa 2.5 Sa 3 & Aplikasi Protective Coating Resmi</h2>
+                <h2 class="section-title">Layanan Training Proteksi Korosi Industri, Blasting Sa 2.5 Sa 3 & Aplikasi Protective Coating Resmi</h2>
                 <p class="section-desc">
-                    Tersedia 8 layanan jasa profesional yang masing-masing memiliki panduan lingkup pengerjaan dan spesifikasi teknis di Kecamatan {{ $kecamatanData['name'] }}:
+                    Tersedia 8 program training profesional yang masing-masing memiliki panduan lingkup pengerjaan dan spesifikasi teknis di Kecamatan {{ $kecamatanData['name'] }}:
                 </p>
             </div>
 
@@ -145,7 +145,7 @@
                     </div>
 
                     <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin-bottom: 20px;">
-                        Beralih ke kecamatan lain di lingkungan {{ $kecamatanData['kabkot']['name'] }} untuk melihat jangkauan layanan jasa pengerjaan Coating Blasting Painting terdekat:
+                        Beralih ke kecamatan lain di lingkungan {{ $kecamatanData['kabkot']['name'] }} untuk melihat jangkauan program training pengerjaan Coating Blasting Painting terdekat:
                     </p>
 
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
@@ -170,8 +170,8 @@
 
             <!-- MODUL ARTIKEL PANDUAN KECAMATAN -->
             <div id="daftar-artikel" class="section-header" style="margin-top: 48px; text-align: left;">
-                <span class="section-tag">Panduan Jasa Coating Blasting Painting</span>
-                <h2 class="section-title">Daftar Direktori Panduan Lengkap Jasa Coating Blasting Painting di Kecamatan {{ $kecamatanData['name'] }}</h2>
+                <span class="section-tag">Panduan Training Coating Blasting Painting</span>
+                <h2 class="section-title">Daftar Direktori Panduan Lengkap Training Coating Blasting Painting di Kecamatan {{ $kecamatanData['name'] }}</h2>
                 <p class="section-desc" style="margin-left: 0;">
                     Kumpulan panduan modul mendalam mencakup standar kompetensi teknisi blasting & coating, prosedur penutupan sumur cepat (shut-in), sistem pengendalian tekanan sumur (Manajemen Risiko K3), pengujian BOP bertekanan tinggi, dan keselamatan tempat kerja di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}:
                 </p>
@@ -191,7 +191,7 @@
                             <a href="{{ $artUrl }}">{{ $artObj->title }}</a>
                         </h3>
                         <p class="article-excerpt">
-                            Panduan teknis dan standar operasional Jasa Coating Blasting Painting di Kecamatan {{ $kecamatanData['name'] }}. Mengulas regulasi Standar Keselamatan Manajemen Keselamatan Kerja, Standar Manajemen Risiko K3 Internasional (IADC & ISO 45001), perhitungan keselamatan operasi tempat kerja dan penanganan pipa bor, serta sertifikasi kompetensi resmi.
+                            Panduan teknis dan standar operasional Training Coating Blasting Painting di Kecamatan {{ $kecamatanData['name'] }}. Mengulas regulasi Standar Keselamatan Manajemen Keselamatan Kerja, Standar Manajemen Risiko K3 Internasional (IADC & ISO 45001), perhitungan keselamatan operasi tempat kerja dan penanganan pipa bor, serta sertifikasi kompetensi resmi.
                         </p>
                         <div class="article-footer">
                             <span><i class="bi bi-clock me-1"></i> {{ $artObj->read_time ?? 35 }} Menit Baca (Panduan Lengkap)</span>
@@ -209,7 +209,7 @@
                     <i class="bi bi-map-fill text-success"></i> Peta Lokasi Wilayah Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}
                 </h3>
                 <p style="font-size: 0.86rem; color: #64748b; margin-bottom: 18px;">
-                    Kami melayani jasa blasting painting K3 Corporate baik secara publik maupun pengerjaan proyek industri langsung ke fasilitas perusahaan Anda di area Kecamatan {{ $kecamatanData['name'] }} dan sekitarnya.
+                    Kami menyelenggarakan pelatihan dan sertifikasi kompetensi Training Coating Blasting Painting baik kelas publik maupun in-house training langsung ke fasilitas perusahaan Anda di area Kecamatan {{ $kecamatanData['name'] }} dan sekitarnya.
                 </p>
                 <div style="width: 100%; height: 350px; border-radius: 12px; overflow: hidden; border: 1px solid #cbd5e1;">
                     <iframe src="{{ $mapUrl }}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -19,7 +19,7 @@
 
                 <div class="form-group">
                     <label class="form-label">Pertanyaan *</label>
-                    <input type="text" name="question" class="form-control" required placeholder="Contoh: Apakah sertifikat layanan jasa diakui oleh Barantin?" value="{{ old('question') }}">
+                    <input type="text" name="question" class="form-control" required placeholder="Contoh: Apakah sertifikat program training diakui oleh Barantin?" value="{{ old('question') }}">
                 </div>
 
                 <div class="form-group">

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Administrator | Jasa Coating Blasting Painting</title>
+    <title>Login Administrator | Training Coating Blasting Painting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -174,7 +174,7 @@
             <div class="brand-icon">
                 <i class="bi bi-shield-lock-fill"></i>
             </div>
-            <h1>ADMIN JASA COATING BLASTING PAINTING</h1>
+            <h1>ADMIN TRAINING COATING BLASTING PAINTING</h1>
             <p>Silakan masuk menggunakan akun resmi administrator</p>
         </div>
 
@@ -191,7 +191,7 @@
                 <label class="form-label">Email Administrator *</label>
                 <div class="input-group">
                     <i class="bi bi-envelope"></i>
-                    <input type="email" name="email" id="email" class="form-control" value="{{ old('email', 'admin@jasadrilling.my.id') }}" required placeholder="admin@jasadrilling.my.id">
+                    <input type="email" name="email" id="email" class="form-control" value="{{ old('email', 'admin@trainingcoatingblastingpainting.my.id') }}" required placeholder="admin@trainingcoatingblastingpainting.my.id">
                 </div>
             </div>
 
@@ -216,7 +216,7 @@
 
         <div class="demo-box">
             <div><strong>Akun Default:</strong></div>
-            <div style="margin-top: 2px;">Email: <code>admin@jasadrilling.my.id</code></div>
+            <div style="margin-top: 2px;">Email: <code>admin@trainingcoatingblastingpainting.my.id</code></div>
             <div>Password: <code>admin123</code></div>
             <button type="button" class="btn-fill-demo" onclick="fillDemo()">
                 <i class="bi bi-magic"></i> Isi Otomatis
@@ -226,7 +226,7 @@
 
     <script>
         function fillDemo() {
-            document.getElementById('email').value = 'admin@jasadrilling.my.id';
+            document.getElementById('email').value = 'admin@trainingcoatingblastingpainting.my.id';
             document.getElementById('password').value = 'admin123';
         }
     </script>

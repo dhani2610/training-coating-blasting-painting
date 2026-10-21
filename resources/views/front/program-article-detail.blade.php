@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', $article->title . ' | Jasa Coating Blasting Painting')
+@section('title', $article->title . ' | Training Coating Blasting Painting')
 @section('meta_description', Str::limit($article->excerpt, 160))
 
 @section('content')
@@ -23,7 +23,7 @@
                 @endif
                 <span>/</span>
                 <a href="{{ isset($kabkotSlug) ? route('wilayah.kabkot.program', [$province['slug'], $kabkotSlug, $program['slug']]) : route('wilayah.provinsi.program', [$province['slug'], $program['slug']]) }}" style="color: #cbd5e1;">
-                    {{ $program['level_name'] ?? 'Jasa Coating Blasting Painting' }}
+                    {{ $program['level_name'] ?? 'Training Coating Blasting Painting' }}
                 </a>
                 <span>/</span>
                 <span style="color: #ffffff; font-weight: 700;">{{ Str::limit($article->title, 42) }}</span>
@@ -31,7 +31,7 @@
 
             <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
                 <span class="hero-badge" style="margin-bottom: 0;">
-                    <i class="bi bi-tag-fill"></i> {{ $program['level_name'] ?? 'Jasa Coating Blasting Painting' }}
+                    <i class="bi bi-tag-fill"></i> {{ $program['level_name'] ?? 'Training Coating Blasting Painting' }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #f97316; color: #a7f3d0;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
@@ -46,13 +46,13 @@
             </h1>
 
             <div style="display: flex; align-items: center; gap: 16px; font-size: 0.82rem; color: #cbd5e1; flex-wrap: wrap;">
-                <span><i class="bi bi-person-fill" style="color: #f97316;"></i> {{ $article->author ?? 'Instruktur Master Jasa Coating Blasting Painting' }}</span>
+                <span><i class="bi bi-person-fill" style="color: #f97316;"></i> {{ $article->author ?? 'Instruktur Master Training Coating Blasting Painting' }}</span>
                 <span>•</span>
                 <span><i class="bi bi-clock-history" style="color: #f97316;"></i> Waktu Baca: 35-45 Menit (Panduan Komprehensif)</span>
                 <span>•</span>
                 <span><i class="bi bi-eye-fill" style="color: #f97316;"></i> {{ number_format($article->views_count ?? 450) }} x dibaca</span>
                 <span>•</span>
-                <span style="color: #a7f3d0; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Resmi Jasa Proteksi Korosi & Blasting Painting</span>
+                <span style="color: #a7f3d0; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Resmi Training Proteksi Korosi & Blasting Painting</span>
             </div>
         </div>
     </section>
@@ -147,7 +147,7 @@
                                 Pendaftaran & Uji Sertifikasi Resmi
                             </div>
                             <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 12px;">
-                                Siap Mengikuti Layanan Jasa {{ $program['title'] }} di {{ $regionName }}?
+                                Siap Mengikuti Program Training {{ $program['title'] }} di {{ $regionName }}?
                             </h3>
                             <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
                                 Dapatkan spesifikasi teknis lengkap, jadwal survei teknis dan penawaran biaya proyek dengan menghubungi WhatsApp kami:

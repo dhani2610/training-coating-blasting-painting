@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
-@section('title', 'Edit Layanan Jasa')
-@section('header_title', 'Edit Layanan Jasa: ' . $program->title)
+@section('title', 'Edit Program Training')
+@section('header_title', 'Edit Program Training: ' . $program->title)
 
 @section('content')
 
@@ -11,7 +11,7 @@
                 <div>
                     <h3 class="admin-card-title">Edit Program: {{ $program->title }}</h3>
                     <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                        Perbarui detail layanan jasa, spesifikasi teknis, durasi pengerjaan, dan status aktif.
+                        Perbarui detail program training, spesifikasi teknis, durasi pengerjaan, dan status aktif.
                     </p>
                 </div>
                 <a href="{{ route('admin.programs.index') }}" class="btn-view-site">
@@ -24,7 +24,7 @@
                 @method('PUT')
 
                 <div class="form-group">
-                    <label class="form-label">Judul Layanan Jasa *</label>
+                    <label class="form-label">Judul Program Training *</label>
                     <input type="text" name="title" class="form-control" required value="{{ old('title', $program->title) }}">
                 </div>
 
@@ -47,7 +47,7 @@
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
                     <div class="form-group">
-                        <label class="form-label">Durasi Layanan Jasa</label>
+                        <label class="form-label">Durasi Program Training</label>
                         <input type="text" name="duration" class="form-control" value="{{ old('duration', $program->duration) }}">
                     </div>
 
@@ -116,12 +116,12 @@
 
                     <div style="display: flex; align-items: center; gap: 8px; margin-top: 24px;">
                         <input type="checkbox" name="is_active" id="is_active" value="1" {{ $program->is_active ? 'checked' : '' }} style="width: 18px; height: 18px;">
-                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Layanan Jasa Aktif</label>
+                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Program Training Aktif</label>
                     </div>
                 </div>
 
                 <button type="submit" class="btn-admin-gold" style="font-size: 0.95rem; padding: 12px 24px;">
-                    <i class="bi bi-check-lg"></i> Perbarui Layanan Jasa
+                    <i class="bi bi-check-lg"></i> Perbarui Program Training
                 </button>
             </form>
         </div>

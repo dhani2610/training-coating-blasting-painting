@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title', 'CMS Artikel & Panduan')
-@section('header_title', 'Manajemen Artikel & Edukasi Jasa Coating Blasting Painting')
+@section('header_title', 'Manajemen Artikel & Edukasi Training Coating Blasting Painting')
 
 @section('content')
 

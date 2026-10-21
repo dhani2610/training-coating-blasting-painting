@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', $program['title'] . ' di ' . $regionName . ' | Direktori Panduan & Sertifikasi Ahli K3')
-@section('meta_description', 'Layanan jasa resmi, estimasi penawaran teknis, dan spesifikasi pengerjaan ' . $program['title'] . ' di ' . $regionName . '. Sertifikasi resmi teknisi blasting & coating berstandar internasional. Hubungi 081399810272.')
+@section('meta_description', 'Program pelatihan resmi, estimasi biaya investasi, dan silabus materi ' . $program['title'] . ' di ' . $regionName . '. Sertifikasi resmi kompetensi teknisi coating & blasting berstandar internasional. Hubungi 081399810272.')
 
 @section('content')
 
@@ -27,7 +27,7 @@
 
             <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
                 <span class="hero-badge" style="margin-bottom: 0;">
-                    <i class="bi bi-award-fill"></i> {{ $program['level_name'] ?? 'Jasa Coating Blasting Painting & Teknisi Blasting & Coating' }}
+                    <i class="bi bi-award-fill"></i> {{ $program['level_name'] ?? 'Training Coating Blasting Painting & Teknisi Blasting & Coating' }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #34d399; color: #a7f3d0;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
@@ -42,7 +42,7 @@
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 900px; margin-bottom: 22px;">
-                Penyedia layanan jasa pengerjaan protective coating, abrasive blasting, dan inspeksi mutu coating QA/QC untuk berbagai fasilitas industri di wilayah {{ $regionName }}. Dilengkapi prosedur kerja berstandar internasional SSPC, NACE, dan ISO.
+                Penyedia program training pengerjaan protective coating, abrasive blasting, dan inspeksi mutu coating QA/QC untuk berbagai fasilitas industri di wilayah {{ $regionName }}. Dilengkapi prosedur kerja berstandar internasional SSPC, NACE, dan ISO.
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -72,7 +72,7 @@
                         </h2>
 
                         <p style="font-size: 0.92rem; color: #475569; line-height: 1.8; margin-bottom: 24px;">
-                            {{ $program['full_description'] }} Layanan Jasa dan sertifikasi ini diselenggarakan secara berkala untuk memenuhi standar kompetensi dan kelaikan operasi pada eksplorasi migas, panas bumi (geothermal), pertambangan mineral, dan pemboran air tanah dalam di <strong>{{ $regionName }}</strong>.
+                            {{ $program['full_description'] }} Program Training dan sertifikasi ini diselenggarakan secara berkala untuk memenuhi standar kompetensi dan kelaikan operasi pada eksplorasi migas, panas bumi (geothermal), pertambangan mineral, dan pemboran air tanah dalam di <strong>{{ $regionName }}</strong>.
                         </p>
 
                         <!-- Daftar Lingkup Pekerjaan -->
@@ -214,7 +214,7 @@
                                 </h2>
                             </div>
                             <span style="font-size: 0.8rem; font-weight: 700; color: #4c1d95; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
-                                <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Jasa Proteksi Korosi & Blasting Painting
+                                <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Training Proteksi Korosi & Blasting Painting
                             </span>
                         </div>
 
@@ -243,7 +243,7 @@
                         <div style="display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
                             <div style="flex: 1; min-width: 240px; position: relative;">
                                 <i class="bi bi-search" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #94a3b8;"></i>
-                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
+                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Training Proteksi Korosi & Blasting Painting (Training Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px;">
                                 <label style="font-size: 0.82rem; font-weight: 700; color: #475569; white-space: nowrap;">Tampilkan:</label>
@@ -371,7 +371,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #0d4a39;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Training Proteksi Korosi & Blasting Painting (Training Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';

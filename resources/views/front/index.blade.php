@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Jasa Coating Blasting Painting | Pusat Layanan Pengerjaan & Sertifikasi K3 Korporasi Resmi')
-@section('meta_description', 'Lembaga layanan pengerjaan dan kendali mutu resmi Jasa Coating Blasting Painting, Audit SMK3 PP 50/2012 166 Kriteria, HIRADC, IBPPR, Investigasi Insiden SCAT, dan Tata Kelola P2K3 Perusahaan di Indonesia.')
+@section('title', 'Training Coating Blasting Painting | Pusat Layanan Pengerjaan & Sertifikasi K3 Korporasi Resmi')
+@section('meta_description', 'Lembaga layanan pengerjaan dan kendali mutu resmi Training Coating Blasting Painting, Audit SMK3 PP 50/2012 166 Kriteria, HIRADC, IBPPR, Investigasi Insiden SCAT, dan Tata Kelola P2K3 Perusahaan di Indonesia.')
 
 @section('content')
     <!-- HERO SLIDER SECTION (TANPA FOTO - HIGH-TECH CORPORATE SAFETY KPI & TELEMETRY HUD) -->
@@ -14,16 +14,16 @@
             <!-- Hero Slider Container -->
             <div class="hero-slider-container" id="heroSlider" style="position: relative; min-height: 480px;">
                 
-                <!-- SLIDE 1: Layanan Pengerjaan Jasa Coating Blasting Painting -->
+                <!-- SLIDE 1: Layanan Pengerjaan Training Coating Blasting Painting -->
                 <div class="hero-slide active" data-slide="1" style="display: block; transition: all 0.5s ease;">
                     <div class="hero-slide-grid">
                         <div>
                             <div class="hero-badge" style="background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.5); color: #6ee7b7; font-size: 0.78rem; font-weight: 800; padding: 6px 16px; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
-                                <i class="bi bi-patch-check-fill"></i> Sertifikasi Jasa Coating Blasting Painting Resmi
+                                <i class="bi bi-patch-check-fill"></i> Sertifikasi Training Coating Blasting Painting Resmi
                             </div>
 
                             <h1 style="font-size: 2.5rem; font-weight: 800; line-height: 1.2; margin-bottom: 18px; color: #ffffff; letter-spacing: -0.5px;">
-                                Jasa Layanan Pengerjaan & Sertifikasi Resmi <span style="background: linear-gradient(135deg, #10b981 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Jasa Coating Blasting Painting</span>
+                                Pusat Pelatihan & Sertifikasi Kompetensi Resmi <span style="background: linear-gradient(135deg, #10b981 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Training Coating Blasting Painting</span>
                             </h1>
 
                             <p style="font-size: 1.02rem; color: #cbd5e1; line-height: 1.7; margin-bottom: 28px; max-width: 620px;">
@@ -31,7 +31,7 @@
                             </p>
 
                             <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 32px;">
-                                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pendaftaran resmi layanan pengerjaan Jasa Coating Blasting Painting.') }}" target="_blank" class="btn-primary-green" style="box-shadow: 0 4px 18px rgba(16, 185, 129, 0.45);">
+                                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Utama Training Coating Blasting Painting, saya ingin konsultasi pendaftaran resmi layanan pengerjaan Training Coating Blasting Painting.') }}" target="_blank" class="btn-primary-green" style="box-shadow: 0 4px 18px rgba(16, 185, 129, 0.45);">
                                     <i class="bi bi-whatsapp"></i> Hotline Utama: 0813-9981-0272
                                 </a>
                                 <a href="#program" class="btn-outline-white" style="border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.06);">
@@ -114,14 +114,14 @@
                             </h1>
 
                             <p style="font-size: 1.02rem; color: #cbd5e1; line-height: 1.7; margin-bottom: 28px; max-width: 620px;">
-                                Layanan Jasa komprehensif bagi Auditor Internal SMK3 dan tim compliance korporasi untuk memverifikasi kesesuaian 12 elemen dan 166 kriteria, merancang dokumen bukti objektif, dan mengeliminasi temuan non-conformance.
+                                Program Training komprehensif bagi Auditor Internal SMK3 dan tim compliance korporasi untuk memverifikasi kesesuaian 12 elemen dan 166 kriteria, merancang dokumen bukti objektif, dan mengeliminasi temuan non-conformance.
                             </p>
 
                             <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 32px;">
-                                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Tim Jasa Coating Blasting Painting, saya ingin konsultasi layanan jasa persiapan Audit SMK3 PP 50/2012 166 Kriteria.') }}" target="_blank" class="btn-primary-green" style="background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);">
+                                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Tim Training Coating Blasting Painting, saya ingin konsultasi program training persiapan Audit SMK3 PP 50/2012 166 Kriteria.') }}" target="_blank" class="btn-primary-green" style="background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);">
                                     <i class="bi bi-whatsapp"></i> Konsultasi Audit SMK3: 0813-9981-0272
                                 </a>
-                                <a href="{{ route('program.detail', 'jasa-aplikator-protective-coating-painting') }}" class="btn-outline-white">
+                                <a href="{{ route('program.detail', 'training-aplikator-protective-coating-painting') }}" class="btn-outline-white">
                                     <i class="bi bi-file-earmark-check"></i> Standar SSPC & NACE
                                 </a>
                             </div>
@@ -202,10 +202,10 @@
                             </p>
 
                             <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 32px;">
-                                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin informasi modul manajemen risiko HIRADC dan investigasi insiden SCAT.') }}" target="_blank" class="btn-primary-green" style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);">
+                                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Training Coating Blasting Painting, saya ingin informasi modul manajemen risiko HIRADC dan investigasi insiden SCAT.') }}" target="_blank" class="btn-primary-green" style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);">
                                     <i class="bi bi-whatsapp"></i> Konsultasi HIRADC: 0813-9981-0272
                                 </a>
-                                <a href="{{ route('program.detail', 'jasa-coating-inspector-qc-proteksi-korosi') }}" class="btn-outline-white">
+                                <a href="{{ route('program.detail', 'training-coating-inspector-qc-proteksi-korosi') }}" class="btn-outline-white">
                                     <i class="bi bi-shield-exclamation"></i> Detail Modul HIRADC
                                 </a>
                             </div>
@@ -285,7 +285,7 @@
     <section class="section-py" style="background: #ffffff; border-bottom: 1px solid #e2e8f0; position: relative;">
         <div class="container">
             <div class="section-header" style="text-align: center; margin-bottom: 38px;">
-                <span class="section-tag">Keunggulan Lembaga Jasa Blasting Painting</span>
+                <span class="section-tag">Keunggulan Lembaga Training Coating Blasting Painting</span>
                 <h2 class="section-title">Mengapa 1.200+ Perusahaan Memilih Kami?</h2>
                 <p class="section-desc" style="max-width: 760px; margin: 0 auto;">
                     Kami mengintegrasikan kepatuhan regulasi hukum keselamatan kerja dengan peningkatan efisiensi operasional dan pembentukan budaya K3 berkelas dunia:
@@ -338,7 +338,7 @@
                             <i class="bi bi-geo-alt-fill"></i>
                         </div>
                         <h3 style="font-size: 1.12rem; font-weight: 800; color: #062e22; margin-bottom: 8px;">Layanan In-House ke 38 Provinsi</h3>
-                        <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Kami hadir langsung ke pabrik, kantor pusat, proyek konstruksi, dan fasilitas operasional klien di seluruh pelosok Indonesia dengan modul layanan jasa yang dikustomisasi.</p>
+                        <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Kami hadir langsung ke pabrik, kantor pusat, proyek konstruksi, dan fasilitas operasional klien di seluruh pelosok Indonesia dengan modul program training yang dikustomisasi.</p>
                     </div>
 
                     <!-- Card 6 -->
@@ -346,7 +346,7 @@
                         <div style="width: 48px; height: 48px; background: #ea580c; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 1.4rem; margin-bottom: 18px; box-shadow: 0 4px 12px rgba(234, 88, 12, 0.35);">
                             <i class="bi bi-headset"></i>
                         </div>
-                        <h3 style="font-size: 1.12rem; font-weight: 800; color: #062e22; margin-bottom: 8px;">Pendampingan P2K3 Pasca Jasa</h3>
+                        <h3 style="font-size: 1.12rem; font-weight: 800; color: #062e22; margin-bottom: 8px;">Pendampingan Pasca Pelatihan</h3>
                         <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Alumni mendapatkan fasilitas konsultasi lanjutan gratis untuk penyusunan format laporan triwulan P2K3, pemutakhiran matriks risiko, dan persiapan audit sertifikasi.</p>
                     </div>
 
@@ -360,7 +360,7 @@
         <div class="container">
             <div class="section-header" style="text-align: center; margin-bottom: 40px;">
                 <span class="section-tag">Skema Layanan Pengerjaan & Sertifikasi Resmi</span>
-                <h2 class="section-title">10 Program Unggulan Jasa Coating Blasting Painting</h2>
+                <h2 class="section-title">10 Program Unggulan Training Coating Blasting Painting</h2>
                 <p class="section-desc" style="max-width: 780px; margin: 0 auto;">
                     Program komprehensif yang dirancang untuk menjawab kebutuhan kepatuhan hukum, audit sertifikasi, dan perlindungan optimal aset serta tenaga kerja perusahaan:
                 </p>
@@ -448,7 +448,7 @@
                     <span class="section-tag" style="background: #ecfdf5; color: #064e3b; border: 1px solid #a7f3d0;">Kredibilitas & Pengalaman Teruji</span>
                     <h2 class="section-title" style="text-align: left;">Integritas, Pengalaman & Standar Keunggulan K3 Korporat</h2>
                     <p style="font-size: 0.95rem; color: #475569; line-height: 1.7; margin-bottom: 22px;">
-                        Lembaga Jasa Coating Blasting Painting didirikan dengan visi mentransformasikan kepatuhan keselamatan kerja menjadi keunggulan daya saing bisnis nyata bagi perusahaan. Dengan rekam jejak lebih dari 15 tahun, kami telah meluluskan lebih dari 24.500 praktisi dan auditor K3 di 38 provinsi di Indonesia.
+                        Lembaga Training Coating Blasting Painting didirikan dengan visi mentransformasikan kepatuhan keselamatan kerja menjadi keunggulan daya saing bisnis nyata bagi perusahaan. Dengan rekam jejak lebih dari 15 tahun, kami telah meluluskan lebih dari 24.500 praktisi dan auditor K3 di 38 provinsi di Indonesia.
                     </p>
 
                     <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 28px;">
@@ -458,7 +458,7 @@
                             </div>
                             <div>
                                 <h4 style="font-size: 0.98rem; font-weight: 700; color: #062e22; margin-bottom: 3px;">Kesesuaian Regulasi Nasional & Standar ISO 45001</h4>
-                                <p style="font-size: 0.84rem; color: #64748b; line-height: 1.5; margin: 0;">Seluruh prosedur pengerjaan jasa mengacu langsung pada standar proteksi korosi internasional ISO 12944, SSPC-PA 2, dan NACE SP0188.</p>
+                                <p style="font-size: 0.84rem; color: #64748b; line-height: 1.5; margin: 0;">Seluruh modul dan silabus pelatihan mengacu langsung pada standar proteksi korosi internasional ISO 12944, SSPC-PA 2, dan NACE SP0188.</p>
                             </div>
                         </div>
 
@@ -659,9 +659,9 @@
         <div class="container">
             <div class="section-header" style="text-align: center; margin-bottom: 32px;">
                 <span class="section-tag">Jangkauan Layanan 38 Provinsi • 514 Kab/Kota • Seluruh Kecamatan</span>
-                <h2 class="section-title">Direktori Wilayah Layanan Jasa Jasa Coating Blasting Painting</h2>
+                <h2 class="section-title">Direktori Wilayah Pelaksanaan Training Training Coating Blasting Painting</h2>
                 <p class="section-desc" style="max-width: 840px; margin: 0 auto;">
-                    Kami menyelenggarakan layanan jasa reguler maupun pengerjaan proyek industri sertifikasi Jasa Coating Blasting Painting di seluruh 38 provinsi di Indonesia hingga ke tingkat kabupaten, kota, dan kecamatan. Klik pada nama wilayah untuk melihat jadwal, kuota, dan panduan teknis spesifik di daerah Anda:
+                    Kami menyelenggarakan program training reguler maupun pelatihan dan sertifikasi industri sertifikasi Training Coating Blasting Painting di seluruh 38 provinsi di Indonesia hingga ke tingkat kabupaten, kota, dan kecamatan. Klik pada nama wilayah untuk melihat jadwal, kuota, dan panduan teknis spesifik di daerah Anda:
                 </p>
             </div>
 
@@ -691,7 +691,7 @@
             <div style="background: linear-gradient(135deg, #062e22 0%, #09392b 100%); border-radius: 16px; padding: 24px; margin-bottom: 28px; box-shadow: 0 10px 25px rgba(6, 46, 34, 0.2);">
                 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px; color: #ffffff;">
                     <i class="bi bi-funnel-fill" style="color: #34d399; font-size: 1.25rem;"></i>
-                    <h3 style="font-size: 1.1rem; font-weight: 800; margin: 0;">Pilih Cepat Wilayah Layanan Jasa (3 Tingkat Bertingkat)</h3>
+                    <h3 style="font-size: 1.1rem; font-weight: 800; margin: 0;">Pilih Cepat Wilayah Pelaksanaan Training (3 Tingkat Bertingkat)</h3>
                 </div>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; align-items: end;">
@@ -838,7 +838,7 @@
                         <div style="height: 200px; overflow: hidden; position: relative;">
                             <img src="{{ $art->featured_image ?? 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&auto=format&fit=crop&q=80' }}" alt="{{ $art->title }}" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
                             <span style="position: absolute; top: 12px; left: 12px; background: rgba(6, 46, 34, 0.85); color: #34d399; font-size: 0.74rem; font-weight: 700; padding: 4px 12px; border-radius: 20px; backdrop-filter: blur(4px);">
-                                {{ $art->category ?? 'Jasa Coating Blasting Painting' }}
+                                {{ $art->category ?? 'Training Coating Blasting Painting' }}
                             </span>
                         </div>
 
@@ -881,7 +881,7 @@
                 <span class="section-tag">Pertanyaan Sering Diajukan</span>
                 <h2 class="section-title">Frequently Asked Questions (FAQ)</h2>
                 <p class="section-desc">
-                    Pertanyaan umum seputar layanan pengerjaan Jasa Coating Blasting Painting, audit SMK3, dan penyelenggaraan pengerjaan proyek industri:
+                    Pertanyaan umum seputar layanan pengerjaan Training Coating Blasting Painting, audit SMK3, dan penyelenggaraan pelatihan dan sertifikasi industri:
                 </p>
             </div>
 

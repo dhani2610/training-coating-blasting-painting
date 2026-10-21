@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Artikel & Panduan Teknis Jasa Coating Blasting Painting | Manajemen Keselamatan Kerja & Manajemen Risiko K3')
+@section('title', 'Artikel & Panduan Teknis Training Coating Blasting Painting | Manajemen Keselamatan Kerja & Manajemen Risiko K3')
 @section('meta_description', 'Kumpulan artikel dan panduan teknis keselamatan manajemen keselamatan kerja keselamatan kerja, pengendalian tekanan sumur (Manajemen Risiko K3), hidrolika keselamatan proses industri, dan sertifikasi resmi Coating Blasting Painting.')
 
 @section('content')
@@ -10,20 +10,20 @@
         <div class="container">
             <div class="hero-badge">
                 <i class="bi bi-book-half"></i>
-                Pusat Literasi & Panduan Resmi Jasa Coating Blasting Painting
+                Pusat Literasi & Panduan Resmi Training Coating Blasting Painting
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem;">
-                Artikel & Panduan Teknis <span>Jasa Coating Blasting Painting</span>
+                Artikel & Panduan Teknis <span>Training Coating Blasting Painting</span>
             </h1>
 
             <p class="hero-lead" style="max-width: 800px;">
-                Materi komprehensif dan panduan resmi mengenai standar keselamatan manajemen keselamatan kerja pemboran migas dan panas bumi, deteksi dini kick formasi, prosedur shut-in darurat, pengoperasian unit BOP, formula keselamatan proses industri, serta sertifikasi kompetensi profesi Jasa Coating Blasting Painting, Auditor SMK3, dan Analis Risiko HIRADC.
+                Materi komprehensif dan panduan resmi mengenai standar keselamatan manajemen keselamatan kerja pemboran migas dan panas bumi, deteksi dini kick formasi, prosedur shut-in darurat, pengoperasian unit BOP, formula keselamatan proses industri, serta sertifikasi kompetensi profesi Training Coating Blasting Painting, Auditor SMK3, dan Analis Risiko HIRADC.
             </p>
 
             <!-- Search Form -->
             <form action="{{ route('articles') }}" method="GET" style="max-width: 580px; margin: 0 auto; display: flex; gap: 10px;">
-                <input type="text" name="q" value="{{ request('q') }}" placeholder="Cari topik modul layanan jasa atau nama daerah..." class="form-control" style="background: rgba(255,255,255,0.95); border: none; padding: 12px 18px; border-radius: 8px; font-size: 0.92rem;">
+                <input type="text" name="q" value="{{ request('q') }}" placeholder="Cari topik modul program training atau nama daerah..." class="form-control" style="background: rgba(255,255,255,0.95); border: none; padding: 12px 18px; border-radius: 8px; font-size: 0.92rem;">
                 <button type="submit" class="btn-primary-green" style="padding: 12px 22px; flex-shrink: 0;">
                     <i class="bi bi-search"></i> Cari
                 </button>
@@ -38,7 +38,7 @@
                 @forelse($articles as $art)
                     <div class="article-card">
                         <span class="article-badge">
-                            <i class="bi bi-award"></i> {{ $art->category ?? 'Jasa Coating Blasting Painting' }}
+                            <i class="bi bi-award"></i> {{ $art->category ?? 'Training Coating Blasting Painting' }}
                         </span>
 
                         <h3 class="article-title" style="font-size: 1.1rem;">
@@ -52,7 +52,7 @@
                         </p>
 
                         <div class="article-footer">
-                            <div><i class="bi bi-person-fill"></i> {{ $art->author ?? 'Instruktur Jasa Proteksi Korosi & Blasting Painting' }}</div>
+                            <div><i class="bi bi-person-fill"></i> {{ $art->author ?? 'Instruktur Training Proteksi Korosi & Blasting Painting' }}</div>
                             <div><i class="bi bi-eye"></i> {{ number_format($art->views_count ?? 300) }} x dibaca</div>
                         </div>
 
@@ -83,7 +83,7 @@
             <div class="wa-hotlines-box">
                 <div class="wa-hotlines-header">
                     <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Layanan Konsultasi</h3>
-                    <p>Hubungi petugas spesialis kami mengenai jadwal layanan jasa terdekat atau sertifikasi resmi:</p>
+                    <p>Hubungi petugas spesialis kami mengenai jadwal program training terdekat atau sertifikasi resmi:</p>
                 </div>
 
                 <div class="wa-hotlines-grid">
@@ -111,7 +111,7 @@
                     <div>
                         <span class="section-tag" style="margin-bottom: 6px;">Eksplorasi Cepat via JS (0 Lag)</span>
                         <h2 style="font-size: 1.4rem; font-weight: 800; color: #062e22; margin: 0;">
-                            Pusat Eksplorasi Direktori Panduan Jasa Coating Blasting Painting Se-Indonesia
+                            Pusat Eksplorasi Direktori Panduan Training Coating Blasting Painting Se-Indonesia
                         </h2>
                     </div>
                     <span style="font-size: 0.8rem; font-weight: 700; color: #4c1d95; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
@@ -265,14 +265,14 @@
 
         let html = '';
         currentItems.forEach(item => {
-            const artTitle = item.title.startsWith('Jasa') ? item.title : `Jasa Coating Blasting Painting ${item.title}`;
+            const artTitle = item.title.startsWith('Training') ? item.title : `Training Coating Blasting Painting ${item.title}`;
             const fullTitle = `${artTitle} di ${currentRegionName}`;
-            const artSlug = (item.slug || ('jasa-confined-space-' + item.index)) + '-di-' + (currentRegionName.toLowerCase().replace(/[^a-z0-9]+/g, '-'));
+            const artSlug = (item.slug || ('training-coating-blasting-' + item.index)) + '-di-' + (currentRegionName.toLowerCase().replace(/[^a-z0-9]+/g, '-'));
             
             // Build dynamic route link
             const linkUrl = currentKabkotSlug 
-                ? `/wilayah/${currentProvSlug}/${currentKabkotSlug}/program/jasa-confined-space-muda/artikel/${artSlug}`
-                : `/wilayah/${currentProvSlug}/program/jasa-confined-space-muda/artikel/${artSlug}`;
+                ? `/wilayah/${currentProvSlug}/${currentKabkotSlug}/program/training-operator-blasting-abrasive/artikel/${artSlug}`
+                : `/wilayah/${currentProvSlug}/program/training-operator-blasting-abrasive/artikel/${artSlug}`;
 
             html += `
                 <div class="article-topic-item" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px 20px; transition: all 0.2s ease;">

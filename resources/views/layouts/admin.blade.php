@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Admin Panel') | Jasa Coating Blasting Painting</title>
+    <title>@yield('title', 'Admin Panel') | Training Coating Blasting Painting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -516,7 +516,7 @@
             <li>
                 <a href="{{ route('admin.programs.index') }}" class="sidebar-link {{ request()->routeIs('admin.programs*') ? 'active' : '' }}">
                     <i class="bi bi-mortarboard-fill"></i>
-                    <span>CMS Layanan Jasa</span>
+                    <span>CMS Program Training</span>
                 </a>
             </li>
             <li>
@@ -579,7 +579,7 @@
                     </div>
                     <div style="display: none; @media(min-width: 600px){ display:block; }">
                         <div style="font-size: 0.82rem; font-weight: 700; color: #0f172a;">{{ Auth::user()->name ?? 'Administrator' }}</div>
-                        <div style="font-size: 0.72rem; color: #64748b;">{{ Auth::user()->email ?? 'admin@jasagasdetector.id' }}</div>
+                        <div style="font-size: 0.72rem; color: #64748b;">{{ Auth::user()->email ?? 'admin@trainingcoatingblastingpainting.my.id' }}</div>
                     </div>
                 </div>
             </div>

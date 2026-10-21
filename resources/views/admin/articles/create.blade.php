@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('title', 'Tulis Artikel Baru')
-@section('header_title', 'Tulis Artikel & Panduan Jasa Coating Blasting Painting Baru')
+@section('header_title', 'Tulis Artikel & Panduan Training Coating Blasting Painting Baru')
 
 @section('content')
 

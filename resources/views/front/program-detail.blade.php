@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', ($program->title ?? 'Layanan Jasa') . ' | Jasa Coating Blasting Painting Sertifikasi K3 Korporat Resmi')
+@section('title', ($program->title ?? 'Program Training') . ' | Training Coating Blasting Painting Sertifikasi K3 Korporat Resmi')
 @section('meta_description', Str::limit($program->short_description ?? ($program->full_description ?? ''), 160))
 
 @section('content')
@@ -11,7 +11,7 @@
             <div style="font-size: 0.82rem; color: #a7f3d0; margin-bottom: 18px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                 <a href="{{ route('home') }}" style="color: #cbd5e1;"><i class="bi bi-house-door"></i> Beranda</a>
                 <span>/</span>
-                <a href="{{ route('programs') }}" style="color: #cbd5e1;">Layanan Jasa</a>
+                <a href="{{ route('programs') }}" style="color: #cbd5e1;">Program Training</a>
                 <span>/</span>
                 <span style="color: #ffffff; font-weight: 700;">{{ $program->title }}</span>
             </div>
@@ -36,7 +36,7 @@
                 </a>
                 <a href="#wilayah-daerah" class="btn-outline-white">
                     <i class="bi bi-geo-alt-fill"></i>
-                    Pilih Wilayah Layanan Jasa (38 Provinsi)
+                    Pilih Wilayah Pelaksanaan Training (38 Provinsi)
                 </a>
             </div>
         </div>
@@ -151,7 +151,7 @@
                                 <i class="bi bi-award-fill" style="color: #10b981; font-size: 1.15rem;"></i>
                                 <div>
                                     <div style="font-size: 0.74rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">Badan Sertifikasi</div>
-                                    <div style="font-size: 0.88rem; font-weight: 700; color: #062e22;">{{ $program->certification_body ?? 'Sertifikasi Resmi Jasa Proteksi Korosi & Blasting Painting' }}</div>
+                                    <div style="font-size: 0.88rem; font-weight: 700; color: #062e22;">{{ $program->certification_body ?? 'Sertifikasi Resmi Training Proteksi Korosi & Blasting Painting' }}</div>
                                 </div>
                             </li>
 
@@ -205,7 +205,7 @@
             <div id="wilayah-daerah" style="margin-top: 56px;">
                 <div class="section-header">
                     <span class="section-tag">Direktori Wilayah</span>
-                    <h2 class="section-title">Pilih Wilayah Layanan Jasa {{ $program->title }}</h2>
+                    <h2 class="section-title">Pilih Wilayah Pelaksanaan Training {{ $program->title }}</h2>
                     <p class="section-desc">
                         Klik provinsi tempat perusahaan atau tempat tinggal Anda untuk melihat jadwal dan panduan modul panduan di setiap daerah.
                     </p>

@@ -14,7 +14,7 @@
                 <i class="bi bi-mortarboard-fill"></i>
             </div>
             <div>
-                <div style="font-size: 0.75rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Layanan Jasa</div>
+                <div style="font-size: 0.75rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Program Training</div>
                 <div style="font-size: 1.5rem; font-weight: 800; color: #0f172a;">{{ $totalPrograms }}</div>
             </div>
         </div>
@@ -64,7 +64,7 @@
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
             <div>
                 <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 4px; color: #ffffff;">Pusat Kontrol Cepat</h3>
-                <p style="font-size: 0.82rem; color: #a7f3d0;">Kelola nomor WhatsApp utama, 4 hotline detail, serta 8 layanan Jasa Coating Blasting Painting & Protective Coating Profesional.</p>
+                <p style="font-size: 0.82rem; color: #a7f3d0;">Kelola nomor WhatsApp utama, 4 hotline detail, serta 8 layanan Training Coating Blasting Painting & Protective Coating Profesional.</p>
             </div>
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
                 <a href="{{ route('admin.settings.whatsapp') }}" class="btn-admin-gold" style="background: #10b981; color: white;">
@@ -83,7 +83,7 @@
         <!-- Programs Table -->
         <div class="admin-card">
             <div class="admin-card-header">
-                <h3 class="admin-card-title">Layanan Jasa Aktif</h3>
+                <h3 class="admin-card-title">Program Training Aktif</h3>
                 <a href="{{ route('admin.programs.index') }}" style="font-size: 0.78rem; font-weight: 700; color: #0284c7;">Lihat Semua <i class="bi bi-arrow-right"></i></a>
             </div>
 

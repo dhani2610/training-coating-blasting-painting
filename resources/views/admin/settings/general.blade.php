@@ -11,7 +11,7 @@
                 <div>
                     <h3 class="admin-card-title">Identitas Situs & Kontak Resmi</h3>
                     <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                        Ubah judul website, deskripsi, alamat jasa center, dan kontak email resmi.
+                        Ubah judul website, deskripsi, alamat training center, dan kontak email resmi.
                     </p>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Alamat Gedung / Jasa Center</label>
+                    <label class="form-label">Alamat Gedung / Training Center</label>
                     <textarea name="contact_address" rows="3" class="form-control">{{ old('contact_address', $settings['contact_address']) }}</textarea>
                 </div>
 

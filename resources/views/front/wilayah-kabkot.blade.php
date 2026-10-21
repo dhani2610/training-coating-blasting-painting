@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Jasa Coating Blasting Painting ' . $kabkotName . ' | Sertifikasi Jasa Coating Blasting Painting & Teknisi Blasting & Coating')
-@section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi Jasa Coating Blasting Painting di ' . $kabkotName . ', ' . $province['name'] . '. Hubungi WhatsApp 081399810272.')
+@section('title', 'Training Coating Blasting Painting ' . $kabkotName . ' | Sertifikasi Training Coating Blasting Painting & Teknisi Blasting & Coating')
+@section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi Training Coating Blasting Painting di ' . $kabkotName . ', ' . $province['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
@@ -29,11 +29,11 @@
             </div>
 
             <h1 class="hero-title" style="margin-left: 0; font-size: 2.35rem; line-height: 1.25; margin-bottom: 14px;">
-                Jasa Coating Blasting Painting <span>{{ $kabkotName }}</span>
+                Training Coating Blasting Painting <span>{{ $kabkotName }}</span>
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 880px; margin-bottom: 22px;">
-                Penyelenggaraan layanan jasa kompetensi Operator Keselamatan & Kesehatan Kerja Korporat (Jasa Coating Blasting Painting) di {{ $kabkotName }}, Provinsi {{ $province['name'] }}. Menguasai standar manajemen keselamatan kerja, keselamatan tempat kerja (Auditor SMK3), operasional menara (Analis Risiko HIRADC), pengendalian tekanan sumur (Manajemen Risiko K3 ISO 45001 & IADC), pengujian BOP bertekanan tinggi, dan formulasi keselamatan proses industri (Pengurus P2K3 Bipartit).
+                Penyelenggaraan program training kompetensi Operator Keselamatan & Kesehatan Kerja Korporat (Training Coating Blasting Painting) di {{ $kabkotName }}, Provinsi {{ $province['name'] }}. Menguasai standar manajemen keselamatan kerja, keselamatan tempat kerja (Auditor SMK3), operasional menara (Analis Risiko HIRADC), pengendalian tekanan sumur (Manajemen Risiko K3 ISO 45001 & IADC), pengujian BOP bertekanan tinggi, dan formulasi keselamatan proses industri (Pengurus P2K3 Bipartit).
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -49,14 +49,14 @@
         </div>
     </section>
 
-    <!-- PROGRAM LAYANAN JASA DI KABKOT INI -->
+    <!-- PROGRAM PROGRAM TRAINING DI KABKOT INI -->
     <section class="section-py">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">6 Program Resmi di {{ $kabkotName }}</span>
-                <h2 class="section-title">Pilih Jenjang Layanan Jasa Jasa Proteksi Korosi & Blasting Painting & Manajemen Risiko K3</h2>
+                <h2 class="section-title">Pilih Jenjang Program Training Training Proteksi Korosi & Blasting Painting & Manajemen Risiko K3</h2>
                 <p class="section-desc">
-                    Tersedia 8 layanan jasa profesional yang masing-masing memiliki panduan lingkup pengerjaan dan spesifikasi teknis di {{ $kabkotName }}:
+                    Tersedia 8 program training profesional yang masing-masing memiliki panduan lingkup pengerjaan dan spesifikasi teknis di {{ $kabkotName }}:
                 </p>
             </div>
 
@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="program-body">
-                            <div class="program-level">{{ $progObj->level_name ?? 'Jasa Coating Blasting Painting & Teknisi Blasting & Coating' }}</div>
+                            <div class="program-level">{{ $progObj->level_name ?? 'Training Coating Blasting Painting & Teknisi Blasting & Coating' }}</div>
                             <h3 class="program-title">{{ $progObj->title }}</h3>
                             <p class="program-desc">
                                 {{ Str::limit($progObj->short_description ?? ($progObj->full_description ?? ''), 125) }}
@@ -142,7 +142,7 @@
                 </div>
 
                 <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin-bottom: 20px;">
-                    Pilih kecamatan di bawah ini untuk membuka lingkup pengerjaan, spesifikasi teknis, dan jadwal pelaksanaan layanan jasa Jasa Coating Blasting Painting (Coating Blasting Painting, Auditor SMK3, Analis Risiko HIRADC, Manajemen Risiko K3, Pengurus P2K3 Bipartit) khusus area {{ $kabkotName }}:
+                    Pilih kecamatan di bawah ini untuk membuka lingkup pengerjaan, spesifikasi teknis, dan jadwal pelaksanaan program training Training Coating Blasting Painting (Coating Blasting Painting, Auditor SMK3, Analis Risiko HIRADC, Manajemen Risiko K3, Pengurus P2K3 Bipartit) khusus area {{ $kabkotName }}:
                 </p>
 
                 <!-- Filter Pencarian Cepat Nama Kecamatan -->
@@ -183,7 +183,7 @@
                     <div>
                         <span class="section-tag" style="margin-bottom: 6px;">Direktori Panduan Teknis</span>
                         <h2 style="font-size: 1.4rem; font-weight: 800; color: #062e22; margin: 0;">
-                            Direktori Panduan Jasa Coating Blasting Painting di {{ $kabkotName }}
+                            Direktori Panduan Training Coating Blasting Painting di {{ $kabkotName }}
                         </h2>
                     </div>
                     <span style="font-size: 0.8rem; font-weight: 700; color: #4c1d95; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
@@ -295,7 +295,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #0d4a39;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Training Proteksi Korosi & Blasting Painting (Training Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';

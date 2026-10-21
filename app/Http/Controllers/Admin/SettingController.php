@@ -15,7 +15,7 @@ class SettingController extends Controller
         $whatsappDetail2 = Setting::get('whatsapp_detail_2', '081399810272');
         $whatsappDetail3 = Setting::get('whatsapp_detail_3', '087894580806');
         $whatsappDetail4 = Setting::get('whatsapp_detail_4', '087894580649');
-        $whatsappTemplate = Setting::get('whatsapp_template', 'Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pengerjaan proyek dan penawaran teknis jasa blasting coating painting untuk wilayah {region}. Mohon info estimasi biaya dan survei teknis lapangan.');
+        $whatsappTemplate = Setting::get('whatsapp_template', 'Halo Admin Utama Training Coating Blasting Painting, saya ingin konsultasi pendaftaran pelatihan dan sertifikasi coating blasting painting untuk wilayah {region}. Mohon info jadwal batch terbaru dan silabus teknis.');
 
         return view('admin.settings.whatsapp', compact(
             'whatsappNumber',
@@ -59,12 +59,12 @@ class SettingController extends Controller
     public function general()
     {
         $settings = [
-            'site_name' => Setting::get('site_name', 'JASA COATING BLASTING PAINTING'),
-            'site_subtitle' => Setting::get('site_subtitle', 'Pusat Layanan Jasa Protective Coating, Sandblasting, dan Industrial Painting di Indonesia'),
+            'site_name' => Setting::get('site_name', 'TRAINING COATING BLASTING PAINTING'),
+            'site_subtitle' => Setting::get('site_subtitle', 'Pusat Pelatihan & Sertifikasi Kompetensi Protective Coating, Sandblasting, dan Industrial Painting di Indonesia'),
             'contact_phone' => Setting::get('contact_phone', '0813-9981-0272'),
-            'contact_email' => Setting::get('contact_email', 'info@jasa-coating-blasting-painting.com'),
+            'contact_email' => Setting::get('contact_email', 'info@trainingcoatingblastingpainting.my.id'),
             'contact_address' => Setting::get('contact_address', 'Jakarta, Indonesia'),
-            'notice_text' => Setting::get('notice_text', 'Lembaga Penyedia Layanan Profesional Jasa Coating Blasting Painting, Preparasi Permukaan Sa 2.5 Sa 3, dan Proteksi Korosi Industri.'),
+            'notice_text' => Setting::get('notice_text', 'Lembaga Pelatihan & Sertifikasi Profesional Training Coating Blasting Painting, Preparasi Permukaan Sa 2.5 Sa 3, dan Proteksi Korosi Industri.'),
         ];
 
         return view('admin.settings.general', compact('settings'));

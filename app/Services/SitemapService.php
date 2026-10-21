@@ -25,7 +25,7 @@ class SitemapService
             } elseif (function_exists('request') && request()->root() && !str_contains(request()->root(), 'localhost') && !str_contains(request()->root(), '127.0.0.1')) {
                 $baseUrl = rtrim(request()->root(), '/');
             } else {
-                $baseUrl = 'https://jasa-coating-blasting-painting.com';
+                $baseUrl = 'https://trainingcoatingblastingpainting.my.id';
             }
         }
         $baseUrl = rtrim($baseUrl, '/');

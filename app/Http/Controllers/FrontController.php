@@ -28,10 +28,10 @@ class FrontController extends Controller
             $phone = '62' . substr($phone, 1);
         }
 
-        $template = Setting::get('whatsapp_template', 'Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pengerjaan proyek dan penawaran teknis jasa blasting coating painting untuk wilayah {region}. Mohon info estimasi biaya dan survei teknis lapangan.');
+        $template = Setting::get('whatsapp_template', 'Halo Admin Utama Training Coating Blasting Painting, saya ingin konsultasi pendaftaran pelatihan dan sertifikasi coating blasting painting untuk wilayah {region}. Mohon info jadwal batch terbaru dan silabus teknis.');
         
         $regionText = $regionName ?? 'Nasional';
-        $programText = $programName ? " layanan {$programName}" : '';
+        $programText = $programName ? " program {$programName}" : '';
 
         $message = str_replace(
             ['{region}', '{program}'],
@@ -52,7 +52,7 @@ class FrontController extends Controller
     protected function get4WaHotlines(?string $regionName = null, ?string $programTitle = null): array
     {
         $regionText = $regionName ?: 'Indonesia';
-        $progText = $programTitle ? " layanan {$programTitle}" : ' Jasa Coating Blasting Painting';
+        $progText = $programTitle ? " program {$programTitle}" : ' Training Coating Blasting Painting';
 
         $raw1 = Setting::get('whatsapp', '081399810272');
         $raw2 = Setting::get('whatsapp_detail_1', '08118500177');
@@ -64,10 +64,10 @@ class FrontController extends Controller
         $clean3 = '62' . substr(preg_replace('/[^0-9]/', '', $raw3), 1);
         $clean4 = '62' . substr(preg_replace('/[^0-9]/', '', $raw4), 1);
 
-        $msg1 = "Halo Admin Pusat Jasa Coating Blasting Painting, saya ingin konsultasi pemesanan{$progText} di wilayah {$regionText}.";
-        $msg2 = "Halo CS Jasa Coating Blasting Painting (Hotline 2), mohon info jadwal pengerjaan dan estimasi biaya di {$regionText}.";
-        $msg3 = "Halo Tim Teknis & Coating Inspector (Hotline 3), saya ingin konsultasi standar teknis Blasting, Painting, NACE/SSPC Coating Inspector & prosedur kerja di {$regionText}.";
-        $msg4 = "Halo Divisi Kerjasama Proyek Industri (Hotline 4), kami bermaksud mengajukan penawaran jasa blasting painting di fasilitas kami di {$regionText}.";
+        $msg1 = "Halo Admin Pusat Training Coating Blasting Painting, saya ingin konsultasi pendaftaran{$progText} di wilayah {$regionText}.";
+        $msg2 = "Halo CS Training Coating Blasting Painting (Hotline 2), mohon info jadwal batch terdekat dan kuota kelas di {$regionText}.";
+        $msg3 = "Halo Tim Teknis & Instruktur (Hotline 3), saya ingin konsultasi silabus materi Blasting, Protective Coating, NACE/SSPC Coating Inspector & sertifikasi di {$regionText}.";
+        $msg4 = "Halo Divisi In-House Corporate Training (Hotline 4), kami bermaksud mengajukan penawaran pelatihan in-house tim perusahaan kami di {$regionText}.";
 
         return [
             [
@@ -150,16 +150,16 @@ class FrontController extends Controller
         $waNumbers = $this->get4WaHotlines('Indonesia');
 
         $partners = [
-            ['name' => 'PT Pertamina (Persero)', 'role' => 'Proteksi Korosi Kilang Minyak, Sandblasting Sa 2.5 Tangki Timbun & Coating Pipa Migas'],
-            ['name' => 'PT PLN (Persero)', 'role' => 'Protective Coating Tower Transmisi, Penstock PLTA & Struktur Baja Pembangkit Listrik'],
-            ['name' => 'PT Astra International Tbk', 'role' => 'Pengecatan Fasilitas Manufaktur Berat, Epoxy Flooring Workshop & Proteksi Logam'],
-            ['name' => 'PT Pupuk Indonesia', 'role' => 'Chemical Resistant Tank Lining, Protective Coating Struktur Baja Pabrik & Sandblasting'],
-            ['name' => 'PT Petrokimia Gresik', 'role' => 'Proteksi Korosi Lingkungan Kimia Agresif, Glass Flake Epoxy Coating & Blasting'],
-            ['name' => 'PT Krakatau Steel', 'role' => 'Preparasi Sa 3 White Metal & Aplikasi Inorganic Zinc Ethyl Silicate Primer'],
-            ['name' => 'PT Adaro Energy Indonesia Tbk', 'role' => 'Thermal Spray Aluminium (TSA) Fasilitas Pelabuhan & Heavy Duty Coating Alat Tambang'],
-            ['name' => 'PT Freeport Indonesia', 'role' => 'Heavy Duty Protective Coating Struktur Konsentrator & Pipa Slurry Tahan Abrasi Ekstrem'],
-            ['name' => 'PT Vale Indonesia Tbk', 'role' => 'Protective Coating Tahan Temperatur Tinggi & Korosi Lingkungan Smelter Pengolahan Nikel'],
-            ['name' => 'PT PAL Indonesia (Persero)', 'role' => 'Marine Coating Lambung Kapal, Blasting Sa 2.5 & Pengawasan Coating Inspector QC'],
+            ['name' => 'PT Pertamina (Persero)', 'role' => 'Pelatihan & Sertifikasi Coating Inspector QA/QC Blasting Painting Kilang'],
+            ['name' => 'PT PLN (Persero)', 'role' => 'Sertifikasi Aplikator Protective Coating Tower Transmisi & Pembangkit Listrik'],
+            ['name' => 'PT Astra International Tbk', 'role' => 'Training Operator Abrasive Blasting & Pengecatan Manufaktur Industri'],
+            ['name' => 'PT Pupuk Indonesia', 'role' => 'In-House Training Internal Tank Lining & Protective Coating Pabrik Kimia'],
+            ['name' => 'PT Petrokimia Gresik', 'role' => 'Pelatihan Teknis Proteksi Korosi & Uji Cacat Holiday Detection NACE'],
+            ['name' => 'PT Krakatau Steel', 'role' => 'Training Juru Blasting Standar Sa 2.5 Sa 3 & Aplikasi Zinc Rich Primer'],
+            ['name' => 'PT Adaro Energy Indonesia Tbk', 'role' => 'Sertifikasi Thermal Spray Aluminium (TSA) Fasilitas Pelabuhan Batubara'],
+            ['name' => 'PT Freeport Indonesia', 'role' => 'In-House Training Heavy Duty Protective Coating & Pipa Slurry Tambang'],
+            ['name' => 'PT Vale Indonesia Tbk', 'role' => 'Pelatihan Protective Coating Tahan Temperatur Tinggi Smelter Nikel'],
+            ['name' => 'PT PAL Indonesia (Persero)', 'role' => 'Sertifikasi Operator Blasting & Marine Coating Galangan Kapal Shipyard'],
         ];
 
         return view('front.index', compact(
@@ -523,6 +523,6 @@ class FrontController extends Controller
 
         ContactMessage::create($request->all());
 
-        return redirect()->back()->with('success', 'Pesan Anda berhasil dikirim. Tim Konsultan Jasa Coating Blasting Painting Indonesia akan segera menghubungi Anda!');
+        return redirect()->back()->with('success', 'Pesan Anda berhasil dikirim. Tim Konsultan Training Coating Blasting Painting Indonesia akan segera menghubungi Anda!');
     }
 }

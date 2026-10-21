@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Layanan Jasa & Sertifikasi Jasa Coating Blasting Painting | Lisensi & Sertifikasi K3 Korporasi Resmi')
-@section('meta_description', 'Katalog 10 program resmi layanan jasa Jasa Coating Blasting Painting: Jasa Coating Blasting Painting, Audit SMK3 PP 50/2012, Manajemen Risiko HIRADC, Investigasi Insiden RCA/SCAT, Kelembagaan P2K3, Tanggap Darurat ERP, Coating Blasting Painting Resmi, Coating Blasting Painting Sertifikasi, Kebakaran Industri, dan K3 Ruang Terbatas & Ketinggian.')
+@section('title', 'Program Training & Sertifikasi Training Coating Blasting Painting | Lisensi & Sertifikasi K3 Korporasi Resmi')
+@section('meta_description', 'Katalog 10 program resmi program training Training Coating Blasting Painting: Training Coating Blasting Painting, Audit SMK3 PP 50/2012, Manajemen Risiko HIRADC, Investigasi Insiden RCA/SCAT, Kelembagaan P2K3, Tanggap Darurat ERP, Coating Blasting Painting Resmi, Coating Blasting Painting Sertifikasi, Kebakaran Industri, dan K3 Ruang Terbatas & Ketinggian.')
 
 @section('content')
 
@@ -14,11 +14,11 @@
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem;">
-                Sepuluh (10) Program Resmi <span>Layanan Jasa & Sertifikasi Jasa Coating Blasting Painting</span>
+                Program Unggulan <span>Pelatihan & Sertifikasi Training Coating Blasting Painting</span>
             </h1>
 
             <p class="hero-lead" style="max-width: 800px;">
-                Layanan komprehensif jasa pengerjaan abrasive blasting Sa 2.5 Sa 3, aplikasi protective coating industri, coating inspection QA/QC, hydroblasting UHP, tank lining, hingga hot-dip galvanizing dan metallizing di seluruh Indonesia.
+                Program komprehensif pelatihan operator abrasive blasting Sa 2.5 Sa 3, aplikasi protective coating industri, coating inspection QA/QC, hydroblasting UHP, tank lining, hingga pipeline coating di seluruh Indonesia.
             </p>
         </div>
     </section>
@@ -32,7 +32,7 @@
                         $progObj = is_array($prog) ? (object)$prog : $prog;
                         $slug = $progObj->slug ?? '';
                         $detailUrl = route('program.detail', $slug);
-                        $directWa = "https://api.whatsapp.com/send?phone=6281399810272&text=" . urlencode("Halo Admin Jasa Coating Blasting Painting, saya ingin pendaftaran program {$progObj->title}.");
+                        $directWa = "https://api.whatsapp.com/send?phone=6281399810272&text=" . urlencode("Halo Admin Training Coating Blasting Painting, saya ingin pendaftaran program {$progObj->title}.");
                     @endphp
                     <div class="program-card" style="background: #ffffff; border: 1px solid #a7f3d0; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.05);">
                         <div class="program-body" style="padding: 24px; display: flex; flex-direction: column; flex-grow: 1;">

@@ -19,14 +19,14 @@ class GenerateSitemapCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Generate public/sitemap.xml for Jasa Coating Blasting Painting';
+    protected $description = 'Generate public/sitemap.xml for Training Coating Blasting Painting';
 
     /**
      * Execute the console command.
      */
     public function handle()
     {
-        $this->info('Generating sitemap.xml for Jasa Coating Blasting Painting...');
+        $this->info('Generating sitemap.xml for Training Coating Blasting Painting...');
 
         $baseUrl = $this->option('base-url') ?: 'https://trainingcoatingblastingpainting.my.id';
         $result = SitemapService::generate($baseUrl);

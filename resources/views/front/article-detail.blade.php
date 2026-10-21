@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', $article->title . ' | Panduan Jasa Coating Blasting Painting')
+@section('title', $article->title . ' | Panduan Training Coating Blasting Painting')
 @section('meta_description', Str::limit($article->excerpt, 160))
 
 @section('content')
@@ -18,7 +18,7 @@
 
             <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
                 <span class="hero-badge" style="margin-bottom: 0;">
-                    <i class="bi bi-tag-fill"></i> {{ $article->category ?? 'Jasa Coating Blasting Painting' }}
+                    <i class="bi bi-tag-fill"></i> {{ $article->category ?? 'Training Coating Blasting Painting' }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #34d399; color: #a7f3d0;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $article->city ?? ($article->province ?? 'Indonesia') }}
@@ -33,7 +33,7 @@
             </h1>
 
             <div style="display: flex; align-items: center; gap: 16px; font-size: 0.82rem; color: #cbd5e1; flex-wrap: wrap;">
-                <span><i class="bi bi-person-fill" style="color: #34d399;"></i> {{ $article->author ?? 'Instruktur Master Jasa Coating Blasting Painting & Manajemen Risiko K3' }}</span>
+                <span><i class="bi bi-person-fill" style="color: #34d399;"></i> {{ $article->author ?? 'Instruktur Master Training Coating Blasting Painting & Manajemen Risiko K3' }}</span>
                 <span>•</span>
                 <span><i class="bi bi-clock-history" style="color: #34d399;"></i> Waktu Baca: 35-45 Menit</span>
                 <span>•</span>
@@ -65,7 +65,7 @@
                         <div class="wa-hotlines-box" style="margin: 0 0 32px 0;">
                             <div class="wa-hotlines-header">
                                 <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor WhatsApp Resmi Layanan Konsultasi & Pendaftaran</h3>
-                                <p>Hubungi petugas spesialis kami untuk konsultasi teknis, survei lokasi, atau penawaran pengerjaan proyek industri:</p>
+                                <p>Hubungi petugas spesialis kami untuk konsultasi teknis, survei lokasi, atau penawaran pelatihan dan sertifikasi industri:</p>
                             </div>
 
                             <div class="wa-hotlines-grid">
@@ -119,10 +119,10 @@
                                 Pendaftaran & Sertifikasi Resmi Sertifikasi Resmi
                             </div>
                             <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 12px;">
-                                Konsultasi Pendaftaran Jasa Coating Blasting Painting Sekarang
+                                Konsultasi Pendaftaran Training Coating Blasting Painting Sekarang
                             </h3>
                             <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
-                                Hubungi konsultan pendaftaran resmi kami untuk konfirmasi jadwal pengerjaan proyek terdekat maupun pengerjaan proyek industri perusahaan:
+                                Hubungi konsultan pendaftaran resmi kami untuk konfirmasi jadwal pengerjaan proyek terdekat maupun pelatihan dan sertifikasi industri perusahaan:
                             </p>
                             <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="font-size: 0.95rem; padding: 12px 28px; display: inline-flex;">
                                 <i class="bi bi-whatsapp"></i> Chat WhatsApp: 081399810272
@@ -144,13 +144,13 @@
                         </a>
 
                         <div style="font-size: 0.82rem; color: #64748b; line-height: 1.6; margin-bottom: 20px;">
-                            Layanan konsultasi resmi Jasa Coating Blasting Painting seluruh wilayah Indonesia.
+                            Layanan konsultasi resmi Training Coating Blasting Painting seluruh wilayah Indonesia.
                         </div>
 
                         <!-- 6 Program Resmi Links -->
                         <div style="border-top: 1px solid #f1f5f9; padding-top: 18px;">
                             <h4 style="font-size: 0.95rem; font-weight: 800; color: #062e22; margin-bottom: 12px;">
-                                6 Skema Layanan Jasa Resmi:
+                                6 Skema Program Training Resmi:
                             </h4>
                             <div style="display: flex; flex-direction: column; gap: 8px;">
                                 @foreach($programs as $prog)

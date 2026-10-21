@@ -28,7 +28,7 @@
                 <div>
                     <div style="font-size: 0.72rem; color: #64748b; font-weight: 700; text-transform: uppercase;">WhatsApp / Telepon</div>
                     <div style="font-size: 0.95rem; font-weight: 700; color: #0f172a;">
-                        <a href="https://api.whatsapp.com/send?phone={{ preg_replace('/[^0-9]/', '', $contact->phone) }}&text={{ urlencode('Halo Bapak/Ibu ' . $contact->name . ', terima kasih telah menghubungi kami mengenai Jasa Coating Blasting Painting...') }}" target="_blank" style="color: #16a34a; text-decoration: none;">
+                        <a href="https://api.whatsapp.com/send?phone={{ preg_replace('/[^0-9]/', '', $contact->phone) }}&text={{ urlencode('Halo Bapak/Ibu ' . $contact->name . ', terima kasih telah menghubungi kami mengenai Training Coating Blasting Painting...') }}" target="_blank" style="color: #16a34a; text-decoration: none;">
                             <i class="bi bi-whatsapp"></i> {{ $contact->phone }}
                         </a>
                     </div>
@@ -46,7 +46,7 @@
 
                 <div>
                     <div style="font-size: 0.72rem; color: #64748b; font-weight: 700; text-transform: uppercase;">Subjek</div>
-                    <div style="font-size: 0.95rem; font-weight: 700; color: #0f172a;">{{ $contact->subject ?? 'Konsultasi Jasa Coating Blasting Painting' }}</div>
+                    <div style="font-size: 0.95rem; font-weight: 700; color: #0f172a;">{{ $contact->subject ?? 'Konsultasi Training Coating Blasting Painting' }}</div>
                 </div>
 
                 <div>
@@ -65,7 +65,7 @@
             </div>
 
             <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;">
-                <a href="https://api.whatsapp.com/send?phone={{ preg_replace('/[^0-9]/', '', $contact->phone) }}&text={{ urlencode('Halo ' . $contact->name . ', terima kasih telah menghubungi Jasa Coating Blasting Painting...') }}" target="_blank" class="btn-admin-primary" style="background: #16a34a; font-size: 0.9rem; padding: 11px 20px;">
+                <a href="https://api.whatsapp.com/send?phone={{ preg_replace('/[^0-9]/', '', $contact->phone) }}&text={{ urlencode('Halo ' . $contact->name . ', terima kasih telah menghubungi Training Coating Blasting Painting...') }}" target="_blank" class="btn-admin-primary" style="background: #16a34a; font-size: 0.9rem; padding: 11px 20px;">
                     <i class="bi bi-whatsapp"></i> Balas Langsung ke WhatsApp Pengirim
                 </a>
 

@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Jasa Coating Blasting Painting Provinsi ' . $province['name'] . ' | Sertifikasi Jasa Coating Blasting Painting & Teknisi Blasting & Coating')
-@section('meta_description', 'Pusat informasi dan pendaftaran resmi Jasa Coating Blasting Painting (Jasa Proteksi Korosi & Blasting Painting & Manajemen Risiko K3) di Provinsi ' . $province['name'] . '. Hubungi 081399810272.')
+@section('title', 'Training Coating Blasting Painting Provinsi ' . $province['name'] . ' | Sertifikasi Training Coating Blasting Painting & Teknisi Blasting & Coating')
+@section('meta_description', 'Pusat informasi dan pendaftaran resmi Training Coating Blasting Painting (Training Proteksi Korosi & Blasting Painting & Manajemen Risiko K3) di Provinsi ' . $province['name'] . '. Hubungi 081399810272.')
 
 @section('content')
 
@@ -29,11 +29,11 @@
             </div>
 
             <h1 class="hero-title" style="margin-left: 0; font-size: 2.35rem; line-height: 1.25; margin-bottom: 14px;">
-                Jasa Coating Blasting Painting <span>Provinsi {{ $province['name'] }}</span>
+                Training Coating Blasting Painting <span>Provinsi {{ $province['name'] }}</span>
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 880px; margin-bottom: 22px;">
-                Penyelenggaraan layanan jasa, inspeksi teknis, dan sertifikasi resmi Jasa Coating Blasting Painting di seluruh wilayah Provinsi {{ $province['name'] }}. Menguasai standar manajemen keselamatan kerja, keselamatan tempat kerja (Auditor SMK3), operasional menara (Analis Risiko HIRADC), pengendalian tekanan sumur (Manajemen Risiko K3 ISO 45001 & IADC), pengujian BOP bertekanan tinggi, dan formulasi keselamatan proses industri (Pengurus P2K3 Bipartit).
+                Penyelenggaraan program training, inspeksi teknis, dan sertifikasi resmi Training Coating Blasting Painting di seluruh wilayah Provinsi {{ $province['name'] }}. Menguasai standar manajemen keselamatan kerja, keselamatan tempat kerja (Auditor SMK3), operasional menara (Analis Risiko HIRADC), pengendalian tekanan sumur (Manajemen Risiko K3 ISO 45001 & IADC), pengujian BOP bertekanan tinggi, dan formulasi keselamatan proses industri (Pengurus P2K3 Bipartit).
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -49,12 +49,12 @@
         </div>
     </section>
 
-    <!-- PROGRAM LAYANAN JASA DI PROVINSI INI -->
+    <!-- PROGRAM PROGRAM TRAINING DI PROVINSI INI -->
     <section class="section-py">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">6 Program Resmi di {{ $province['name'] }}</span>
-                <h2 class="section-title">Pilih Jenjang Layanan Jasa Jasa Proteksi Korosi & Blasting Painting & Manajemen Risiko K3</h2>
+                <h2 class="section-title">Pilih Jenjang Program Training Training Proteksi Korosi & Blasting Painting & Manajemen Risiko K3</h2>
                 <p class="section-desc">
                     Setiap program terhubung dengan panduan prosedur teknis spesialisasi berstandar Sertifikasi Resmi untuk wilayah Provinsi {{ $province['name'] }}.
                 </p>
@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="program-body">
-                            <div class="program-level">{{ $progObj->level_name ?? 'Jasa Coating Blasting Painting & Teknisi Blasting & Coating' }}</div>
+                            <div class="program-level">{{ $progObj->level_name ?? 'Training Coating Blasting Painting & Teknisi Blasting & Coating' }}</div>
                             <h3 class="program-title">{{ $progObj->title }}</h3>
                             <p class="program-desc">
                                 {{ Str::limit($progObj->short_description ?? ($progObj->full_description ?? ''), 125) }}
@@ -98,7 +98,7 @@
             <div class="wa-hotlines-box" style="margin-bottom: 48px;">
                 <div class="wa-hotlines-header">
                     <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor WhatsApp Layanan Wilayah {{ $province['name'] }}</h3>
-                    <p>Konsultasikan jadwal pelaksanaan, sertifikasi Sertifikasi Resmi, atau permohonan pengerjaan proyek industri perusahaan di {{ $province['name'] }}:</p>
+                    <p>Konsultasikan jadwal pelaksanaan, sertifikasi Sertifikasi Resmi, atau permohonan pelatihan dan sertifikasi industri perusahaan di {{ $province['name'] }}:</p>
                 </div>
 
                 <div class="wa-hotlines-grid">
@@ -177,11 +177,11 @@
                     <div>
                         <span class="section-tag" style="margin-bottom: 6px;">Direktori Panduan Panduan Teknis</span>
                         <h2 style="font-size: 1.4rem; font-weight: 800; color: #062e22; margin: 0;">
-                            Direktori Direktori Panduan Jasa Coating Blasting Painting Provinsi {{ $province['name'] }}
+                            Direktori Direktori Panduan Training Coating Blasting Painting Provinsi {{ $province['name'] }}
                         </h2>
                     </div>
                     <span style="font-size: 0.8rem; font-weight: 700; color: #4c1d95; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
-                        <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Jasa Proteksi Korosi & Blasting Painting
+                        <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Training Proteksi Korosi & Blasting Painting
                     </span>
                 </div>
 
@@ -289,7 +289,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #0d4a39;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Training Proteksi Korosi & Blasting Painting (Training Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';

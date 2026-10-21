@@ -67,13 +67,13 @@
                 <!-- TEMPLATE MESSAGE -->
                 <div class="form-group">
                     <label class="form-label">Template Pesan Otomatis Pengunjung *</label>
-                    <textarea name="whatsapp_template" id="whatsapp_template" rows="4" class="form-control" required placeholder="Halo Admin Jasa Coating Blasting Painting...">{{ old('whatsapp_template', $whatsappTemplate) }}</textarea>
+                    <textarea name="whatsapp_template" id="whatsapp_template" rows="4" class="form-control" required placeholder="Halo Admin Training Coating Blasting Painting...">{{ old('whatsapp_template', $whatsappTemplate) }}</textarea>
                     
                     <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 14px; margin-top: 10px; font-size: 0.78rem; color: #475569;">
                         <strong>Tag Dinamis Tersedia:</strong>
                         <ul style="margin-left: 18px; margin-top: 4px; line-height: 1.6;">
                             <li><code>{region}</code> : Akan otomatis diganti dengan nama Provinsi atau Kab/Kota yang sedang dilihat pengunjung (misal: <em>Provinsi Jawa Barat</em> atau <em>Kota Bandung</em>).</li>
-                            <li><code>{program}</code> : Akan otomatis diganti dengan judul layanan jasa yang dipilih pengunjung (misal: <em>Jasa Operator Abrasive Blasting Sa 2.5</em>).</li>
+                            <li><code>{program}</code> : Akan otomatis diganti dengan judul program training yang dipilih pengunjung (misal: <em>Training Operator Abrasive Blasting Sa 2.5</em>).</li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                     <label class="form-label">Pratinjau Pesan yang Diterima di WhatsApp:</label>
                     <div style="background: #e5ddd5; border-radius: 12px; padding: 20px; max-width: 540px;">
                         <div style="background: #ffffff; border-radius: 8px 8px 8px 0; padding: 12px 16px; font-size: 0.86rem; color: #111827; box-shadow: 0 1px 2px rgba(0,0,0,0.1); position: relative;" id="livePreview">
-                            Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pengerjaan proyek dan penawaran teknis jasa blasting coating painting untuk wilayah <strong>Kota Surabaya</strong>. Mohon info estimasi biaya dan survei teknis lapangan.
+                            Halo Admin Utama Training Coating Blasting Painting, saya ingin konsultasi pendaftaran dan jadwal training sertifikasi kompetensi untuk wilayah <strong>Kota Surabaya</strong>. Mohon info silabus materi dan biaya investasi pelatihan.
                             <div style="text-align: right; font-size: 0.65rem; color: #9ca3af; margin-top: 6px;">{{ date('H:i') }} <i class="bi bi-check2-all" style="color: #3b82f6;"></i></div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                         <i class="bi bi-save2"></i> Simpan Pengaturan WhatsApp
                     </button>
 
-                    <a href="https://api.whatsapp.com/send?phone={{ $whatsappNumber }}&text={{ urlencode(str_replace(['{region}', '{program}'], ['DKI Jakarta', 'Jasa Operator Abrasive Blasting Sa 2.5'], $whatsappTemplate)) }}" target="_blank" class="btn-admin-primary" style="background: #0369a1; font-size: 0.92rem; padding: 11px 20px;">
+                    <a href="https://api.whatsapp.com/send?phone={{ $whatsappNumber }}&text={{ urlencode(str_replace(['{region}', '{program}'], ['DKI Jakarta', 'Training Operator Abrasive Blasting Sa 2.5'], $whatsappTemplate)) }}" target="_blank" class="btn-admin-primary" style="background: #0369a1; font-size: 0.92rem; padding: 11px 20px;">
                         <i class="bi bi-whatsapp"></i> Uji Coba Chat WA Utama
                     </a>
                 </div>
@@ -114,7 +114,7 @@
         templateInput.addEventListener('input', () => {
             let val = templateInput.value;
             val = val.replace('{region}', '<strong>Kota Surabaya</strong>');
-            val = val.replace('{program}', '<strong>Jasa Confined Space Madya</strong>');
+            val = val.replace('{program}', '<strong>Training Coating Blasting Painting</strong>');
             livePreview.innerHTML = val.replace(/\n/g, '<br>') + 
                 '<div style="text-align: right; font-size: 0.65rem; color: #9ca3af; margin-top: 6px;">{{ date("H:i") }} <i class="bi bi-check2-all" style="color: #3b82f6;"></i></div>';
         });

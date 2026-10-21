@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Hubungi Kami | Konsultasi & Pendaftaran Jasa Coating Blasting Painting')
-@section('meta_description', 'Hubungi kami untuk informasi jadwal, proposal pengerjaan proyek industri perusahaan, spesifikasi teknis, dan sertifikasi resmi Sertifikasi Resmi Jasa Proteksi Korosi & Blasting Painting.')
+@section('title', 'Hubungi Kami | Konsultasi & Pendaftaran Training Coating Blasting Painting')
+@section('meta_description', 'Hubungi kami untuk informasi jadwal, proposal pelatihan dan sertifikasi industri perusahaan, spesifikasi teknis, dan sertifikasi resmi Sertifikasi Resmi Training Proteksi Korosi & Blasting Painting.')
 
 @section('content')
 
@@ -13,11 +13,11 @@
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem; margin-bottom: 14px;">
-                Hubungi Tim <span>Jasa Coating Blasting Painting</span>
+                Hubungi Tim <span>Training Coating Blasting Painting</span>
             </h1>
 
             <p class="hero-lead" style="max-width: 820px; margin: 0 auto; color: #cbd5e1; font-size: 1rem; line-height: 1.7;">
-                Konsultasikan kebutuhan layanan pengerjaan sertifikasi Jasa Coating Blasting Painting & Teknisi Blasting & Coating individu maupun proposal pengerjaan proyek industri perusahaan di seluruh 38 provinsi Indonesia bersama konsultan resmi kami.
+                Konsultasikan kebutuhan layanan pengerjaan sertifikasi Training Coating Blasting Painting & Teknisi Blasting & Coating individu maupun proposal pelatihan dan sertifikasi industri perusahaan di seluruh 38 provinsi Indonesia bersama konsultan resmi kami.
             </p>
         </div>
     </section>
@@ -112,7 +112,7 @@
                                 </div>
                                 <div>
                                     <div style="font-size: 0.70rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">Email Resmi:</div>
-                                    <div style="font-size: 0.88rem; font-weight: 700; color: #ffffff;">info@jasaconfinedspace.com</div>
+                                    <div style="font-size: 0.88rem; font-weight: 700; color: #ffffff;">info@trainingcoatingblastingpainting.my.id</div>
                                 </div>
                             </div>
                             <div style="display: flex; align-items: center; gap: 12px;">
@@ -126,7 +126,7 @@
                             </div>
                         </div>
 
-                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi pendaftaran layanan jasa.') }}" target="_blank" class="btn-primary-green" style="width: 100%; justify-content: center; font-size: 0.92rem; padding: 12px 18px; border-radius: 10px; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);">
+                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Training Coating Blasting Painting, saya ingin konsultasi pendaftaran program training.') }}" target="_blank" class="btn-primary-green" style="width: 100%; justify-content: center; font-size: 0.92rem; padding: 12px 18px; border-radius: 10px; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);">
                             <i class="bi bi-whatsapp"></i> Chat Hotline Utama WhatsApp
                         </a>
                     </div>
@@ -146,7 +146,7 @@
                         </div>
 
                         <h3 style="font-size: 1.45rem; font-weight: 800; color: #062e22; margin-bottom: 8px; line-height: 1.3;">
-                            Formulir Permohonan Informasi & Proposal Layanan Jasa
+                            Formulir Permohonan Informasi & Proposal Program Training
                         </h3>
                         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 28px; line-height: 1.6;">
                             Silakan lengkapi formulir di bawah ini. Tim kami akan segera mengirimkan proposal penawaran harga & lingkup kerja, penawaran resmi dan estimasi biaya proyek langsung ke WhatsApp Anda.
@@ -205,7 +205,7 @@
 
                                 <div class="form-group">
                                     <label class="form-label">
-                                        <i class="bi bi-geo-alt"></i> Wilayah / Lokasi Layanan Jasa
+                                        <i class="bi bi-geo-alt"></i> Wilayah / Lokasi Program Training
                                     </label>
                                     <input type="text" name="region" class="form-control" placeholder="Contoh: Surabaya, DKI Jakarta, Medan...">
                                 </div>
@@ -214,9 +214,9 @@
                             <!-- Baris 4: Pesan / Kebutuhan -->
                             <div class="form-group">
                                 <label class="form-label">
-                                    <i class="bi bi-chat-left-text"></i> Pesan / Kebutuhan Layanan Jasa Khusus <span class="req">*</span>
+                                    <i class="bi bi-chat-left-text"></i> Pesan / Kebutuhan Program Training Khusus <span class="req">*</span>
                                 </label>
-                                <textarea name="message" rows="4" class="form-control" required placeholder="Tuliskan jumlah luasan area yang akan dikerjakan (m2), rencana tanggal layanan jasa, atau kebutuhan pengerjaan proyek industri di lokasi pabrik Anda..."></textarea>
+                                <textarea name="message" rows="4" class="form-control" required placeholder="Tuliskan jumlah luasan area yang akan dikerjakan (m2), rencana tanggal program training, atau kebutuhan pelatihan dan sertifikasi industri di lokasi pabrik Anda..."></textarea>
                             </div>
 
                             <!-- Submit Button -->
@@ -225,7 +225,7 @@
                             </button>
 
                             <div style="font-size: 0.78rem; color: #94a3b8; text-align: center; margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
-                                <i class="bi bi-shield-lock-fill" style="color: #10b981;"></i> Data Anda aman dan hanya digunakan untuk keperluan konfirmasi layanan jasa resmi.
+                                <i class="bi bi-shield-lock-fill" style="color: #10b981;"></i> Data Anda aman dan hanya digunakan untuk keperluan konfirmasi program training resmi.
                             </div>
                         </form>
 
@@ -242,7 +242,7 @@
                     </div>
                     <div>
                         <h4 style="font-size: 1rem; font-weight: 800; color: #062e22; margin-bottom: 4px;">Sertifikasi Resmi Sertifikasi Resmi</h4>
-                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Lisensi Jasa Coating Blasting Painting resmi dengan SKP dan sertifikat terdaftar di Sertifikasi Resmi Jasa Proteksi Korosi & Blasting Painting.</p>
+                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Lisensi Training Coating Blasting Painting resmi dengan SKP dan sertifikat terdaftar di Sertifikasi Resmi Training Proteksi Korosi & Blasting Painting.</p>
                     </div>
                 </div>
 
@@ -262,7 +262,7 @@
                     </div>
                     <div>
                         <h4 style="font-size: 1rem; font-weight: 800; color: #062e22; margin-bottom: 4px;">Layanan In-House Se-Indonesia</h4>
-                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Melayani pelaksanaan layanan jasa in-house langsung di lokasi pabrik atau fasilitas Anda di 38 provinsi.</p>
+                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Melayani pelaksanaan program training in-house langsung di lokasi pabrik atau fasilitas Anda di 38 provinsi.</p>
                     </div>
                 </div>
             </div>

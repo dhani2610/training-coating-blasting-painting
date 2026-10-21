@@ -27,7 +27,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials, $remember)) {
             $request->session()->regenerate();
-            return redirect()->intended(route('admin.dashboard'))->with('success', 'Selamat datang di Panel Admin Jasa Coating Blasting Painting.');
+            return redirect()->intended(route('admin.dashboard'))->with('success', 'Selamat datang di Panel Admin Training Coating Blasting Painting.');
         }
 
         return back()->withErrors([

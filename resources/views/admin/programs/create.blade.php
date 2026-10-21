@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
-@section('title', 'Tambah Layanan Jasa')
-@section('header_title', 'Tambah Layanan Jasa Baru')
+@section('title', 'Tambah Program Training')
+@section('header_title', 'Tambah Program Training Baru')
 
 @section('content')
 
@@ -9,9 +9,9 @@
         <div class="admin-card">
             <div class="admin-card-header">
                 <div>
-                    <h3 class="admin-card-title">Form Tambah Layanan Jasa</h3>
+                    <h3 class="admin-card-title">Form Tambah Program Training</h3>
                     <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                        Lengkapi detail layanan jasa coating blasting painting, spesifikasi teknis pengerjaan, durasi, dan standar mutu.
+                        Lengkapi detail layanan training coating blasting painting, spesifikasi teknis pengerjaan, durasi, dan standar mutu.
                     </p>
                 </div>
                 <a href="{{ route('admin.programs.index') }}" class="btn-view-site">
@@ -23,14 +23,14 @@
                 @csrf
 
                 <div class="form-group">
-                    <label class="form-label">Judul Layanan Jasa *</label>
-                    <input type="text" name="title" class="form-control" required placeholder="Contoh: Jasa Operator Abrasive Blasting (Dry Blasting Sa 2.5 & Sa 3)" value="{{ old('title') }}">
+                    <label class="form-label">Judul Program Training *</label>
+                    <input type="text" name="title" class="form-control" required placeholder="Contoh: Training Operator Abrasive Blasting (Dry Blasting Sa 2.5 & Sa 3)" value="{{ old('title') }}">
                 </div>
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
                     <div class="form-group">
                         <label class="form-label">Kategori / Nama Jenjang *</label>
-                        <input type="text" name="level_name" class="form-control" required placeholder="Contoh: Layanan Utama / Jasa Abrasive Blasting" value="{{ old('level_name') }}">
+                        <input type="text" name="level_name" class="form-control" required placeholder="Contoh: Program Utama / Training Abrasive Blasting" value="{{ old('level_name') }}">
                     </div>
 
                     <div class="form-group">
@@ -46,7 +46,7 @@
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
                     <div class="form-group">
-                        <label class="form-label">Durasi Layanan Jasa</label>
+                        <label class="form-label">Durasi Program Training</label>
                         <input type="text" name="duration" class="form-control" placeholder="Contoh: 3 Hari (24 Jam Pelajaran)" value="{{ old('duration') }}">
                     </div>
 
@@ -116,12 +116,12 @@
 
                     <div style="display: flex; align-items: center; gap: 8px; margin-top: 24px;">
                         <input type="checkbox" name="is_active" id="is_active" value="1" checked style="width: 18px; height: 18px;">
-                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Layanan Jasa Aktif</label>
+                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Program Training Aktif</label>
                     </div>
                 </div>
 
                 <button type="submit" class="btn-admin-gold" style="font-size: 0.95rem; padding: 12px 24px;">
-                    <i class="bi bi-check-lg"></i> Simpan Layanan Jasa
+                    <i class="bi bi-check-lg"></i> Simpan Program Training
                 </button>
             </form>
         </div>

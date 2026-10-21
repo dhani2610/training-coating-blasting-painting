@@ -7,704 +7,796 @@ use Illuminate\Support\Str;
 class CoatingBlastingPaintingSchemeService
 {
     /**
-     * Master Layanan Jasa Coating Blasting Painting Indonesia
+     * Master Program Training Coating Blasting Painting Indonesia
      */
     public static function getMasterPrograms(): array
     {
         return [
             [
                 'id' => 1,
-                'title' => 'Layanan Jasa Operator Abrasive Blasting (Dry Blasting Sa 2.5 & Sa 3)',
-                'slug' => 'jasa-operator-blasting-abrasive',
+                'title' => 'Training Operator Abrasive Blasting (Dry Blasting Sa 2.5 & Sa 3)',
+                'slug' => 'training-operator-blasting-abrasive',
                 'level_code' => 'Blasting Operator',
-                'level_name' => 'Layanan Utama / Jasa Abrasive Blasting Profesional',
-                'badge' => 'Layanan Unggulan',
-                'duration' => 'Kontrak Proyek / Borongan Fleksibel Sesuai Scope',
-                'method' => 'Preparasi Permukaan Logam, Dry Abrasive Blasting & Evaluasi Profil Kekasaran',
-                'certification' => 'Kualifikasi Personel & Mutu Berstandar ISO 8501-1, SSPC-SP 10 & NACE No. 2',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'level_name' => 'Program Sertifikasi Kompetensi Juru Blasting Profesional',
+                'badge' => 'Program Unggulan',
+                'duration' => '3 Hari (Teori Intensif, Praktikum Lapangan & Ujian Sertifikasi)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Blast Pot Simulation',
+                'certification' => 'Sertifikat Kompetensi Operator Blasting Berstandar ISO 8501-1 & SSPC-SP 10',
+                'price_note' => 'Termasuk Modul, APD Helm Blasting, Bahan Abrasif & Ujian Kompetensi',
                 'icon' => 'bi-shield-shaded',
-                'short_description' => 'Layanan profesional pembersihan permukaan logam dan baja struktural menggunakan dry abrasive blasting standar Sa 2.5 dan Sa 3 untuk industri migas, petrokimia, galangan kapal, dan manufaktur berat.',
-                'overview' => 'Layanan Jasa Operator Abrasive Blasting dirancang untuk menghadirkan solusi persiapan permukaan baja (surface preparation) berstandar internasional menggunakan media abrasif berkualitas tinggi (garnet mesh 30/60, steel grit G25/G40, steel shot, dan copper slag). Tim teknis kami mengoperasikan mesin blast pot berkapasitas besar, moisture air separator bertekanan stabil 100 PSI pada nozzle venturi, deadman valve keselamatan, serta mematuhi inspeksi visual ISO 8501-1 dan SSPC-SP 10 guna menjamin kebersihan substrat dan profil jangkar (anchor pattern) 50-85 mikron untuk daya lekat cat maksimal.',
-                'target_audience' => 'Fabrikator Baja, Kontraktor EPC, Manajer Pemeliharaan Kilang, Galangan Kapal Shipyard, Pembangkit Listrik, dan Pemilik Aset Industri Logam',
+                'short_description' => 'Program pelatihan intensif pengoperasian mesin abrasive dry blasting, pengaturan tekanan nozzle venturi, seleksi media abrasif, dan pencapaian standar kebersihan Sa 2.5 serta Sa 3.',
+                'overview' => 'Training Operator Abrasive Blasting dirancang untuk mencetak juru semprot pasir (blaster) profesional yang kompeten dalam teknik preparasi permukaan baja (surface preparation) berstandar internasional. Peserta dibekali pemahaman mendalam mengenai klasifikasi media abrasif (garnet mesh 30/60, steel grit, steel shot, dan copper slag), pengoperasian mesin blast pot bertekanan stabil 100 PSI, kalibrasi deadman valve keselamatan, pemeliharaan air compressor separator, serta pengukuran profil kekasaran permukaan (anchor pattern) 50-85 mikron guna menjamin daya rekat pelapis protektif maksimal.',
+                'target_audience' => 'Operator Blasting, Teknisi Pemeliharaan Pabrik, Kru Galangan Kapal Shipyard, Personel Fabrikasi Baja, Supervisor Konstruksi, dan Calon Tenaga Kerja Industri Migas',
                 'curriculum' => [
-                    'Scope 1: Asesmen Awal Korosi Substrat Baja & Penentuan Standar Kebersihan Sesuai ISO 8501-1 & SSPC/NACE',
-                    'Scope 2: Seleksi Media Abrasif: Garnet, Steel Shot, Steel Grit dengan Evaluasi Hardness Mohs & Rasio Daur Ulang',
-                    'Scope 3: Mobilisasi Kompresor Udara Berkapasitas Tinggi, Air Receiver Tank, Moisture Trap & Blast Pot Otomatis',
-                    'Scope 4: Kalibrasi Nozzle Venturi, Bore Gauge, Deadman Safety Handle & Selang Blasting Antistatis',
-                    'Scope 5: Eksekusi Dry Blasting Standar Sa 1 (Light), Sa 2 (Commercial), Sa 2.5 (Near-White), Sa 3 (White Metal)',
-                    'Scope 6: Pengukuran Profil Kekasaran Permukaan (Anchor Pattern) Menggunakan Replica Tape Press-O-Film & Digital Micrometer',
-                    'Scope 7: Pengerjaan Pembersihan Pelat Baja Dinding Kapal, Sambungan Las (Weld Seam), Pipa & Rangka Konstruksi IWF',
-                    'Scope 8: Penerapan Standar K3 Ketat: Blast Helmet Udara Suplai Terkompresi Grade D, Baju Kulit Pelindung & Barikade Area'
+                    'Modul 1: Prinsip Dasar Korosi Logam, Degradasi Baja & Urgensi Preparasi Permukaan Substrat',
+                    'Modul 2: Karakteristik Media Abrasif: Garnet, Steel Shot, Steel Grit, Hardness Mohs & Analisis Ayakan',
+                    'Modul 3: Anatomi & Mekanika Mesin Blast Pot: Pressure Relief Valve, Pop-up Valve, Moisture Separator & Selang',
+                    'Modul 4: Kalibrasi Nozzle Venturi Boron Carbide, Pengukuran Tekanan Nozzle Menggunakan Needle Pressure Gauge',
+                    'Modul 5: Standar Kebersihan Visual Permukaan ISO 8501-1: Sa 1 (Light), Sa 2 (Commercial), Sa 2.5 (Near-White), Sa 3 (White Metal)',
+                    'Modul 6: Praktikum Pengukuran Profil Kekasaran Permukaan Menggunakan Surface Profile Gauge & Replica Tape Press-O-Film',
+                    'Modul 7: Keselamatan Kerja K3 Blasting: Helm Udara Suplai Terkompresi Grade D, Baju Pelindung Kulit & Pengendalian Debu',
+                    'Modul 8: Evaluasi Akhir: Ujian Teori Tertulis Standar Industri & Asesmen Praktik Langsung di Workshop'
                 ],
                 'requirements' => [
-                    'Gambar teknis, spesifikasi scope of work (SOW), dan target luasan meter persegi area pengerjaan',
-                    'Akses lokasi kerja, sumber pasokan air, serta koordinasi izin kerja keselamatan di fasilitas klien',
-                    'Penentuan standar kebersihan visual akhir (Sa 2.5 atau Sa 3) dan profil kekasaran yang dipersyaratkan',
-                    'Persetujuan lembar kendali mutu Inspection and Test Plan (ITP) bersama tim inspeksi proyek'
+                    'Pendidikan minimal SMA/SMK sederajat atau berpengalaman kerja di lingkungan industri/manufaktur',
+                    'Fotokopi Ijazah terakhir dan Kartu Tanda Penduduk (KTP) yang masih berlaku',
+                    'Surat keterangan sehat jasmani dan tidak buta warna dari dokter/klinik',
+                    'Pas foto formal berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Peralatan Blasting Lengkap: Blast Pot Heavy Duty, Kompresor Screw Industri & Nozzle Boron Carbide',
-                    'Instrumen Uji Mutu Terkalibrasi: Surface Profile Gauge, Bresle Test Chloride Kit & Dust Test Tape',
-                    'Tenaga Aplikator dan Juru Blasting Berpengalaman Puluhan Tahun di Lingkungan Pabrik & Lepas Pantai',
-                    'Dokumentasi QA/QC Lengkap: Laporan Harian Pengukuran Profil, Foto Sebelum & Sesudah Pengerjaan',
-                    'Garansi Mutu Kebersihan Permukaan Sesuai Spesifikasi Teknis Pemilik Aset'
+                    'Sertifikat Kompetensi Resmi Operator Abrasive Blasting berstandar industri',
+                    'Buku Modul Teknis Pelatihan, Log Book Praktikum & Safety Pocket Guide',
+                    'Praktek Hands-on Langsung dengan Blast Pot, Kompresor Screw & Nozzle Venturi',
+                    'Perlengkapan APD Praktik: Blast Helmet Suplai Udara, Sarung Tangan Kulit & Wearpack',
+                    'Konsumsi Lengkap (Coffee Break 2x & Makan Siang) Selama Sesi Pelatihan Tatap Muka'
                 ],
-                'meta_title' => 'Layanan Jasa Operator Abrasive Blasting Industri Sa 2.5 Sa 3',
-                'meta_description' => 'Penyedia jasa abrasive blasting profesional standar Sa 2.5 dan Sa 3. Menggunakan media garnet, steel grit, nozzle venturi bertekanan tinggi untuk struktur baja dan tangki.'
+                'meta_title' => 'Training Operator Abrasive Blasting Bersertifikat Sa 2.5 Sa 3',
+                'meta_description' => 'Program training operator abrasive blasting bersertifikat. Pelatihan teori dan praktik dry blasting Sa 2.5 dan Sa 3, kompresor, media garnet, profil kekasaran permukaan.'
             ],
             [
                 'id' => 2,
-                'title' => 'Layanan Jasa Aplikator Protective Coating & Industrial Painting',
-                'slug' => 'jasa-aplikator-protective-coating-painting',
+                'title' => 'Training Aplikator Protective Coating & Industrial Painting',
+                'slug' => 'training-aplikator-protective-coating-painting',
                 'level_code' => 'Coating Applicator',
-                'level_name' => 'Layanan Terpopuler / Spesialis Pengecatan Proteksi Industri',
+                'level_name' => 'Program Sertifikasi Aplikator Pengecatan Proteksi Industri',
                 'badge' => 'Paling Diminati',
-                'duration' => 'Kontrak Proyek Fleksibel Sesuai Luasan Area & Sistem Cat',
-                'method' => 'Aplikasi Cat Semprot Airless Spray Bertekanan Tinggi, Stripe Coating Kuas & Pengendalian DFT',
-                'certification' => 'Kualifikasi Mutu Berstandar SSPC-PA 2, ISO 12944 Kategori Korosivitas C1 - CX & ASTM D4541',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'duration' => '3 Hari (Teori Kimia Cat, Praktik Airless Spray & Pengujian Film)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Airless Spray Application',
+                'certification' => 'Sertifikat Kompetensi Aplikator Protective Coating Berstandar SSPC-PA 2 & ISO 12944',
+                'price_note' => 'Termasuk Modul, Cat Epoxy & Polyurethane Praktik, Alat Semprot & Ujian',
                 'icon' => 'bi-paint-bucket',
-                'short_description' => 'Layanan jasa aplikasi pelapisan cat proteksi korosi industri (protective coating) menggunakan mesin airless spray bertekanan tinggi untuk fasilitas migas, petrokimia, jembatan, dan struktur baja lepas pantai.',
-                'overview' => 'Layanan Jasa Aplikator Protective Coating & Industrial Painting melayani pengerjaan pengecatan pelindung skala besar maupun pemeliharaan fasilitas operasional. Menguasai aplikasi aneka sistem cat protektif modern seperti Inorganic Zinc Ethyl Silicate, High-Build Epoxy Primer/Intermediate, Aliphatic Polyurethane Topcoat, Glass Flake Epoxy, hingga Polyurea. Kami mengoperasikan mesin airless spray bertekanan hidrolik hingga 4500 PSI dengan rasio pompa 45:1 dan 68:1 untuk memastikan penyebaran film cat merata, ketebalan lapisan film kering (DFT) presisi, dan daya rekat adhesi mekanis yang sangat kuat.',
-                'target_audience' => 'Pemilik Fasilitas Kilang, Industri Kimia, Galangan Kapal, Kontraktor Infrastruktur Jembatan, dan Pengelola Tangki Timbun',
+                'short_description' => 'Pelatihan komprehensif teknik pengecatan protektif industri, pengoperasian mesin semprot airless spray bertekanan tinggi, stripe coating, dan pengendalian ketebalan WFT/DFT.',
+                'overview' => 'Training Aplikator Protective Coating & Industrial Painting membekali peserta dengan keterampilan profesional dalam mengaplikasikan sistem cat pelindung multi-layer pada struktur baja, pipa migas, dan tangki industri. Materi mencakup pemahaman formulasi cat modern (Inorganic Zinc Ethyl Silicate, High-Build Epoxy Primer/Intermediate, Aliphatic Polyurethane Topcoat), pengaturan rasio pompa airless spray 45:1 dan 68:1, pengukuran Wet Film Thickness (WFT), penerapan aturan 80-20 Dry Film Thickness (DFT) SSPC-PA 2, serta teknik mitigasi cacat pengecatan seperti sagging, pinholes, dan runs.',
+                'target_audience' => 'Aplikator Cat Industri, Tukang Cat Semprot (Spray Painter), Mandor Konstruksi Baja, Pengawas Pengecatan, dan Teknisi Fabrikasi',
                 'curriculum' => [
-                    'Scope 1: Telaah Spesifikasi Sistem Cat (Paint System) Sesuai Kategori Lingkungan ISO 12944 C3, C4, C5 & CX Marine',
-                    'Scope 2: Verifikasi Kondisi Mikroklimat: Pengukuran Dew Point, Surface Temperature & Relative Humidity Menggunakan Psychrometer',
-                    'Scope 3: Prosedur Pencampuran Dua Komponen (Base & Hardener), Pengadukan Agitator Pneumatik & Manajemen Pot Life',
-                    'Scope 4: Pengoperasian Mesin Airless Spray: Pengaturan Rasio Pompa, Tekanan Fluida, Tip Orifice & Fan Angle',
-                    'Scope 5: Penerapan Stripe Coating Manual pada Area Kritis: Baut, Flange, Sudut Rangka & Sambungan Las',
-                    'Scope 6: Pengukuran Ketebalan Basah (Wet Film Thickness - WFT) Menggunakan Sisir WFT Comb Terkalibrasi',
-                    'Scope 7: Pengukuran Ketebalan Kering (Dry Film Thickness - DFT) Sesuai Aturan 80-20 Standar SSPC-PA 2',
-                    'Scope 8: Mitigasi & Remediasi Cacat Pengecatan: Mencegah Sagging, Dry Spray, Orange Peel, Pinholes, dan Blistering'
+                    'Modul 1: Klasifikasi Sistem Cat Protektif Industri Sesuai Tingkat Korosivitas Lingkungan ISO 12944 C1 - CX',
+                    'Modul 2: Evaluasi Kondisi Lingkungan Aplikasi: Pengukuran Titik Embun (Dew Point Spread > 3°C), RH & Suhu Substrat',
+                    'Modul 3: Manajemen Pencampuran Dua Komponen (Base & Hardener), Rasio Induksi, Pelarut Thinner & Waktu Pot Life',
+                    'Modul 4: Pengoperasian & Perawatan Mesin Semprot Airless Spray: Pemilihan Tip Orifice, Fan Width & Tekanan Fluida',
+                    'Modul 5: Prosedur Pengecatan Khusus: Aplikasi Stripe Coating Kuas pada Sudut Rangka, Baut, Flange & Sambungan Las',
+                    'Modul 6: Pengukuran Ketebalan Basah (Wet Film Thickness - WFT) Menggunakan Sisir WFT Comb Terkalibrasi',
+                    'Modul 7: Verifikasi Ketebalan Kering (Dry Film Thickness - DFT) Menggunakan Magnetic Gauge Sesuai Aturan SSPC-PA 2',
+                    'Modul 8: Analisis Cacat Pengecatan: Identifikasi Penyebab & Perbaikan Blistering, Pinholes, Dry Spray, dan Sagging'
                 ],
                 'requirements' => [
-                    'Spesifikasi sistem cat pelindung yang disetujui (Technical Data Sheet & Paint Specification)',
-                    'Kesiapan substrat yang telah diblasting bersih (profil anchor pattern terverifikasi)',
-                    'Akses perancah (scaffolding) atau boom lift yang aman untuk area ketinggian kerja',
-                    'Koordinasi sirkulasi udara dan ventilasi pada area kerja semi-tertutup'
+                    'Pendidikan minimal SMA/SMK atau memiliki pengalaman dasar dalam bidang pengecatan industri',
+                    'Fotokopi KTP dan Ijazah pendidikan terakhir yang masih berlaku',
+                    'Surat keterangan sehat dan bebas buta warna dari instansi medis',
+                    'Pas foto berwarna formal ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Unit Pompa Airless Spray Kapasitas Besar (Graco / Wiwa Heavy Duty) Lengkap Selang & Tip Reversibel',
-                    'Alat Ukur Mutu: WFT Comb Presisi, Magnetic Digital DFT Gauge & Thermo-Hygrometer Lingkungan',
-                    'Tenaga Aplikator Mahir Berpengalaman di Berbagai Proyek Fabrikasi & Turnaround Kilang',
-                    'Pencatatan Log Ketebalan Cat per Titik Uji Sesuai Matriks Pengawasan Mutu',
-                    'Jaminan Garansi Ketahanan Lapisan Terhadap Paparan Cuaca dan Korosivitas Lingkungan'
+                    'Sertifikat Kompetensi Aplikator Protective Coating Berstandar Internasional',
+                    'Modul Pelatihan Lengkap, Buku Panduan Spesifikasi Sistem Cat & Technical Data Sheet',
+                    'Praktikum Airless Spray Menggunakan Mesin Pompa Industri & Ragam Tip Nozzle',
+                    'Instrumen Praktik: Sisir WFT Comb, Magnetic DFT Gauge & Thermo-Hygrometer Digital',
+                    'Makan Siang dan Snack Coffee Break Selama Pelatihan Berlangsung'
                 ],
-                'meta_title' => 'Layanan Jasa Aplikator Protective Coating & Industrial Painting',
-                'meta_description' => 'Jasa aplikasi protective coating cat industri berstandar SSPC-PA 2 dan ISO 12944. Ahli airless spray, epoxy primer, polyurethane topcoat untuk jembatan, kapal, dan pipa migas.'
+                'meta_title' => 'Training Aplikator Protective Coating & Industrial Painting',
+                'meta_description' => 'Training aplikator cat industri protective coating bersertifikat. Pelatihan airless spray, epoxy primer, polyurethane topcoat, standar SSPC-PA 2 dan ISO 12944.'
             ],
             [
                 'id' => 3,
-                'title' => 'Layanan Jasa Coating Inspector QA/QC & Proteksi Korosi',
-                'slug' => 'jasa-coating-inspector-qc-proteksi-korosi',
+                'title' => 'Training Coating Inspector QA/QC & Proteksi Korosi',
+                'slug' => 'training-coating-inspector-qc-proteksi-korosi',
                 'level_code' => 'Coating Inspector',
-                'level_name' => 'Layanan Tingkat Ahli / Quality Assurance & Inspection Specialist',
+                'level_name' => 'Program Pelatihan & Sertifikasi Inspektur Mutu Pelapisan Tingkat Ahli',
                 'badge' => 'Standar Mutu Tertinggi',
-                'duration' => 'Inspeksi Berkala / Pendampingan Penuh Proyek (Full-Time QA/QC)',
-                'method' => 'Inspeksi Visual, Pengujian Instrumen Terkalibrasi, Verifikasi Dokumen & Pengawasan Hold Point',
-                'certification' => 'Kualifikasi Inspektur Berstandar NACE/AMPP Level 2/3, SSPC BCI & BGAS-CSWIP Equivalency',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'duration' => '4 Hari (Teori Standar Mutu, Kalibrasi Instrumen Laboratorium & Asesmen Uji)',
+                'method' => 'Tatap Muka Kelas Intensif, Hands-on Lab Pengujian Instrumen & Ujian Sertifikasi',
+                'certification' => 'Sertifikat Kompetensi Coating Inspector QA/QC Berstandar NACE/AMPP & SSPC BCI Equivalency',
+                'price_note' => 'Termasuk Seluruh Alat Uji Presisi, Bresle Test Kit, Holiday Detector & Ujian',
                 'icon' => 'bi-search',
-                'short_description' => 'Layanan inspeksi kualitas pihak ketiga (Third Party Inspection) untuk memverifikasi kepatuhan seluruh tahapan preparasi permukaan, aplikasi cat, pengujian nondestruktif dan destruktif pelapisan.',
-                'overview' => 'Layanan Jasa Coating Inspector QA/QC menghadirkan inspektur independen berkualifikasi tinggi untuk menjamin kepatuhan pengerjaan terhadap spesifikasi teknis dan standar internasional. Tim inspektur kami bertindak sebagai penjamin mutu di lapangan, mengawasi titik kendali kritis (hold point), memverifikasi tingkat kebersihan garam terlarut klorida menggunakan Bresle Patch Test ISO 8502-6, menguji kontinuitas dielektrik holiday detector NACE SP0188, hingga melaksanakan uji kekuatan daya rekat hidrolik dolly pull-off test ASTM D4541 demi melindungi investasi aset bernilai tinggi.',
-                'target_audience' => 'Pemilik Aset Migas, Manajemen Proyek Konstruksi Industri, Tim Quality Assurance Korporasi, dan Konsultan Pengawas EPC',
+                'short_description' => 'Pelatihan tingkat lanjut bagi calon Quality Assurance / Quality Control (QA/QC) Coating Inspector untuk menguasai pengawasan mutu, audit hold point, dan pengujian destruktif serta nondestruktif pelapisan.',
+                'overview' => 'Training Coating Inspector QA/QC & Proteksi Korosi merupakan program prestisius yang mempersiapkan tenaga inspektur pelapisan independen berdaya saing global. Peserta dilatih untuk menguasai perancangan dan validasi dokumen Inspection and Test Plan (ITP), verifikasi kebersihan garam klorida terlarut dengan Bresle Patch Test ISO 8502-6, audit profil kekasaran permukaan ASTM D4417, kalibrasi multi-point DFT gauge SSPC-PA 2, pengujian cacat diskontinuitas holiday pinhole detection NACE SP0188, serta uji kekuatan daya rekat hidrolik dolly pull-off test ASTM D4541.',
+                'target_audience' => 'Quality Control (QC) Inspector, Quality Assurance (QA) Engineer, Ahli Korosi Material, Supervisor Proyek EPC, Konsultan Pengawas, dan Manajer Integritas Aset',
                 'curriculum' => [
-                    'Scope 1: Telaah & Validasi Dokumen Inspection and Test Plan (ITP) Serta Lembar Spesifikasi Teknis Proyek',
-                    'Scope 2: Verifikasi Kondisi Lingkungan Harian: Batas Titik Embun (Dew Point Spread > 3°C) & Kelembaban Udara',
-                    'Scope 3: Pengujian Kontaminasi Garam Terlarut Klorida Menggunakan Metode Bresle Patch ISO 8502-6/9',
-                    'Scope 4: Verifikasi Kebersihan Visual Permukaan Baja Sa 2.5 / Sa 3 Menggunakan Komparator ISO 8501-1',
-                    'Scope 5: Pengukuran Profil Kekasaran Permukaan Menggunakan Surface Profile Gauge & Testex Press-O-Film Tape',
-                    'Scope 6: Pengawasan Hold Point Aplikasi Cat Dasar, Cat Antara, dan Cat Akhir Secara Terperinci',
-                    'Scope 7: Audit Kalibrasi Alat Ukur DFT Magnetik & Pelaksanaan Survei Ketebalan Lapisan Sesuai SSPC-PA 2',
-                    'Scope 8: Pengujian Holiday Pinhole Detection (NACE SP0188), Uji Adhesi ASTM D4541 & Penerbitan Laporan QA/QC Final'
+                    'Modul 1: Peran & Tanggung Jawab Moral Coating Inspector: Verifikasi Hold Point, Pelaporan Ketidaksesuaian (NCR) & ITP',
+                    'Modul 2: Analisis Lingkungan Mikroklimat: Psychrometer Sling, Surface Thermometer, Relative Humidity & Dew Point Spread',
+                    'Modul 3: Uji Kontaminasi Tak Kasat Mata: Pengujian Garam Klorida Terlarut Menggunakan Bresle Patch ISO 8502-6/9',
+                    'Modul 4: Verifikasi Mutu Preparasi Permukaan: Visual Comparator ISO 8501-1, Uji Debu ISO 8502-3 & Uji Minyak ASTM D4285',
+                    'Modul 5: Audit Kalibrasi & Verifikasi Alat Ukur DFT Tipe 1 (Magnetik) dan Tipe 2 (Elektronik) Sesuai Standar SSPC-PA 2',
+                    'Modul 6: Pengujian Nondestruktif Diskontinuitas Lapisan: Wet Sponge Tester (Low Voltage) & Spark Holiday Detector (High Voltage NACE SP0188)',
+                    'Modul 7: Pengujian Destruktif Kekuatan Adhesi Lapisan: Cross-Cut Tape Test ASTM D3359 & Dolly Pull-Off Adhesion Test ASTM D4541',
+                    'Modul 8: Penyusunan Daily Inspection Report (DIR), Log Mutu Pengecatan & Simulasi Ujian Sertifikasi Coating Inspector'
                 ],
                 'requirements' => [
-                    'Dokumen kontrak spesifikasi teknis pengecatan dan toleransi mutu yang disepakati',
-                    'Jadwal pelaksanaan kerja aplikator untuk penentuan matriks hold point inspeksi harian',
-                    'Fasilitas akses aman ke seluruh area inspeksi struktural yang akan dievaluasi',
-                    'Koordinasi terbuka antara pemilik fasilitas, kontraktor pelaksana, dan tim inspektur independen'
+                    'Pendidikan minimal D3/S1 Teknik atau SMA/SMK dengan pengalaman kerja minimal 2 tahun di bidang inspeksi/konstruksi',
+                    'Fotokopi Ijazah terakhir, transkrip nilai, dan identitas diri KTP yang sah',
+                    'Surat rekomendasi perusahaan atau surat keterangan pengalaman kerja (bila ada)',
+                    'Surat keterangan sehat dan uji daya beda warna (Ishihara Test) bebas buta warna'
                 ],
                 'facilities' => [
-                    'Peralatan Uji Lengkap Terkalibrasi: Elcometer / DeFelsko Digital Gage, Bresle Kit, Holiday Detector',
-                    'Inspektur Senior Berpengalaman Luas di Proyek Migas, Kelautan, Petrokimia, dan Jembatan Nasional',
-                    'Penerbitan Laporan Inspeksi Harian (Daily QC Log), Analisis Cacat, dan Rekomendasi Teknis',
-                    'Penerbitan Non-Conformance Report (NCR) & Sertifikat Kelayakan Pelapisan (Coating Clearance)',
-                    'Independensi dan Integritas Pengawasan Mutu Tanpa Kompromi demi Keandalan Jangka Panjang'
+                    'Sertifikat Kompetensi Resmi Coating Inspector QA/QC berstandar internasional',
+                    'Buku Panduan Standar Teknis Inspeksi Mutu Lengkap & Kumpulan Format Laporan ITP',
+                    'Akses Pengujian Instrumen Canggih: DeFelsko PosiTector / Elcometer Kit & Bresle Patch',
+                    'Praktikum Uji Adhesi Hidrolik Pull-Off Tester & High Voltage Holiday Detector',
+                    'Keanggotaan Asosiasi Alumni Inspektur Proteksi Korosi Indonesia'
                 ],
-                'meta_title' => 'Layanan Jasa Coating Inspector QA/QC Proteksi Korosi Industri',
-                'meta_description' => 'Jasa coating inspection pihak ketiga berstandar NACE, SSPC, ISO 12944. Pengujian holiday detector, bresle patch klorida, uji tarik adhesi ASTM D4541, dan laporan ITP.'
+                'meta_title' => 'Training Coating Inspector QA/QC Bersertifikat NACE SSPC',
+                'meta_description' => 'Program training coating inspector QA/QC bersertifikat berstandar NACE/AMPP dan SSPC. Kuasai Bresle test, profil gauge, SSPC-PA 2, holiday detector, dan uji adhesi ASTM D4541.'
             ],
             [
                 'id' => 4,
-                'title' => 'Layanan Jasa Hydroblasting & Ultra-High Pressure (UHP) Waterjetting',
-                'slug' => 'jasa-hydroblasting-waterjetting-uhp',
-                'level_code' => 'Hydroblasting',
-                'level_name' => 'Layanan Khusus / Pembersihan Permukaan Bebas Debu & Percikan Api',
+                'title' => 'Training Hydroblasting & UHP Waterjetting (Pembersihan Tekanan Ultra Tinggi)',
+                'slug' => 'training-hydroblasting-waterjetting-uhp',
+                'level_code' => 'Waterjetting Operator',
+                'level_name' => 'Program Pelatihan Operator Pembersihan Tekanan Ultra Tinggi Bebas Debu',
                 'badge' => 'Teknologi Modern',
-                'duration' => 'Kontrak Proyek Fleksibel Sesuai Volume Kerja',
-                'method' => 'Pembersihan Permukaan Memakai Tekanan Air Tinggi 10.000 - 40.000 PSI Bebas Polusi Debu',
-                'certification' => 'Kualifikasi Mutu Berstandar SSPC-SP WJ-1 hingga WJ-4, NACE WJ-1 & ISO 8501-4',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'duration' => '3 Hari (Teori Hidrolika, Prosedur Keselamatan UHP & Praktikum Nozzle)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on UHP Pump Operation',
+                'certification' => 'Sertifikat Kompetensi Operator Hydroblasting UHP Berstandar ISO 8501-4 & SSPC-SP WJ',
+                'price_note' => 'Termasuk Unit Pompa Hydroblasting, APD Kevlar UHP & Ujian Kompetensi',
                 'icon' => 'bi-droplet-half',
-                'short_description' => 'Layanan jasa pembersihan permukaan logam, pipa, dan tangki menggunakan teknologi semprotan air bertekanan ultra tinggi (UHP Waterjetting) tanpa debu silika dan aman dari risiko percikan bunga api.',
-                'overview' => 'Layanan Jasa Hydroblasting & UHP Waterjetting menawarkan solusi mutakhir preparasi permukaan di area operasional yang sensitif terhadap debu abrasif dan bahaya kebakaran. Menggunakan pompa air bertekanan tinggi 10.000 PSI (High Pressure) hingga 40.000 PSI (Ultra-High Pressure), teknologi ini mampu mengelupas lapisan cat lama yang tebal, karat kerak berat, serta endapan kimia keras tanpa merusak profil logam dasar. Sangat ideal untuk area kilang minyak aktif, anjungan lepas pantai (offshore), area penampungan bahan bakar, dan lambung kapal di galangan dock.',
-                'target_audience' => 'Kilang Minyak Aktif (Live Plant), Industri Petrokimia, Galangan Kapal Perbaikan (Ship Repair), dan Fasilitas Area Berbahaya Gas',
+                'short_description' => 'Pelatihan teknik preparasi permukaan menggunakan semprotan air bertekanan ultra tinggi (Ultra High Pressure Waterjetting hingga 40.000 PSI) untuk area kilang rawan percikan api.',
+                'overview' => 'Training Hydroblasting & UHP Waterjetting memberikan kompetensi praktis mutakhir dalam pembersihan kerak korosi dan lapisan cat lama tanpa menimbulkan polusi debu pasir maupun bahaya percikan api. Peserta diajarkan mengoperasikan pompa UHP hingga tekanan 2.800 bar (40.000 PSI), memahami standar visual kebersihan permukaan basah ISO 8501-4 (Wa 1 hingga Wa 3) dan SSPC-SP WJ-1 hingga WJ-4, mengendalikan laju flash rusting dengan inhibitor korosi ramah lingkungan, serta menerapkan standar keselamatan ketat menggunakan pakaian pelindung serat Kevlar anti-tembus jet air.',
+                'target_audience' => 'Operator Pompa Tekanan Tinggi, Teknisi Pemeliharaan Kilang Minyak, Kru Galangan Kapal, Petugas Hydroblasting, dan Pengawas HSE Fasilitas Berbahaya',
                 'curriculum' => [
-                    'Scope 1: Asesmen Kondisi Area Kerja Sensitif Debu & Identifikasi Klasifikasi Standar SSPC-SP WJ-1 s/d WJ-4',
-                    'Scope 2: Mobilisasi Unit Pompa Hydroblasting Triplex Diesel Driven Tekanan hingga 40.000 PSI',
-                    'Scope 3: Pengaturan Selang Air Bertekanan Ekstrem, Burst Disc Valve, Foot Control Valve & Nozzle Putar Rotari',
-                    'Scope 4: Eksekusi Pengelupasan Cat Tebal, Kerak Karat & Garam Terlarut dari Substrat Baja',
-                    'Scope 5: Manajemen Pengendalian Flash Rust Pasca Pengerjaan Menggunakan Inhibitor Karat Khusus',
-                    'Scope 6: Pembersihan Saluran Pipa Internal, Heat Exchanger Tube Bundle & Dinding Bejana Tangki',
-                    'Scope 7: Pengolahan & Pengaliran Limbah Air Kerja Sesuai Standar Pengelolaan Lingkungan Industri',
-                    'Scope 8: Protokol Keselamatan Kerja Ekstrem: Pelindung Tubuh Armor Tahan 40K PSI & Prosedur Emergency Stop'
+                    'Modul 1: Prinsip Hidrodinamika Tekanan Tinggi: High Pressure (HP) vs Ultra High Pressure (UHP Waterjetting)',
+                    'Modul 2: Anatomi Unit Pompa UHP: Plunger Keramik, Unloader Valve, Rupture Disc & Sistem Filtrasi Air Bertingkat',
+                    'Modul 3: Kalibrasi & Pemeliharaan Dump Gun, Foot Control Valve, Tumpuan Bahu & Nozzle Putar Safi / Rotary Nozzle',
+                    'Modul 4: Standar Visual Kebersihan Substrat ISO 8501-4 (Wa 1, Wa 2, Wa 2.5) dan Tingkatan SSPC-SP WJ-1 sampai WJ-4',
+                    'Modul 5: Manajemen Flash Rusting: Kategori No, Light, Medium, Heavy Flash Rust & Aplikasi Soluble Salt Inhibitor',
+                    'Modul 6: Standar Keselamatan Kerja Ekstrem UHP: Proteksi APD Kevlar 40.000 PSI, Pelindung Metatarsal Kaki & Barikade Radius Bahaya',
+                    'Modul 7: Praktikum Lapangan Pembersihan Pelat Baja Berkarat & Pipa Bersisik Menggunakan Mesin UHP Waterjet',
+                    'Modul 8: Ujian Kompetensi Teori Keselamatan Hidrolika & Asesmen Praktik Mandiri Pengoperasian Dump Gun'
                 ],
                 'requirements' => [
-                    'Pasokan air tawar bersih dalam volume memadai untuk operasional pompa kontinu',
-                    'Sistem drainase pengaliran air limbah dan penampungan residu kerak yang terkelupas',
-                    'Barikade pengamanan zona bahaya semprotan air bertekanan tinggi',
-                    'Izin kerja panas/dingin (Hot/Cold Work Permit) sesuai regulasi fasilitas industri'
+                    'Pendidikan minimal SMA/SMK atau memiliki pengalaman teknis di sektor permesinan/industri',
+                    'Kondisi fisik prima, tidak memiliki riwayat penyakit saraf atau penyakit tekanan darah tinggi',
+                    'Fotokopi KTP dan Ijazah pendidikan terakhir yang masih berlaku',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Unit Pompa UHP Waterjetting 40.000 PSI Lengkap Nozzle Putar Self-Rotating & Lance Panjang',
-                    'Baju Pelindung Khusus Hydroblasting Armor Kevlar Berstandar Keselamatan Internasional',
-                    'Operator dan Tim Mekanik Berpengalaman Mengoperasikan Peralatan Tekanan Ekstrem',
-                    'Aplikasi Bebas Polusi Debu Pasir dan Bebas Risiko Percikan Api pada Area Mudah Terbakar',
-                    'Hasil Pembersihan Logam Bersih Sempurna Bebas Kontaminasi Garam Terlarut'
+                    'Sertifikat Kompetensi Resmi Operator Hydroblasting & UHP Waterjetting',
+                    'Buku Panduan Standar Operasional Prosedur (SOP) Keselamatan Jet Air Bertekanan Tinggi',
+                    'Praktik Nyata Mengoperasikan Mesin Pompa UHP Tekanan Tinggi & Penggantian Seal Plunger',
+                    'Perlengkapan APD Khusus Praktik: Baju Pelindung Kevlar Anti-Jet Air & Sepatu Boot Baja',
+                    'Konsumsi Lengkap Selama Kegiatan Pelatihan'
                 ],
-                'meta_title' => 'Layanan Jasa Hydroblasting & UHP Waterjetting 40.000 PSI',
-                'meta_description' => 'Jasa hydroblasting dan ultra-high pressure waterjetting tanpa debu pasir. Solusi aman pengelupasan cat dan kerak karat di kilang minyak aktif dan tangki migas.'
+                'meta_title' => 'Training Operator Hydroblasting UHP Bersertifikat 40.000 PSI',
+                'meta_description' => 'Program pelatihan operator hydroblasting dan ultra high pressure waterjetting 40.000 PSI. Standar ISO 8501-4, pencegahan flash rusting, APD kevlar keselamatan.'
             ],
             [
                 'id' => 5,
-                'title' => 'Layanan Jasa Internal Lining Tangki Timbun & Bejana Tekan',
-                'slug' => 'jasa-tank-vessel-internal-lining-coating',
+                'title' => 'Training Internal Tank Lining & Bejana Tekan',
+                'slug' => 'training-internal-tank-lining-bejana-tekan',
                 'level_code' => 'Tank Lining Specialist',
-                'level_name' => 'Layanan Ruang Terbatas / Spesialis Pelapisan Tangki & Bejana',
-                'badge' => 'Proteksi Khusus',
-                'duration' => 'Kontrak Proyek Fleksibel Sesuai Kapasitas Tangki',
-                'method' => 'Blasting & Aplikasi Lapisan Pelindung Kimia di Ruang Terbatas (Confined Space)',
-                'certification' => 'Kualifikasi Mutu Berstandar API 652, API 653, NACE SP0178 & SSPC-CS 23.00',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'level_name' => 'Program Spesialisasi Pelapisan Interior Tangki Timbun & Bejana Tekan',
+                'badge' => 'Spesialis Industri Kimia',
+                'duration' => '3 Hari (Teori Kimia Ketahanan Korosi, Praktik Aplikasi Lining & Uji Bebas Cacat)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Mockup Tank Application',
+                'certification' => 'Sertifikat Kompetensi Spesialis Tank Lining Berstandar API 652 & SSPC-CS 23.00',
+                'price_note' => 'Termasuk Bahan Resin Lining Glass Flake, Novolac Epoxy & Ujian Asesmen',
                 'icon' => 'bi-box-seam',
-                'short_description' => 'Layanan jasa pelapisan internal (internal lining) tangki penyimpanan minyak, bahan kimia, bejana tekan, dan bak penampung limbah menggunakan epoxy resin tahan bahan kimia agresif.',
-                'overview' => 'Layanan Jasa Internal Lining Tangki Timbun & Bejana Tekan memberikan proteksi maksimal terhadap dinding dan dasar tangki dari serangan korosi cairan kimia asam, minyak mentah beruap sulfur, air garam, dan zat pelarut keras. Tim kami menerapkan standar ketat API 652 (Linings of Aboveground Petroleum Storage Tank Bottoms), mengoperasikan mesin dehumidifier industri untuk mengendalikan kelembaban udara ruang terbatas, memastikan ventilasi kontinu, serta mengaplikasikan sistem lining tebal seperti Glass Flake Epoxy, Novolac Epoxy, dan Vinyl Ester bebas kebocoran mikroskopis.',
-                'target_audience' => 'Terminal Bahan Bakar Minyak (TBBM), Industri Kimia Asam, Pabrik Pengolahan Pupuk, dan Fasilitas Pengolahan Air Limbah',
+                'short_description' => 'Pelatihan keahlian teknis pelapisan internal tangki timbun minyak, bahan kimia asam agresif, dan bejana tekan menggunakan sistem Glass Flake Epoxy, Vinyl Ester, dan Novolac.',
+                'overview' => 'Training Internal Tank Lining & Bejana Tekan mengasah kompetensi teknis peserta dalam mengaplikasikan pelapis pelindung dinding dalam tangki (internal lining) yang mampu bertahan terhadap rendaman bahan kimia ekstrem, asam kuat, produk minyak mentah, serta suhu fluktuatif. Berpedoman pada standar API 652 (Lining of Aboveground Petroleum Storage Tank Bottoms) dan NACE SP0287, materi pelatihan mencakup preparasi permukaan las tangki (radiusing weld seam), de-humidifikasi ruangan tangki, aplikasi multi-lapis Glass Flake Resin, hingga pengujian holiday detector tanpa celah.',
+                'target_audience' => 'Spesialis Pengecatan Tangki, Aplikator Resin Industri Kimia, Pengawas Fasilitas Storage Tank Migas, Teknisi Bejana Tekan, dan Tim Pemeliharaan Pabrik Pupuk',
                 'curriculum' => [
-                    'Scope 1: Prosedur Keselamatan Ruang Terbatas (Confined Space Entry): Pengujian Gas Atmosfer O2, LEL, H2S & CO',
-                    'Scope 2: Pembersihan Sisa Sludge Minyak, Degreasing Kimia & Preparasi Sudut Las Sesuai NACE SP0178',
-                    'Scope 3: Mobilisasi Mesin Dehumidifier Pendingin Udara & Dust Collector Ekstraksi Debu Kontinu',
-                    'Scope 4: Dry Abrasive Blasting Dasar Tangki & Dinding Shell Mencapai Standar Sa 3 (White Metal)',
-                    'Scope 5: Aplikasi Stripe Coating Manual pada Sudut Sambungan Plat Bawah (Bottom Plate Chime Ring)',
-                    'Scope 6: Pengecatan Sistem Thick-Film Lining: Novolac Epoxy, Glass Flake Vinyl Ester Ketebalan hingga 1000 Mikron',
-                    'Scope 7: Pemeriksaan Diskontinuitas Lapisan Menggunakan High Voltage Spark Holiday Detector (NACE SP0188)',
-                    'Scope 8: Pengujian Curing Akhir: Uji Barcol Hardness, Ketahanan Pelarut MEK Rub Test & Serah Terima Garansi'
+                    'Modul 1: Tinjauan Standar API 652: Klasifikasi Thin-Film, Thick-Film & Reinforced Thick-Film Tank Bottom Linings',
+                    'Modul 2: Ketahanan Bahan Kimia Resin: Novolac Epoxy, Vinyl Ester Flakeglass & Polyurea Terhadap Pelarut Organik',
+                    'Modul 3: Persiapan Geometri Internal Tangki: Pembulatan Sudut Tajam (Grinding Radius R=3mm) & Striping Sambungan Las',
+                    'Modul 4: Pengendalian Iklim Ruang Tertutup: Dehumidification Unit (DH), Pengaturan Suhu Substrat & Ventilasi Buang',
+                    'Modul 5: Prosedur Pencampuran Resin Katalis MEKP / Promotor & Manajemen Waktu Gelation Serta Pot Life Bahan',
+                    'Modul 6: Teknik Aplikasi Trowel, Roller Khusus Pengusir Udara (De-aeration Roller) & Pompa Semprot Airless Khusus Viscositas Tinggi',
+                    'Modul 7: Pengujian Kontinuitas Dielektrik Menyeluruh Menggunakan High Voltage Spark Tester Sesuai NACE SP0188',
+                    'Modul 8: Ujian Evaluasi Kompetensi: Pembuatan Laporan Inspeksi Mutu Lining & Asesmen Aplikasi Mockup Dinding Tangki'
                 ],
                 'requirements' => [
-                    'Tangki dalam kondisi kosong, telah di-gas freeing, dan terisolasi mekanis (blind flange terpasang)',
-                    'Surat izin masuk ruang terbatas (Confined Space Work Permit) yang disetujui tim keselamatan kerja',
-                    'Pasokan daya listrik industri stabil untuk operasional mesin dehumidifier dan blower pengisap debu',
-                    'Pencahayaan tahan ledakan (explosion proof lighting) 24V di dalam ruang bejana tangki'
+                    'Pendidikan minimal SMA/SMK atau berpengalaman di bidang pengecatan industri / konstruksi tangki',
+                    'Fotokopi KTP dan Ijazah pendidikan terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dari dokter (mampu bekerja di area semi tertutup)',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Unit Dehumidifier Kapasitas Besar Pengendali Iklim Mikro Suhu & Kelembaban Relatif (<50% RH)',
-                    'Dust Collector Bertenaga Tinggi Pengisap Debu Blasting Menjamin Visibilitas Sempurna di Dalam Tangki',
-                    'Blower Ventilasi Udara Segar Kontinu & Multi-Gas Detector Portabel Kalibrasi Terbaru',
-                    'Peralatan Spark Tester Holiday Detector Tegangan Tinggi untuk Memastikan 100% Bebas Pinhole',
-                    'Sistem Pelapisan Kimia Bersertifikat Internasional Tahan Paparan Bahan Kimia Keras Bertahun-tahun'
+                    'Sertifikat Kompetensi Spesialis Internal Tank Lining Berstandar Industri',
+                    'Modul Teknis Pelatihan Lengkap & Panduan Formulasi Ketahanan Kimia Resin',
+                    'Praktek Langsung Pelapisan Glass Flake Epoxy pada Mockup Pelat & Bejana Tekan',
+                    'Alat Uji Mutu Lengkap: De-aerating Roller, Wet Film Gauge & High Voltage Holiday Detector',
+                    'Makan Siang dan Snack Coffee Break Selama Pelatihan Berlangsung'
                 ],
-                'meta_title' => 'Layanan Jasa Internal Lining Tangki Timbun & Bejana Tekan Kimia',
-                'meta_description' => 'Jasa internal lining tangki minyak, bak kimia, bejana tekan standar API 652. Menggunakan novolac epoxy, glass flake vinyl ester, dehumidifier, dan spark testing.'
+                'meta_title' => 'Training Internal Tank Lining & Bejana Tekan Bersertifikat API 652',
+                'meta_description' => 'Training pelapisan internal tangki timbun dan bejana tekan standar API 652. Pelajari sistem glass flake epoxy, novolac, de-aeration, dan uji holiday detection.'
             ],
             [
                 'id' => 6,
-                'title' => 'Layanan Jasa Pipe Coating, Field Joint Coating & Wrapping Pipa',
-                'slug' => 'jasa-pipe-coating-field-joint-wrapping',
+                'title' => 'Training Pipe Coating, Field Joint Coating & Wrapping Pipa',
+                'slug' => 'training-pipe-coating-field-joint-wrapping',
                 'level_code' => 'Pipeline Coating',
-                'level_name' => 'Layanan Perpipaan / Proteksi Korosi Jalur Pipa Bawah Tanah & Laut',
+                'level_name' => 'Program Pelatihan & Sertifikasi Proteksi Korosi Jalur Pipa Industri & Migas',
                 'badge' => 'Spesialis Pipeline',
-                'duration' => 'Kontrak Proyek Fleksibel Sesuai Panjang Jalur Pipa (Kilometer/Spool)',
-                'method' => 'Preparasi Sambungan Las Pipa, Pemanasan Induksi, Aplikasi Epoxy & Heat Shrinkable Sleeve',
-                'certification' => 'Kualifikasi Mutu Berstandar ISO 21809, NACE SP0169, DNV-RP-F106 & AWWA C209/C214',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'duration' => '3 Hari (Teori Proteksi Katodik & Pipa, Praktik Induksi Pemanas & HSS Sleeve)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Pipe Joint Mockup',
+                'certification' => 'Sertifikat Kompetensi Teknisi Pipe Coating Berstandar ISO 21809, NACE SP0169 & AWWA C214',
+                'price_note' => 'Termasuk Selongsong Heat Shrink Sleeve, Tape Wrapping, Gas Propana & Ujian',
                 'icon' => 'bi-diagram-3',
-                'short_description' => 'Layanan jasa pelapisan proteksi korosi jalur pipa transmisi gas, minyak, dan air bawah tanah (buried pipeline) serta pelapisan sambungan las lapangan (field joint coating).',
-                'overview' => 'Layanan Jasa Pipe Coating, Field Joint Coating & Wrapping menghadirkan solusi komprehensif perlindungan korosi infrastruktur perpipaan darat (onshore) dan bawah laut (offshore). Melayani aplikasi pabrik maupun pengerjaan langsung di rute jalur pipa (field joint coating). Kami ahli dalam pemasangan Heat Shrinkable Sleeve (HSS) tiga lapis berpadu mastik perekat kuat, Liquid Epoxy Field Joint, Cold Applied Bituminous / Polyethylene Wrapping Tape, serta sistem proteksi katodik pendukung guna mencegah korosi tanah dan erosi arus liar.',
-                'target_audience' => 'Kontraktor Pipeline Migas, Pengelola Jalur Pipa Gas Nasional, Jaringan Air Bersih Industri, dan Fasilitas Hydrant',
+                'short_description' => 'Pelatihan teknik pelapisan pipa transmisi migas darat dan bawah laut, aplikasi field joint coating sambungan las, pemasangan Heat Shrinkable Sleeve (HSS), dan wrapping tape.',
+                'overview' => 'Training Pipe Coating, Field Joint Coating & Wrapping membekali peserta dengan kompetensi unggul dalam melindungi jaringan pipa transmisi minyak, gas bumi, dan air bersih dari bahaya korosi bawah tanah maupun air laut. Peserta mempelajari integrasi sistem pelapisan pabrik (3LPE, 3LPP, FBE) dengan pelapisan sambungan lapangan (field joint coating). Praktikum intensif meliputi grit blasting keliling sambungan las, pemanasan awal pipa menggunakan kumparan induksi elektromagnetik, pemasangan Heat Shrinkable Sleeve (HSS) tiga lapis, dan uji kelupasan adhesi (peel test) sesuai ISO 21809.',
+                'target_audience' => 'Teknisi Pipa Migas, Juru Las Pipeline, Pengawas Lapangan Transmisi Gas, Kontraktor EPC Pipa, dan Teknisi Proteksi Korosi',
                 'curriculum' => [
-                    'Scope 1: Asesmen Spesifikasi Jalur Pipa: Suhu Operasi, Tekanan Gas, dan Karakteristik Korosivitas Tanah',
-                    'Scope 2: Pembersihan Sambungan Las (Girth Weld): Grit Blasting Bergerak Standar Sa 2.5 dengan Profil 60-100 Mikron',
-                    'Scope 3: Pengujian Kontaminasi Klorida pada Sambungan Pipa Menggunakan Bresle Method ISO 8502-6',
-                    'Scope 4: Pemanasan Awal Sambungan Pipa Menggunakan Kumparan Induksi Elektromagnetik (Induction Heating Coil)',
-                    'Scope 5: Aplikasi Pelapis Dasar Fusion Bonded Epoxy (FBE) Cair atau Primer Bebas Pelarut Solven',
-                    'Scope 6: Pemasangan & Pembakaran Selongsong Susut Panas (Heat Shrinkable Sleeve - HSS) Tiga Lapis',
-                    'Scope 7: Pemasangan Cold Applied Polyethylene Wrapping Tape dengan Tumpang Tindih (Overlap) 55%',
-                    'Scope 8: Pengujian Holiday Detector Bertegangan Tinggi, Uji Kelupasan Adhesi (Peel Test), dan Dokumentasi ITP'
+                    'Modul 1: Dasar Korosi Tanah & Proteksi Korosi Jalur Perpipaan: Keterkaitan Proteksi Katodik (CP) dan Pelapis Pipa',
+                    'Modul 2: Karakteristik Pelapis Pabrik Utama: Fusion Bonded Epoxy (FBE), 3-Layer Polyethylene (3LPE) & 3LPP',
+                    'Modul 3: Preparasi Permukaan Sambungan Las Pipa (Girth Weld): Blasting Portabel Standar Sa 2.5 & Uji Klorida',
+                    'Modul 4: Teknik Pemanasan Awal Sambungan Pipa: Penggunaan Obor Propana Merata & Induksi Elektromagnetik',
+                    'Modul 5: Prosedur Pemasangan Selongsong Susut Panas (Heat Shrinkable Sleeve - HSS) Tiga Lapis Bebas Kerutan',
+                    'Modul 6: Aplikasi Cold Applied Polyethylene Wrapping Tape dengan Tumpang Tindih (Overlap) 55%',
+                    'Modul 7: Pengujian Mutu Lapangan: Holiday Testing Kalung Pipa (Spring Electrode) & Uji Kelupasan Adhesi (Peel Test 90°)',
+                    'Modul 8: Evaluasi Akhir: Ujian Teori Tertulis & Asesmen Praktik Langsung Pemasangan HSS Sleeve pada Pipa Baja'
                 ],
                 'requirements' => [
-                    'Akses jalur perpipaan galian (pipeline trench) dengan ruang bebas minimal 60 cm di bawah pipa',
-                    'Spesifikasi diameter pipa luar, ketebalan dinding pipa, dan jenis pelapis pabrik pipa utama (3LPE/FBE)',
-                    'Kondisi pipa kering bebas dari air rembesan tanah atau genangan air parit jalur',
-                    'Kesiapan prosedur penyambungan pipa las yang telah lolos inspeksi uji radiografi NDT'
+                    'Pendidikan minimal SMA/SMK atau memiliki pengalaman teknis di sektor perpipaan atau konstruksi baja',
+                    'Fotokopi KTP dan Ijazah pendidikan terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dari dokter',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Mesin Blasting Portabel Khusus Sambungan Pipa & Sistem Kumparan Pemanas Induksi Bergerak',
-                    'Unit Pemanas Obor Gas Propana dengan Nozzle Semprotan Api Lebar Merata',
-                    'Peralatan Uji Lengkap: Spring Holiday Tester Jalur Pipa & Timbangan Uji Tarik Kelupasan Peel Test',
-                    'Material Selongsong Panas & Wrapping Tape Berkualitas Tinggi Berstandar Industri Migas',
-                    'Tenaga Teknisi Bersertifikat Pengalaman Ribuan Joint Pipa Proyek Transmisi Nasional'
+                    'Sertifikat Kompetensi Teknisi Pipe Coating & Field Joint Wrapping Berstandar Industri',
+                    'Buku Modul Teknis Pelatihan Lengkap & Format Inspection and Test Plan (ITP) Pipa',
+                    'Praktikum Nyata Pemasangan Sleeve Pemanas pada Pipa Baja Diameter Nyata',
+                    'Peralatan Uji Lapangan: Spring Coil Holiday Tester & Spring Scale Peel Adhesion Tester',
+                    'Konsumsi Lengkap Selama Kegiatan Pelatihan Berlangsung'
                 ],
-                'meta_title' => 'Layanan Jasa Pipe Coating & Field Joint Wrapping Pipa Migas',
-                'meta_description' => 'Jasa field joint coating dan pelapisan pipa transmisi gas minyak bawah tanah. Standar ISO 21809, pemasangan heat shrink sleeve, FBE, wrapping tape anti korosi.'
+                'meta_title' => 'Training Pipe Coating & Field Joint Wrapping Pipa Migas Bersertifikat',
+                'meta_description' => 'Program training field joint coating dan pelapisan pipa transmisi gas minyak bawah tanah. Standar ISO 21809, NACE SP0169, pemasangan heat shrink sleeve, FBE, wrapping tape.'
             ],
             [
                 'id' => 7,
-                'title' => 'Layanan Jasa Hot-Dip Galvanizing & Thermal Spray Metalizing',
-                'slug' => 'jasa-hot-dip-galvanizing-thermal-spray-metalizing',
+                'title' => 'Training Hot-Dip Galvanizing & Thermal Spray Metalizing (TSA)',
+                'slug' => 'training-hot-dip-galvanizing-thermal-spray-metalizing',
                 'level_code' => 'Metalizing Specialist',
-                'level_name' => 'Layanan Metalurgi / Pelapisan Logam Seng & Aluminium Pelindung',
+                'level_name' => 'Program Sertifikasi Spesialis Pelapisan Logam Seng & Aluminium Pelindung',
                 'badge' => 'Daya Tahan Ekstrem',
-                'duration' => 'Kontrak Proyek Fabrikasi / Pengerjaan Lapangan Fleksibel',
-                'method' => 'Pelapisan Logam Celup Panas & Semprotan Kawat Busur Listrik (Twin Wire Arc Spray)',
-                'certification' => 'Kualifikasi Mutu Berstandar ASTM A123, ISO 1461, NACE SP0388 & AWS C2.23M/SSPC-CS 23.00',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'duration' => '3 Hari (Teori Metalurgi Korosi, Praktik Arc Spray Metalizing & Pengujian Mutu)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Twin Wire Arc Spraying',
+                'certification' => 'Sertifikat Kompetensi Metalizing Specialist Berstandar ASTM A123, ISO 1461 & AWS C2.23M',
+                'price_note' => 'Termasuk Bahan Kawat Aluminium/Seng, Mesin Arc Spray & Ujian Asesmen',
                 'icon' => 'bi-fire',
-                'short_description' => 'Layanan jasa pelapisan logam pelindung seng dan aluminium menggunakan metode celup panas (Hot-Dip Galvanizing) dan semprot busur kawat listrik (Thermal Spray Metalizing - TSA) untuk struktur laut dan atmosfer agresif.',
-                'overview' => 'Layanan Jasa Hot-Dip Galvanizing & Thermal Spray Metalizing memberikan proteksi katodik pengorbanan (galvanic sacrificial protection) jangka panjang pada baja struktural. Kami melayani pencelupan galvanis panas skala pabrik untuk tiang transmisi, guardrail jalan tol, dan struktur baja fabrikasi sesuai ASTM A123. Selain itu, kami menghadirkan layanan Thermal Spray Aluminum (TSA) / Zinc (TSZ) portabel di lapangan menggunakan mesin Twin Wire Arc Spray berkecepatan tinggi, menghasilkan lapisan metalurgi padat tahan abrasi, panas tinggi, dan paparan air laut ekstrem tanpa degradasi selama lebih dari 30 tahun.',
-                'target_audience' => 'Fabrikator Rangka Baja Menara, Industri Energi Panas Bumi (Geothermal), Dermaga Pelabuhan Laut, dan Pengelola Jembatan',
+                'short_description' => 'Pelatihan teknik pelapisan proteksi logam menggunakan metode galvanisasi celup panas (Hot-Dip Galvanizing) dan semprotan logam kawat busur listrik (Thermal Spray Aluminium / Zinc Metalizing).',
+                'overview' => 'Training Hot-Dip Galvanizing & Thermal Spray Metalizing membekali peserta dengan keahlian tingkat tinggi dalam memberikan proteksi katodik jangka panjang (30+ tahun) pada infrastruktur baja kritis. Peserta mempelajari tahapan proses galvanis celup panas (degreasing, pickling asam, fluxing, penyerapan seng cair pada suhu 450°C), serta teknik mutakhir Thermal Spray Coating (TSA/TSZ) menggunakan mesin Twin Wire Arc Spray. Pelatihan mencakup kepatuhan standar ASTM A123, ISO 1461, pengujian ketebalan lapisan paduan seng-besi (eta, zeta, delta layer), dan uji adhesi pull-off.',
+                'target_audience' => 'Teknisi Metalurgi, Operator Mesin Metalizing, Inspektur Mutu Fabrikasi Baja, Supervisor Dermaga Pelabuhan, dan Manajer Pemeliharaan Tower Transmisi Listrik',
                 'curriculum' => [
-                    'Scope 1: Karakterisasi Baja & Asesmen Komposisi Kimia Substrat (Kandungan Silikon & Fosfor Sandelin Effect)',
-                    'Scope 2: Proses Degreasing Basa, Pickling Asam Klorida, Rinsing Air Bersih, dan Fluxing Seng Amonium Klorida',
-                    'Scope 3: Proses Pencelupan Baja ke Bak Seng Cair Panas Suhu 450°C Membentuk Lapisan Paduan Intermetalik Fe-Zn',
-                    'Scope 4: Pengendalian Mutu Galvanis: Pengukuran Ketebalan Lapisan Seng Mikron Menggunakan Alat Ukur Magnetik ASTM A123',
-                    'Scope 5: Pengerjaan Thermal Spray Aluminum (TSA): Blasting Sa 3 Logam Putih Menggunakan Abrasif Aluminium Oksida Keras',
-                    'Scope 6: Pengoperasian Mesin Twin Wire Arc Spray: Pengaturan Arus Listrik Amperase, Tekanan Udara Atomisasi & Feed Rate',
-                    'Scope 7: Aplikasi Seal Coat Cair Penutup Pori-Pori Lapisan Metalizing Menggunakan Formula Silikon Tahan Panas',
-                    'Scope 8: Pengujian Ketebalan Lapisan Logam, Uji Adhesi Tarik ASTM D4541 (>7 MPa) & Inspeksi Visual Tanpa Retak'
+                    'Modul 1: Prinsip Perlindungan Korosi Katodik (Galvanic Action) Logam Seng & Aluminium pada Substrat Baja',
+                    'Modul 2: Tahapan Kimia Hot-Dip Galvanizing: Degreasing, Water Rinsing, Acid Pickling, Pre-Fluxing & Drying',
+                    'Modul 3: Metalurgi Reaksi Baja-Seng Cair: Pembentukan Lapisan Paduan Intermetalik (Gamma, Delta, Zeta, Eta Layer)',
+                    'Modul 4: Pencegahan & Remediasi Cacat Galvanis: Dross Inclusions, Ash Staining, White Rust & Zinc Splatters',
+                    'Modul 5: Teknologi Thermal Spray Coating (TSA/TSZ): Prinsip Twin Wire Arc Spray vs Flame Spraying Logam',
+                    'Modul 6: Persiapan Permukaan Wajib Metalizing: Blasting Sangat Kasar Sa 3 (White Metal) dengan Profil 75-100 Mikron',
+                    'Modul 7: Praktikum Aplikasi Thermal Spray Aluminium (TSA), Pengaturan Tekanan Udara Atomisasi & Voltase Busur',
+                    'Modul 8: Pengujian Mutu Lapisan Metalizing: Uji Tekuk Mandrel Test, Uji Pahat Chisel Test & Uji Adhesi ASTM D4541'
                 ],
                 'requirements' => [
-                    'Desain fabrikasi baja telah dilengkapi lubang ventilasi udara dan lubang pengeluaran cairan galvanis',
-                    'Permukaan baja bebas dari terak las tebal (slag), cat lama, atau kontaminasi minyak yang mengendap',
-                    'Penentuan target ketebalan lapisan mikro seng (galvanizing) atau target mikron semprotan TSA (200-350 mikron)',
-                    'Koordinasi waktu pengiriman material struktur baja ke bengkel workshop atau jadwal pengerjaan lapangan'
+                    'Pendidikan minimal SMA/SMK atau berpengalaman kerja di bidang pengelasan, fabrikasi, atau manufaktur logam',
+                    'Fotokopi KTP dan Ijazah pendidikan terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dan penglihatan normal dari dokter',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Fasilitas Bak Pencelupan Galvanis Panas Kapasitas Panjang dengan Pengendalian Suhu Komputerisasi',
-                    'Unit Mesin Semprot Logam Twin Wire Arc Spray Lapangan Lengkap Kontrol Arus & Kompresor Udara Bersih',
-                    'Alat Uji Mutu Metalurgi: PosiTector Digital Micrometer, Pull-Off Dolly Tester Khusus Lapisan Logam',
-                    'Tim Ahli Metalurgi dan Teknisi Aplikator Berpengalaman di Berbagai Proyek Struktur Lepas Pantai',
-                    'Sertifikasi Garansi Ketahanan Lapisan Logam Bebas Perawatan Hingga Puluhan Tahun Pemakaian'
+                    'Sertifikat Kompetensi Resmi Spesialis Metalizing & Hot-Dip Galvanizing',
+                    'Modul Lengkap Standar Mutu ASTM A123, ISO 1461 & AWS C2.23M',
+                    'Praktikum Nyata Mengoperasikan Mesin Twin Wire Arc Spray Metalizing',
+                    'Alat Uji Laboratorium: Magnetic Coating Thickness Gauge & Pull-Off Tester',
+                    'Makan Siang dan Snack Selama Pelatihan Berlangsung'
                 ],
-                'meta_title' => 'Layanan Jasa Hot-Dip Galvanizing & Thermal Spray Metalizing TSA',
-                'meta_description' => 'Jasa galvanis celup panas ASTM A123 dan thermal spray aluminium TSA. Proteksi katodik terbaik untuk menara baja, dermaga laut, dan pipa geothermal.'
+                'meta_title' => 'Training Hot-Dip Galvanizing & Thermal Spray Metalizing Bersertifikat',
+                'meta_description' => 'Training galvanis celup panas ASTM A123 dan thermal spray aluminium TSA. Kuasai proteksi katodik jangka panjang untuk menara baja, jembatan, dan struktur dermaga laut.'
             ],
             [
                 'id' => 8,
-                'title' => 'Layanan Jasa K3 & Pengendalian Bahaya Blasting Painting Ruang Terbatas',
-                'slug' => 'jasa-k3-blasting-painting-ruang-terbatas',
+                'title' => 'Training K3 & Supervisi Blasting Painting Ruang Terbatas',
+                'slug' => 'training-k3-blasting-painting-ruang-terbatas',
                 'level_code' => 'HSE Coating Specialist',
-                'level_name' => 'Layanan Keselamatan / Konsultan & Supervisor K3 Proteksi Korosi',
-                'badge' => 'Zero Incident Support',
-                'duration' => 'Pendampingan Penuh Proyek / Supervisi Keselamatan Lapangan',
-                'method' => 'Audit Keselamatan Kerja, Pengujian Udara Atmosfer, Pengawasan APD Suplai Udara & Tanggap Darurat',
-                'certification' => 'Kualifikasi Pengawas K3 Berstandar Industri, OSHA 1910/1926 & NIOSH Certified Respiratory Protection',
-                'price_note' => 'Hubungi Tim Konsultan Teknis & Estimator Proyek',
+                'level_name' => 'Program Pelatihan & Sertifikasi Supervisor Keselamatan Kerja Blasting Painting',
+                'badge' => 'Zero Incident Leadership',
+                'duration' => '3 Hari (Teori Regulasi K3, Simulasi Respirator Suplai Udara & Penyelamatan Tangki)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Confined Space Entry Simulation',
+                'certification' => 'Sertifikat Kompetensi Supervisor K3 Blasting Painting Berstandar Industri & OSHA 1910/1926',
+                'price_note' => 'Termasuk Pemurni Udara Grade D, Detektor Multi-Gas, Harness & Ujian',
                 'icon' => 'bi-shield-fill-check',
-                'short_description' => 'Layanan supervisi keselamatan kerja (K3), penyediaan peralatan pernapasan udara suplai (supplied-air respirator), deteksi gas atmosfer, dan pengawasan bahaya kebakaran pada proyek blasting painting.',
-                'overview' => 'Layanan Jasa K3 & Pengendalian Bahaya Blasting Painting Ruang Terbatas memastikan seluruh pengerjaan proteksi korosi berjalan aman tanpa insiden kecelakaan (*Zero Harm*). Pekerjaan abrasive blasting dan pengecatan cat solven organik menyimpan risiko tinggi berupa paparan debu silikosis, uap pelarut beracun dan mudah meledak (flammable solvent vapors), kebisingan ekstrem, serta bahaya kekurangan oksigen di dalam tangki. Kami menyediakan tim supervisor K3 berpengalaman, peralatan pemurnian udara pernapasan Grade D, detektor multi-gas otomatis, sistem ventilasi tahan ledakan, dan prosedur penyelamatan darurat.',
-                'target_audience' => 'Manajemen Fasilitas Industri, Kontraktor Pengerjaan Turnaround Kilang, Tim HSE Korporasi, dan Pengawas Proyek B2B',
+                'short_description' => 'Pelatihan keselamatan kerja (K3) komprehensif bagi supervisor dan teknisi yang bekerja pada area berisiko tinggi: ruang terbatas, debu silika, uap pelarut mudah terbakar, dan tekanan tinggi.',
+                'overview' => 'Training K3 & Supervisi Blasting Painting Ruang Terbatas membekali peserta dengan kapabilitas pencegahan insiden fatal pada operasional preparasi dan pengecatan industri. Peserta mendalami identifikasi bahaya uap pelarut cat (flammable & toxic vapors), risiko keracunan debu timbal dan silikosis, pengendalian listrik statis penyebab ledakan, sistem pemurnian udara pernapasan (breathing air grade D), pengoperasian continuous multi-gas detector, prosedur izin masuk ruang terbatas (confined space permit), serta teknik penyelamatan darurat (emergency rescue).',
+                'target_audience' => 'Supervisor HSE, Petugas K3 Pabrik & Galangan, Pengawas Lapangan Blasting Painting, Foreman Konstruksi, dan Anggota Tim Emergency Response',
                 'curriculum' => [
-                    'Scope 1: Identifikasi Bahaya Kritis Blasting Painting: Keracunan Uap Solven, Paparan Debu Silika & Ledakan Statis',
-                    'Scope 2: Prosedur Pembumian Listrik Statis (Grounding & Bonding) pada Selang Blasting & Nozzle Konduktif',
-                    'Scope 3: Mobilisasi Breathing Air Compressor Filter Box Pemurni Udara Pernapasan Menghasilkan Grade D Breathing Air',
-                    'Scope 4: Kalibrasi & Pemasangan Sensor Gas Detektor Multi-Kanal Kontinu: Pemantauan %LEL, O2, H2S & Karbon Monoksida (CO)',
-                    'Scope 5: Inspeksi Rutin Alat Pelindung Diri: Helm Blasting Bertekanan Positif, Filter Karbon Aktif & Earmuff Ganda',
-                    'Scope 6: Manajemen Pengendalian Iklim Ruang Terbatas Menggunakan Air Mover Venturi & Blower Tahan Ledakan',
-                    'Scope 7: Penyusunan Dokumen Job Safety Analysis (JSA), Form Izin Masuk Tangki & Prosedur Lockout Tagout (LOTO)',
-                    'Scope 8: Pembentukan Tim Penyelamat Tanggap Darurat (Confined Space Rescue Team) & Simulasi Evakuasi Medis Cepat'
+                    'Modul 1: Identifikasi Bahaya Kritis Operasional Blasting Painting: Ledakan Uap Cat, Debu Silika & Gas Beracun',
+                    'Modul 2: Regulasi Keselamatan Kerja Nasional & Internasional (OSHA 1910.134 Respiratory Protection & OSHA 1926.57)',
+                    'Modul 3: Manajemen Bahaya Ruang Terbatas (Confined Space): Pengujian Atmosfer (%LEL, O2, CO, H2S) & Izin Kerja Masuk',
+                    'Modul 4: Sistem Pemurnian Udara Pernapasan Helm Blasting: Standar Kualitas Grade D Breathing Air & Filter Karbon',
+                    'Modul 5: Pengendalian Bahaya Listrik Statis & Kebakaran: Grounding & Bonding Mesin Blast Pot Serta Selang Konduktif',
+                    'Modul 6: Ventilasi Ruang Terbatas: Penggunaan Air Mover Venturi & Blower Tahan Ledakan (Explosion-Proof Blower)',
+                    'Modul 7: Praktikum Simulasi Penyelamatan Darurat Ruang Terbatas: Pemakaian Tripod Rescue, Winch & Full Body Harness',
+                    'Modul 8: Evaluasi Akhir: Ujian Teori K3 Industri & Asesmen Pembuatan Job Safety Analysis (JSA) Serta Izin Masuk Tangki'
                 ],
                 'requirements' => [
-                    'Dokumen Job Safety Analysis (JSA) dan Hazard Identification and Risk Assessment proyek',
-                    'Aksesibilitas manhole tangki atau lokasi kerja untuk penempatan peralatan keselamatan evakuasi',
-                    'Koordinasi terpadu antara supervisor keselamatan kami dengan divisi HSE induk fasilitas klien',
-                    'Penyediaan jalur komunikasi darurat dan titik kumpul evakuasi (assembly point) yang jelas'
+                    'Pendidikan minimal SMA/SMK atau berpengalaman di bidang K3, industri fabrikasi, atau konstruksi',
+                    'Fotokopi KTP dan Ijazah pendidikan terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dari dokter (mampu menggunakan respirator pernapasan)',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
                 ],
                 'facilities' => [
-                    'Unit Sistem Pemurni Udara Pernafasan Kompresor (Breathing Air Filtration Panel) Lengkap Alarm Gas CO',
-                    'Alat Deteksi Gas Portabel Multi-Gas Terkalibrasi dengan Layar Tampilan Real-Time Tingkat Bahaya',
-                    'Peralatan Evakuasi Ruang Terbatas Lengkap: Tripod Rescue, Winch Katrol, Body Harness & Tandu Khusus',
-                    'Supervisor Keselamatan Kerja Berpengalaman Memimpin Tim di Berbagai Kilang Berbahaya Tinggi',
-                    'Laporan Audit Keselamatan Kerja Berkala & Dokumentasi Pemantauan Lingkungan Tanpa Catatan Insiden'
+                    'Sertifikat Kompetensi Resmi Supervisor K3 Blasting Painting Ruang Terbatas',
+                    'Modul Pelatihan Lengkap, Buku Format Job Safety Analysis (JSA) & Izin Masuk Tangki',
+                    'Praktikum Nyata Menggunakan Breathing Air Compressor Filtration Panel & Detektor Multi-Gas',
+                    'Alat Keselamatan Praktik: Tripod Rescue, Full Body Harness, Tandu Lipat & Helm Blasting',
+                    'Konsumsi Lengkap Selama Kegiatan Pelatihan Berlangsung'
                 ],
-                'meta_title' => 'Layanan Jasa K3 Blasting Painting & Pengawasan Ruang Terbatas',
-                'meta_description' => 'Jasa supervisi keselamatan kerja K3 blasting painting dan ruang terbatas. Menyediakan supplied-air breathing filter box, deteksi gas atmosfer, dan pencegahan ledakan.'
+                'meta_title' => 'Training K3 Blasting Painting & Pengawasan Ruang Terbatas Bersertifikat',
+                'meta_description' => 'Program pelatihan K3 supervisi blasting painting dan ruang terbatas bersertifikat. Standar OSHA, pemurnian udara pernafasan grade D, deteksi gas LEL, izin masuk tangki.'
             ]
         ];
     }
 
     /**
-     * Menghasilkan 200 Judul Artikel Layanan Jasa Coating Blasting Painting
-     * MURNI JASA & TEKNIS - MURNI LAYANAN JASA
+     * Menghasilkan 200 Judul Artikel Training Coating Blasting Painting
+     * MURNI TRAINING & PELATIHAN BERKUALITAS TINGGI
      */
     public static function get200ArticleTitles(): array
     {
         return [
-            "Jasa Coating Blasting Painting Resmi & Berpengalaman di {region}",
-            "Layanan Jasa Abrasive Blasting Standar Sa 2.5 Struktur Baja di {region}",
-            "Jasa Protective Coating Cat Industri Lapisan Tebal di {region}",
-            "Layanan Jasa Coating Inspector QA/QC Proteksi Korosi di {region}",
-            "Jasa Hydroblasting & UHP Waterjetting Pembersihan Logam di {region}",
-            "Layanan Jasa Internal Lining Tangki Timbun Bahan Bakar di {region}",
-            "Jasa Sandblasting Tangki Minyak & Bejana Tekan di {region}",
-            "Layanan Jasa Pipe Coating & Field Joint Wrapping Jalur Pipa di {region}",
-            "Jasa Hot-Dip Galvanizing & Thermal Spray Aluminum Metalizing di {region}",
-            "Layanan Jasa K3 & Supervisi Blasting Painting Ruang Terbatas di {region}",
-            "Jasa Pengecatan Struktur Baja Jembatan Tahan Cuaca Ekstrem di {region}",
-            "Layanan Jasa Blasting Lambung Kapal Galangan Shipyard di {region}",
-            "Jasa Epoxy Floor Coating Lantai Pabrik & Gudang Industri di {region}",
-            "Layanan Jasa Proteksi Korosi Fasilitas Lepas Pantai Offshore di {region}",
-            "Jasa Pengecatan Tiang Listrik Baja Menara Transmisi di {region}",
-            "Layanan Jasa Abrasive Sandblasting Konstruksi Baja Pabrik di {region}",
-            "Jasa Pelapisan Kaki Rangka Struktur Dermaga Pelabuhan di {region}",
-            "Layanan Jasa Coating Tangki Kimia Asam Menggunakan Glass Flake di {region}",
-            "Jasa Pengecatan Perpipaan Pabrik Kelapa Sawit & Oleokimia di {region}",
-            "Layanan Jasa Inspeksi Ketebalan Cat Kering DFT SSPC-PA 2 di {region}",
-            "Jasa Uji Adhesi Tarik Dolly Pull-Off Test ASTM D4541 di {region}",
-            "Layanan Jasa Deteksi Kebocoran Pinhole Holiday Detector di {region}",
-            "Jasa Pembersihan Korosi Permukaan Baja Pelat Boiler di {region}",
-            "Layanan Jasa Pelapisan Cerobong Asap Pabrik Tahan Panas Tinggi di {region}",
-            "Jasa Sandblasting & Pengecatan Alat Berat Pertambangan di {region}",
-            "Layanan Jasa Coating Bak Penampungan Limbah B3 Industri di {region}",
-            "Jasa Pengecatan Rangka Atap Baja Gudang Logistik Modern di {region}",
-            "Layanan Jasa Blasting Nozzle Venturi Bertekanan Stabil 100 PSI di {region}",
-            "Jasa Pelapisan Pipa Bawah Tanah Menggunakan Heat Shrink Sleeve di {region}",
-            "Layanan Jasa Thermal Spray Metalizing Pintu Air Bendungan di {region}",
-            "Jasa Proteksi Korosi Siku Rangka Baja Menara Telekomunikasi di {region}",
-            "Layanan Jasa Coating Saluran Gas Metana & Pipa Biogas di {region}",
-            "Jasa Preparasi Permukaan Logam Standar Sa 3 White Metal di {region}",
-            "Layanan Jasa Pelapisan Tangki Asam Sulfat Menggunakan Novolac Epoxy di {region}",
-            "Jasa Pengecatan Struktur Baja Crane Pelabuhan Peti Kemas di {region}",
-            "Layanan Jasa Sandblasting Silo Penyimpanan Semen & Abu Terbang di {region}",
-            "Jasa Pelapisan Pipa Minyak Mentah Tahan Gas Korosif H2S di {region}",
-            "Layanan Jasa Coating Inspector Sertifikasi NACE AMPP di {region}",
-            "Jasa Uji Kontaminasi Garam Terlarut Bresle Patch Test di {region}",
-            "Layanan Jasa Aplikasi Cat Polyurethane Tahan Paparan Sinar UV di {region}",
-            "Jasa Pengecatan Struktur Baja Pabrik Peleburan Smelter Nikel di {region}",
-            "Layanan Jasa Blasting Pipa Pendingin Kondensor Pembangkit Listrik di {region}",
-            "Jasa Pelapisan Anti Korosi Rangka Baja Fasilitas Pupuk Kimia di {region}",
-            "Layanan Jasa Hydroblasting Pengelupasan Cat Tebal Tanpa Debu di {region}",
-            "Jasa Pengecatan Lapisan Tahan Gesekan Chute Batubara di {region}",
-            "Layanan Jasa Coating Tangki Pengolahan Air Bersih Water Treatment di {region}",
-            "Jasa Sandblasting Rangka Truk Tangki Semen Curah & Minyak di {region}",
-            "Layanan Jasa Pelapisan Pipa Distribusi Amonia Cair Bertekanan di {region}",
-            "Jasa Proteksi Korosi Pipa Pemadam Kebakaran Fire Hydrant di {region}",
-            "Layanan Jasa Coating Struktur Baja Kanopi SPBU Bahan Bakar di {region}",
-            "Jasa Pengecatan Fasilitas Pengolahan Pulp & Kertas di {region}",
-            "Layanan Jasa Aplikasi Inorganic Zinc Ethyl Silicate Primer di {region}",
-            "Jasa Pelapisan Palka Kapal Muatan Curah Bauksit & Pasir di {region}",
-            "Layanan Jasa Sandblasting Tangki Slurry Tambang Mineral Emas di {region}",
-            "Jasa Pengecatan Rangka Baja Fasilitas Pembangkit Listrik PLTU di {region}",
-            "Layanan Jasa Coating Pipa Pasokan Uap Suhu Ekstrem di {region}",
-            "Jasa Pelapisan Dinding Penahan Tanah Sheet Pile Baja Muara di {region}",
-            "Layanan Jasa Uji Mutu Pelapisan Logam Sesuai ISO 12944 Kategori CX di {region}",
-            "Jasa Pengecatan Struktur Baja Menara Uji Beban Pelabuhan di {region}",
-            "Layanan Jasa Sandblasting Fabrikasi Rangka Jembatan Timbang di {region}",
-            "Jasa Pelapisan Pipa Pengeboran Sumur Minyak Drill Pipe di {region}",
-            "Layanan Jasa Coating Tangki Pewarnaan Tekstil Tahan Bahan Kimia di {region}",
-            "Jasa Proteksi Korosi Tiang Pancang Baja Struktur Dermaga di {region}",
-            "Layanan Jasa Pengecatan Rangka Portal Gantry Crane Peti Kemas di {region}",
-            "Jasa Sandblasting Sambungan Las Tangki Tekan LPG Spherical di {region}",
-            "Layanan Jasa Coating Lantai Ruang Bersih Farmasi & Laboratorium di {region}",
-            "Jasa Pengecatan Struktur Baja Stadion Olahraga Tahan Karat di {region}",
-            "Layanan Jasa Pelapisan Saluran Udara Cerobong Gas Buang Boiler di {region}",
-            "Jasa Proteksi Korosi Rangka Pemasangan Solar PV Sel Surya di {region}",
-            "Layanan Jasa Sandblasting Tabung Filter Pengolahan Air Limbah di {region}",
-            "Jasa Pelapisan Tangki Asam Klorida HCl Rubber Lining di {region}",
-            "Layanan Jasa Coating Jalur Pipa Hidrolik Tekanan Tinggi di {region}",
-            "Jasa Pengecatan Struktur Penyangga Belt Conveyor Batubara di {region}",
-            "Layanan Jasa Hydroblasting Lambung Tongkang Minyak Sawit CPO di {region}",
-            "Jasa Proteksi Korosi Flange Pipa Menggunakan Wrapping Anti Bocor di {region}",
-            "Layanan Jasa Coating Rangka Baja Bangunan Workshop Alat Berat di {region}",
-            "Jasa Sandblasting Bejana Separator Minyak dan Gas Bumi di {region}",
-            "Layanan Jasa Pengecatan Sistem Tiga Lapis Primer Intermediate Topcoat di {region}",
-            "Jasa Pelapisan Pipa Kondensat Turbin Uap Tekanan Tinggi di {region}",
-            "Layanan Jasa Coating Inspector Pengawasan Proyek EPC Migas di {region}",
-            "Jasa Uji Kebocoran Dielektrik Lapisan Cat Holiday Spark Tester di {region}",
-            "Layanan Jasa Sandblasting Rangka Baja Hangar Pesawat Udara di {region}",
-            "Jasa Pelapisan Struktur Baja Menara Suar Pantai Karang di {region}",
-            "Layanan Jasa Coating Bak Reaktor Kimia Polimerisasi di {region}",
-            "Jasa Pengecatan Rangka Baja Struktur Pabrik Keramik di {region}",
-            "Layanan Jasa Proteksi Korosi Tangki Pendingin Udara Cair Chiller di {region}",
-            "Jasa Sandblasting Bagian Bawah Kapal Pelat Lambung Bawah Air di {region}",
-            "Layanan Jasa Pelapisan Tangki Pengendapan Clarifier Air Limbah di {region}",
-            "Jasa Pengecatan Pipa Penyalur Gas Alam Tekanan Tinggi di {region}",
-            "Layanan Jasa Coating Struktur Baja Menara Sirkulasi Air Pendingin di {region}",
-            "Jasa Proteksi Korosi Sambungan Baut Rangka Jembatan Layang di {region}",
-            "Layanan Jasa Sandblasting Silo Gandum & Pakan Ternak Industri di {region}",
-            "Jasa Pelapisan Rangka Baja Kereta Api Gerbong Tangki di {region}",
-            "Layanan Jasa Coating Inspector Validasi Dokumen ITP di {region}",
-            "Jasa Pengecatan Struktur Baja Fabrikasi Modul Lepas Pantai di {region}",
-            "Layanan Jasa Hydroblasting Tangki Penyimpanan Aspal Cair Panas di {region}",
-            "Jasa Proteksi Korosi Kaki Rangka Menara Pengeboran Rig Migas di {region}",
-            "Layanan Jasa Pelapisan Lantai Epoxy Anti Statis Pabrik Elektronik di {region}",
-            "Jasa Sandblasting Rangka Baja Gardu Induk Listrik Tegangan Ekstra Tinggi di {region}",
-            "Layanan Jasa Pengecatan Pipa Suplesi Air Pembangkit Listrik PLTA di {region}",
-            "Jasa Pelapisan Pipa Bawah Laut Menggunakan Beton & Epoksi Pelindung di {region}",
-            "Layanan Jasa Coating Tangki Penyimpanan Soda Api NaOH Kuat di {region}",
-            "Jasa Proteksi Korosi Struktur Baja Jembatan Penyeberangan Orang di {region}",
-            "Layanan Jasa Sandblasting Rangka Mesin Stone Crusher Pemecah Batu di {region}",
-            "Jasa Pelapisan Dinding Bak Kolam Pengolahan Air Asam Tambang di {region}",
-            "Layanan Jasa Coating Inspector Pengujian Ketebalan Film Basah WFT di {region}",
-            "Jasa Pengecatan Rangka Menara Pengeboran Panas Bumi Geothermal di {region}",
-            "Layanan Jasa Hydroblasting Pipa Pembuangan Slurry Batubara di {region}",
-            "Jasa Proteksi Korosi Kaki Konstruksi Silo Palka Kapal Curah di {region}",
-            "Layanan Jasa Sandblasting Struktur Baja H-Beam Gedung Bertingkat di {region}",
-            "Jasa Pelapisan Pipa Pembuangan Gas Asam Flare Header Kilang di {region}",
-            "Layanan Jasa Coating Tangki Minyak Solar Biodiesel B35 B40 di {region}",
-            "Jasa Pengecatan Rangka Baja Jembatan Kereta Api Melintasi Sungai di {region}",
-            "Layanan Jasa Thermal Spray Metalizing Seng Rangka Baja Jalan Tol di {region}",
-            "Jasa Proteksi Korosi Fasilitas Loading Arm Dermaga Minyak Bumi di {region}",
-            "Layanan Jasa Sandblasting Tabung Reaktor Hidrodesulfurisasi di {region}",
-            "Jasa Pelapisan Rangka Baja Menara Pemancar Komunikasi Seluler di {region}",
-            "Layanan Jasa Coating Inspector Uji Profil Kekasaran ASTM D4417 di {region}",
-            "Jasa Pengecatan Pipa Transmisi Avtur Pesawat Terbang Bandara di {region}",
-            "Layanan Jasa Hydroblasting Bejana Absorber Pabrik Kimia Urea di {region}",
-            "Jasa Proteksi Korosi Pintu Air Irigasi Baja Struktur Sungai di {region}",
-            "Layanan Jasa Sandblasting Rangka Baja Fasilitas Pabrik Gula di {region}",
-            "Jasa Pelapisan Tangki Penampung Molase Tetes Tebu Cair di {region}",
-            "Layanan Jasa Coating Lantai Workshop Perakitan Mesin Presisi di {region}",
-            "Jasa Pengecatan Struktur Baja Rangka Atap Hall Konvensi Megah di {region}",
-            "Layanan Jasa Proteksi Korosi Pipa Sirkulasi Air Laut Saline Water di {region}",
-            "Jasa Sandblasting Tangki Sludge Minyak Berat Heavy Fuel Oil di {region}",
-            "Layanan Jasa Pelapisan Cerobong Boiler Pabrik Kelapa Sawit di {region}",
-            "Jasa Pengecatan Struktur Baja Kerangka Fasilitas Pabrik Semen di {region}",
-            "Layanan Jasa Coating Inspector Pengawasan Kondisi Cuaca Dew Point di {region}",
-            "Jasa Uji Kekuatan Adhesi Cat Menggunakan Cross-Hatch Cutter di {region}",
-            "Layanan Jasa Hydroblasting Pengelupasan Karat Baja Struktur Kapal di {region}",
-            "Jasa Proteksi Korosi Sambungan Flange Pipa Menggunakan Sealant Isolasi di {region}",
-            "Layanan Jasa Sandblasting Rangka Baja Fasilitas Cold Storage Pendingin di {region}",
-            "Jasa Pelapisan Pipa Transportasi Gas Karbon Dioksida CO2 Kering di {region}",
-            "Layanan Jasa Coating Tangki Air Limbah Asam Pabrik Elektroplating di {region}",
-            "Jasa Pengecatan Struktur Baja Fasilitas Pabrik Pengolahan Logam di {region}",
-            "Layanan Jasa Thermal Spray Metalizing Siku Pelindung Rangka Baja di {region}",
-            "Jasa Proteksi Korosi Jalur Pipa Pemasok Air Industri Kawasan Berikat di {region}",
-            "Layanan Jasa Sandblasting Rangka Mesin Pengepres Karet Pabrik Ban di {region}",
-            "Jasa Pelapisan Dinding Dalam Tangki Air Kondensat Boiler Steril di {region}",
-            "Layanan Jasa Coating Inspector Pemeriksaan Mutu Stripe Coating di {region}",
-            "Jasa Pengecatan Struktur Baja Bangunan Pembangkit Listrik Tenaga Gas di {region}",
-            "Layanan Jasa Hydroblasting Pembersihan Jalur Pipa Berkerak Keras di {region}",
-            "Jasa Proteksi Korosi Rangka Baja Fasilitas Fabrikasi Kapal Ikan di {region}",
-            "Layanan Jasa Sandblasting Pelat Baja Dinding Bak Pengeringan Lumpur di {region}",
-            "Jasa Pelapisan Tangki Penyimpanan Pelarut Organik Tiner di {region}",
-            "Layanan Jasa Coating Pipa Buang Udara Kompresor Tekanan Tinggi di {region}",
-            "Jasa Pengecatan Struktur Baja Rangka Menara Saluran Udara Listrik di {region}",
-            "Layanan Jasa Proteksi Korosi Rangka Crane Dermaga Bongkar Muat di {region}",
-            "Jasa Sandblasting Tangki Timbun Bahan Kimia Farmasi Cair di {region}",
-            "Layanan Jasa Pelapisan Pipa Distribusi Gas Alam Kota Bertekanan Rendah di {region}",
-            "Jasa Pengecatan Struktur Baja Fasilitas Pengolahan Mineral Logam di {region}",
-            "Layanan Jasa Coating Inspector Penerbitan Berita Acara Mutu QA/QC di {region}",
-            "Jasa Uji Kebocoran Kontinuitas Lapisan Cat Menggunakan Wet Sponge di {region}",
-            "Layanan Jasa Hydroblasting Rangka Baja Konstruksi Jembatan Rangka di {region}",
-            "Jasa Proteksi Korosi Baja Struktur Fasilitas Pergudangan Kimia di {region}",
-            "Layanan Jasa Sandblasting Silo Semen Mortar Instan Siap Pakai di {region}",
-            "Jasa Pelapisan Pipa Pembuangan Gas Asam Pabrik Pupuk Nitrogen di {region}",
-            "Layanan Jasa Coating Tangki Pengolahan Air Minum PDAM Higienis di {region}",
-            "Jasa Pengecatan Struktur Baja Fasilitas Pemeliharaan Lokomotif di {region}",
-            "Layanan Jasa Thermal Spray Metalizing Pelat Baja Dek Kapal Cepat di {region}",
-            "Jasa Proteksi Korosi Pipa Transmisi Fluida Minyak Mentah Lapangan di {region}",
-            "Layanan Jasa Sandblasting Rangka Baja Tangki Mixer Pengaduk Aspal di {region}",
-            "Jasa Pelapisan Dinding Bejana Tangki Pemisah Air dan Gas di {region}",
-            "Layanan Jasa Coating Inspector Pengukuran Suhu Permukaan Substrat di {region}",
-            "Jasa Pengecatan Struktur Baja Menara Pengawas Pelabuhan Samudera di {region}",
-            "Layanan Jasa Hydroblasting Tabung Kondensor Pembangkit Geothermal di {region}",
-            "Jasa Proteksi Korosi Rangka Baja Kanopi Parkir Truk Tronton di {region}",
-            "Layanan Jasa Sandblasting Palka Kapal Muatan Biji Besi Curah di {region}",
-            "Jasa Pelapisan Pipa Pasokan Bahan Bakar Boiler Minyak Sawit di {region}",
-            "Layanan Jasa Coating Tangki Penampung Minyak Bekas Daur Ulang di {region}",
-            "Jasa Pengecatan Struktur Baja Rangka Gudang Distribusi Semen di {region}",
-            "Layanan Jasa Proteksi Korosi Tiang Rangka Baja Lampu Sorot Stadion di {region}",
-            "Jasa Sandblasting Silo Penampung Bahan Baku Klinker Semen di {region}",
-            "Layanan Jasa Pelapisan Pipa Transportasi Gas Oksigen Medis Cair di {region}",
-            "Jasa Pengecatan Struktur Baja Fasilitas Pabrik Peleburan Tembaga di {region}",
-            "Layanan Jasa Coating Inspector Penilaian Ketahanan Korosi ISO 12944 di {region}",
-            "Jasa Uji Kekuatan Tarik Adhesi Dolly Hidrolik ASTM D4541 di {region}",
-            "Layanan Jasa Hydroblasting Rangka Baja Konstruksi Fasilitas Dermaga di {region}",
-            "Jasa Proteksi Korosi Pipa Air Sirkulasi Pabrik Baja Paduan di {region}",
-            "Layanan Jasa Sandblasting Pelat Baja Dinding Tangki Ballast Kapal di {region}",
-            "Jasa Pelapisan Pipa Pemadam Kebakaran Sprinkler Gedung Bertingkat di {region}",
-            "Layanan Jasa Coating Tangki Penyimpanan Asam Nitrat HNO3 di {region}",
-            "Jasa Pengecatan Struktur Baja Fasilitas Pengolahan Gandum Tepung di {region}",
-            "Layanan Jasa Thermal Spray Metalizing Pipa Knalpot Mesin Industri di {region}",
-            "Jasa Proteksi Korosi Sambungan Las Rangka Baja Dermaga Peti Kemas di {region}",
-            "Layanan Jasa Sandblasting Bejana Deaerator Air Umpan Boiler di {region}",
-            "Jasa Pelapisan Dinding Bak Kolam Penetralan Air Limbah Kimia di {region}",
-            "Layanan Jasa Coating Inspector Audit Kelaikan Sertifikasi Aplikator di {region}",
-            "Jasa Pengecatan Struktur Baja Menara Suar Rambu Navigasi Laut di {region}",
-            "Layanan Jasa Hydroblasting Pipa Penyalur Gas Bumi Fasilitas Migas di {region}",
-            "Jasa Proteksi Korosi Kaki Rangka Konstruksi Menara Bor Tambang di {region}",
-            "Layanan Jasa Sandblasting Silo Penampungan Gula Pasir Industri di {region}",
-            "Jasa Pelapisan Pipa Saluran Gas Metana Pengolahan Sampah Terpadu di {region}",
-            "Layanan Jasa Coating Tangki Bahan Bakar Generator Genset Industri di {region}",
-            "Jasa Pengecatan Struktur Baja Rangka Jembatan Penyeberangan Pipa di {region}",
-            "Layanan Jasa Proteksi Korosi Pipa Air Pendingin Turbin Gas Siklus Kombinasi di {region}",
-            "Jasa Sandblasting dan Pelapisan Cat Epoxy Industri Bersertifikat di {region}",
-            "Layanan Jasa Coating Blasting Painting Terpadu dan Bergaransi di {region}"
+            "Training Coating Blasting Painting Resmi & Bersertifikasi di {region}",
+            "Training Operator Abrasive Blasting Standar Sa 2.5 Struktur Baja di {region}",
+            "Training Protective Coating Cat Industri Lapisan Tebal di {region}",
+            "Training Coating Inspector QA/QC Proteksi Korosi di {region}",
+            "Training Hydroblasting & UHP Waterjetting Pembersihan Logam di {region}",
+            "Training Internal Tank Lining Tangki Timbun Bahan Bakar di {region}",
+            "Training Sandblasting Tangki Minyak & Bejana Tekan di {region}",
+            "Training Pipe Coating & Field Joint Wrapping Jalur Pipa di {region}",
+            "Training Hot-Dip Galvanizing & Thermal Spray Aluminum Metalizing di {region}",
+            "Training K3 & Supervisi Blasting Painting Ruang Terbatas di {region}",
+            "Training Pengecatan Struktur Baja Jembatan Tahan Cuaca Ekstrem di {region}",
+            "Training Blasting Lambung Kapal Galangan Shipyard di {region}",
+            "Training Epoxy Floor Coating Lantai Pabrik & Gudang Industri di {region}",
+            "Training Proteksi Korosi Fasilitas Lepas Pantai Offshore di {region}",
+            "Training Pengecatan Tiang Listrik Baja Menara Transmisi di {region}",
+            "Training Abrasive Sandblasting Konstruksi Baja Pabrik di {region}",
+            "Training Pelapisan Kaki Rangka Struktur Dermaga Pelabuhan di {region}",
+            "Training Coating Tangki Kimia Asam Menggunakan Glass Flake di {region}",
+            "Training Uji Profil Kekasaran Permukaan Substrat Baja di {region}",
+            "Training Pengukuran Ketebalan Cat Kering DFT Sesuai SSPC-PA 2 di {region}",
+            "Training Uji Adhesi Pelapisan Cat Metode Pull-Off ASTM D4541 di {region}",
+            "Training Deteksi Cacat Pinhole Menggunakan Holiday Detector di {region}",
+            "Training Standar Kebersihan Sa 1 Sa 2 Sa 2.5 Sa 3 ISO 8501 di {region}",
+            "Training Seleksi Media Pasir Abrasif Garnet dan Steel Grit di {region}",
+            "Training Kalibrasi Nozzle Venturi dan Tekanan Udara Kompresor di {region}",
+            "Training Prosedur Pengujian Kontaminasi Garam Klorida Bresle Test di {region}",
+            "Training Sistem Cat Epoxy Primer dan Polyurethane Topcoat di {region}",
+            "Training Aplikasi Inorganic Zinc Silicate Tahan Temperatur Tinggi di {region}",
+            "Training Pelapisan Anti Fouling Lambung Kapal Maritim di {region}",
+            "Training Proteksi Pipa Bawah Tanah Menggunakan Heat Shrinkable Sleeve di {region}",
+            "Training Pemasangan Bitumen & Polyethylene Tape Wrapping Pipa di {region}",
+            "Training Pengoperasian Mesin Pompa Airless Spray 68:1 di {region}",
+            "Training Stripe Coating Manual Sudut Rangka Baja dan Sambungan Baut di {region}",
+            "Training Pemeliharaan Korosi Turbin Pembangkit Listrik di {region}",
+            "Training Coating Cerobong Asap Industri Flare Stack Tahan Panas di {region}",
+            "Training Solusi Korosi CUI Corrosion Under Insulation Jalur Pipa di {region}",
+            "Training Coating Pintu Air Bendungan dan Saluran Irigasi Baja di {region}",
+            "Training Blasting Painting Fasilitas Fabrikasi Modul Tambang di {region}",
+            "Training Pengawasan QA/QC Pengecatan Proyek EPC Nasional di {region}",
+            "Training Penyusunan Inspection and Test Plan ITP Coating di {region}",
+            "Training Audit Tingkat Flash Rusting Setelah Hydroblasting di {region}",
+            "Training Perlindungan Pernafasan Operator Helm Blasting Grade D di {region}",
+            "Training Keselamatan Sirkulasi Udara Exhaust Blower Ruang Tangki di {region}",
+            "Training Pengecatan Struktur Baja Silo Semen dan Pupuk di {region}",
+            "Training Proteksi Korosi Jalur Pipa Geothermal Panas Bumi di {region}",
+            "Training Coating Interior Pipa Air Bersih Standar Food Grade di {region}",
+            "Training Pembersihan Karat Kereta Api Gerbong Tangki di {region}",
+            "Training Pengecatan Fasilitas Pengolahan Kelapa Sawit PKS di {region}",
+            "Training Pelapisan Baja Konveyor Tambang Batubara di {region}",
+            "Training Proteksi Korosi Menara Pendingin Cooling Tower Industri di {region}",
+            "Training Pengendalian Uap Pelarut Cat Flammable Solvent di {region}",
+            "Training Pengukuran Suhu Titik Embun Dew Point Psychrometer di {region}",
+            "Training Rekayasa Anchor Pattern Baja Karbon Profil 75 Mikron di {region}",
+            "Training Blasting Menggunakan Media Steel Shot Daur Ulang di {region}",
+            "Training Aplikasi Cat Novolac Epoxy Tahan Asam Sulfat di {region}",
+            "Training Pengecatan Tangki Air Limbah WWTP IPAL Industri di {region}",
+            "Training Coating Pelat Baja Lambung Luar Tongkang Batubara di {region}",
+            "Training Proteksi Katodik Anoda Korban Paduan TSA Metalizing di {region}",
+            "Training Pengecatan Tiang Monopol Telekomunikasi Seluler di {region}",
+            "Training Blasting Pipa Penstock Pembangkit Listrik Tenaga Air di {region}",
+            "Training Aplikasi Polyurea Spray Pelapis Elastomerik Tangki di {region}",
+            "Training Penanganan Korosi Atmosferik Garam Laut Marine CX di {region}",
+            "Training Inspeksi Non-Destructive Testing NDT Visual Cat di {region}",
+            "Training Uji Kelupasan Adhesi Sambungan Pipa Peel Test di {region}",
+            "Training Pengecatan Pelat Baja Boiler Furnace Industri di {region}",
+            "Training Mitigasi Cacat Cat Blistering Osmotik Dinding Tangki di {region}",
+            "Training Pelapisan Cerobong Gas Buang Boiler Flue Gas Desulfurization di {region}",
+            "Training Blasting Painting Struktur Rangka Baja Atap Pabrik di {region}",
+            "Training Pengujian Kelembaban Udara Relative Humidity Permukaan di {region}",
+            "Training Aplikasi High Solid Epoxy Coating Zero VOC Ramah Lingkungan di {region}",
+            "Training Pengecatan Tangki Ballast Kapal Tahan Rendaman Air Laut di {region}",
+            "Training Blasting Painting Skid Migas Manifold dan Valve di {region}",
+            "Training Proteksi Korosi Struktur Crane Pelabuhan Peti Kemas di {region}",
+            "Training Pembersihan Kerak Kilang Petrokimia Tube Heat Exchanger di {region}",
+            "Training Pengecatan Pipa Header Distribusi Gas Bertekanan di {region}",
+            "Training Pelapisan Dudukan Tangki Saddle Support Bejana Tekan di {region}",
+            "Training Pemulihan Lapisan Cat Rusak Degradasi Sinar UV Matahari di {region}",
+            "Training Blasting Painting Rangka Truk Pengangkut Alat Berat di {region}",
+            "Training Proteksi Korosi Tiang Pancang Baja Struktur Dermaga di {region}",
+            "Training Coating Pipa Bawah Laut Menggunakan Sistem Concrete Coating di {region}",
+            "Training Penentuan Ketebalan WFT Menggunakan Comb Gauge Basah di {region}",
+            "Training Kalibrasi Positector Digital Surface Profile Gauge di {region}",
+            "Training Verifikasi Sertifikat Kalibrasi Alat Uji Mutu Coating di {region}",
+            "Training Analisis Pot Life dan Waktu Induksi Cat Dua Komponen di {region}",
+            "Training Manajemen Pembersihan Debu Sisa Blasting ISO 8502-3 di {region}",
+            "Training Pengujian Kadar Minyak Udara Kompresor Blotter Test di {region}",
+            "Training Aplikasi Cat Tahan Abrasi Slurry Pipe Tambang Tembaga di {region}",
+            "Training Proteksi Korosi Struktur Tower Angin Wind Turbine di {region}",
+            "Training Pengecatan Komponen Otomotif dan Mesin Berat Pabrik di {region}",
+            "Training Blasting Ruang Mesin Kamar Geladak Kapal Laut di {region}",
+            "Training Pelapisan Tangki Pengendapan Clarifier Pabrik Kimia di {region}",
+            "Training Pengecatan Menara Suar Mercusuar Pantai Korosif di {region}",
+            "Training Proteksi Korosi Saluran Udara HVAC Ducting Pabrik di {region}",
+            "Training Aplikasi Sealant Elastis Sambungan Beton dan Baja di {region}",
+            "Training Blasting Sa 2.5 Tangki Asam Klorida HCl Rubber Lining di {region}",
+            "Training Pengawasan Ketebalan Cat Sesuai Standar SSPC-PA 2 di {region}",
+            "Training Uji Sifat Dielektrik Cat Pelindung Arus Listrik di {region}",
+            "Training Penanganan Korosi Celah Crevice Corrosion Sambungan Baut di {region}",
+            "Training Pengecatan Struktur Rangka Billboard Reklame Raksasa di {region}",
+            "Training Proteksi Korosi Fasilitas Pengolahan Gas LNG Cryogenic di {region}",
+            "Training Blasting Permukaan Stainless Steel Menggunakan Garnet di {region}",
+            "Training Pengecatan Pelat Baja Galvanis Menggunakan Wash Primer di {region}",
+            "Training Aplikasi Coal Tar Epoxy Perlindungan Bawah Tanah di {region}",
+            "Training Proteksi Korosi Tangki Kondensat Uap Panas di {region}",
+            "Training Pengecatan Baja Struktural Hanggar Pesawat Terbang di {region}",
+            "Training Blasting Painting Rangka Jembatan Penyeberangan Orang di {region}",
+            "Training Pelapisan Ruang Pompa Kamar Mesin Kapal Tanker di {region}",
+            "Training Proteksi Korosi Pipa Sirkulasi Air Asin SWRO Desalinasi di {region}",
+            "Training Aplikasi Cat Intumescent Tahan Api Struktur Gedung di {region}",
+            "Training Pengecatan Struktur Baja Railing Pembatas Tol Laut di {region}",
+            "Training Blasting Karat Pipa Pemadam Kebakaran Fire Hydrant di {region}",
+            "Training Pelapisan Dinding Penahan Tanah Sheet Pile Baja di {region}",
+            "Training Proteksi Korosi Tangki Minyak Sawit CPO Storage di {region}",
+            "Training Pengecatan Tangki Molasses Tetes Tebu Pabrik Gula di {region}",
+            "Training Blasting Sa 3 Kolom Reaktor Kimia Bertekanan Tinggi di {region}",
+            "Training Aplikasi Pelapis Keramik Anti Erosi Impeller Pompa di {region}",
+            "Training Proteksi Korosi Rangka Baja Fasilitas Smelter Bauksit di {region}",
+            "Training Pengecatan Pipa Penyalur Amonia Pabrik Pupuk Kimia di {region}",
+            "Training Blasting Painting Kolom Distilasi Kilang Minyak Bumi di {region}",
+            "Training Pelapisan Tangki Fermentasi Bioetanol Industri di {region}",
+            "Training Proteksi Korosi Jalur Pipa Avtur Depot Pengisian Pesawat di {region}",
+            "Training Pengecatan Struktur Baja Canopy Stasiun Pengisian SPBU di {region}",
+            "Training Blasting Sa 2.5 Tabung Gas Elpiji Pertamina LPG Plant di {region}",
+            "Training Aplikasi Thermal Barrier Coating Pipa Panas Bersuhu Tinggi di {region}",
+            "Training Proteksi Korosi Tiang Rambu Navigasi Alur Pelayaran di {region}",
+            "Training Pengecatan Struktur Peluncur Roket dan Fasilitas Antariksa di {region}",
+            "Training Blasting Painting Fasilitas Docking Graving Dock Kapal di {region}",
+            "Training Pelapisan Bak Netralisasi Air Asam Tambang di {region}",
+            "Training Proteksi Korosi Rangka Baja Jembatan Layang Flyover di {region}",
+            "Training Pengecatan Pipa Air Pendingin Kondensor Pembangkit PLTU di {region}",
+            "Training Blasting Pembersihan Korosi Menara Pengeboran Tambang di {region}",
+            "Training Aplikasi Fluoropolymer Coating Tahan Bahan Kimia Ekstrem di {region}",
+            "Training Proteksi Korosi Tangki Klorin Cair Pabrik Kimia Klorin di {region}",
+            "Training Pengecatan Struktur Rangka Pipa Pipe Rack Kilang di {region}",
+            "Training Blasting Painting Generator Listrik Turbin Uap di {region}",
+            "Training Pelapisan Saluran Buang Gas Emisi Cerobong Industri di {region}",
+            "Training Proteksi Korosi Sambungan Flange dan Valve Migas di {region}",
+            "Training Pengecatan Rangka Derek Kontainer Gantry Crane di {region}",
+            "Training Blasting Sa 2.5 Tangki Timbun Bahan Kimia Metanol di {region}",
+            "Training Aplikasi Cat Silikon Tahan Temperatur Ekstrem 600°C di {region}",
+            "Training Proteksi Korosi Pipa Distribusi Bitumen Aspal Curah di {region}",
+            "Training Pengecatan Struktur Pelindung Anjungan Lepas Pantai Rig di {region}",
+            "Training Blasting Karat Pipa Pendingin Amonia Pabrik Es di {region}",
+            "Training Pelapisan Bak Tangki Pengasaman Baja Pickling Line di {region}",
+            "Training Proteksi Korosi Rangka Baja Jembatan Kereta Api di {region}",
+            "Training Pengecatan Pipa Saluran Gas Buang Mesin Diesel Pembangkit di {region}",
+            "Training Blasting Sa 3 Bejana Reaktor Polimerisasi Plastik di {region}",
+            "Training Aplikasi Cat Zinc Chromate dan Kepatuhan Standar Lingkungan di {region}",
+            "Training Proteksi Korosi Kaki Rangka Menara Pengeboran Tambang di {region}",
+            "Training Pengecatan Saluran Pelimpah Spillway Gate Bendungan di {region}",
+            "Training Blasting Painting Struktur Derek Pelabuhan Ship-to-Shore di {region}",
+            "Training Pelapisan Dinding Bak Tangki Elektroplating Logam di {region}",
+            "Training Proteksi Korosi Jalur Pipa Aliran Gas Asam H2S Sour Gas di {region}",
+            "Training Pengecatan Rangka Tangga Darurat Baja Gedung Tinggi di {region}",
+            "Training Blasting Sa 2.5 Pipa Penstock Saluran Air Turbin PLTA di {region}",
+            "Training Aplikasi Pelapis Glass Flake Tangki Pengolahan Limbah B3 di {region}",
+            "Training Proteksi Korosi Kaki Penyangga Silo Semen Curah di {region}",
+            "Training Pengecatan Struktur Tiang Transmisi Saluran Udara Ekstra Tinggi di {region}",
+            "Training Blasting Painting Mesin Pengeruk Lumpur Kapal Keruk di {region}",
+            "Training Pelapisan Bak Flotasi Pengolahan Emas dan Tembaga di {region}",
+            "Training Proteksi Korosi Pipa Air Injeksi Reservoir Minyak Bumi di {region}",
+            "Training Pengecatan Rangka Baja Jembatan Kabel Cable-Stayed di {region}",
+            "Training Blasting Karat Struktur Baja Dermaga Bongkar Muat FSRU di {region}",
+            "Training Aplikasi Cat Epoksi Bebas Pelarut Solvent-Free Tangki di {region}",
+            "Training Proteksi Korosi Dinding Ruang Muat Kapal Kargo Bulk Carrier di {region}",
+            "Training Pengecatan Menara Suar Pemandu Lalu Lintas Kapal Laut di {region}",
+            "Training Blasting Sa 3 Sambungan Las Baja Konstruksi Stadion di {region}",
+            "Training Pelapisan Tangki Pengendap Sludge Minyak Mentah di {region}",
+            "Training Proteksi Korosi Jalur Pipa Bahan Kimia Klor-Alkali di {region}",
+            "Training Pengecatan Rangka Baja Menara Pemancar Radar Bandara di {region}",
+            "Training Blasting Painting Kapal Tunda Tugboat dan Kapal Patroli di {region}",
+            "Training Aplikasi Pelapis Vinyl Ester Flake Tangki Kimia Keras di {region}",
+            "Training Proteksi Korosi Tiang Penyangga Pipa Melintasi Sungai di {region}",
+            "Training Pengecatan Rangka Baja Kubah Tangki Minyak Spherical di {region}",
+            "Training Blasting Sa 2.5 Tangki Pemurnian Biogas Pabrik Kelapa Sawit di {region}",
+            "Training Aplikasi Cat Epoxy Khusus Lantai Ruang Bersih Cleanroom di {region}",
+            "Training Proteksi Korosi Rangka Baja Jembatan Lengkung Pelengkung di {region}",
+            "Training Pengecatan Pipa Air Panas Geothermal Tekanan Tinggi di {region}",
+            "Training Blasting Painting Rangka Mobil Crane dan Truk Logging di {region}",
+            "Training Pelapisan Tangki Simpan Bahan Kimia Asam Fosfat Pabrik Pupuk di {region}",
+            "Training Proteksi Korosi Pipa Transmisi Avtur Bawah Tanah Bandara di {region}",
+            "Training Pengecatan Tiang Baja Lampu Penerangan Jalan Tol Laut di {region}",
+            "Training Blasting Sa 3 Komponen Rotor Generator Tenaga Bayu di {region}",
+            "Training Aplikasi Cat Elastomerik Jembatan Layang Tol Beton dan Baja di {region}",
+            "Training Proteksi Korosi Saluran Pembuangan Limbah Kimia Bawah Tanah di {region}",
+            "Training Pengecatan Struktur Rangka Baja Kubah Stadion Megah di {region}",
+            "Training Blasting Karat Tangki Ballast Kapal Perang KRI Maritim di {region}",
+            "Training Pelapisan Ruang Mesin Desalinasi Air Laut Pulau Terluar di {region}",
+            "Training Proteksi Korosi Fasilitas Pengolahan Nickel Pig Iron NPI di {region}",
+            "Training Pengecatan Struktur Menara Obor Kilang Pengolahan Minyak di {region}",
+            "Training Blasting Sa 2.5 Pipa Penyalur Gas Alam Cair Floating LNG di {region}",
+            "Training Aplikasi Coating Tahan Percikan Logam Panas Pabrik Peleburan di {region}",
+            "Training Proteksi Korosi Rangka Baja Jembatan Gantung Wisata di {region}",
+            "Training Pengecatan Tiang Rangka Baja Menara Pemancar Seluler Tower di {region}",
+            "Training Blasting Painting Kapal Perikanan Tangkap Modern di {region}",
+            "Training Pelapisan Dinding Bak Pemisah Pasir Silika Pabrik Kaca di {region}",
+            "Training Proteksi Korosi Pipa Header Air Pendingin Smelter Aluminium di {region}",
+            "Training Pengecatan Fasilitas Fabrikasi Modul Subsea Bawah Laut di {region}",
+            "Training Blasting Sa 3 Silinder Hidrolik Pintu Air Bendungan Nasional di {region}",
+            "Training Aplikasi Cat Polyurethane Tahan Gores Lantai Parkir Bertingkat di {region}",
+            "Training Proteksi Korosi Struktur Dermaga Khusus Pelabuhan Semen di {region}",
+            "Training Pengecatan Rangka Baja Jembatan Kereta Cepat dan LRT di {region}",
+            "Training Blasting Painting Kapal Tanker Pengangkut Aspal Cair Panas di {region}",
+            "Training Pelapisan Tangki Pengolahan Limbah Medis B3 Rumah Sakit di {region}",
+            "Training Proteksi Korosi Menara Telemetri Stasiun Pemantau Gempa di {region}",
+            "Training Pengecatan Rangka Baja Struktur Terminal Penumpang Bandara di {region}",
+            "Training Blasting Sa 2.5 Kaki Jack-Up Rig Fasilitas Pengeboran Lepas Pantai di {region}",
+            "Training Standarisasi dan Sertifikasi Kompetensi Coating Blasting Painting Terpercaya di {region}"
         ];
     }
 
     /**
-     * Menghasilkan artikel teknis mendalam dengan 20 bab (7.000 - 8.500 kata)
-     * MURNI JASA, TEKNIS OPERASIONAL, MURNI LAYANAN JASA & TANPA INSTANSI PEMERINTAHAN
+     * Generate Konten Artikel Mendalam (6.000 - 9.000 kata)
+     * 20 Bab Lengkap, Edukasi Teknis Standar Internasional SSPC / NACE / ISO
+     * Tanpa Frasa Meta AI dan Tanpa Menyebut Instansi Pemerintah
      */
-    public static function generateDeepArticle(string $title, $region = 'Indonesia', int $targetWordCount = 7800): array
+    public static function generateDeepArticle(string $rawTitle, string $region = 'Indonesia'): array
     {
-        if (is_array($region)) {
-            $parts = [];
-            if (!empty($region['district'])) $parts[] = $region['district'];
-            if (!empty($region['city'])) $parts[] = $region['city'];
-            if (!empty($region['province'])) $parts[] = $region['province'];
-            $regionName = !empty($parts) ? implode(', ', $parts) : 'Indonesia';
-        } else {
-            $regionName = (string) $region;
-        }
-
-        $formattedTitle = str_replace('{region}', $regionName, $title);
-        $slug = Str::slug($formattedTitle);
+        $title = str_replace('{region}', $region, $rawTitle);
 
         $chapters = [
             [
-                'title' => 'Prinsip Fundamental Rekayasa Proteksi Korosi Elektrokimia & Degradasi Struktur Logam Industri',
-                'desc' => 'Tinjauan mendalam mengenai reaksi anodik dan katodik pada permukaan baja karbon, pengaruh elektrolit lingkungan industri serta strategi pencegahan korosi jangka panjang.'
+                'title' => "Urgensi dan Latar Belakang Training Coating Blasting Painting di {$region}",
+                'content' => "Dalam ekosistem industri modern di {$region}, infrastruktur berbasis baja struktural, tangki timbun, jaringan perpipaan migas, serta fasilitas maritim merupakan aset bernilai ratusan miliar rupiah yang terus-menerus menghadapi ancaman degradasi lingkungan yang sangat agresif. Fenomena korosi logam bukan sekadar persoalan estetika berupa perubahan warna permukaan menjadi kemerahan, melainkan ancaman struktural serius yang dapat memicu kegagalan mekanis katastropik, kebocoran fluida beracun bertekanan tinggi, ledakan fasilitas kilang, hingga pencemaran ekologis yang membahayakan keselamatan publik. Berdasarkan data asesmen integritas aset internasional, kerugian finansial akibat korosi yang tidak terkendali dapat mencapai 3 hingga 5 persen dari Produk Domestik Bruto (PDB) suatu kawasan industri setiap tahunnya.
+
+Tantangan utama yang dihadapi pelaku industri di {$region} adalah tingginya kegagalan dini pada lapisan cat pelindung (early coating failure). Lebih dari 80 persen kegagalan pelapisan cat protektif terbukti tidak disebabkan oleh rendahnya mutu bahan kimia cat yang digunakan, melainkan bersumber dari preparasi permukaan (surface preparation) yang tidak memenuhi standar teknis, aplikasi pengecatan yang mengabaikan batasan iklim mikrolingkungan, serta ketiadaan pengawasan mutu (Quality Control) yang kompeten di lapangan. Mengingat kondisi iklim tropis di {$region} dengan kelembaban relatif udara yang kerap melampaui 85 persen dan paparan garam klorida atmosferik yang tinggi pada wilayah pesisir maritim, penerapan standar proteksi korosi yang presisi menjadi keharusan mutlak.
+
+Oleh sebab itu, penyelenggaraan Training Coating Blasting Painting di {$region} hadir sebagai solusi strategis untuk menjembatani kesenjangan kompetensi tenaga kerja teknik di lapangan. Pelatihan ini dirancang secara sistematis untuk mentransformasikan pemahaman pekerja lapangan—mulai dari juru semprot abrasive blasting, aplikator cat semprot industri, hingga inspektur kendali mutu QA/QC—agar bekerja sesuai dengan metodologi ketat yang diakui secara global. Melalui penguasaan kompetensi ini, perusahaan di {$region} dapat memperpanjang usia pakai aset pabrik dari yang sebelumnya hanya bertahan 2 hingga 3 tahun menjadi lebih dari 15 hingga 25 tahun tanpa perbaikan besar, menghasilkan efisiensi biaya operasional (*life-cycle cost*) yang luar biasa signifikan."
             ],
             [
-                'title' => 'Standar Internasional Preparasi Permukaan Baja (SSPC, NACE/AMPP, ISO 8501-1, dan SIS 055900)',
-                'desc' => 'Komparasi komprehensif tingkat kebersihan visual Sa 1, Sa 2, Sa 2.5, Sa 3, dan korelasinya terhadap standar SSPC-SP 5, SP 6, SP 10, serta SP 11.'
+                'title' => "Standar Kompetensi Internasional SSPC, NACE, ISO 8501, dan ISO 12944",
+                'content' => "Pelaksanaan pengerjaan pelapisan protektif industri modern tidak lagi mengandalkan perkiraan kasat mata, melainkan harus bertumpu pada kaidah sains material dan regulasi keteknikan standar internasional yang telah teruji selama puluhan tahun. Di ranah global, standarisasi proteksi korosi dipelopori oleh dua institusi terkemuka dunia, yaitu SSPC (The Society for Protective Coatings) dan NACE International (National Association of Corrosion Engineers), yang kini telah melebur menjadi satu entitas tunggal terkuat di dunia: AMPP (Association for Materials Protection and Performance). Bersama dengan International Organization for Standardization (ISO) dan American Society for Testing and Materials (ASTM), konsorsium standar ini membentuk fondasi kurikulum utama dalam program pelatihan di {$region}.
+
+Standar ISO 8501-1 merupakan rujukan utama dunia untuk menilai tingkat kebersihan visual permukaan baja sebelum aplikasi cat. Standar ini membagi derajat kebersihan pembersihan semprot abrasif menjadi empat tingkatan utama: Sa 1 (Light Blast Cleaning), Sa 2 (Commercial Blast Cleaning), Sa 2.5 (Near-White Metal Blast Cleaning), dan Sa 3 (White Metal Blast Cleaning). Standar ini memiliki padanan ekuivalen dalam standar SSPC/NACE, di mana Sa 2.5 setara dengan SSPC-SP 10 / NACE No. 2, sedangkan Sa 3 setara dengan SSPC-SP 5 / NACE No. 1. Pemahaman mendalam mengenai batasan noda bayangan yang diperbolehkan (maksimal 5% untuk Sa 2.5 dan 0% mutlak untuk Sa 3) menjadi materi wajib yang harus dikuasai oleh setiap peserta pelatihan di {$region}.
+
+Sementara itu, untuk perancangan sistem pelapisan cat protektif secara menyeluruh, rujukan utama internasional bertumpu pada ISO 12944 (Paints and varnishes — Corrosion protection of steel structures by protective paint systems). Standar ISO 12944 mengklasifikasikan tingkat agresivitas lingkungan korosif atmosferik mulai dari C1 (Sangat Rendah / Very Low untuk interior ber-AC), C2 (Rendah / Low), C3 (Sedang / Medium untuk perkotaan dan industri ringan), C4 (Tinggi / High untuk kawasan industri kimia dan pantai berkadar garam sedang), C5 (Sangat Tinggi / Very High untuk kawasan industri berat dengan kelembaban agresif), hingga CX (Ekstrem / Extreme untuk fasilitas lepas pantai offshore dan zona semburan gelombang air laut splash zone). Pelatihan di {$region} mengupas tuntas korelasi antara klasifikasi korosivitas ISO 12944 dengan penentuan ketebalan lapisan film kering (Dry Film Thickness - DFT) dan pemilihan tipe polimer cat pelindung."
             ],
             [
-                'title' => 'Karakteristik Fisik, Pemilihan Media Abrasif & Rasio Daur Ulang (Garnet, Steel Shot, Steel Grit, Slag)',
-                'desc' => 'Analisis bentuk partikel bersudut (angular) versus bulat (spherical), tingkat kekerasan Mohs, densitas curah, kontaminasi klorida media, dan efisiensi pembersihan.'
+                'title' => "Prinsip Dasar Korosi Logam dan Fenomena Reaksi Elektrokimia",
+                'content' => "Untuk dapat mencegah terjadinya kerusakan material logam secara efektif, setiap praktisi proteksi korosi di {$region} wajib memahami mekanisme pembentukan karat secara fundamental. Korosi pada dasarnya adalah proses elektrokimia alamiah di mana logam olahan murni (seperti baja karbon yang diekstraksi dari bijih besi) berusaha kembali ke bentuk senyawa termodinamika yang paling stabil dan berenergi rendah di alam, yaitu berupa oksida besi (Fe2O3 atau Fe3O4). Proses pengkaratan baja selalu memerlukan empat unsur utama yang membentuk sel korosi tertutup (corrosion cell): anoda, katoda, jalur konduktif logam, dan larutan elektrolit yang mengandung ion-ion bebas.
+
+Di area anoda, terjadi reaksi oksidasi di mana atom besi melepaskan elektron dan berubah menjadi ion besi bermuatan positif (Fe -> Fe2+ + 2e-). Elektron yang terbebas kemudian mengalir melalui struktur baja menuju area katoda. Di area katoda, terjadi reaksi reduksi yang mengonsumsi elektron tersebut bersama dengan keberadaan molekul oksigen dan air terlarut (O2 + 2H2O + 4e- -> 4OH-). Ion hidroksida (OH-) yang terbentuk di katoda akan bereaksi dengan ion besi (Fe2+) di dalam elektrolit membentuk ferro hidroksida, yang selanjutnya mengalami oksidasi lanjutan menjadi karat besi berwarna coklat kemerahan yang rapuh dan mengembang, merusak volume struktur material.
+
+Apabila salah satu dari empat elemen sel korosi tersebut diputus, maka laju korosi dapat dihentikan secara total. Fungsi fundamental dari aplikasi sistem protective coating yang diajarkan dalam pelatihan di {$region} adalah menghadirkan rintangan fisik (barrier protection) kedap air dan kedap udara untuk mencegah elektrolit (embun, hujan, air laut) dan oksigen menyentuh permukaan baja. Selain perlindungan rintangan (barrier), sistem pelapisan modern juga memanfaatkan mekanisme proteksi inhibisi kimia (inhibitive protection) melalui pigmen pasivasi, serta proteksi katodik galvanik (sacrificial galvanic protection) menggunakan partikel serbuk seng (zinc dust) berdaya guna tinggi yang bertindak sebagai anoda korban mengorbankan dirinya demi melindungi baja induk di bawahnya."
             ],
             [
-                'title' => 'Mekanika Peralatan Blasting: Kompresor Udara, Blast Pot, Moisture Trap & Desain Nozzle Venturi',
-                'desc' => 'Kalkulasi kebutuhan volume udara CFM terhadap ukuran lubang nozzle, pemisahan kondensat air dan oli kompresor, katup deadman handle, dan kerugian tekanan selang.'
+                'title' => "Kurikulum Teori dan Silabus Materi Pelatihan Lengkap di {$region}",
+                'content' => "Struktur kurikulum dalam program Training Coating Blasting Painting di {$region} dirancang secara holistik memadukan pembekalan wawasan teori ilmiah material dengan simulasi praktik langsung di workshop terakreditasi. Pelatihan berlangsung intensif selama 3 hingga 5 hari tergantung pada jenjang spesialisasi yang diambil oleh peserta. Pembelajaran dimulai dengan pendalaman metalurgi substrat baja, identifikasi cacat fabrikasi permukaan (seperti weld spatter, sharp edge, laminasi, dan pori-pori las), serta tata cara perbaikan mekanis permukaan sebelum proses pembersihan semprot abrasif dimulai.
+
+Silabus materi pelatihan dibagi ke dalam 8 pilar kompetensi utama:
+1. Metalurgi Baja, Kimia Korosi & Analisis Kondisi Permukaan Awal Logam.
+2. Karakteristik, Klasifikasi, Uji Kebersihan & Efisiensi Media Abrasif Kering.
+3. Mekanika Alat Berat Blasting: Kompresor Udara Screw, Receiver Tank, Moisture Separator & Blast Pot.
+4. Teknik Preparasi Permukaan Logam: Standardisasi ISO 8501-1, SSPC-SP, Evaluasi Debu & Uji Bresle Klorida.
+5. Kimia Polimer Cat Industri: Zinc Rich Primer, Intermediate Epoxy High-Build & Topcoat Aliphatic Polyurethane.
+6. Operasional Mesin Semprot Bertekanan: Airless Spray Pump Ratio 45:1 - 68:1, Pengaturan Tip, & Stripe Coating.
+7. Pengendalian Mutu QA/QC Lapangan: Pengukuran WFT, Verifikasi DFT SSPC-PA 2, Holiday Detector & Uji Adhesi ASTM.
+8. Keselamatan Kerja K3: Perlindungan Saluran Pernafasan Suplai Udara Grade D, Ergonomi, & Supervisi Ruang Terbatas.
+
+Setiap bab silabus disertai dengan lembar kerja praktikum (worksheet) dan studi kasus riil yang diadaptasi dari pengerjaan proyek industri di {$region}. Peserta tidak hanya dituntut menghafal angka toleransi standar, melainkan dilatih mengoperasikan alat ukur presisi, menganalisis data pembacaan instrumen digital, mendiagnosis anomali hasil pengecatan, serta merumuskan tindakan perbaikan (corrective action plan) secara profesional di hadapan tim instruktur ahli."
             ],
             [
-                'title' => 'Pengukuran & Karakterisasi Profil Kekasaran Permukaan (Anchor Pattern) Menggunakan Replica Tape',
-                'desc' => 'Metodologi penentuan tinggi puncak-ke-lembah (peak-to-valley profile) 50-100 mikron menggunakan Testex Press-O-Film, mikrometer digital, dan komparator visual ISO 8503.'
+                'title' => "Pengenalan dan Karakterisasi Media Abrasif: Garnet, Steel Shot, Steel Grit, dan Slag",
+                'content' => "Dalam metode abrasive blasting, media abrasif memegang peranan krusial sebagai proyektil berkecepatan kinetik tinggi yang menghantam permukaan baja untuk mengikis lapisan kerak giling (mill scale), karat lama, dan cat aus sekaligus menciptakan kekasaran permukaan mikro. Pemilihan jenis media abrasif sangat memengaruhi efisiensi waktu pembersihan, biaya proyek per meter persegi, tingkat kebersihan akhir, serta profil jangkar (anchor pattern) yang terbentuk. Dalam pelatihan di {$region}, peserta mempelajari secara terperinci karakteristik fisik dari empat media abrasif utama: garnet mineral alami, steel grit, steel shot, dan copper slag.
+
+Pasir garnet (almandine garnet) adalah media abrasif mineral alami yang paling populer dan banyak digunakan pada proyek industri migas dan kelautan di {$region}. Garnet memiliki tingkat kekerasan tinggi mencapai 7.5 hingga 8.0 pada skala Mohs, berat jenis sekitar 4.0 hingga 4.2 g/cm3, dan bentuk partikel sub-angular yang sangat tajam. Keunggulan mutlak garnet adalah tingkat pecah partikel yang sangat rendah sehingga menghasilkan kadar debu yang jauh lebih sedikit dibandingkan pasir silika biasa, serta tidak mengandung silika bebas kristalin (free crystalline silica < 1%) sehingga sepenuhnya aman dari risiko penyakit paru-paru fatal silikosis. Ukuran mesh yang umum digunakan adalah mesh 30/60 untuk pembersihan berat Sa 2.5 hingga Sa 3 dengan kedalaman profil 50-75 mikron, serta mesh 80 untuk profil yang lebih halus pada pelat tipis.
+
+Untuk fasilitas workshop tetap dan fabrikasi baja tertutup (blast room), media abrasif baja logam berupa steel shot dan steel grit merupakan pilihan paling ekonomis karena dapat didaur ulang dan digunakan kembali hingga 50 hingga 100 kali siklus semprotan. Steel shot memiliki bentuk partikel bulat sempurna (spherical) yang berfungsi membersihkan dan meratakan tegangan permukaan (shot peening), namun kurang mampu menghasilkan profil jangkar yang tajam. Oleh karena itu, steel shot kerap dicampur dengan steel grit—partikel baja berbentuk tajam bersudut (angular)—dengan rasio campuran kerja (operating mix) tertentu guna menghasilkan kombinasi kecepatan pembersihan maksimum dan profil permukaan jangkar tajam berkisar 65 hingga 85 mikron yang ideal untuk cengkeraman mekanis cat primer epoksi."
             ],
             [
-                'title' => 'Teknologi Hydroblasting & Ultra-High Pressure (UHP) Waterjetting: Standar SSPC-SP WJ-1 hingga WJ-4',
-                'desc' => 'Pembersihan permukaan tanpa percikan api dan debu menggunakan tekanan air 10.000 hingga 40.000 PSI, mitigasi flash rust, dan penggunaan inhibitor karat berbasis amina.'
+                'title' => "Anatomi Mesin Blast Pot, Kompresor Udara, Moisture Separator, dan Nozzle Venturi",
+                'content' => "Efisiensi pengerjaan dry abrasive blasting sangat ditentukan oleh pemahaman mekanika terhadap rangkaian peralatan udara bertekanan. Dalam sesi praktikum training di {$region}, peserta diajarkan membedah anatomi sistem peralatan blasting yang terdiri atas kompresor udara industri, tangki penampung udara (air receiver tank), sistem pemisah kelembaban dan minyak (aftercooler & moisture separator), bejana blast pot bertekanan, katup pencampur abrasif (abrasive metering valve), serta selang semprot antistatis dengan nozzle venturi berbahan boron carbide.
+
+Kompresor udara bertindak sebagai jantung dari seluruh sistem. Untuk mengoperasikan satu nozzle blasting berukuran standar No. 7 (diameter lubang 11.0 mm atau 7/16 inci) pada tekanan optimum 100 PSI (6.9 bar) di ujung nozzle, kompresor wajib mampu memasok volume udara bersih minimal sebesar 350 hingga 375 CFM (Cubic Feet per Minute). Penurunan tekanan sebesar 1 PSI saja di ujung nozzle terbukti mengakibatkan penurunan produktivitas laju pembersihan sebesar 1.5 persen; sehingga jika tekanan jatuh ke angka 70 PSI, kecepatan kerja operator menurun drastis hingga lebih dari 45 persen, memboroskan konsumsi pasir abrasif dan bahan bakar kompresor secara percuma.
+
+Nozzle blasting modern yang dipelajari peserta di {$region} menggunakan profil venturi (Laval venturi principle), bukan nozzle silinder lurus konvensional. Desain leher venturi memungkinkan aliran udara terkompresi berakselerasi hingga mencapai kecepatan supersonik melebihi 700 kilometer per jam saat keluar dari mulut nozzle, menghasilkan energi benturan kinetik partikel abrasif yang luar biasa kuat ke permukaan baja. Peserta juga diajarkan cara menguji tekanan udara secara akurat langsung di belakang nozzle menggunakan jarum pengukur tekanan khusus (hypodermic needle pressure gauge) serta mengevaluasi keausan diameter dalam nozzle menggunakan alat ukur celah orifice gauge guna memastikan konsumsi volume udara tetap seimbang dengan kapasitas kompresor."
             ],
             [
-                'title' => 'Kimia Polimer & Karakteristik Cat Industri: Epoxy, Polyurethane, Inorganic Zinc Silicate & Vinyl Ester',
-                'desc' => 'Mekanisme ikatan silang (cross-linking), fungsi binder, pigmen aktif pencegah korosi, pelarut solven organik, rasio pencampuran base-hardener, dan pot life.'
+                'title' => "Praktikum Preparasi Permukaan Logam Standar ISO 8501-1 (Sa 1, Sa 2, Sa 2.5, Sa 3)",
+                'content' => "Tahap paling esensial dalam pelatihan di {$region} adalah praktikum langsung eksekusi dry abrasive blasting di atas pelat baja berkarat nyata di dalam fasilitas blast booth pelatihan. Di bawah bimbingan instruktur senior bersertifikat, setiap peserta mengenakan APD lengkap dan melatih keterampilan motorik memegang selang blasting pada sudut penembakan optimum 75 hingga 85 derajat terhadap permukaan pelat baja, menjaga jarak tembak nozzle (stand-off distance) stabil pada rentang 30 hingga 45 sentimeter, serta mengatur kecepatan ayunan tangan berpola tumpang tindih (overlap pattern 50%) untuk mencapai keseragaman kebersihan permukaan.
+
+Peserta dilatih mengenali secara visual empat kondisi awal baja berkarat menurut ISO 8501-1 sebelum diblasting:
+- Derajat Karat A: Permukaan baja masih tertutup rapat oleh kerak giling (mill scale) utuh dan belum menunjukkan karat.
+- Derajat Karat B: Permukaan baja telah mulai mengalami pelapukan di mana kerak giling mulai terkelupas dan muncul karat tipis.
+- Derajat Karat C: Permukaan baja di mana kerak giling telah habis berkarat atau dapat dikikis dengan mudah, namun belum tampak lubang korosi (pitting) kasat mata.
+- Derajat Karat D: Permukaan baja di mana kerak giling telah lenyap seluruhnya dan telah terbentuk lubang-lubang korosi mendalam (deep pitting corrosion).
+
+Setelah pengerjaan blasting diselesaikan, peserta melakukan evaluasi visual membandingkan pelat hasil semprotan dengan buku standar komparator fotografis ISO 8501-1. Peserta dituntut mampu membedakan dengan presisi antara Sa 2 (Commercial Blast — minimal 67% area bebas karat), Sa 2.5 (Near-White Metal — minimal 95% area bebas mutlak dari segala noda, dengan sisa bayangan maksimal 5%), dan Sa 3 (White Metal — 100% bebas sempurna berwarna putih keperakan logam murni). Penguasaan verifikasi visual ini adalah syarat mutlak kelulusan bagi setiap calon juru blasting dan inspektur proteksi korosi di {$region}."
             ],
             [
-                'title' => 'Teknik Aplikasi Pelapisan Konvensional: Kuas, Rol, Stripe Coating & Pengendalian Sudut Sambungan',
-                'desc' => 'Prosedur aplikasi manual pada area berkonfigurasi rumit, sambungan baut, tepian tajam pelat baja, dan striping coat primer untuk menjamin ketebalan film seragam.'
+                'title' => "Evaluasi dan Pengukuran Profil Kekasaran Substrat dengan Replica Tape Press-O-Film",
+                'content' => "Mencapai derajat kebersihan visual Sa 2.5 atau Sa 3 belumlah cukup untuk menjamin keberhasilan proteksi cat pelindung. Substrat baja yang bersih sempurna namun permukaannya terlalu halus (seperti pelat baja polesan) tidak akan mampu mengikat cat secara mekanis, sehingga lapisan cat akan sangat mudah terkelupas layaknya stiker plastik saat terpapar benturan atau perubahan suhu. Sebaliknya, apabila profil kekasaran permukaan terlalu dalam dan tajam melebihi ketebalan cat primer, maka puncak-puncak tonjolan baja (peaks) akan menembus lapisan cat dasar, memicu timbulnya titik-titik karat karat jarum (pinpoint rusting) dalam waktu singkat.
+
+Oleh karena itu, dalam pelatihan di {$region}, peserta diajarkan teknik baku pengukuran kedalaman profil jangkar permukaan (anchor pattern / surface profile height) sesuai standar ASTM D4417 Metode C menggunakan pita replika mikro Testex Press-O-Film yang dipadukan dengan mikrometer pegas digital dial gauge terkalibrasi. Pita replika Testex terdiri atas lapisan busa polimer mikro yang dapat dimampatkan dan dilapisi film poliester tahan regang setebal tepat 50 mikron (2.0 mil). Tersedia dua rentang pita yang umum digunakan di industri: Coarse Tape untuk rentang profil 20 hingga 64 mikron (0.8 hingga 2.5 mil), dan X-Coarse Tape untuk rentang profil 38 hingga 115 mikron (1.5 hingga 4.5 mil).
+
+Prosedur pengujian dipraktikkan secara ketat oleh setiap peserta: permukaan baja yang telah diblasting dibersihkan dari sisa debu abrasif menggunakan kuas bulu bersih, pita replika ditempelkan dengan kuat pada permukaan baja, kemudian bulatan busa ditekan dan digosok secara merata menggunakan alat penekan tumpul (swivel burnishing tool) dengan gerakan memutar hingga busa polimer mengisi seluruh lembah dan puncak mikroskopis baja. Pita replika kemudian dilepas secara hati-hati dan diukur ketebalannya menggunakan mikrometer digital. Nilai ketebalan yang tertera pada mikrometer dikurangi tepat 50 mikron (ketebalan pita dasar poliester) untuk menghasilkan nilai riil profil kekasaran permukaan. Standar industri migas dan kelautan di {$region} umumnya menetapkan toleransi profil kekasaran optimum pada rentang 50 hingga 85 mikron."
             ],
             [
-                'title' => 'Pengoperasian Mesin Airless Spray Bertekanan Tinggi: Rasio Pompa, Tip Orifice & Pola Semprotan Kipas',
-                'desc' => 'Penyesuaian tekanan hidrolik cairan hingga 3000 PSI, pemilihan ukuran orifice tip 0.015-0.025 inci, sudut semprot 40-60 derajat, jarak aplikasi, dan overlap 50 persen.'
+                'title' => "Teori Kimia Polimer Cat: Inorganic Zinc, Epoxy High-Build, dan Polyurethane",
+                'content' => "Memasuki ranah aplikasi bahan pelapis, peserta Training Coating Blasting Painting di {$region} dibekali pemahaman komprehensif mengenai formulasi kimia cat industri modern. Sistem pelapisan protektif berkualitas tinggi untuk lingkungan korosif berat (C4, C5, CX) hampir selalu dirancang dalam bentuk sistem multi-lapis (multi-coat system) yang terdiri atas tiga lapisan utama dengan fungsi komplementer yang saling melengkapi: Cat Dasar (Primer), Cat Antara (Intermediate Coat), dan Cat Akhir (Topcoat).
+
+Lapisan primer bertindak sebagai garda terdepan yang bersentuhan langsung dengan substrat baja. Bahan primer paling unggul dalam industri lepas pantai dan kilang adalah Inorganic Zinc Ethyl Silicate Primer atau Zinc-Rich Epoxy Primer. Cat ini diformulasikan dengan konsentrasi partikel serbuk seng logam yang sangat padat (minimal 80% hingga 85% berat seng pada film kering). Ketika kelembaban atmosfer menembus film cat, partikel seng yang memiliki potensial elektrokimia lebih negatif (-0.76 V) dibandingkan besi (-0.44 V) akan mengalami korosi galvanik terlebih dahulu, mengalirkan elektron pelindung ke baja sehingga baja tetap terlindungi secara katodik meskipun film cat mengalami goresan mekanis.
+
+Lapisan kedua adalah Intermediate Coat yang umumnya berbasis High-Build Polyamide atau Polyamine Cured Epoxy, sering kali diperkuat dengan serbuk kaca (Glass Flake Epoxy) atau serpihan besi mika (Micaceous Iron Oxide - MIO). Karakteristik utama epoksi intermediate adalah viskositasnya yang tinggi sehingga mampu diaplikasikan dalam ketebalan film kering tebal (150 hingga 250 mikron per lapis) guna menghadirkan rintangan fisik kedap air yang sangat rapat, memblokir difusi ion klorida dan uap air menuju permukaan baja. Namun, resin epoksi memiliki kelemahan rentan mengalami degradasi kapur (chalking) dan pudar warna jika terpapar radiasi ultraviolet (UV) sinar matahari langsung. Oleh karena itu, sistem cat diakhiri dengan Topcoat berbasis Aliphatic Acrylic Polyurethane atau Polysiloxane setebal 50-75 mikron yang memiliki ketahanan cuaca luar biasa tinggi, daya kilap prima (gloss retention), serta tahan terhadap tumpahan bahan kimia pelarut dan asam industri di {$region}."
             ],
             [
-                'title' => 'Pengukuran Ketebalan Lapisan Film Basah (WFT) & Film Kering (DFT) Sesuai Standar SSPC-PA 2',
-                'desc' => 'Kalkulasi matematis WFT terhadap target DFT berdasarkan persentase volume solid, kalibrasi probe magnetik, aturan pembacaan spot measurement 80-20, dan batas toleransi.'
+                'title' => "Pengoperasian Pompa Semprot Airless Spray dan Teknik Stripe Coating Presisi",
+                'content' => "Aplikasi pengecatan struktur baja skala besar di era industri modern tidak lagi mengandalkan kuas atau rol manual yang lambat dan menghasilkan ketebalan tidak seragam, melainkan menggunakan mesin semprot tanpa udara bertekanan tinggi (Airless Spray Pump). Dalam workshop pelatihan di {$region}, peserta dilatih mengoperasikan unit pompa airless hidrolik bertenaga pneumatik dengan rasio kompresi fluida tinggi berkisar antara 45:1 hingga 68:1. Pompa airless bekerja dengan menekan cairan cat kental hingga mencapai tekanan hidrolik sangat tinggi (antara 2.500 hingga 4.500 PSI) dan memaksanya melewati lubang orifice tip nozzle berukuran sangat kecil (0.015 hingga 0.021 inci), sehingga cat terpecah (teratomisasi) menjadi kabut partikel mikro halus tanpa memerlukan bantuan tiupan udara kompresor tambahan.
+
+Keunggulan metode airless spray adalah laju transfer material yang sangat tinggi, kecepatan semprot mencapai ratusan meter persegi per jam, serta kemampuan menyemprotkan cat berviskositas tinggi dengan pengenceran thinner minimal (bahkan cat 100% solid solvent-free). Peserta dilatih menguasai teknik semprotan profesional: menjaga jarak semprot antara spray gun dan permukaan kerja stabil pada jarak 30 hingga 35 sentimeter, menjaga sudut semprotan tegak lurus sempurna 90 derajat terhadap bidang baja, menekan pelatuk (trigger gun) sebelum memulai ayunan lengan dan melepaskannya setelah melewati tepi bidang (triggering technique), serta mempertahankan tumpangan pola semprotan (overlap 50%) untuk mencegah terjadinya garis belang (banding) atau penumpukan cat berlebih yang memicu keretakan (mud cracking).
+
+Selain teknik semprotan airless, pelatihan di {$region} menaruh penekanan sangat tinggi pada prosedur Stripe Coating. Stripe coating adalah proses aplikasi cat pendahuluan menggunakan kuas manual secara teliti dan mendalam pada area-area geometris kritis struktur baja sebelum lapisan semprotan utama diaplikasikan. Area kritis ini mencakup sambungan las (weld seams), sudut tajam rangka baja (edges), baut dan mur (nuts & bolts), flange pipa, celah sambungan pelat, serta lubang drainase. Permukaan cat semprot memiliki kecenderungan tegangan permukaan alamiah untuk menipis dan tertarik menjauhi sudut tajam; sehingga tanpa aplikasi stripe coating kuas manual yang dipraktikkan dalam pelatihan ini, sudut-sudut baja struktur di {$region} akan menjadi titik awal terjadinya korosi dini."
             ],
             [
-                'title' => 'Metode Pengujian Daya Rekat Cat: Cross-Cut Adhesion Tape Test & Hydraulic Pull-Off Test (ASTM D4541)',
-                'desc' => 'Evaluasi kekuatan adhesi antar-lapisan dan adhesi mekanik ke substrat baja menggunakan dolly logam, perekat epoxy dua komponen, dan evaluasi pola patahan kohesif/adhesif.'
+                'title' => "Pengukuran Ketebalan Basah (WFT) dan Ketebalan Kering (DFT) Sesuai SSPC-PA 2",
+                'content' => "Parameter paling vital dalam kendali mutu aplikasi cat pelindung adalah kepatuhan terhadap ketebalan film cat yang disyaratkan dalam lembar spesifikasi teknis (Technical Data Sheet - TDS). Selama proses pengecatan berlangsung, aplikator cat wajib memantau ketebalan lapisan basah secara berkala (Wet Film Thickness - WFT) menggunakan sisir ukur bergerigi (WFT comb gauge). Peserta training di {$region} diajarkan rumus kalkulasi konversi matematis antara WFT dan DFT: WFT = (Target DFT / % Volume Solids Cat) x (1 + % Penambahan Thinner). Dengan memantau WFT secara real-time saat cat masih basah di dinding baja, aplikator dapat segera menyesuaikan kecepatan ayunan semprotan untuk mencapai target ketebalan film kering yang tepat setelah pelarut menguap sempurna.
+
+Setelah lapisan cat mengering sempurna (cured), tahapan inspeksi mutu bergeser pada pengukuran ketebalan film kering (Dry Film Thickness - DFT) menggunakan alat ukur ketebalan magnetik digital tipe 2 (Magnetic Flux & Eddy Current Digital Gage) yang telah dikalibrasi multi-titik menggunakan pelat shim bersertifikat di atas profil substrat yang sama. Seluruh prosedur audit ketebalan di lapangan diwajibkan mematuhi aturan baku standar SSPC-PA 2 (Procedure for Determining Conformance to Dry Coating Thickness Requirements). Standar SSPC-PA 2 menetapkan hierarki pengukuran yang sangat terstruktur: Spot Measurement dan Area Measurement.
+
+Satu Spot Measurement didefinisikan sebagai nilai rata-rata dari minimal tiga pembacaan instrumen alat ukur gauge yang dilakukan secara berdekatan dalam radius lingkaran 4 sentimeter (1.5 inci). Sementara itu, untuk satu Area Measurement seluas 10 meter persegi (100 square feet), inspektur mutu wajib mengambil secara acak lima Spot Measurement yang tersebar merata. Standar SSPC-PA 2 Tingkat Kepatuhan 3 (Level 3 - Standar Industri Umum) menetapkan bahwa nilai rata-rata dari lima Spot Measurement tersebut tidak boleh kurang dari batas minimum DFT spesifikasi dan tidak boleh melampaui batas maksimum spesifikasi. Selain itu, tidak boleh ada satu pun Spot Measurement yang nilainya berada di bawah 80 persen dari batas minimum spesifikasi (Aturan 80-20), dan tidak ada nilai spot tunggal yang melampaui 120 persen batas maksimum. Peserta di {$region} mempraktikkan langsung audit matriks SSPC-PA 2 ini pada benda kerja simulasi proyek nyata."
             ],
             [
-                'title' => 'Deteksi Cacat Diskontinuitas Lapisan: Porositas, Pinholes & High Voltage Spark Holiday Detector (NACE SP0188)',
-                'desc' => 'Prinsip uji kontinuitas dielektrik menggunakan spons basah tegangan rendah (<500 mikron) dan spark tester tegangan tinggi (hingga 15.000 Volt) pada lapisan tebal.'
+                'title' => "Pengujian Nondestruktif Cacat Pelapisan: Holiday Detector NACE SP0188",
+                'content' => "Meskipun hasil survei ketebalan cat DFT menunjukkan nilai yang memenuhi spesifikasi teknis, lapisan cat pelindung pada tangki timbun bahan kimia, interior pipa migas, dan bejana tekan tetap berpotensi menyimpan cacat mikroskopis tersembunyi yang kasat mata. Cacat diskontinuitas ini dikenal dengan istilah pinholes, voids, inclusions, atau holidays—yaitu lubang mikroskopis atau celah halus yang menembus lapisan cat hingga mencapai substrat baja di bawahnya. Ketika cairan elektrolit asam atau air asin merembes masuk ke dalam celah pinhole tersebut, konsentrasi reaksi korosi akan terkonsentrasi pada titik sempit yang anodik, memicu terjadinya korosi sumuran (pitting corrosion) yang dapat melubangi pelat tangki baja setebal 10 milimeter hanya dalam kurun waktu beberapa bulan saja.
+
+Untuk menjamin integritas pelapis bebas dari kebocoran mikro, pelatihan di {$region} mengajarkan pengujian nondestruktif pendeteksian diskontinuitas pelapisan mengacu pada standar internasional NACE SP0188 (Discontinuity / Holiday Testing of New Protective Coatings on Conductive Substrates). Metode pengujian dibagi menjadi dua kategori berdasarkan ketebalan film kering cat:
+1. Penguji Spons Basah Tegangan Rendah (Low-Voltage Wet Sponge Tester): Digunakan khusus untuk lapisan cat non-konduktif dengan ketebalan film kering di bawah 500 mikron (20 mil). Alat ini beroperasi pada tegangan DC 67.5 Volt atau 90 Volt dengan media spons selulosa yang dibasahi air keran bersih berpadu sedikit zat pembasah (wetting agent). Spons digerakkan melintasi permukaan cat dengan kecepatan maksimal 30 sentimeter per detik; apabila spons melintasi lubang pinhole, air elektrolit akan mengalirkan arus listrik menuju baja induk dan memicu alarm audio instrumen berbunyi nyaring.
+2. Penguji Percikan Bunga Api Tegangan Tinggi (High-Voltage Spark Holiday Detector): Digunakan untuk sistem pelapisan tebal (di atas 500 mikron hingga 5.000 mikron), seperti internal tank lining, wrapping pipa, dan pelapisan karet bejana tekan. Alat ini membangkitkan tegangan listrik ribuan Volt yang dihitung berdasarkan rumus empiris tegangan tembus dielektrik: V = M x sqrt(DFT in mil), di mana nilai M berkisar antara 1.250 hingga 2.500 tergantung sifat resistivitas bahan resin.
+
+Peserta pelatihan di {$region} dilatih menghitung tegangan uji yang presisi guna mencegah timbulnya bahaya over-voltage yang justru dapat merusak atau melubangi lapisan cat yang sebelumnya sehat (dielectric breakdown), serta dilatih melakukan penandaan titik cacat secara akurat menggunakan kapur lilin bebas minyak untuk prosedur perbaikan (patching repair) segera."
             ],
             [
-                'title' => 'Pengujian Kontaminasi Garam Terlarut Klorida Menggunakan Metode Bresle Patch Test (ISO 8502-6/9)',
-                'desc' => 'Prosedur ekstraksi garam terlarut tak kasat mata dari pori-pori baja, pengukuran konduktivitas ionik cairan deionisasi, dan batas aman kontaminasi garam (<3-5 µg/cm²).'
+                'title' => "Uji Adhesi Hidrolik Dolly Pull-Off Test ASTM D4541 dan Cross-Cut Tape Test",
+                'content' => "Daya rekat mekanis dan kimiawi (adhesion strength) antara lapisan cat dasar dengan substrat baja, serta daya rekat antar-lapisan cat (inter-coat adhesion), merupakan penentu mutlak ketahanan jangka panjang sistem proteksi korosi terhadap paparan getaran, benturan mekanis, dan tegangan termal. Dalam program training di {$region}, peserta diajarkan melakukan pengujian destruktif evaluasi kekuatan adhesi mengacu pada dua metode standar internasional: Cross-Cut Tape Test (ASTM D3359) dan Hydraulic Dolly Pull-Off Adhesion Test (ASTM D4541 / ISO 4624).
+
+Metode ASTM D3359 Metode B (Cross-Hatch Lattice Pattern) diaplikasikan untuk lapisan cat tipis dengan total DFT di bawah 125 mikron (5 mil). Inspektur menggunakan pisau pemotong bergigi banyak (multi-blade cross-hatch cutter) berspasi 1 mm atau 2 mm untuk membuat sayatan kisi-kisi bersilangan 90 derajat hingga menembus substrat logam. Permukaan kisi-kisi kemudian dibersihkan dengan kuas lembut, ditempeli pita perekat berdaya lekat standar (pressure-sensitive tape ASTM D3359), ditekan kuat menggunakan penghapus pensil, dan ditarik secara cepat pada sudut mendekati 180 derajat. Tingkat kelupasan kisi-kisi dinilai dari klasifikasi 5B (0% terkelupas / sempurna), 4B (terkelupas < 5%), 3B (5-15%), 2B (15-35%), 1B (35-65%), hingga 0B (kelupasan parah melampaui 65% area kisi).
+
+Sementara itu, untuk sistem pelapis industri berat, pelapisan kapal, dan tank lining di {$region}, pengujian kekuatan adhesi kuantitatif diukur menggunakan alat uji tarik hidrolik otomatis atau manual (Automatic Hydraulic Pull-Off Tester / PosiTest AT-A) sesuai ASTM D4541. Prosedur pengujian dipraktikkan secara presisi oleh peserta: permukaan cat dibersihkan dan diamplas ringan, bidal silinder aluminium (dolly) berdiameter 20 mm atau 50 mm direkatkan pada film cat menggunakan lem epoksi dua komponen berdaya lekat sangat tinggi, dan dibiarkan mengering sempurna selama 24 jam. Lapisan cat di sekeliling dolly disayat melingkar hingga menembus pelat baja menggunakan mata bor khusus (cutting tool) untuk mengisolasi area uji.
+
+Alat hidrolik kemudian dipasang pada dolly dan memberikan gaya tarik tegak lurus sumbu secara bertahap dengan laju peningkatan tekanan terkontrol (< 1 MPa per detik) hingga dolly terlepas dari permukaan baja. Nilai tekanan putus dicatat dalam satuan Megapascal (MPa) atau PSI. Standar industri migas dan kelautan umumnya mensyaratkan kekuatan adhesi minimal sebesar 10 hingga 15 MPa (1.450 hingga 2.175 PSI). Selain mencatat angka tekanan, peserta dilatih menganalisis persentase pola kegagalan patahan: apakah kegagalan bersifat Adhesion Failure (terlepasnya cat dari substrat baja A/B atau antar-lapis cat B/C), Cohesion Failure (robeknya lapisan film cat itu sendiri), atau Glue Failure (kegagalan lem perekat dolly)."
             ],
             [
-                'title' => 'Prosedur Pelapisan Khusus Ruang Terbatas (Confined Space): Tangki Penyimpanan & Bejana Tekan',
-                'desc' => 'Pengendalian iklim mikro menggunakan dehumidifier pendingin udara, dust collector pengisap debu kontinu, pencahayaan tahan ledakan (intrinsically safe), dan sirkulasi udara.'
+                'title' => "Pengujian Kontaminasi Garam Terlarut Klorida dengan Metode Bresle Patch ISO 8502-6",
+                'content' => "Salah satu penyebab paling mematikan dan paling sering memicu kegagalan dini pelapisan cat pada proyek industri pesisir dan maritim di {$region} adalah keberadaan kontaminasi garam terlarut tak kasat mata (non-visible soluble salts), terutama ion klorida (Cl-) dan sulfat (SO4-). Butiran garam laut yang menempel pada pori-pori baja mikroskopis tidak dapat dihilangkan secara sempurna hanya dengan tiupan udara atau penyapuan debu; bahkan proses dry abrasive blasting kerap kali hanya membenamkan kristal garam lebih dalam ke dalam lembah profil baja. Apabila baja yang terkontaminasi garam klorida langsung dilapisi cat, maka sifat higroskopis garam akan menyerap uap air atmosferik yang menembus film cat melalui fenomena osmosis alami, menciptakan kantung-kantung cairan bertekanan osmotik tinggi yang mengangkat lapisan cat dan menimbulkan gelembung melepuh berisi cairan asam (osmotic blistering) serta korosi tersembunyi di balik film cat.
+
+Dalam pelatihan di {$region}, peserta diwajibkan menguasai metode ekstraksi dan analisis kontaminasi garam terlarut klorida sesuai standar ISO 8502-6 (Extraction of soluble contaminants for analysis — The Bresle method) dan ISO 8502-9 (Field method for the conductometric determination of water-soluble salts). Peralatan pengujian menggunakan tambalan elastis khusus berkantung perekat (Bresle Patch) dengan ruang kompartemen uji seluas tepat 12.5 sentimeter persegi yang kedap air dan kedap udara.
+
+Langkah-langkah pengujian dipraktikkan langsung oleh peserta: kertas pelindung perekat Bresle Patch dilepas dan ditempelkan rapat pada permukaan baja yang telah diblasting tanpa ada kerutan. Sebanyak 3.0 mililiter air deionisasi atau air suling murni (aquades dengan konduktivitas listrik < 5 mikroSiemens/cm) disedot menggunakan jarum suntik presisi dan disuntikkan ke dalam kantung Bresle Patch melalui dinding busa spons samping. Tanpa mencabut jarum, peserta memijat-mijat kantung patch secara perlahan dan menyedot kembali cairan tersebut bolak-balik selama 10 hingga 15 menit untuk melarutkan seluruh kristal garam yang terperangkap pada pori-pori baja.
+
+Cairan hasil ekstraksi kemudian disedot keluar dan diukur konduktivitas listriknya menggunakan konduktivitimeter digital (Bresle Conductivity Meter). Berdasarkan selisih pembacaan konduktivitas sebelum dan sesudah ekstraksi dikalikan dengan faktor kalibrasi standar ISO 8502-9, peserta menghitung kepadatan konsentrasi garam klorida permukaan dalam satuan miligram per meter persegi (mg/m2) atau mikrogram per sentimeter persegi (µg/cm2). Standar spesifikasi proteksi korosi kelas berat di {$region} umumnya menetapkan batas kontaminasi garam klorida maksimum yang sangat ketat, yaitu tidak boleh melampaui 20 hingga 30 mg/m2 untuk sistem cat epoksi konvensional, dan maksimal 10 mg/m2 untuk sistem pelapisan internal tank lining bahan kimia asam."
             ],
             [
-                'title' => 'Proteksi Korosi Jalur Pipa Bawah Tanah: Field Joint Coating, Heat Shrinkable Sleeve & Wrapping Tape',
-                'desc' => 'Tahapan pengerjaan sambungan las pipa baja (field joint), induksi pemanasan awal (preheating), pemasangan selongsong susut panas berlapisan mastik, dan uji kelupasan (peel test).'
+                'title' => "Teknologi Hydroblasting UHP Bebas Debu untuk Fasilitas Kilang Berbahaya",
+                'content' => "Perkembangan regulasi keselamatan kerja dan kelestarian lingkungan hidup di {$region} mendorong adopsi teknologi preparasi permukaan modern yang ramah lingkungan dan bebas polusi udara. Metode dry abrasive blasting konvensional yang menggunakan jutaan butir pasir abrasif sering kali tidak memungkinkan diterapkan pada fasilitas kilang petrokimia yang sedang beroperasi aktif (live plant), unit kompresor gas bertekanan tinggi, anjungan pengeboran minyak lepas pantai, atau area tangki timbun bahan bakar yang sensitif terhadap percikan api dan risiko ledakan. Selain itu, debu pasir halus yang beterbangan dapat masuk ke dalam bantalan turbin mesin berputar (rotating equipment) di sekitarnya dan merusak komponen mekanis presisi.
+
+Sebagai solusi mutakhir, training di {$region} mengupas tuntas teknologi Hydroblasting atau Ultra High Pressure (UHP) Waterjetting. Metode ini memanfaatkan semprotan air murni bertekanan ultra tinggi hingga mencapai 40.000 PSI (2.800 bar) yang ditembakkan melalui nozzle safir putar (rotating sapphire nozzle) berkecepatan ribuan rotasi per menit. Energi kinetik semprotan jet air UHP mampu mengelupas lapisan karat terberat, kerak garam menahun, dan lapisan cat lama yang paling liat sekalipun hingga mencapai substrat baja murni tanpa menghasilkan debu sama sekali (zero dust generation) dan tidak menghasilkan percikan api panas (cold surface preparation).
+
+Standar visual preparasi permukaan basah diatur secara internasional dalam ISO 8501-4 dan SSPC-SP WJ-1 hingga WJ-4. Peserta pelatihan di {$region} dilatih membedakan derajat kebersihan hydroblasting: Wa 1 (Light Waterjetting), Wa 2 (Thorough Waterjetting — setara Commercial), Wa 2.5 (Very Thorough Waterjetting — setara Near-White), dan Wa 3 (Clean to Bare Substrate — setara White Metal). Keunggulan fenomenal dari metode UHP waterjetting adalah kemampuannya melarutkan dan membilas kristal garam klorida hingga mendekati nol mikrogram per sentimeter persegi, menjadikannya metode terbaik untuk pembersihan tangki kimia asam.
+
+Namun, tantangan teknis utama dari pembersihan menggunakan media air adalah timbulnya karat kilat (flash rust) sesaat setelah permukaan baja mongering akibat kontak dengan oksigen udara. Pelatihan di {$region} membekali peserta dengan keterampilan mengendalikan flash rusting: mulai dari penambahan zat penghambat korosi ramah lingkungan (corrosion inhibitor) pada aliran air semprotan, pengeringan cepat menggunakan hembusan udara panas dehumidifier, hingga pemahaman standar toleransi tingkat flash rusting (No Flash Rust, Light Flash Rust, Medium, Heavy Flash Rust) yang diizinkan untuk aplikasi cat primer khusus toleran permukaan basah (moisture-tolerant damp-tolerant epoxy primer)."
             ],
             [
-                'title' => 'Teknologi Pelapisan Logam Celup Panas (Hot-Dip Galvanizing) & Thermal Spray Metalizing Seng/Aluminium (TSA)',
-                'desc' => 'Reaksi difusi metalurgi seng cair pada baja ASTM A123, pengoperasian kawat semprot Twin Wire Arc Spray, kerapatan lapisan metalizing, dan penutupan pori dengan seal coat.'
+                'title' => "Pelapisan Internal Tank Lining dan Field Joint Coating Jalur Pipa Migas",
+                'content' => "Dua aplikasi spesialisasi proteksi korosi dengan tingkat kesulitan tertinggi dan konsekuensi risiko paling fatal di {$region} adalah pelapisan dinding dalam tangki timbun (internal tank lining) dan pelapisan sambungan las jalur pipa transmisi migas darat dan bawah laut (field joint coating). Kegagalan pada tank lining dapat memicu kebocoran minyak mentah yang mencemari air tanah kawasan industri, sedangkan kegagalan field joint coating pada pipa bawah laut dapat menyebabkan ledakan pipa bertekanan tinggi di dasar samudera yang melumpuhkan pasokan energi nasional.
+
+Dalam modul spesialisasi tank lining berstandar API 652 (Lining of Aboveground Petroleum Storage Tank Bottoms), peserta training di {$region} dilatih menangani sistem pelapis resin berkekuatan kimia ekstrem, seperti Novolac Epoxy tahan suhu tinggi dan Glass Flake Vinyl Ester. Serpihan kaca mikro (glass flakes) yang terkandung di dalam resin bertindak layaknya jutaan lapisan genteng mikro yang bertumpuk sejajar dengan substrat baja, menciptakan jalur difusi cairan yang berliku-liku (tortuous path) sehingga cairan asam pekat membutuhkan waktu puluhan tahun untuk dapat merembes mencapai baja induk. Peserta diajarkan teknik meratakan resin menggunakan rol bergerigi pengusir udara (de-aerating roller) guna memastikan tidak ada gelembung udara mikroskopis yang terperangkap di dalam ketebalan resin.
+
+Sementara itu, untuk proteksi jalur pipa transmisi migas berstandar ISO 21809 dan NACE SP0169, peserta mempraktikkan langsung pemasangan selongsong susut panas (Heat Shrinkable Sleeve - HSS) tiga lapis pada sambungan las pipa baja (girth weld). Pipa baja utama yang telah dilapisi pelindung pabrik (3-Layer Polyethylene / 3LPE) disatukan dengan pengelasan di lapangan, menyisakan area sambungan terbuka selebar 30 hingga 50 sentimeter yang sangat rentan berkarat. Peserta melatih urutan kerja presisi: membersihkan sambungan las menggunakan mesin grit blasting bergerak standar Sa 2.5, memanaskan sambungan pipa hingga suhu 180-200°C menggunakan kumparan induksi elektromagnetik (induction heating coil) atau obor propana semprot merata dengan pemantauan thermo-crayon digital, mengoleskan primer epoksi cair bebas pelarut, memasang selongsong HSS, dan membakar selongsong dari bagian bawah memutar ke atas menggunakan api lembut propana hingga mastik perekat meleleh dan selongsong menyusut rapat tanpa gelembung udara, menghasilkan proteksi kedap air yang tahan puluhan tahun di dalam tanah."
             ],
             [
-                'title' => 'Sistem Keselamatan & Kesehatan Kerja (K3): Alat Pelindung Diri Blast Helmet, Respirator & Mitigasi Silikosis',
-                'desc' => 'Hierarki pengendalian bahaya pernapasan partikulat silika bebas, filtrasi karbon aktif udara kompresor pernapasan grade D, perlindungan pendengaran earmuff, dan pakaian pelindung kulit.'
+                'title' => "Keselamatan Kerja K3: Respirator Suplai Udara Grade D dan Bahaya Ruang Terbatas",
+                'content' => "Operasional abrasive blasting dan industrial painting diklasifikasikan sebagai pekerjaan berisiko bahaya tinggi (High-Risk Industrial Activity) dalam regulasi ketenagakerjaan. Bahaya maut senantiasa mengintai para pekerja, mulai dari risiko penyakit paru-paru fatal silikosis akibat debu silika, keracunan uap pelarut solven organik aromatik (seperti toluene, xylene, dan isocyanate), ledakan uap cat mudah terbakar di dalam ruang terbatas, bahaya sengatan listrik statis bertegangan ribuan volt pada selang semprot, kebisingan ekstrem melebihi 110 desibel pada nozzle kompresor, hingga bahaya injeksi fluida bertekanan hidrolik 4.000 PSI yang dapat menembus kulit daging dan melumpuhkan pembuluh darah secara instan.
+
+Oleh karena itu, prinsip Keselamatan dan Kesehatan Kerja (K3) diintegrasikan secara mendalam pada setiap sesi pelatihan di {$region}. Peserta wajib menguasai penggunaan Alat Pelindung Diri (APD) spesialis tingkat tertinggi. Juru blasting dilarang keras hanya menggunakan masker debu kain biasa, melainkan wajib mengenakan helm blasting kedap udara bertekanan positif (positive pressure blast helmet) yang terhubung langsung dengan sistem pasokan udara pernapasan terkompresi bersih standar Grade D Breathing Air. Peserta dilatih mengoperasikan dan memelihara filter pemurni udara pernapasan (breathing air filtration box) yang dilengkapi sensor alarm karbon monoksida (CO) otomatis, memastikan kadar CO di dalam masker selalu di bawah 10 PPM dan tidak mengandung uap oli kompresor yang dapat meracuni paru-paru.
+
+Khusus untuk pekerjaan di dalam tangki timbun dan ruang tertutup lainnya, peserta diajarkan prosedur ketat keselamatan ruang terbatas (Confined Space Entry Protocol). Prosedur ini mencakup kewajiban penerbitan Izin Kerja Khusus (Confined Space Work Permit), pengujian atmosfer udara berkelanjutan menggunakan detektor multi-gas portabel terkalibrasi untuk memantau kadar oksigen (19.5% - 23.5%), batas ledakan gas (% Lower Explosive Limit / LEL < 5%), serta gas beracun H2S dan CO. Peserta juga mempraktikkan pemasangan sistem ventilasi buang udara tahan ledakan (explosion-proof exhaust blower), pembumian kawat tembaga (grounding and bonding) pada seluruh peralatan semprot untuk membuang muatan listrik statis ke tanah, serta simulasi penyelamatan darurat (emergency rescue) menggunakan tripod penyelamat katrol dan harness keselamatan tubuh penuh (full body harness) bilamana terjadi kondisi kritis di dalam tangki."
             ],
             [
-                'title' => 'Pengendalian Limbah Bahan Berbahaya & Beracun (B3), Pemulihan Pasir Abrasif & Perlindungan Lingkungan',
-                'desc' => 'Tata kelola penyimpanan sisa cat berpelarut, pembuangan debu blasting mengandung logam berat, penahanan debu (containment class SSPC Guide 6), dan pengelolaan limbah sludge.'
+                'title' => "Studi Kasus Lapangan: Mitigasi Cacat Blistering, Pinholes, Sagging, dan Cracking",
+                'content' => "Seorang praktisi dan inspektur mutu proteksi korosi yang andal di {$region} dinilai dari kemampuannya melakukan investigasi akar penyebab masalah (Root Cause Analysis - RCA) ketika timbul cacat pelapisan di lapangan, serta kemampuannya merumuskan tindakan perbaikan (corrective action) yang tepat waktu dan efisien. Dalam program training ini, peserta dibimbing membedah puluhan studi kasus riil kegagalan pelapisan yang kerap terjadi pada fasilitas industri berat di {$region}.
+
+Salah satu kasus paling sering adalah fenomena Pelepuhan Osmotik (Osmotic Blistering). Dalam studi kasus tangki penyimpanan bahan bakar di kawasan pesisir, ditemukan ratusan gelembung melepuh berisi cairan asam di dinding dasar tangki hanya 6 bulan pasca pengecatan. Melalui analisis laboratorium yang disimulasikan kepada peserta, terbukti bahwa juru blasting tidak melakukan pengujian garam Bresle klorida setelah proses sandblasting selesai, sehingga kristal garam laut yang terperangkap di bawah film epoksi menyerap uap air secara osmotik dan merusak lapisan cat. Peserta dilatih menyusun prosedur perbaikan: pengupasan total lapisan yang melepuh dengan hydroblasting UHP untuk melarutkan garam, pencucian dengan demineralized water hingga kadar garam < 10 mg/m2, pengeringan dehumidifier, dan pengecatan ulang sistem epoksi novolac.
+
+Kasus kedua adalah Cacat Sagging dan Running (cat meleleh ke bawah). Kasus ini sering terjadi pada bidang vertikal struktur baja jembatan di {$region} akibat aplikator menambahkan thinner pelarut melebihi batas toleransi TDS (over-thinning) untuk mempermudah semprotan, atau menyemprotkan cat basah terlalu tebal melampaui batas toleransi WFT dalam satu kali lintasan semprot. Cacat ini tidak hanya merusak penampilan estetika, melainkan menyebabkan ketebalan cat tidak merata di mana area atas menjadi terlalu tipis dan area lelehan bawah rentan mengalami pengeringan tidak sempurna serta keretakan mud cracking. Peserta diajarkan teknik remidiasi: meratakan lelehan cat basah dengan kuas secara langsung saat cat belum mengering, atau melakukan pengamplasan mekanis halus setelah cat mengering sempurna sebelum dilapisi kembali."
             ],
             [
-                'title' => 'Peran, Etika Profesi & Tanggung Jawab Inspektur Pelapisan (Coating Inspector Quality Control)',
-                'desc' => 'Pelaksanaan fungsi verifikasi independen di lapangan, penghentian pekerjaan saat kondisi cuaca melanggar batasan teknis (dew point < 3°C), dan penegakan spesifikasi pemilik proyek.'
+                'title' => "Simulasi Ujian Kompetensi Teori, Praktik Asesmen, dan Penyusunan Laporan QA/QC",
+                'content' => "Menjelang akhir rangkaian program pelatihan di {$region}, setiap peserta menjalani tahap evaluasi komprehensif yang dirancang untuk menguji kesiapan mental, ketajaman analisis teknis, serta kemahiran motorik sesuai standar sertifikasi profesi internasional. Ujian evaluasi dibagi ke dalam tiga sesi utama yang saling terintegrasi: Ujian Teori Tertulis Komprehensif, Ujian Praktik Hands-On di Workshop, dan Ujian Penyusunan Dokumen Laporan Inspeksi Mutu (Daily Inspection Report - DIR).
+
+Sesi Ujian Teori terdiri atas seratus soal pilihan ganda dan studi kasus esai yang menguji pemahaman mendalam peserta terhadap standar ISO 8501-1, ISO 12944, SSPC-PA 2, ASTM D4541, NACE SP0188, formulasi polimer kimia cat, kalkulasi volume padatan dan WFT/DFT, serta regulasi keselamatan kerja K3 industri. Peserta diwajibkan meraih nilai ambang batas kelulusan minimal 75 hingga 80 persen untuk dapat dinyatakan kompeten dalam aspek pemahaman kognitif standar internasional.
+
+Sesi Ujian Praktik menguji kemahiran langsung di lapangan:
+1. Praktik Kalibrasi & Verifikasi Alat Ukur: Peserta wajib mengkalibrasi digital surface profile gauge dengan precision glass flat, mengkalibrasi magnetik DFT gauge dengan shim bersertifikat pada substrat profil baja, serta melakukan kalibrasi sling psychrometer dan dew point calculator.
+2. Praktik Eksekusi Abrasive Blasting / Airless Spray: Peserta dinilai kemampuan motoriknya dalam menjaga sudut, jarak nozzle, dan pola semprotan untuk mencapai target ketebalan dan kebersihan standar Sa 2.5 secara mandiri.
+3. Praktik Uji Instrumen Non-Destruktif & Destruktif: Setiap peserta melakukan pengujian Bresle test, holiday detector, dan pull-off adhesion tester di hadapan dewan asesor penguji, mempresentasikan pembacaan data, serta menganalisis pola kegagalan material yang terjadi.
+
+Pada sesi terakhir, peserta dilatih menyusun dokumen formal Quality Assurance: Daily Inspection Report (DIR), Log Pengecekan Iklim Harian, Matriks Pengukuran DFT SSPC-PA 2, serta Form Laporan Ketidaksesuaian (Non-Conformance Report - NCR). Kemampuan menyusun dokumentasi legal dan teknis yang akurat ini merupakan modal paling berharga yang memastikan para lulusan pelatihan di {$region} diakui kredibilitasnya oleh perusahaan multinasional dan konsultan pengawas proyek kelas dunia."
             ],
             [
-                'title' => 'Penyusunan Dokumen Quality Assurance: Inspection and Test Plan (ITP), Laporan Log Harian & Serah Terima Proyek',
-                'desc' => 'Format penyusunan matriks pengawasan mutu ITP dari pre-surface preparation hingga final sign-off, penulisan Non-Conformance Report (NCR), dan arsip dokumen as-built warranty.'
+                'title' => "Prosedur Pendaftaran, Jadwal Batch Terdekat, dan Informasi Investasi Training di {$region}",
+                'content' => "Penyelenggaraan program Training Coating Blasting Painting di {$region} dibuka secara berkala setiap bulan untuk memfasilitasi kebutuhan peningkatan kompetensi tenaga kerja individu maupun pendelegasian staf teknik korporasi industri berskala besar (In-House Corporate Training). Mengingat pelatihan ini menitikberatkan pada sesi praktikum alat berat dan instrumen laboratorium presisi tinggi, kuota peserta pada setiap batch pelatihan dibatasi secara ketat maksimal 12 hingga 15 peserta per kelas guna menjamin setiap peserta mendapatkan bimbingan intensif personal dari para instruktur master dan memperoleh waktu interaksi yang memadai dengan unit mesin blast pot, airless spray, dan instrumen uji.
+
+Pilihan skema pelatihan yang tersedia mencakup:
+1. Public Training Reguler: Dilaksanakan di pusat fasilitas workshop dan laboratorium uji mutu resmi di kota-kota strategis, dilengkapi fasilitas ruang kelas ber-AC, workshop semprot modern, instrumen uji terakreditasi, konsumsi lengkap, modul hardcopy, safety kit, dan ujian sertifikasi profesi.
+2. In-House Corporate Customized Training: Dilaksanakan langsung di lokasi pabrik, galangan kapal, atau fasilitas operasional perusahaan klien di seluruh wilayah {$region}. Kurikulum pelatihan dapat disesuaikan secara spesifik dengan sistem cat yang digunakan perusahaan, jenis media abrasif lokal, serta spesifikasi teknis proyek berjalan yang sedang dihadapi oleh tim teknis internal korporasi.
+
+Informasi lengkap mengenai jadwal batch pendaftaran terdekat, silabus materi teknis resmi, rincian biaya investasi pelatihan, fasilitas akomodasi, serta persyaratan administratif dapat dikonsultasikan secara langsung melalui hotline WhatsApp resmi customer care kami yang tercantum pada portal ini. Tim konsultan pendidikan teknis kami siap memberikan penjelasan mendalam, mengirimkan proposal penawaran resmi, serta membantu memetakan jalur sertifikasi kompetensi proteksi korosi yang paling tepat guna mengakselerasi jenjang karir profesional dan mengoptimalkan keandalan aset industri di {$region}."
             ]
         ];
 
-        $content = "<h2>Spesifikasi Teknis Operasional & Panduan Rekayasa: {$formattedTitle}</h2>\n\n";
-        $content .= "<p>Dalam sektor industri manufaktur berat, minyak dan gas bumi, petrokimia, kelautan, perkapalan, serta infrastruktur strategis, ancaman degradasi korosi pada material baja struktural merupakan tantangan rekayasa yang paling kritikal. Penerapan <strong>{$formattedTitle}</strong> di wilayah {$regionName} membuktikan komitmen nyata dunia industri dalam meningkatkan umur pakai aset produktif (*asset integrity management*), meminimalkan risiko kegagalan struktural mendadak, serta memastikan efisiensi anggaran pemeliharaan fasilitas bernilai miliaran rupiah.</p>\n\n";
-        $content .= "<p>Dokumen spesifikasi teknis operasional ini disusun secara komprehensif melintasi dua puluh pilar keilmuan pelapisan pelindung dan preparasi permukaan modern. Setiap bab mengulas secara mendalam standar rekayasa internasional yang diakui secara global seperti SSPC (The Society for Protective Coatings), NACE International yang kini bersatu menjadi AMPP (Association for Materials Protection and Performance), standar ISO 8501, ISO 12944, serta ASTM Internasional. Disajikan untuk menjadi pedoman acuan eksekusi lapangan bagi para kontraktor, aplikator, juru blasting, coating inspector, manajer pemeliharaan aset, maupun pimpinan proyek industri di {$regionName}.</p>\n\n";
+        $html = "";
+        $wordCount = 0;
 
         foreach ($chapters as $index => $chap) {
             $num = $index + 1;
-            $content .= "<h3>Bab {$num}: {$chap['title']}</h3>\n";
-            $content .= "<p><strong>Fokus Bahasan Teknis:</strong> {$chap['desc']}</p>\n";
+            $html .= "<div class='article-chapter mb-5' id='bab-{$num}'>\n";
+            $html .= "    <h2 class='chapter-heading text-xl font-bold mb-3 text-slate-800'>Bab {$num}: {$chap['title']}</h2>\n";
+            
+            // Format paragraphs
+            $paragraphs = explode("\n\n", $chap['content']);
+            foreach ($paragraphs as $para) {
+                $trimmed = trim($para);
+                if (!empty($trimmed)) {
+                    $html .= "    <p class='chapter-paragraph leading-relaxed text-slate-600 mb-4'>{$trimmed}</p>\n";
+                    $wordCount += str_word_count(strip_tags($trimmed));
+                }
+            }
 
-            $content .= "<p>Penerapan disiplin ilmu teknik pada bab ini di area operasional {$regionName} menuntut pemahaman mendalam terhadap fenomena mikroskopis interaksi antara permukaan logam dan lingkungan sekitarnya. Baja struktural yang tidak dipersiapkan dan dilapisi dengan benar akan mengalami percepatan oksidasi elektrokimia yang dipicu oleh kelembaban udara relatif, fluktuasi temperatur permukaan, serta keberadaan kontaminan ionik terlarut seperti klorida dan sulfat yang terbawa oleh angin laut maupun polusi industri.</p>\n";
+            // Technical summary callout table per chapter
+            if ($num % 2 == 0) {
+                $html .= "    <div class='tech-summary-box p-4 rounded-xl border border-emerald-100 bg-emerald-50/50 mb-4'>\n";
+                $html .= "        <h4 class='text-sm font-bold text-emerald-900 mb-2'><i class='bi bi-patch-check-fill text-emerald-600 me-2'></i>Rangkuman Teknis Standar Kompetensi Bab {$num}</h4>\n";
+                $html .= "        <p class='text-xs text-slate-600 leading-normal m-0'>Penerapan kepatuhan metodologi di {$region} berpedoman pada standar internasional SSPC, NACE / AMPP, ISO 8501-1, ISO 12944, dan ASTM. Setiap tahapan operasional wajib didokumentasikan dalam log kendali mutu harian.</p>\n";
+                $html .= "    </div>\n";
+                $wordCount += 35;
+            }
 
-            $content .= "<h4>Analisis Parameter Kunci & Prosedur Operasional Lapangan:</h4>\n";
-            $content .= "<ul>\n";
-            $content .= "<li><strong>Verifikasi Kelaikan Material & Peralatan Kerja:</strong> Seluruh peralatan mekanik, kompresor udara berkapasitas tinggi, blast pot, selang bertekanan, spray gun, maupun cat industri yang dikirim ke lokasi kerja di {$regionName} wajib melalui inspeksi verifikasi awal guna menjamin kesesuaian dengan lembar spesifikasi teknis (Technical Data Sheet - TDS).</li>\n";
-            $content .= "<li><strong>Pengendalian Ketat Kondisi Lingkungan Operasional:</strong> Proses pembersihan maupun aplikasi cat tidak boleh dilaksanakan apabila suhu permukaan baja berada kurang dari 3°C di atas titik embun (*dew point*), kelembaban relatif udara (*Relative Humidity*) melampaui 85%, atau pada kondisi cuaca buruk yang dapat menerbangkan debu kontaminan ke lapisan cat basah.</li>\n";
-            $content .= "<li><strong>Penerapan Prosedur Kerja Standar Berkelanjutan:</strong> Setiap langkah kerja teknis wajib dipandu oleh Standard Operating Procedure (SOP) yang teruji, mulai dari tahap degreasing menggunakan pelarut hidrokarbon, blasting bertekanan stabil 100 PSI pada nozzle, hingga aplikasi cat lapis dasar (*primer*), lapis antara (*intermediate coat*), dan lapis penutup (*top coat*) dengan ketebalan mikron yang presisi.</li>\n";
-            $content .= "<li><strong>Inspeksi Kualitas Bertahap (Hold Point Inspection):</strong> Menetapkan titik perhentian wajib (*hold point*) di mana aplikator dilarang melanjutkan ke tahapan berikutnya sebelum inspektur mutu (QC Coating Inspector) melakukan pengukuran objektif menggunakan instrumen terkalibrasi dan membubuhkan persetujuan tertulis pada lembar kendali mutu.</li>\n";
-            $content .= "</ul>\n";
-
-            $content .= "<p>Pada tingkat eksekusi di fasilitas {$regionName}, koordinasi yang harmonis antara tim aplikator lapangan, pengawas keselamatan kerja (HSE Officer), dan pengawas kualitas (QC Inspector) merupakan syarat mutlak bagi tercapainya hasil akhir yang sempurna. Setiap personel berwenang menghentikan pekerjaan (*Stop Work Authority*) apabila ditemukan penyimpangan kritis yang berpotensi menurunkan mutu adhesi pelindung atau membahayakan keselamatan kerja tenaga lapangan.</p>\n";
-
-            $content .= "<blockquote>\n";
-            $content .= "<p><strong>Prinsip Utama Rekayasa Proteksi Korosi:</strong> \"Kualitas akhir sistem pelapisan pelindung ditentukan hingga delapan puluh persen oleh kesempurnaan preparasi permukaan logam. Tanpa profil kekasaran yang tepat dan kebersihan substrat yang mutlak, cat pelindung secanggih dan semahal apa pun akan mengalami kegagalan adhesi prematur yang merugikan korporasi.\"</p>\n";
-            $content .= "</blockquote>\n";
-
-            $content .= "<p>Sebagai bagian dari komitmen perbaikan berkelanjutan di {$regionName}, seluruh rekaman pengujian harian, nilai rata-rata ketebalan film kering (DFT), peta pengukuran profil kekasaran permukaan, hingga catatan perbaikan cacat minor dirangkum ke dalam laporan logistik mutu yang transparan. Melalui dokumentasi yang tertib dan akuntabel ini, fasilitas industri binaan dapat memberikan jaminan garansi keandalan struktural (*corrosion protection warranty*) kepada para pemilik modal dan mitra bisnis jangka panjang.</p>\n\n";
-
-            $content .= "<h4>Mitigasi Risiko Kegagalan Lapisan dan Root Cause Analysis Lapangan:</h4>\n";
-            $content .= "<p>Dalam praktik operasional di lapangan kerja {$regionName}, tim pelaksana sering menghadapi berbagai tantangan lingkungan ekstrem yang berpotensi memicu timbulnya cacat pelapisan dini. Beberapa bentuk anomali yang paling sering terdeteksi meliputi fenomena dry spray (butiran cat mengering di udara sebelum menempel pada substrat), blistering (gelembung akibat terperangkapnya uap solven atau kontaminasi garam osmotik), sagging (lelehan cat akibat ketebalan basah melampaui batas batas toleransi viskositas), serta pinholes mikroskopis pada area sambungan las. Penanganan anomali ini menuntut tindakan investigasi akar masalah berbasis metode ilmiah, di mana aplikator harus segera menghentikan pekerjaan, memetakan luasan area terdampak, melakukan pengamplasan mekanik atau re-blasting lokal hingga mencapai substrat logam bersih, dan mengaplikasikan lapisan perbaikan dengan pengawasan ketat dari coating inspector.</p>\n";
-
-            $content .= "<h4>Checklist Kendali Mutu dan Verifikasi Standar Teknis:</h4>\n";
-            $content .= "<p>Guna menjamin kepatuhan mutlak terhadap spesifikasi proyek di {$regionName}, seluruh tahapan pengerjaan pada bab ini wajib divalidasi menggunakan instrumen uji terkalibrasi berkala. Pengukuran suhu substrat dan titik embun dilakukan memakai termometer kontak magnetik dan psychrometer presisi; profil kekasaran diperiksa menggunakan replica tape Press-O-Film sesuai ASTM D4417; ketebalan film kering diuji menggunakan alat ukur induksi magnetik atau arus eddy berstandar SSPC-PA 2; serta kontinuitas dielektrik lapisan diperiksa memakai holiday tester tegangan rendah atau tinggi sesuai NACE SP0188. Melalui penerapan protokol penjaminan mutu yang berlapis ini, seluruh infrastruktur dan peralatan industri yang ditangani di {$regionName} memiliki perlindungan optimal terhadap serangan korosi agresif selama puluhan tahun masa pakai.</p>\n\n";
+            $html .= "</div>\n\n";
         }
 
-        $content .= "<h3>Kesimpulan & Peta Jalan Menuju Keunggulan Rekayasa Pelapisan di {$regionName}</h3>\n";
-        $content .= "<p>Penerapan materi komprehensif dalam <strong>{$formattedTitle}</strong> membuktikan bahwa sinergi antara keahlian teknis aplikator berpengalaman, kepatuhan mutlak terhadap standar teknis internasional, dan pemakaian peralatan modern berpresisi tinggi adalah kunci utama penaklukan tantangan korosi di sektor industri {$regionName}. Perusahaan yang secara konsisten menerapkan standar tinggi dalam pekerjaan coating, blasting, dan painting akan menikmati imbal hasil operasional yang signifikan berupa masa henti pabrik (*plant turnaround*) yang lebih jarang, efisiensi anggaran pemeliharaan fasilitas, serta keunggulan reputasi korporat yang berdaya saing tinggi.</p>\n";
-        $content .= "<p>Untuk konsultasi teknis pengerjaan proyek, estimasi anggaran jasa abrasive blasting, evaluasi kegagalan sistem proteksi korosi, maupun kemitraan jasa aplikator coating blasting painting di {$regionName}, hubungi tim konsultan dan estimator teknis kami melalui layanan hotline resmi.</p>\n";
-
         return [
-            'title' => $formattedTitle,
-            'slug' => $slug,
-            'region' => $regionName,
-            'excerpt' => "Layanan profesional {$formattedTitle} mengupas standar preparasi permukaan Sa 2.5 Sa 3, airless spray painting, coating inspection SSPC NACE ISO 12944, pengujian DFT, Bresle test, dan manajemen K3 di {$regionName}.",
-            'content' => $content
+            'title' => $title,
+            'word_count' => $wordCount,
+            'content' => $html
         ];
     }
 
-    /**
-     * Katalog Lengkap Artikel Teknis Daerah
-     */
     public static function getRegionalArticleList($region, int $limit = 200): array
     {
         if (is_array($region)) {
@@ -722,24 +814,24 @@ class CoatingBlastingPaintingSchemeService
 
         foreach (array_slice($titles, 0, $limit) as $index => $tTemplate) {
             $fullTitle = str_replace('{region}', $regionName, $tTemplate);
-            $slug = Str::slug($fullTitle);
+            $slug = \Illuminate\Support\Str::slug($fullTitle);
             $articles[] = [
                 'id' => $index + 1,
                 'title' => $fullTitle,
                 'slug' => $slug,
-                'category' => 'Coating Blasting Painting',
+                'category' => 'Training Coating Blasting Painting',
                 'region' => $regionName,
-                'excerpt' => "Panduan teknis dan layanan profesional {$fullTitle} menguraikan prosedur blasting Sa 2.5, teknik airless spray, inspeksi DFT magnetik, dan jaminan proteksi korosi di {$regionName}.",
-                'published_at' => now()->subDays($index % 30)->format('d/m/Y')
+                'excerpt' => "Panduan teknis dan materi silabus komprehensif mengenai {$fullTitle} untuk memastikan kompetensi teknis, kepatuhan standar SSPC, NACE / AMPP, ISO 8501-1, ISO 12944, serta kendali mutu industri di {$regionName}.",
+                'author' => 'Tim Instruktur Master Training Coating Blasting',
+                'read_time' => 20,
+                'views_count' => 140 + ($index * 7) % 350,
+                'published_at' => now()->subDays($index % 60)->format('d/m/Y')
             ];
         }
 
         return $articles;
     }
 
-    /**
-     * Mengambil satu artikel detail berdasarkan slug dan wilayah
-     */
     public static function getArticleBySlug(string $slug, $region = 'Indonesia'): ?array
     {
         if (is_array($region)) {
@@ -757,7 +849,7 @@ class CoatingBlastingPaintingSchemeService
 
         foreach ($titles as $tTemplate) {
             $testTitle = str_replace('{region}', $regionName, $tTemplate);
-            if (Str::slug($testTitle) === $slug) {
+            if (\Illuminate\Support\Str::slug($testTitle) === $slug) {
                 $foundTitle = $testTitle;
                 break;
             }
@@ -771,17 +863,16 @@ class CoatingBlastingPaintingSchemeService
         $articleData = self::generateDeepArticle($foundTitle, $regionName);
 
         return [
-            'id' => 999,
             'title' => $articleData['title'],
-            'slug' => $articleData['slug'],
-            'region' => $articleData['region'],
-            'excerpt' => $articleData['excerpt'],
-            'content' => $articleData['content'],
-            'category' => 'Coating Blasting Painting',
-            'author' => 'Lead Coating Inspector & Corrosion Protection Specialist',
-            'read_time' => 22,
-            'views_count' => 312,
-            'published_at' => now()->format('d/m/Y')
+            'slug' => $slug,
+            'category' => 'Training Coating Blasting Painting',
+            'region' => $regionName,
+            'author' => 'Tim Instruktur Master Training Coating Blasting',
+            'read_time' => 20,
+            'views_count' => 380,
+            'created_at' => now()->subDays(3),
+            'excerpt' => "Panduan teknis dan silabus pelatihan komprehensif mengenai {$foundTitle} mencakup standar mutu SSPC, NACE / AMPP, ISO 8501-1, ISO 12944, dan ASTM di {$regionName}.",
+            'content' => $articleData['content']
         ];
     }
 
@@ -789,14 +880,12 @@ class CoatingBlastingPaintingSchemeService
     {
         return [
             ['name' => 'Semua Topik', 'slug' => 'semua'],
-            ['name' => 'Abrasive Blasting & Preparasi Sa 2.5', 'slug' => 'abrasive-blasting'],
-            ['name' => 'Protective Coating & Industrial Painting', 'slug' => 'protective-coating'],
-            ['name' => 'Coating Inspection QC & Pengujian Mutu', 'slug' => 'coating-inspection'],
-            ['name' => 'Hydroblasting & UHP Waterjetting', 'slug' => 'hydroblasting-uhp'],
-            ['name' => 'Internal Lining Tangki & Bejana Tekan', 'slug' => 'internal-tank-lining'],
-            ['name' => 'Pipe Coating & Field Joint Wrapping', 'slug' => 'pipe-coating'],
-            ['name' => 'Thermal Spray Metalizing & Galvanizing', 'slug' => 'thermal-spray-metalizing'],
-            ['name' => 'K3 Blasting Painting & Ruang Terbatas', 'slug' => 'k3-blasting-painting'],
+            ['name' => 'Training Operator Blasting Sa 2.5 Sa 3', 'slug' => 'training-operator-blasting'],
+            ['name' => 'Training Protective Coating & Airless Spray', 'slug' => 'training-protective-coating'],
+            ['name' => 'Training Coating Inspector QA/QC NACE/SSPC', 'slug' => 'training-coating-inspector'],
+            ['name' => 'Training Hydroblasting & UHP Waterjetting', 'slug' => 'training-hydroblasting-uhp'],
+            ['name' => 'Training Internal Tank Lining & Pipeline', 'slug' => 'training-tank-lining-pipeline'],
+            ['name' => 'Training K3 Keselamatan Blasting Painting', 'slug' => 'training-k3-blasting-painting'],
         ];
     }
 

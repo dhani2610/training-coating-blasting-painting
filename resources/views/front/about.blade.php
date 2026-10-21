@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Tentang Kami | Profil, Sejarah, Visi, Misi & Kredibilitas Jasa Coating Blasting Painting')
-@section('meta_description', 'Profil lengkap, sejarah pendirian, visi, misi, dan kredibilitas layanan pengerjaan Jasa Coating Blasting Painting: Jasa Coating Blasting Painting, Auditor SMK3, Analis Risiko HIRADC, Manajemen Risiko K3 & Pengurus P2K3 Bipartit.')
+@section('title', 'Tentang Kami | Profil, Sejarah, Visi, Misi & Kredibilitas Training Coating Blasting Painting')
+@section('meta_description', 'Profil lengkap, sejarah pendirian, visi, misi, dan kredibilitas layanan pengerjaan Training Coating Blasting Painting: Training Coating Blasting Painting, Auditor SMK3, Analis Risiko HIRADC, Manajemen Risiko K3 & Pengurus P2K3 Bipartit.')
 
 @section('content')
 
@@ -10,7 +10,7 @@
         <div class="container">
             <div class="hero-badge">
                 <i class="bi bi-patch-check-fill"></i>
-                Pusat Layanan Pengerjaan & Sertifikasi Resmi Keselamatan & Kesehatan Kerja Korporat (Jasa Coating Blasting Painting) Nasional
+                Pusat Layanan Pengerjaan & Sertifikasi Resmi Keselamatan & Kesehatan Kerja Korporat (Training Coating Blasting Painting) Nasional
             </div>
 
             <h1 class="hero-title" style="font-size: 2.35rem;">
@@ -18,7 +18,7 @@
             </h1>
 
             <p class="hero-lead" style="max-width: 840px;">
-                Mendedikasikan diri untuk menyediakan Jasa Coating Blasting Painting, Operator Blasting Sa 2.5 Sa 3, Aplikator Protective Coating, Coating Inspector QA/QC, dan Teknisi Hydroblasting UHP yang profesional, berpengalaman puluhan tahun, serta berpedoman teguh pada standar mutu internasional SSPC, NACE, dan ISO.
+                Mendedikasikan diri untuk menyediakan Training Coating Blasting Painting, Operator Blasting Sa 2.5 Sa 3, Aplikator Protective Coating, Coating Inspector QA/QC, dan Teknisi Hydroblasting UHP yang profesional, berpengalaman puluhan tahun, serta berpedoman teguh pada standar mutu internasional SSPC, NACE, dan ISO.
             </p>
         </div>
     </section>
@@ -30,13 +30,13 @@
                 <div>
                     <span class="section-tag" style="background: #ecfdf5; color: #9a3412; font-size: 0.76rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase;">Sejarah Kami</span>
                     <h2 class="section-title" style="font-size: 1.85rem; margin: 10px 0 18px;">
-                        Pelopor Layanan Pengerjaan Teknisi Blasting & Coating & Keahlian Jasa Coating Blasting Painting di Seluruh Indonesia
+                        Pelopor Layanan Pengerjaan Teknisi Blasting & Coating & Keahlian Training Coating Blasting Painting di Seluruh Indonesia
                     </h2>
                     <p style="font-size: 0.92rem; color: #475569; line-height: 1.7; margin-bottom: 14px;">
                         Operasi keselamatan kerja sumur migas, panas bumi (geothermal), pertambangan mineral, dan eksplorasi air tanah dalam merupakan industri berisiko tinggi yang menuntut presisi teknis, pemahaman hidrolika formasi batuan, dan kepatuhan mutlak pada standar keselamatan kerja internasional.
                     </p>
                     <p style="font-size: 0.92rem; color: #475569; line-height: 1.7; margin-bottom: 20px;">
-                        Didirikan oleh konsorsium praktisi senior spesialis proteksi korosi, coating inspector berstandar internasional (NACE / AMPP & SSPC), serta ahli teknik material permukaan terkemuka, <strong>Jasa Coating Blasting Painting</strong> hadir memberikan solusi pengerjaan blasting painting dan proteksi korosi berkualitas tinggi di seluruh 38 provinsi Indonesia.
+                        Didirikan oleh konsorsium praktisi senior spesialis proteksi korosi, coating inspector berstandar internasional (NACE / AMPP & SSPC), serta ahli teknik material permukaan terkemuka, <strong>Training Coating Blasting Painting</strong> hadir memberikan solusi pengerjaan blasting painting dan proteksi korosi berkualitas tinggi di seluruh 38 provinsi Indonesia.
                     </p>
                     <div style="display: flex; gap: 18px; flex-wrap: wrap;">
                         <div style="background: #ecfdf5; border-left: 4px solid #059669; padding: 12px 18px; border-radius: 0 8px 8px 0;">
@@ -105,11 +105,11 @@
                         </div>
                         <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: #ffffff;">Standar Mutu Industri & Kepatuhan Teknis</h3>
                         <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 680px; margin: 0; line-height: 1.6;">
-                            Seluruh pengerjaan layanan jasa mengacu pada standar internasional ISO 8501-1 (kebersihan substrat), ISO 12944 (sistem proteksi cat), SSPC-SP 10 / NACE No. 2, metode uji ASTM, serta standar keselamatan kerja industri.
+                            Seluruh pengerjaan program training mengacu pada standar internasional ISO 8501-1 (kebersihan substrat), ISO 12944 (sistem proteksi cat), SSPC-SP 10 / NACE No. 2, metode uji ASTM, serta standar keselamatan kerja industri.
                         </p>
                     </div>
                     <div>
-                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi penawaran teknis dan jadwal pengerjaan proyek jasa blasting painting.') }}" target="_blank" class="btn-primary-green" style="font-size: 0.88rem; padding: 12px 22px;">
+                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Training Coating Blasting Painting, saya ingin konsultasi penawaran teknis dan jadwal jadwal pengerjaan dan pelatihan blasting painting.') }}" target="_blank" class="btn-primary-green" style="font-size: 0.88rem; padding: 12px 22px;">
                             <i class="bi bi-whatsapp"></i> Hubungi Hotline Utama
                         </a>
                     </div>

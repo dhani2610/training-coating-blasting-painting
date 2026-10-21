@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Jasa Coating Blasting Painting | Layanan Protective Coating, Sandblasting Sa 2.5 Sa 3 & Industrial Painting Resmi')</title>
-    <meta name="description" content="@yield('meta_description', 'Pusat kontraktor dan penyedia layanan jasa pengerjaan Jasa Coating Blasting Painting, Abrasive Sandblasting Sa 2.5 Sa 3, Protective Coating, Hydroblasting, dan Coating Inspector QA/QC di Indonesia.')">
+    <title>@yield('title', 'Training Coating Blasting Painting | Layanan Protective Coating, Sandblasting Sa 2.5 Sa 3 & Industrial Painting Resmi')</title>
+    <meta name="description" content="@yield('meta_description', 'Pusat kontraktor dan penyedia program training pengerjaan Training Coating Blasting Painting, Abrasive Sandblasting Sa 2.5 Sa 3, Protective Coating, Hydroblasting, dan Coating Inspector QA/QC di Indonesia.')">
     
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1742,7 +1742,7 @@
                         <i class="bi bi-shield-check"></i>
                     </div>
                     <div class="brand-text">
-                        <h1>JASA <span>AHLI K3 UMUM CORP</span></h1>
+                        <h1>TRAINING <span>COATING BLASTING</span></h1>
                     </div>
                 </a>
 
@@ -1755,7 +1755,7 @@
                     <li><a href="{{ route('contact') }}" class="nav-link {{ request()->routeIs('contact*') ? 'active' : '' }}">Kontak</a></li>
                 </ul>
 
-                <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272&text=' . urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi penawaran teknis dan jadwal pengerjaan proyek jasa.') }}" target="_blank" class="btn-wa-header">
+                <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272&text=' . urlencode('Halo Admin Training Coating Blasting Painting, saya ingin konsultasi penawaran teknis dan jadwal jadwal pengerjaan dan pelatihan.') }}" target="_blank" class="btn-wa-header">
                     <i class="bi bi-whatsapp"></i>
                     <span>Hubungi</span>
                 </a>
@@ -1770,9 +1770,9 @@
         <div class="mobile-drawer" id="mobileDrawer">
             <a href="{{ route('home') }}" class="mobile-nav-link">Beranda <i class="bi bi-chevron-right"></i></a>
             <a href="{{ route('about') }}" class="mobile-nav-link">Tentang Kami <i class="bi bi-chevron-right"></i></a>
-            <a href="{{ route('programs') }}" class="mobile-nav-link">Layanan Jasa <i class="bi bi-chevron-right"></i></a>
+            <a href="{{ route('programs') }}" class="mobile-nav-link">Program Training <i class="bi bi-chevron-right"></i></a>
             <a href="{{ route('articles') }}" class="mobile-nav-link">Artikel Daerah <i class="bi bi-chevron-right"></i></a>
-            <a href="{{ route('home') }}#wilayah" class="mobile-nav-link">Wilayah Layanan Jasa <i class="bi bi-chevron-right"></i></a>
+            <a href="{{ route('home') }}#wilayah" class="mobile-nav-link">Wilayah Pelaksanaan Training <i class="bi bi-chevron-right"></i></a>
             <a href="{{ route('contact') }}" class="mobile-nav-link">Kontak Kami <i class="bi bi-chevron-right"></i></a>
             <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272' }}" target="_blank" class="btn-primary-green" style="justify-content: center; margin-top: 8px;">
                 <i class="bi bi-whatsapp"></i> Chat WA: 0813-9981-0272
@@ -1795,11 +1795,11 @@
                             <i class="bi bi-shield-check"></i>
                         </div>
                         <div class="brand-text">
-                            <h3 style="font-size: 0.98rem; font-weight: 800; color: #fff;">JASA <span style="color: var(--accent-mint);">COATING BLASTING PAINTING</span></h3>
+                            <h3 style="font-size: 0.98rem; font-weight: 800; color: #fff;">TRAINING <span style="color: var(--accent-mint);">COATING BLASTING PAINTING</span></h3>
                         </div>
                     </div>
                     <p class="footer-desc">
-                        Pusat kontraktor dan penyedia layanan jasa proteksi korosi industri di Indonesia: Jasa Operator Abrasive Blasting Sa 2.5 Sa 3, Aplikator Protective Coating, Coating Inspector QA/QC NACE & SSPC, Hydroblasting UHP, serta Internal Tank Lining & Pipe Coating.
+                        Pusat pelatihan dan sertifikasi kompetensi proteksi korosi industri di Indonesia: Training Operator Abrasive Blasting Sa 2.5 Sa 3, Aplikator Protective Coating, Coating Inspector QA/QC NACE & SSPC, Hydroblasting UHP, serta Internal Tank Lining & Pipe Coating.
                     </p>
                     <div style="margin-bottom: 16px;">
                         <span style="font-size: 0.76rem; color: #6ee7b7; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">Hotline Utama Layanan:</span>
@@ -1810,13 +1810,13 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Layanan Jasa Unggulan</h4>
+                    <h4>Program Training Unggulan</h4>
                     <ul class="footer-links">
-                        <li><a href="{{ route('program.detail', 'jasa-operator-blasting-abrasive') }}">Jasa Operator Abrasive Blasting Sa 2.5 Sa 3</a></li>
-                        <li><a href="{{ route('program.detail', 'jasa-aplikator-protective-coating-painting') }}">Jasa Aplikator Protective Coating</a></li>
-                        <li><a href="{{ route('program.detail', 'jasa-coating-inspector-qc-proteksi-korosi') }}">Jasa Coating Inspector QA/QC NACE</a></li>
-                        <li><a href="{{ route('program.detail', 'jasa-hydroblasting-waterjetting-uhp') }}">Jasa Hydroblasting & UHP Waterjetting</a></li>
-                        <li><a href="{{ route('programs') }}">Lihat Seluruh 8 Layanan Jasa Industri</a></li>
+                        <li><a href="{{ route('program.detail', 'training-operator-blasting-abrasive') }}">Training Operator Abrasive Blasting Sa 2.5 Sa 3</a></li>
+                        <li><a href="{{ route('program.detail', 'training-aplikator-protective-coating-painting') }}">Training Aplikator Protective Coating</a></li>
+                        <li><a href="{{ route('program.detail', 'training-coating-inspector-qc-proteksi-korosi') }}">Training Coating Inspector QA/QC NACE</a></li>
+                        <li><a href="{{ route('program.detail', 'training-hydroblasting-waterjetting-uhp') }}">Training Hydroblasting & UHP Waterjetting</a></li>
+                        <li><a href="{{ route('programs') }}">Lihat Seluruh 8 Program Training Industri</a></li>
                     </ul>
                 </div>
 
@@ -1851,10 +1851,10 @@
 
             <div class="footer-bottom">
                 <div>
-                    &copy; {{ date('Y') }} Jasa Coating Blasting Painting. Seluruh hak cipta dilindungi.
+                    &copy; {{ date('Y') }} Training Coating Blasting Painting. Seluruh hak cipta dilindungi.
                 </div>
                 <div>
-                    Kontraktor & Aplikator Proteksi Korosi Nasional • Standar Mutu SSPC, NACE / AMPP, ISO 8501-1 & ISO 12944 Terakreditasi
+                    Pusat Pelatihan & Sertifikasi Proteksi Korosi Nasional • Standar Mutu SSPC, NACE / AMPP, ISO 8501-1 & ISO 12944 Terakreditasi
                 </div>
             </div>
         </div>
@@ -1869,7 +1869,7 @@
                     <span class="online-indicator"></span>
                 </div>
                 <div class="wa-header-info">
-                    <div class="wa-header-title">Customer Care Jasa Coating Blasting Painting | Spesialis Proteksi Korosi & Blasting Painting Resmi</div>
+                    <div class="wa-header-title">Customer Care Training Coating Blasting Painting | Spesialis Proteksi Korosi & Blasting Painting Resmi</div>
                     <div class="wa-header-subtitle">Konsultasi Teknis Blasting, Protective Coating & Coating Inspection 24/7</div>
                 </div>
                 <button type="button" class="wa-close-btn" id="waCloseBtn" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
@@ -1877,11 +1877,11 @@
             
             <div class="wa-popup-body">
                 <div class="wa-chat-intro">
-                    Halo! Silakan pilih nomor hotline resmi Jasa Coating Blasting Painting:
+                    Halo! Silakan pilih nomor hotline resmi Training Coating Blasting Painting:
                 </div>
                 
                 <!-- Card CS Utama (081399810272) -->
-                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi penawaran teknis pengerjaan abrasive blasting dan protective coating.') }}" target="_blank" class="wa-contact-card wa-primary-card">
+                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Utama Training Coating Blasting Painting, saya ingin konsultasi penawaran teknis pengerjaan abrasive blasting dan protective coating.') }}" target="_blank" class="wa-contact-card wa-primary-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-patch-check-fill"></i>
                     </div>
@@ -1896,7 +1896,7 @@
                 </a>
 
                 <!-- Card CS 1 (08118500177) -->
-                <a href="https://api.whatsapp.com/send?phone=628118500177&text={{ urlencode('Halo CS 1 Jasa Coating Blasting Painting, saya ingin menanyakan jadwal pengerjaan jasa blasting painting dan survei lokasi di wilayah saya.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=628118500177&text={{ urlencode('Halo CS 1 Training Coating Blasting Painting, saya ingin menanyakan jadwal pelatihan dan pendaftaran batch sertifikasi di wilayah saya.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-calendar2-check"></i>
                     </div>
@@ -1911,7 +1911,7 @@
                 </a>
 
                 <!-- Card CS 2 (087894580806) -->
-                <a href="https://api.whatsapp.com/send?phone=6287894580806&text={{ urlencode('Halo Tim Teknis Jasa Coating Blasting Painting, saya ingin konsultasi spesifikasi teknis pengerjaan blasting, coating protective, dan coating inspection.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=6287894580806&text={{ urlencode('Halo Tim Teknis Training Coating Blasting Painting, saya ingin konsultasi spesifikasi teknis pengerjaan blasting, coating protective, dan coating inspection.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-book-half"></i>
                     </div>
@@ -1926,7 +1926,7 @@
                 </a>
 
                 <!-- Card CS 3 (087894580649) -->
-                <a href="https://api.whatsapp.com/send?phone=6287894580649&text={{ urlencode('Halo Divisi Korporasi Jasa Coating Blasting Painting, kami ingin mengajukan penawaran pengerjaan proyek industri blasting painting di fasilitas perusahaan kami.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=6287894580649&text={{ urlencode('Halo Divisi Korporasi Training Coating Blasting Painting, kami ingin mengajukan penawaran pelatihan dan sertifikasi industri blasting painting di fasilitas perusahaan kami.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-building-gear"></i>
                     </div>

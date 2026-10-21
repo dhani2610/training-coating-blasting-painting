@@ -10,7 +10,7 @@
             <div>
                 <h3 class="admin-card-title">Daftar Permohonan & Pesan Pengunjung</h3>
                 <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                    Data klien dan perusahaan yang mengajukan penawaran proyek jasa.
+                    Data klien dan perusahaan yang mendaftar atau konsultasi program training.
                 </p>
             </div>
         </div>
@@ -41,7 +41,7 @@
                                 </a>
                             </td>
                             <td>{{ $msg->company ?? '-' }}</td>
-                            <td style="font-size: 0.82rem; font-weight: 600;">{{ $msg->subject ?? 'Konsultasi Jasa Coating Blasting Painting' }}</td>
+                            <td style="font-size: 0.82rem; font-weight: 600;">{{ $msg->subject ?? 'Konsultasi Training Coating Blasting Painting' }}</td>
                             <td>
                                 @if(!$msg->is_read)
                                     <span style="font-size: 0.7rem; font-weight: 700; background: #fee2e2; color: #dc2626; padding: 2px 8px; border-radius: 10px;">Baru</span>

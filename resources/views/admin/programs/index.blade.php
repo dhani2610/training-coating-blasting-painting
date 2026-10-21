@@ -1,16 +1,16 @@
 @extends('layouts.admin')
 
-@section('title', 'CMS Layanan Jasa')
-@section('header_title', 'Manajemen Program Jasa Coating Blasting Painting')
+@section('title', 'CMS Program Training')
+@section('header_title', 'Manajemen Program Training Coating Blasting Painting')
 
 @section('content')
 
     <div class="admin-card">
         <div class="admin-card-header">
             <div>
-                <h3 class="admin-card-title">Daftar Layanan Jasa</h3>
+                <h3 class="admin-card-title">Daftar Program Training</h3>
                 <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                    Kelola 8 layanan jasa coating blasting painting, spesifikasi teknis, durasi pengerjaan, target industri, dan status aktif.
+                    Kelola 8 layanan training coating blasting painting, spesifikasi teknis, durasi pengerjaan, target industri, dan status aktif.
                 </p>
             </div>
             <a href="{{ route('admin.programs.create') }}" class="btn-admin-gold">
@@ -23,7 +23,7 @@
                 <thead>
                     <tr>
                         <th style="width: 50px;">Urutan</th>
-                        <th>Layanan Jasa</th>
+                        <th>Program Training</th>
                         <th>Jenjang & Badge</th>
                         <th>Durasi & Metode</th>
                         <th>Status</th>
@@ -87,7 +87,7 @@
                     @empty
                         <tr>
                             <td colspan="6" style="text-align: center; color: #94a3b8; padding: 30px;">
-                                Belum ada layanan jasa.
+                                Belum ada program training.
                             </td>
                         </tr>
                     @endforelse
