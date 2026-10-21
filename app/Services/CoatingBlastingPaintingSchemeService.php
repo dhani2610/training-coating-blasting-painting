@@ -339,6 +339,211 @@ class CoatingBlastingPaintingSchemeService
                 ],
                 'meta_title' => 'Training K3 Blasting Painting & Pengawasan Ruang Terbatas Bersertifikat',
                 'meta_description' => 'Program pelatihan K3 supervisi blasting painting dan ruang terbatas bersertifikat. Standar OSHA, pemurnian udara pernafasan grade D, deteksi gas LEL, izin masuk tangki.'
+            ],
+            [
+                'id' => 9,
+                'title' => 'Training Operator Coating',
+                'slug' => 'training-operator-coating',
+                'level_code' => 'Coating Operator',
+                'level_name' => 'Program Sertifikasi Kompetensi Operator Coating & Proteksi Korosi',
+                'badge' => 'Program Populer',
+                'duration' => '3 Hari (Teori Teknik Aplikasi, Praktik Alat Spray & Ujian)',
+                'method' => 'Tatap Muka Workshop Offline & Hands-on Coating Spraying',
+                'certification' => 'Sertifikat Kompetensi Operator Coating Berstandar SSPC & ISO 12944',
+                'price_note' => 'Termasuk Modul Pelatihan, Alat Semprot Spray, Cat Uji Coba & Sertifikasi',
+                'icon' => 'bi-brush-fill',
+                'short_description' => 'Pelatihan intensif operator coating industri: teknik aplikasi cat protektif menggunakan kuas, roller, dan spray airless, kontrol ketebalan WFT/DFT, serta penanganan cacat pelapisan.',
+                'overview' => 'Training Operator Coating dirancang untuk mencetak tenaga terampil operator pelapisan protektif (coating operator) yang mampu mengaplikasikan berbagai jenis cat industri (primer, intermediate, dan topcoat) secara presisi pada substrat baja maupun beton. Peserta menguasai rasio pencampuran base dan hardener (curing agent), pengukuran waktu induksi dan pot life, teknik overlap penyemprotan 50%, pengukuran ketebalan basah (Wet Film Thickness / WFT), serta pencegahan cacat seperti sagging, runs, orange peel, dan pinhole.',
+                'target_audience' => 'Operator Pengecatan Industri, Teknisi Coating Pabrik, Kru Galangan Kapal, Pekerja Fabrikasi Baja, dan Calon Tenaga Kerja Proyek Konstruksi Industri',
+                'curriculum' => [
+                    'Modul 1: Prinsip Dasar Pelapisan Protektif & Peran Operator Coating dalam Pengendalian Korosi',
+                    'Modul 2: Karakteristik Cat Industri: Sistem Epoxy, Polyurethane, Alkyd, dan Vinyl Ester',
+                    'Modul 3: Prosedur Pengenceran (Thinning), Rasio Pencampuran Komponen Dua Bagian & Pot Life',
+                    'Modul 4: Pengoperasian dan Kalibrasi Alat Aplikasi: Kuas Khusus, Roller, dan Spray Airless Bertekanan',
+                    'Modul 5: Praktik Pengukuran Ketebalan Basah Menggunakan Wet Film Thickness (WFT) Comb Gauge',
+                    'Modul 6: Identifikasi Cacat Pelapisan (Runs, Sags, Blistering, Chalking, Cracking) dan Solusi Perbaikannya',
+                    'Modul 7: Keselamatan K3 Operator Coating: Respirator Uap Organik, Ventilasi Udara & Baju Pelindung',
+                    'Modul 8: Evaluasi Akhir: Ujian Teori Tertulis & Uji Keterampilan Praktik Pengecatan Benda Kerja'
+                ],
+                'requirements' => [
+                    'Pendidikan minimal SMA/SMK sederajat atau berpengalaman di bidang aplikasi cat',
+                    'Fotokopi KTP dan Ijazah terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dan tidak buta warna dari dokter/klinik',
+                    'Pas foto formal berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
+                ],
+                'facilities' => [
+                    'Sertifikat Kompetensi Resmi Operator Coating Berstandar Industri',
+                    'Buku Panduan Aplikator Cat Protektif & Log Book Evaluasi Spraying',
+                    'Peralatan Praktik Mandiri: Wet Film Thickness Gauge & Kuas Aplikasi Khusus',
+                    'Perlengkapan APD: Half-Mask Respirator Filter Gas Organik & Kacamata Pelindung',
+                    'Konsumsi Lengkap (Coffee Break 2x & Makan Siang) Selama Pelatihan'
+                ],
+                'meta_title' => 'Training Operator Coating Sertifikasi Kompetensi Industri',
+                'meta_description' => 'Pelatihan operator coating bersertifikat. Menguasai aplikasi cat epoxy, polyurethane, pengukuran WFT DFT, pengoperasian airless spray, dan mitigasi cacat.'
+            ],
+            [
+                'id' => 10,
+                'title' => 'Training Ahli Coating',
+                'slug' => 'training-ahli-coating',
+                'level_code' => 'Coating Specialist',
+                'level_name' => 'Program Sertifikasi Kompetensi Ahli Coating & Spesifikasi Proteksi Korosi',
+                'badge' => 'Tingkat Lanjutan',
+                'duration' => '4 Hari (Teori Analisis Korosi, Desain Spesifikasi, Studi Kasus & Sertifikasi)',
+                'method' => 'Tatap Muka Kelas Intensif, Analisis Laboratorium & Simulasi ITP',
+                'certification' => 'Sertifikat Kompetensi Ahli Coating Berstandar ISO 12944, NACE & SSPC',
+                'price_note' => 'Termasuk Modul Spesifikasi Mutu, Buku Standar ISO 12944, Ujian Kompetensi & Sertifikat',
+                'icon' => 'bi-award-fill',
+                'short_description' => 'Pelatihan tingkat ahli untuk rekayasa proteksi korosi, pemilihan sistem pelapis multi-layer ISO 12944 kategori C1-CX/Im1-Im4, penyusunan ITP, dan failure analysis cat industri.',
+                'overview' => 'Training Ahli Coating difokuskan bagi para engineer, konsultan, dan manajer teknis yang bertanggung jawab dalam perancangan spesifikasi sistem coating (coating specification design), evaluasi lingkungan korosivitas atmosfer (ISO 12944-2), kalkulasi umur pakai proteksi (durability category), penyusunan dokumen Inspection and Test Plan (ITP), audit jaminan mutu QA/QC, serta analisis kegagalan pelapisan (coating failure analysis) di sektor migas, petrokimia, pembangkit listrik, dan infrastruktur maritim.',
+                'target_audience' => 'Coating Engineer, Corrosion Engineer, Material Specialist, QA/QC Manager, Project Manager EPC, dan Konsultan Proteksi Korosi',
+                'curriculum' => [
+                    'Modul 1: Mekanisme Elektrokimia Korosi Tingkat Lanjut & Klasifikasi Korosivitas Lingkungan ISO 12944-2',
+                    'Modul 2: Rekayasa Desain Sistem Pelapis: Pemilihan Zinc Primer, High Build Epoxy, dan Polyurethane/Polysiloxane',
+                    'Modul 3: Kompatibilitas Kimia Antarlapisan, Re-Coat Window, dan Adhesion Promoting Primer',
+                    'Modul 4: Penyusunan Dokumen Spesifikasi Teknis Proyek & Inspection and Test Plan (ITP) Coating',
+                    'Modul 5: Metodologi Audit Mutu Pengerjaan Pihak Ketiga & Validasi Sertifikat Bahan (Mill Certificate)',
+                    'Modul 6: Failure Analysis Pelapisan: Delaminasi, Osmotic Blistering, Underfilm Corrosion, dan Stress Cracking',
+                    'Modul 7: Kalkulasi Finansial Life Cycle Costing (LCC) Sistem Proteksi Korosi Infrastruktur',
+                    'Modul 8: Sidang Studi Kasus Proyek Nyata & Ujian Sertifikasi Kompetensi Ahli Coating'
+                ],
+                'requirements' => [
+                    'Pendidikan minimal D3/S1 Teknik (Mesin, Kimia, Metalurgi, Material, Sipil) atau praktisi berpengalaman minimal 3 tahun',
+                    'Fotokopi Ijazah, Transkrip Nilai, dan KTP yang masih berlaku',
+                    'Curriculum Vitae (CV) portofolio pengalaman kerja di bidang proteksi korosi/coating',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
+                ],
+                'facilities' => [
+                    'Sertifikat Kompetensi Resmi Ahli Coating (Coating Specialist) Terakreditasi',
+                    'Buku Panduan Komprehensif Desain Sistem Coating & Formulir Template Dokumen ITP',
+                    'Akses Perangkat Lunak Kalkulasi Korosi & Pedoman Standar Internasional ISO 12944',
+                    'Keanggotaan Forum Komunitas Ahli Proteksi Korosi Indonesia & Akses Konsultasi Pakar',
+                    'Konsumsi Lengkap Selama 4 Hari Sesi Kelas Intensif'
+                ],
+                'meta_title' => 'Training Ahli Coating Spesialis Proteksi Korosi ISO 12944',
+                'meta_description' => 'Program pelatihan ahli coating bersertifikat internasional. Perancangan spesifikasi proteksi korosi, penyusunan ITP, failure analysis, dan standar ISO 12944.'
+            ],
+            [
+                'id' => 11,
+                'title' => 'Training Blasting',
+                'slug' => 'training-blasting',
+                'level_code' => 'Blasting Technology',
+                'level_name' => 'Program Sertifikasi Kompetensi Teknologi Surface Blasting Industri',
+                'badge' => 'Program Utama',
+                'duration' => '3 Hari (Teori Dinamika Abrasif, Praktik Pengoperasian & Sertifikasi)',
+                'method' => 'Tatap Muka Workshop Offline & Simulasi Tekanan Kompresor',
+                'certification' => 'Sertifikat Kompetensi Teknologi Blasting Berstandar ISO 8501-1 & SSPC',
+                'price_note' => 'Termasuk Modul Teknis Blasting, APD Praktik, Uji Profil Kekasaran & Evaluasi',
+                'icon' => 'bi-gear-wide-connected',
+                'short_description' => 'Pelatihan komprehensif teknologi blasting industri: dry blasting, wet abrasive blasting, hydroblasting, seleksi media abrasif, dan pencapaian profil kekasaran permukaan ideal.',
+                'overview' => 'Training Blasting memberikan pemahaman holistik tentang seluruh metodologi pembersihan dan pembentukan profil permukaan logam maupun beton. Peserta mendalami kinetika partikel abrasif, hubungan diameter nozzle terhadap konsumsi udara CFM kompresor, eliminasi kontaminasi minyak dan air terkompresi, evaluasi standar kebersihan visual Sa 1 hingga Sa 3, serta kontrol profil jangkar (surface anchor profile) 50-100 mikron untuk memaksimalkan ikatan mekanis cat primer.',
+                'target_audience' => 'Teknisi Blasting, Pengawas Lapangan, Kru Maintenance Pabrik, Surveyor Inspeksi, dan Pelaku Jasa Pembersihan Logam',
+                'curriculum' => [
+                    'Modul 1: Tinjauan Komprehensif Metode Blasting: Dry Abrasive, Slurry Blasting, Vapor Blasting, dan UHP Waterjetting',
+                    'Modul 2: Karakteristik Media Abrasif: Hardness Skala Mohs, Densitas, Angularitas, dan Tingkat Daur Ulang',
+                    'Modul 3: Termodinamika Udara Kompresor: Perhitungan CFM, Penurunan Tekanan Selang & Moisture Separator',
+                    'Modul 4: Standar Kebersihan Visual Permukaan ISO 8501-1 / SSPC VIS 1 dan Komparator Visual',
+                    'Modul 5: Pengukuran Profil Kekasaran Permukaan Menggunakan Surface Profile Gauge dan Testex Tape',
+                    'Modul 6: Prosedur Pengujian Kontaminasi Debu (Dust Tape Test ISO 8502-3) dan Garam Larut (Bresle Patch)',
+                    'Modul 7: Keselamatan K3 Operasional Blasting: Tekanan Tinggi, Statis Listrik, Grounding & Proteksi Debu',
+                    'Modul 8: Ujian Teori Teknis & Asesmen Praktikum Pengoperasian Alat Blasting'
+                ],
+                'requirements' => [
+                    'Pendidikan minimal SMA/SMK sederajat atau berpengalaman di bidang mekanikal/konstruksi',
+                    'Fotokopi KTP dan Ijazah terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dari dokter/klinik',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
+                ],
+                'facilities' => [
+                    'Sertifikat Kompetensi Teknologi Blasting Industri Berstandar Internasional',
+                    'Buku Saku Parameter Teknis Blasting, Komparator Profil & Safety Checklist',
+                    'Praktik Hands-on Pengoperasian Blast Pot Bertekanan & Kalibrasi Needle Gauge',
+                    'Paket Alat Uji Profil Permukaan & Media Blasting Garnet 30/60 Mesh',
+                    'Konsumsi Lengkap Selama Kegiatan Pelatihan Berlangsung'
+                ],
+                'meta_title' => 'Training Blasting Industri Sandblasting Sa 2.5 Sa 3 Bersertifikat',
+                'meta_description' => 'Pelatihan teknologi blasting industri bersertifikat. Menguasai dry blasting, media abrasif garnet, uji profil kekasaran permukaan, dan standar kebersihan ISO 8501-1.'
+            ],
+            [
+                'id' => 12,
+                'title' => 'Training Blaster',
+                'slug' => 'training-blaster',
+                'level_code' => 'Certified Blaster',
+                'level_name' => 'Program Sertifikasi Kemahiran Blaster Lapangan (Juru Semprot Pasir)',
+                'badge' => 'Keahlian Khusus',
+                'duration' => '3 Hari (Praktikum Lapangan Intensif, Kecepatan Kerja & Sertifikasi)',
+                'method' => 'Workshop Hands-on Praktik Langsung Nozzle Blasting & Evaluasi Hasil Semprot',
+                'certification' => 'Sertifikat Kompetensi Juru Semprot Blaster Berstandar Industri & SSPC-C7',
+                'price_note' => 'Termasuk Helm Blast Suplai Udara, Baju Pelindung Kulit, Pasir Abrasif & Ujian',
+                'icon' => 'bi-tools',
+                'short_description' => 'Pelatihan kemahiran praktis juru blaster lapangan: teknik manuver nozzle venturi, sudut semprot efektif 75-90 derajat, jarak kerja nozzle, dan keselamatan blast pot.',
+                'overview' => 'Training Blaster difokuskan pada pengasahan keterampilan fisik dan teknis juru semprot pasir (blaster) di lapangan agar mampu bekerja secara aman, cepat, dan presisi. Pelatihan ini melatih daya tahan, ketepatan sudut semprotan, pengaturan jarak tembak (standoff distance) 30-45 cm, manuver pada bidang sempit dan sambungan las, respon cepat kendali katup keselamatan (deadman handle), serta perawatan rutin nozzle boron carbide.',
+                'target_audience' => 'Calon Juru Blaster, Operator Semprot Pasir, Personel Perbaikan Tangki & Pipa, Kru Galangan Kapal, dan Tenaga Kerja Industri Berat',
+                'curriculum' => [
+                    'Modul 1: Peran & Tanggung Jawab Juru Blaster dalam Menghasilkan Standar Kebersihan Sa 2.5 dan Sa 3',
+                    'Modul 2: Pemeriksaan Harian Alat Blasting: Blast Pot, Sambungan Selang Whip Hose, Couplings & Safety Pin',
+                    'Modul 3: Teknik Pengoperasian Katup Deadman Handle & Mitigasi Bahaya Selang Lepas (Hose Whip)',
+                    'Modul 4: Ergonomi Kerja, Postur Tubuh, dan Sudut Tembak Optimal Nozzle Menghindari Kelelahan',
+                    'Modul 5: Teknik Pembersihan Sudut Las (Weld Seams), Celah Sempit, Sudut Mati, dan Permukaan Vertikal/Overhead',
+                    'Modul 6: Sistem Suplai Udara Pernafasan Bersih: Filter Grade D, Carbon Monoxide Monitor & Air Cooled Helmet',
+                    'Modul 7: Prosedur Komunikasi Sinyal Tangan Antara Blaster dengan Petugas Pot Tender di Mesin',
+                    'Modul 8: Ujian Keterampilan Praktik Blasting Lahan Luas dengan Standar Kecepatan dan Kerapian Hasil'
+                ],
+                'requirements' => [
+                    'Pendidikan minimal SMP/SMA sederajat',
+                    'Memiliki kekuatan fisik prima dan mampu menggunakan helm udara pernapasan terkompresi',
+                    'Fotokopi KTP dan Ijazah terakhir yang masih berlaku',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
+                ],
+                'facilities' => [
+                    'Sertifikat Kompetensi Resmi Juru Semprot Blaster Berlisensi',
+                    'Buku Manual Praktik Blaster Lapangan & Pedoman Kecepatan Semprotan',
+                    'Praktik Penuh di Chamber Blasting Khusus Berperalatan Lengkap Standar Migas',
+                    'Perlengkapan APD Praktik: Blast Suit Tebal, Sarung Tangan Kulit Panjang & Pelindung Telinga',
+                    'Konsumsi Lengkap Selama 3 Hari Pelatihan'
+                ],
+                'meta_title' => 'Training Blaster Juru Semprot Pasir Abrasif Bersertifikat',
+                'meta_description' => 'Pelatihan kemahiran juru blaster bersertifikat. Praktik manuver nozzle semprot, deadman handle, helm suplai udara, pencapaian kebersihan Sa 2.5 Sa 3 berstandar industri.'
+            ],
+            [
+                'id' => 13,
+                'title' => 'Training Painting',
+                'slug' => 'training-painting',
+                'level_code' => 'Industrial Painting',
+                'level_name' => 'Program Sertifikasi Kemahiran Pengecatan Industri & Spraying',
+                'badge' => 'Program Populer',
+                'duration' => '3 Hari (Teori Viskositas, Praktik Pompa Airless Spray & Finishing Cat)',
+                'method' => 'Tatap Muka Workshop Offline, Hands-on Spray Gun & Finishing Lab',
+                'certification' => 'Sertifikat Kompetensi Pengecatan Industri (Painting) Berstandar SSPC-C12',
+                'price_note' => 'Termasuk Modul Painting, Cat Praktek, Tip Spray Airless, Alat Ukur WFT & Ujian',
+                'icon' => 'bi-palette-fill',
+                'short_description' => 'Pelatihan kemahiran pengecatan industri: teknik spray painting airless dan konvensional, kalibrasi rasio tip spray, pencegahan overspray, dan pencapaian kilap (gloss) sempurna.',
+                'overview' => 'Training Painting membekali peserta dengan keterampilan profesional dalam teknik pengecatan struktur industri, tangki, pipa, dan fasilitas lepas pantai. Peserta menguasai cara mengukur viskositas cat dengan Ford Cup, pengaturan tekanan fluida pompa airless hingga 4.000 PSI, seleksi ukuran lubang spray tip (contoh: 517, 521, 623), teknik tumpang tindih pola semprot (pattern overlap 50%), serta inspeksi akhir ketebalan lapisan cat bebas cacat.',
+                'target_audience' => 'Painter Industri, Kru Spraying Cat Pabrik, Teknisi Finishing Struktur Baja, Aplikator Cat Epoxy, dan Pekerja Konstruksi',
+                'curriculum' => [
+                    'Modul 1: Prinsip Mekanika Pengecatan Industri & Tipe Alat: Kuas, Roller, Air Spray Konvensional & Airless Spray',
+                    'Modul 2: Karakteristik Thinner, Pelarut Organik, dan Pengukuran Viskositas Menggunakan Ford Cup No. 4',
+                    'Modul 3: Anatomi Pompa Airless Spray Pneumatik: Fluid Section, Piston, Pressure Relief & Suction Hose',
+                    'Modul 4: Seleksi Spray Tip Airless: Menentukan Sudut Kipas Semprot (Fan Angle) dan Ukuran Lubang Orifice',
+                    'Modul 5: Teknik Gerakan Tangan: Kecepatan Konstan, Jarak Semprot 30 cm, dan Sudut 90 Derajat Tegak Lurus',
+                    'Modul 6: Metode Stripe Coating pada Baut, Mur, Sudut Tajam (Edges), dan Celah Sempit Sebelum Spray Massal',
+                    'Modul 7: Prosedur Pembersihan & Flushing Mesin Cat: Mencegah Cat Mengering dalam Selang & Gun Clogging',
+                    'Modul 8: Evaluasi Akhir: Uji Keterampilan Semprot Airless Cat Dua Komponen pada Benda Uji Baja'
+                ],
+                'requirements' => [
+                    'Pendidikan minimal SMA/SMK sederajat atau berpengalaman di bidang pengecatan',
+                    'Fotokopi KTP dan Ijazah terakhir yang masih berlaku',
+                    'Surat keterangan sehat jasmani dan tidak buta warna',
+                    'Pas foto berwarna ukuran 3x4 (3 lembar) berlatar belakang merah'
+                ],
+                'facilities' => [
+                    'Sertifikat Kompetensi Resmi Pengecatan Industri & Spraying Cat',
+                    'Buku Panduan Teknis Painter Profesional & Standar Ketebalan Cat',
+                    'Praktik Hands-on Pengoperasian Mesin Pompa Airless Spray Bertekanan Tinggi',
+                    'Perlengkapan APD Semprot: Respirator Cat Uap Organik, Wearpack & Sarung Tangan Karet',
+                    'Konsumsi Lengkap Selama Pelatihan Berlangsung'
+                ],
+                'meta_title' => 'Training Painting Pengecatan Industri Airless Spray Bersertifikat',
+                'meta_description' => 'Program pelatihan pengecatan industri dan painting airless spray bersertifikat. Menguasai viskositas cat, tip spray, stripe coating, dan teknik overlap 50% bebas cacat.'
             ]
         ];
     }
@@ -351,6 +556,11 @@ class CoatingBlastingPaintingSchemeService
     {
         return [
             "Training Coating Blasting Painting Resmi & Bersertifikasi di {region}",
+            "Training Operator Coating Standar Pelapisan Protektif di {region}",
+            "Training Ahli Coating Spesifikasi Sistem Proteksi Korosi ISO 12944 di {region}",
+            "Training Blasting Teknologi Preparasi Permukaan Substrat Logam di {region}",
+            "Training Blaster Kemahiran Juru Semprot Pasir Tekanan Tinggi di {region}",
+            "Training Painting Teknik Aplikasi Cat Airless Spray Industri di {region}",
             "Training Operator Abrasive Blasting Standar Sa 2.5 Struktur Baja di {region}",
             "Training Protective Coating Cat Industri Lapisan Tebal di {region}",
             "Training Coating Inspector QA/QC Proteksi Korosi di {region}",
@@ -880,6 +1090,11 @@ Informasi lengkap mengenai jadwal batch pendaftaran terdekat, silabus materi tek
     {
         return [
             ['name' => 'Semua Topik', 'slug' => 'semua'],
+            ['name' => 'Training Operator Coating', 'slug' => 'training-operator-coating'],
+            ['name' => 'Training Ahli Coating', 'slug' => 'training-ahli-coating'],
+            ['name' => 'Training Blasting', 'slug' => 'training-blasting'],
+            ['name' => 'Training Blaster', 'slug' => 'training-blaster'],
+            ['name' => 'Training Painting', 'slug' => 'training-painting'],
             ['name' => 'Training Operator Blasting Sa 2.5 Sa 3', 'slug' => 'training-operator-blasting'],
             ['name' => 'Training Protective Coating & Airless Spray', 'slug' => 'training-protective-coating'],
             ['name' => 'Training Coating Inspector QA/QC NACE/SSPC', 'slug' => 'training-coating-inspector'],
