@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#0b192c"/>
+  <!-- Protective Shield -->
+  <path d="M16 3L5 7.5v8c0 7.2 4.6 11.8 11 13.5 6.4-1.7 11-6.3 11-13.5v-8L16 3z" fill="url(#brandGrad)"/>
+  <!-- Blasting / Coating Spray Core -->
+  <path d="M16 7.5l-6.5 3.5v5c0 4.8 2.8 8.2 6.5 9.5 3.7-1.3 6.5-4.7 6.5-9.5V11L16 7.5z" fill="#0b192c"/>
+  <!-- Spray Droplet & Flame / Blast Nozzle Spark -->
+  <path d="M16 10.5c-2 2.8-3.2 4.5-3.2 6.2 0 1.9 1.4 3.3 3.2 3.3s3.2-1.4 3.2-3.3c0-1.7-1.2-3.4-3.2-6.2z" fill="#f97316"/>
+  <circle cx="16" cy="17" r="1.5" fill="#10b981"/>
+</svg>
