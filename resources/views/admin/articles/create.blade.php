@@ -19,13 +19,13 @@
 
                 <div class="form-group">
                     <label class="form-label">Judul Artikel *</label>
-                    <input type="text" name="title" class="form-control" required placeholder="Contoh: Prosedur Standar Operasi Drawworks & Rotary Table Rig Pengeboran" value="{{ old('title') }}">
+                    <input type="text" name="title" class="form-control" required placeholder="Contoh: Prosedur Standar Abrasive Blasting Sa 2.5 dan Aplikasi Protective Coating" value="{{ old('title') }}">
                 </div>
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
                     <div class="form-group">
                         <label class="form-label">Kategori *</label>
-                        <input type="text" name="category" class="form-control" required placeholder="Contoh: Operasi Rig & Jasa Coating Blasting Painting" value="{{ old('category', 'Operasi Rig & Jasa Coating Blasting Painting') }}">
+                        <input type="text" name="category" class="form-control" required placeholder="Contoh: Abrasive Blasting & Protective Coating" value="{{ old('category', 'Abrasive Blasting & Protective Coating') }}">
                     </div>
 
                     <div class="form-group">

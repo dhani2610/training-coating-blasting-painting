@@ -10,7 +10,7 @@
             <div>
                 <h3 class="admin-card-title">Daftar Permohonan & Pesan Pengunjung</h3>
                 <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                    Data calon peserta yang mengisi formulir kontak atau permohonan bimbingan teknis.
+                    Data klien dan perusahaan yang mengajukan penawaran proyek jasa.
                 </p>
             </div>
         </div>

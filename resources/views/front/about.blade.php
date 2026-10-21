@@ -18,7 +18,7 @@
             </h1>
 
             <p class="hero-lead" style="max-width: 840px;">
-                Mendedikasikan diri untuk mencetak Jasa Coating Blasting Painting, Operator Tempat Kerja (Auditor SMK3), Operator Menara (Analis Risiko HIRADC), Teknisi Fluida (Pengurus P2K3 Bipartit), dan Pengawas Rig (Toolpusher) yang profesional, disiplin, berlisensi sah, dan berkomitmen teguh pada keselamatan kerja Zero Accident.
+                Mendedikasikan diri untuk menyediakan Jasa Coating Blasting Painting, Operator Blasting Sa 2.5 Sa 3, Aplikator Protective Coating, Coating Inspector QA/QC, dan Teknisi Hydroblasting UHP yang profesional, berpengalaman puluhan tahun, serta berpedoman teguh pada standar mutu internasional SSPC, NACE, dan ISO.
             </p>
         </div>
     </section>
@@ -30,26 +30,26 @@
                 <div>
                     <span class="section-tag" style="background: #ecfdf5; color: #9a3412; font-size: 0.76rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase;">Sejarah Kami</span>
                     <h2 class="section-title" style="font-size: 1.85rem; margin: 10px 0 18px;">
-                        Pelopor Layanan Pengerjaan Personel Rig & Keahlian Jasa Coating Blasting Painting di Seluruh Indonesia
+                        Pelopor Layanan Pengerjaan Teknisi Blasting & Coating & Keahlian Jasa Coating Blasting Painting di Seluruh Indonesia
                     </h2>
                     <p style="font-size: 0.92rem; color: #475569; line-height: 1.7; margin-bottom: 14px;">
                         Operasi keselamatan kerja sumur migas, panas bumi (geothermal), pertambangan mineral, dan eksplorasi air tanah dalam merupakan industri berisiko tinggi yang menuntut presisi teknis, pemahaman hidrolika formasi batuan, dan kepatuhan mutlak pada standar keselamatan kerja internasional.
                     </p>
                     <p style="font-size: 0.92rem; color: #475569; line-height: 1.7; margin-bottom: 20px;">
-                        Didirikan oleh konsorsium praktisi senior operasi keselamatan kerja lapangan (korporasi), instruktur master manajemen risiko k3 internasional, serta konsultan kelaikan rig terkemuka, <strong>Jasa Coating Blasting Painting</strong> hadir menjembatani kebutuhan tenaga kerja terampil yang siap kerja di rig onshore maupun offshore di seluruh 38 provinsi Indonesia.
+                        Didirikan oleh konsorsium praktisi senior spesialis proteksi korosi, coating inspector berstandar internasional (NACE / AMPP & SSPC), serta ahli teknik material permukaan terkemuka, <strong>Jasa Coating Blasting Painting</strong> hadir memberikan solusi pengerjaan blasting painting dan proteksi korosi berkualitas tinggi di seluruh 38 provinsi Indonesia.
                     </p>
                     <div style="display: flex; gap: 18px; flex-wrap: wrap;">
                         <div style="background: #ecfdf5; border-left: 4px solid #059669; padding: 12px 18px; border-radius: 0 8px 8px 0;">
                             <div style="font-size: 1.3rem; font-weight: 800; color: #062e22;">100%</div>
-                            <div style="font-size: 0.78rem; color: #9a3412; font-weight: 600;">Sertifikat Sah & Lisensi Rig Terverifikasi</div>
+                            <div style="font-size: 0.78rem; color: #9a3412; font-weight: 600;">Standar Mutu SSPC, NACE & ISO 12944 Terverifikasi</div>
                         </div>
                         <div style="background: #ecfdf5; border-left: 4px solid #059669; padding: 12px 18px; border-radius: 0 8px 8px 0;">
                             <div style="font-size: 1.3rem; font-weight: 800; color: #062e22;">38</div>
-                            <div style="font-size: 0.78rem; color: #9a3412; font-weight: 600;">Provinsi Jangkauan Layanan Rig</div>
+                            <div style="font-size: 0.78rem; color: #9a3412; font-weight: 600;">Provinsi Jangkauan Layanan Proyek</div>
                         </div>
                         <div style="background: #ecfdf5; border-left: 4px solid #059669; padding: 12px 18px; border-radius: 0 8px 8px 0;">
                             <div style="font-size: 1.3rem; font-weight: 800; color: #062e22;">16.800+</div>
-                            <div style="font-size: 0.78rem; color: #9a3412; font-weight: 600;">Alumni Kru Rig & Coating Blasting Painting</div>
+                            <div style="font-size: 0.78rem; color: #9a3412; font-weight: 600;">Alumni Tim Aplikator Blasting Painting & Coating Blasting Painting</div>
                         </div>
                     </div>
                 </div>
@@ -77,15 +77,15 @@
                         <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; color: #475569;">
                             <li style="display: flex; align-items: flex-start; gap: 8px;">
                                 <i class="bi bi-check-circle-fill" style="color: #059669; font-size: 1rem; margin-top: 2px;"></i>
-                                <span>Menyelenggarakan layanan pengerjaan dan inspeksi kompetensi personel rig berlisensi resmi dengan standar keselamatan kerja industri energi tertinggi.</span>
+                                <span>Menyelenggarakan layanan pengerjaan dan inspeksi kompetensi teknisi blasting & coating berlisensi resmi dengan standar keselamatan kerja industri energi tertinggi.</span>
                             </li>
                             <li style="display: flex; align-items: flex-start; gap: 8px;">
                                 <i class="bi bi-check-circle-fill" style="color: #059669; font-size: 1rem; margin-top: 2px;"></i>
-                                <span>Mengedukasi kru lapangan mengenai deteksi dini kick formasi, prosedur shut-in darurat, pengoperasian unit BOP, dan kepatuhan sistem keselamatan rig floor.</span>
+                                <span>Mengedukasi kru lapangan mengenai preparasi permukaan standar Sa 2.5 Sa 3, pengukuran profil kekasaran Press-O-Film, dan aplikasi cat anti karat multi-layer.</span>
                             </li>
                             <li style="display: flex; align-items: flex-start; gap: 8px;">
                                 <i class="bi bi-check-circle-fill" style="color: #059669; font-size: 1rem; margin-top: 2px;"></i>
-                                <span>Membekali peserta dengan keterampilan praktis pengoperasian drawworks, top drive, penanganan pipa bor, sirkulasi fluida, dan formulasi keselamatan proses industri.</span>
+                                <span>Melaksanakan pengerjaan di lapangan didukung armada peralatan lengkap: blast pot bertekanan tinggi, kompresor screw industri, nozzle boron carbide venturi, pompa airless spray heavy duty, dan instrumen uji inspeksi terkalibrasi.</span>
                             </li>
                             <li style="display: flex; align-items: flex-start; gap: 8px;">
                                 <i class="bi bi-check-circle-fill" style="color: #059669; font-size: 1rem; margin-top: 2px;"></i>
@@ -103,13 +103,13 @@
                         <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.35); color: #a7f3d0; font-size: 0.74rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">
                             <i class="bi bi-patch-check-fill"></i> Standar Internasional & Kredibilitas Resmi
                         </div>
-                        <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: #ffffff;">Standar Operasional Rig & Kepatuhan Korporasi</h3>
+                        <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: #ffffff;">Standar Mutu Industri & Kepatuhan Teknis</h3>
                         <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 680px; margin: 0; line-height: 1.6;">
-                            Seluruh program layanan pengerjaan mengacu pada Standar Kompetensi Kerja Personel Rig Keselamatan Kerja, Prosedur Keselamatan Manajemen Risiko K3 Internasional (IADC & ISO 45001), Kelaikan Sistem Pengangkat & Sirkulasi Rig, serta kaidah perlindungan lingkungan korporasi terintegrasi.
+                            Seluruh pengerjaan layanan jasa mengacu pada standar internasional ISO 8501-1 (kebersihan substrat), ISO 12944 (sistem proteksi cat), SSPC-SP 10 / NACE No. 2, metode uji ASTM, serta standar keselamatan kerja industri.
                         </p>
                     </div>
                     <div>
-                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi jadwal dan pendaftaran sertifikasi keselamatan dan kesehatan kerja korporat rig.') }}" target="_blank" class="btn-primary-green" style="font-size: 0.88rem; padding: 12px 22px;">
+                        <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi penawaran teknis dan jadwal pengerjaan proyek jasa blasting painting.') }}" target="_blank" class="btn-primary-green" style="font-size: 0.88rem; padding: 12px 22px;">
                             <i class="bi bi-whatsapp"></i> Hubungi Hotline Utama
                         </a>
                     </div>

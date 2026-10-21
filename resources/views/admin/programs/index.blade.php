@@ -10,7 +10,7 @@
             <div>
                 <h3 class="admin-card-title">Daftar Layanan Jasa</h3>
                 <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                    Kelola program keahlian pengeboran rig, silabus materi teknis, durasi, target peserta, dan status aktif.
+                    Kelola 8 layanan jasa coating blasting painting, spesifikasi teknis, durasi pengerjaan, target industri, dan status aktif.
                 </p>
             </div>
             <a href="{{ route('admin.programs.create') }}" class="btn-admin-gold">

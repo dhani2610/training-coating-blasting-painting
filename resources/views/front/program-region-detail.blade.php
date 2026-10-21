@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', $program['title'] . ' di ' . $regionName . ' | Direktori Panduan & Sertifikasi Ahli K3')
-@section('meta_description', 'Kurikulum resmi, jadwal pendaftaran, dan panduan silabus ' . $program['title'] . ' di ' . $regionName . '. Sertifikasi resmi personel rig berstandar internasional. Hubungi 081399810272.')
+@section('meta_description', 'Layanan jasa resmi, estimasi penawaran teknis, dan spesifikasi pengerjaan ' . $program['title'] . ' di ' . $regionName . '. Sertifikasi resmi teknisi blasting & coating berstandar internasional. Hubungi 081399810272.')
 
 @section('content')
 
@@ -27,7 +27,7 @@
 
             <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap;">
                 <span class="hero-badge" style="margin-bottom: 0;">
-                    <i class="bi bi-award-fill"></i> {{ $program['level_name'] ?? 'Jasa Coating Blasting Painting & Personel Rig' }}
+                    <i class="bi bi-award-fill"></i> {{ $program['level_name'] ?? 'Jasa Coating Blasting Painting & Teknisi Blasting & Coating' }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #34d399; color: #a7f3d0;">
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
@@ -42,7 +42,7 @@
             </h1>
 
             <p class="hero-lead" style="margin-left: 0; max-width: 900px; margin-bottom: 22px;">
-                Penyelenggaraan layanan jasa, bimbingan teknis, dan sertifikasi resmi Jasa Coating Blasting Painting untuk tenaga kerja profesional di wilayah {{ $regionName }}. Dilengkapi silabus komprehensif berstandar keselamatan rig internasional.
+                Penyedia layanan jasa pengerjaan protective coating, abrasive blasting, dan inspeksi mutu coating QA/QC untuk berbagai fasilitas industri di wilayah {{ $regionName }}. Dilengkapi prosedur kerja berstandar internasional SSPC, NACE, dan ISO.
             </p>
 
             <div class="hero-cta" style="justify-content: flex-start; margin-bottom: 0;">
@@ -68,14 +68,14 @@
                     <!-- Detail Program Info -->
                     <div class="article-content-card" style="margin-bottom: 30px;">
                         <h2 style="font-size: 1.35rem; font-weight: 800; color: #062e22; margin-bottom: 14px; display: flex; align-items: center; gap: 10px;">
-                            <i class="bi bi-shield-check" style="color: #10b981;"></i> Kurikulum & Spesifikasi Layanan Jasa di {{ $regionName }}
+                            <i class="bi bi-shield-check" style="color: #10b981;"></i> Lingkup Kerja & Spesifikasi Teknis di {{ $regionName }}
                         </h2>
 
                         <p style="font-size: 0.92rem; color: #475569; line-height: 1.8; margin-bottom: 24px;">
                             {{ $program['full_description'] }} Layanan Jasa dan sertifikasi ini diselenggarakan secara berkala untuk memenuhi standar kompetensi dan kelaikan operasi pada eksplorasi migas, panas bumi (geothermal), pertambangan mineral, dan pemboran air tanah dalam di <strong>{{ $regionName }}</strong>.
                         </p>
 
-                        <!-- Modul Kurikulum List -->
+                        <!-- Daftar Lingkup Pekerjaan -->
                         <h3 style="font-size: 1.15rem; font-weight: 800; color: #062e22; margin-bottom: 14px; border-top: 1px solid #f1f5f9; padding-top: 20px;">
                             Modul Pembelajaran Wajib
                         </h3>
@@ -107,7 +107,7 @@
                     <div class="wa-hotlines-box" style="margin: 0 0 36px 0;">
                         <div class="wa-hotlines-header">
                             <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Resmi di {{ $regionName }}</h3>
-                            <p>Hubungi kontak resmi kami untuk informasi pendaftaran, jadwal batch, dan silabus:</p>
+                            <p>Hubungi kontak resmi kami untuk informasi pendaftaran, estimasi biaya, dan survei teknis:</p>
                         </div>
 
                         <div class="wa-hotlines-grid">
@@ -214,7 +214,7 @@
                                 </h2>
                             </div>
                             <span style="font-size: 0.8rem; font-weight: 700; color: #4c1d95; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
-                                <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Personel Rig Keselamatan Kerja
+                                <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Jasa Proteksi Korosi & Blasting Painting
                             </span>
                         </div>
 
@@ -243,7 +243,7 @@
                         <div style="display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
                             <div style="flex: 1; min-width: 240px; position: relative;">
                                 <i class="bi bi-search" style="position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: #94a3b8;"></i>
-                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Personel Rig Keselamatan Kerja (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
+                                <input type="text" id="articleSearchInput" class="form-control" placeholder="Cari topik modul (misal: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Rescue, Permit)..." style="padding: 11px 16px 11px 38px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 0.9rem; width: 100%;">
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px;">
                                 <label style="font-size: 0.82rem; font-weight: 700; color: #475569; white-space: nowrap;">Tampilkan:</label>
@@ -282,7 +282,7 @@
                         </h3>
 
                         <p style="font-size: 0.84rem; color: #64748b; line-height: 1.6; margin-bottom: 18px;">
-                            Jadwal pelaksanaan terdekat dan konfirmasi ketersediaan kuota kelas di {{ $regionName }} dapat dikonfirmasikan langsung melalui WhatsApp:
+                            Jadwal pelaksanaan terdekat dan konfirmasi ketersediaan kapasitas pengerjaan di {{ $regionName }} dapat dikonfirmasikan langsung melalui WhatsApp:
                         </p>
 
                         <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="width: 100%; justify-content: center; margin-bottom: 12px;">
@@ -292,7 +292,7 @@
                         <div style="font-size: 0.78rem; color: #64748b; display: flex; flex-direction: column; gap: 8px; margin-top: 16px; border-top: 1px solid #f1f5f9; padding-top: 14px;">
                             <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Layanan Tersedia untuk Perorangan & Perusahaan</div>
                             <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Fasilitas Sertifikat Sertifikasi Resmi & Lisensi K3</div>
-                            <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Modul Silabus & Konsumsi Lengkap</div>
+                            <div><i class="bi bi-check-circle-fill" style="color: #10b981;"></i> Peralatan & Instrumen Uji Terkalibrasi Lengkap</div>
                         </div>
 
                         <!-- Sub-wilayah / Kecamatan Directory -->
@@ -371,7 +371,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #0d4a39;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Personel Rig Keselamatan Kerja (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';
@@ -391,7 +391,7 @@
                             MODUL ${item.index} DARI 200
                         </span>
                         <span style="font-size: 0.74rem; font-weight: 700; color: #4c1d95; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
-                            <i class="bi bi-journal-check"></i> Silabus Resmi Sertifikasi Resmi
+                            <i class="bi bi-journal-check"></i> Spesifikasi Teknis Standar SSPC NACE
                         </span>
                     </div>
 

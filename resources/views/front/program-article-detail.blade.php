@@ -37,7 +37,7 @@
                     <i class="bi bi-geo-alt-fill"></i> {{ $regionName }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #10b981; color: #a7f3d0;">
-                    <i class="bi bi-shield-check"></i> Modul Terverifikasi Rig Resmi
+                    <i class="bi bi-shield-check"></i> Spesifikasi Mutu SSPC & NACE Resmi
                 </span>
             </div>
 
@@ -52,7 +52,7 @@
                 <span>•</span>
                 <span><i class="bi bi-eye-fill" style="color: #f97316;"></i> {{ number_format($article->views_count ?? 450) }} x dibaca</span>
                 <span>•</span>
-                <span style="color: #a7f3d0; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Resmi Personel Rig Keselamatan Kerja</span>
+                <span style="color: #a7f3d0; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Resmi Jasa Proteksi Korosi & Blasting Painting</span>
             </div>
         </div>
     </section>
@@ -84,7 +84,7 @@
                         <!-- Highlight Excerpt -->
                         <div style="font-size: 1.02rem; font-weight: 600; color: #062e22; background: #f0fdf4; border-left: 4px solid #10b981; padding: 16px 20px; border-radius: 8px; margin-bottom: 28px;">
                             <div style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.8px; color: #059669; margin-bottom: 6px; font-weight: 800;">
-                                <i class="bi bi-bookmark-check-fill"></i> Ringkasan Eksekutif Kurikulum
+                                <i class="bi bi-bookmark-check-fill"></i> Ringkasan Eksekutif Lingkup Pekerjaan
                             </div>
                             {{ $article->excerpt }}
                         </div>
@@ -93,7 +93,7 @@
                         <div class="wa-hotlines-box" style="margin: 0 0 32px 0;">
                             <div class="wa-hotlines-header">
                                 <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor Kontak WhatsApp Pendaftaran & Konsultasi</h3>
-                                <p>Butuh penjelasan materi teknis, jadwal batch, atau sertifikasi Sertifikasi Resmi? Hubungi konsultan kami:</p>
+                                <p>Butuh penjelasan materi teknis, estimasi anggaran proyek, atau spesifikasi teknis? Hubungi konsultan kami:</p>
                             </div>
 
                             <div class="wa-hotlines-grid">
@@ -150,7 +150,7 @@
                                 Siap Mengikuti Layanan Jasa {{ $program['title'] }} di {{ $regionName }}?
                             </h3>
                             <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
-                                Dapatkan silabus teknis lengkap, jadwal batch terdekat, dan konfirmasi kuota peserta dengan menghubungi WhatsApp kami:
+                                Dapatkan spesifikasi teknis lengkap, jadwal survei teknis dan penawaran biaya proyek dengan menghubungi WhatsApp kami:
                             </p>
                             <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="font-size: 0.95rem; padding: 12px 28px; display: inline-flex;">
                                 <i class="bi bi-whatsapp"></i> Chat WhatsApp: 081399810272

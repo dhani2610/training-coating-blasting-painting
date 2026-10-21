@@ -24,7 +24,7 @@
                     <i class="bi bi-geo-alt-fill"></i> {{ $article->city ?? ($article->province ?? 'Indonesia') }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #10b981; color: #a7f3d0;">
-                    <i class="bi bi-shield-check"></i> Sertifikasi Personel Rig Resmi
+                    <i class="bi bi-shield-check"></i> Sertifikasi Standar Mutu SSPC & NACE Resmi
                 </span>
             </div>
 
@@ -39,7 +39,7 @@
                 <span>•</span>
                 <span><i class="bi bi-eye-fill" style="color: #34d399;"></i> {{ number_format($article->views_count ?? 380) }} x dibaca</span>
                 <span>•</span>
-                <span style="color: #a7f3d0; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Rig Energi Internasional</span>
+                <span style="color: #a7f3d0; font-weight: 700;"><i class="bi bi-patch-check-fill"></i> Standar Mutu Internasional SSPC NACE ISO</span>
             </div>
         </div>
     </section>
@@ -65,7 +65,7 @@
                         <div class="wa-hotlines-box" style="margin: 0 0 32px 0;">
                             <div class="wa-hotlines-header">
                                 <h3><i class="bi bi-headset" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor WhatsApp Resmi Layanan Konsultasi & Pendaftaran</h3>
-                                <p>Hubungi petugas spesialis kami untuk konfirmasi ketersediaan kuota, silabus, atau pelaksanaan pengerjaan proyek industri:</p>
+                                <p>Hubungi petugas spesialis kami untuk konsultasi teknis, survei lokasi, atau penawaran pengerjaan proyek industri:</p>
                             </div>
 
                             <div class="wa-hotlines-grid">
@@ -122,7 +122,7 @@
                                 Konsultasi Pendaftaran Jasa Coating Blasting Painting Sekarang
                             </h3>
                             <p style="font-size: 0.88rem; color: #a7f3d0; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
-                                Hubungi konsultan pendaftaran resmi kami untuk konfirmasi jadwal kelas terbuka terdekat maupun pengerjaan proyek industri perusahaan:
+                                Hubungi konsultan pendaftaran resmi kami untuk konfirmasi jadwal pengerjaan proyek terdekat maupun pengerjaan proyek industri perusahaan:
                             </p>
                             <a href="{{ $waLink }}" target="_blank" class="btn-primary-green" style="font-size: 0.95rem; padding: 12px 28px; display: inline-flex;">
                                 <i class="bi bi-whatsapp"></i> Chat WhatsApp: 081399810272

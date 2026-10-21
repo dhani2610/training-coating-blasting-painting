@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
-@section('title', 'Jasa Coating Blasting Painting ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi Personel Rig Keselamatan Kerja Resmi')
-@section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi K3 Personel Rig Keselamatan Kerja (Jasa Coating Blasting Painting Crew) di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
+@section('title', 'Jasa Coating Blasting Painting ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ' | Sertifikasi Jasa Proteksi Korosi & Blasting Painting Resmi')
+@section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi K3 Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew) di Kecamatan ' . $kecamatanData['name'] . ', ' . $kecamatanData['kabkot']['name'] . ', ' . $kecamatanData['province']['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
 
@@ -26,7 +26,7 @@
                     <i class="bi bi-buildings"></i> {{ $kecamatanData['kabkot']['name'] }}
                 </span>
                 <span class="hero-badge" style="margin-bottom: 0; background: rgba(16, 185, 129, 0.2); border-color: #10b981; color: #a7f3d0;">
-                    <i class="bi bi-shield-check"></i> Standar Kompetensi Personel Rig Keselamatan Kerja & Standar Operasional Rig Internasional
+                    <i class="bi bi-shield-check"></i> Standar Mutu Preparasi Permukaan ISO 8501-1 & Standar Pelapisan SSPC / NACE Internasional
                 </span>
             </div>
 
@@ -56,9 +56,9 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">6 Program Resmi di {{ $kecamatanData['name'] }}</span>
-                <h2 class="section-title">Program Sertifikasi Operator Keselamatan & Kesehatan Kerja Korporat (Jasa Coating Blasting Painting) & Lisensi Rig Resmi</h2>
+                <h2 class="section-title">Layanan Jasa Proteksi Korosi Industri, Blasting Sa 2.5 Sa 3 & Aplikasi Protective Coating Resmi</h2>
                 <p class="section-desc">
-                    Tersedia 6 layanan jasa resmi yang masing-masing memiliki panduan modul materi dan silabus kurikulum di Kecamatan {{ $kecamatanData['name'] }}:
+                    Tersedia 8 layanan jasa profesional yang masing-masing memiliki panduan lingkup pengerjaan dan spesifikasi teknis di Kecamatan {{ $kecamatanData['name'] }}:
                 </p>
             </div>
 
@@ -100,7 +100,7 @@
             <div class="wa-hotlines-box" style="margin-bottom: 48px;">
                 <div class="wa-hotlines-header">
                     <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor WhatsApp Resmi Layanan di {{ $kecamatanData['name'] }}</h3>
-                    <p>Silakan hubungi kontak resmi kami untuk konsultasi jadwal batch, silabus materi, dan pendaftaran mandiri maupun in-house corporate:</p>
+                    <p>Silakan hubungi kontak resmi kami untuk konsultasi estimasi biaya, survei lapangan, dan jadwal pengerjaan proyek di lokasi Anda:</p>
                 </div>
 
                 <div class="wa-cards-grid">
@@ -145,7 +145,7 @@
                     </div>
 
                     <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin-bottom: 20px;">
-                        Beralih ke kecamatan lain di lingkungan {{ $kecamatanData['kabkot']['name'] }} untuk melihat jadwal layanan jasa Jasa Coating Blasting Painting, silabus, dan kontak pendaftaran terdekat:
+                        Beralih ke kecamatan lain di lingkungan {{ $kecamatanData['kabkot']['name'] }} untuk melihat jangkauan layanan jasa pengerjaan Coating Blasting Painting terdekat:
                     </p>
 
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
@@ -173,7 +173,7 @@
                 <span class="section-tag">Panduan Jasa Coating Blasting Painting</span>
                 <h2 class="section-title">Daftar Direktori Panduan Lengkap Jasa Coating Blasting Painting di Kecamatan {{ $kecamatanData['name'] }}</h2>
                 <p class="section-desc" style="margin-left: 0;">
-                    Kumpulan panduan modul mendalam mencakup standar kompetensi personel rig, prosedur penutupan sumur cepat (shut-in), sistem pengendalian tekanan sumur (Manajemen Risiko K3), pengujian BOP bertekanan tinggi, dan keselamatan tempat kerja di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}:
+                    Kumpulan panduan modul mendalam mencakup standar kompetensi teknisi blasting & coating, prosedur penutupan sumur cepat (shut-in), sistem pengendalian tekanan sumur (Manajemen Risiko K3), pengujian BOP bertekanan tinggi, dan keselamatan tempat kerja di Kecamatan {{ $kecamatanData['name'] }}, {{ $kecamatanData['kabkot']['name'] }}:
                 </p>
             </div>
 

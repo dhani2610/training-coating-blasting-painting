@@ -174,7 +174,7 @@
             <div class="brand-icon">
                 <i class="bi bi-shield-lock-fill"></i>
             </div>
-            <h1>ADMIN JASA COATING BLASTING PAINTINGORATE</h1>
+            <h1>ADMIN JASA COATING BLASTING PAINTING</h1>
             <p>Silakan masuk menggunakan akun resmi administrator</p>
         </div>
 

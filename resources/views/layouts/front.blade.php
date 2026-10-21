@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Jasa Coating Blasting Painting | Pusat Layanan Pengerjaan & Sertifikasi K3 Korporasi Resmi')</title>
-    <meta name="description" content="@yield('meta_description', 'Pusat layanan pengerjaan dan kendali mutu resmi Jasa Coating Blasting Painting, Audit SMK3 166 Kriteria PP 50/2012, HIRADC, IBPPR, dan Tata Kelola P2K3 Perusahaan di Indonesia.')">
+    <title>@yield('title', 'Jasa Coating Blasting Painting | Layanan Protective Coating, Sandblasting Sa 2.5 Sa 3 & Industrial Painting Resmi')</title>
+    <meta name="description" content="@yield('meta_description', 'Pusat kontraktor dan penyedia layanan jasa pengerjaan Jasa Coating Blasting Painting, Abrasive Sandblasting Sa 2.5 Sa 3, Protective Coating, Hydroblasting, dan Coating Inspector QA/QC di Indonesia.')">
     
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1755,7 +1755,7 @@
                     <li><a href="{{ route('contact') }}" class="nav-link {{ request()->routeIs('contact*') ? 'active' : '' }}">Kontak</a></li>
                 </ul>
 
-                <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272&text=' . urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi pendaftaran.') }}" target="_blank" class="btn-wa-header">
+                <a href="{{ $waLink ?? 'https://api.whatsapp.com/send?phone=6281399810272&text=' . urlencode('Halo Admin Jasa Coating Blasting Painting, saya ingin konsultasi penawaran teknis dan jadwal pengerjaan proyek jasa.') }}" target="_blank" class="btn-wa-header">
                     <i class="bi bi-whatsapp"></i>
                     <span>Hubungi</span>
                 </a>
@@ -1795,11 +1795,11 @@
                             <i class="bi bi-shield-check"></i>
                         </div>
                         <div class="brand-text">
-                            <h3 style="font-size: 0.98rem; font-weight: 800; color: #fff;">JASA <span style="color: var(--accent-mint);">AHLI K3 UMUM CORP</span></h3>
+                            <h3 style="font-size: 0.98rem; font-weight: 800; color: #fff;">JASA <span style="color: var(--accent-mint);">COATING BLASTING PAINTING</span></h3>
                         </div>
                     </div>
                     <p class="footer-desc">
-                        Pusat layanan pengerjaan, sertifikasi, dan pengerjaan proyek industri Jasa Coating Blasting Painting terakreditasi: Layanan Pengerjaan Coating Blasting Painting Perusahaan, Auditor SMK3 PP 50/2012 166 Kriteria, Manajemen Risiko HIRADC/IBPPR, Investigasi Insiden SCAT/RCA, serta Kelembagaan P2K3 Bipartit menuju Zero Harm.
+                        Pusat kontraktor dan penyedia layanan jasa proteksi korosi industri di Indonesia: Jasa Operator Abrasive Blasting Sa 2.5 Sa 3, Aplikator Protective Coating, Coating Inspector QA/QC NACE & SSPC, Hydroblasting UHP, serta Internal Tank Lining & Pipe Coating.
                     </p>
                     <div style="margin-bottom: 16px;">
                         <span style="font-size: 0.76rem; color: #6ee7b7; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;">Hotline Utama Layanan:</span>
@@ -1810,23 +1810,23 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4>Program Resmi</h4>
+                    <h4>Layanan Jasa Unggulan</h4>
                     <ul class="footer-links">
-                        <li><a href="{{ route('program.detail', 'jasa-operator-blasting-abrasive') }}">Layanan Pengerjaan Jasa Coating Blasting Painting</a></li>
-                        <li><a href="{{ route('program.detail', 'jasa-aplikator-protective-coating-painting') }}">Audit SMK3 166 Kriteria PP 50/2012</a></li>
-                        <li><a href="{{ route('program.detail', 'jasa-coating-inspector-qc-proteksi-korosi') }}">Manajemen Risiko HIRADC & IBPPR</a></li>
-                        <li><a href="{{ route('program.detail', 'jasa-hydroblasting-waterjetting-uhp') }}">Tata Kelola Kelembagaan P2K3 Bipartit</a></li>
-                        <li><a href="{{ route('programs') }}">Lihat Seluruh 6 Program K3 Korporat</a></li>
+                        <li><a href="{{ route('program.detail', 'jasa-operator-blasting-abrasive') }}">Jasa Operator Abrasive Blasting Sa 2.5 Sa 3</a></li>
+                        <li><a href="{{ route('program.detail', 'jasa-aplikator-protective-coating-painting') }}">Jasa Aplikator Protective Coating</a></li>
+                        <li><a href="{{ route('program.detail', 'jasa-coating-inspector-qc-proteksi-korosi') }}">Jasa Coating Inspector QA/QC NACE</a></li>
+                        <li><a href="{{ route('program.detail', 'jasa-hydroblasting-waterjetting-uhp') }}">Jasa Hydroblasting & UHP Waterjetting</a></li>
+                        <li><a href="{{ route('programs') }}">Lihat Seluruh 8 Layanan Jasa Industri</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col">
                     <h4>Navigasi & Panduan</h4>
                     <ul class="footer-links">
-                        <li><a href="{{ route('about') }}">Tentang Kami & Legalitas</a></li>
-                        <li><a href="{{ route('articles') }}">Panduan Modul Panduan Daerah</a></li>
+                        <li><a href="{{ route('about') }}">Tentang Kami & Standar Mutu</a></li>
+                        <li><a href="{{ route('articles') }}">Panduan Teknis & Direktori Daerah</a></li>
                         <li><a href="{{ route('home') }}#wilayah">Direktori 38 Provinsi</a></li>
-                        <li><a href="{{ route('contact') }}">Konsultasi & Pendaftaran</a></li>
+                        <li><a href="{{ route('contact') }}">Konsultasi Teknis & Penawaran Proyek</a></li>
                     </ul>
                 </div>
 
@@ -1834,16 +1834,16 @@
                     <h4>4 Kontak WhatsApp Resmi</h4>
                     <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.82rem;">
                         <a href="https://api.whatsapp.com/send?phone=628118500177" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>CS 1 (Jadwal):</strong> 0811-8500-177
+                            <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>CS 2 (Jadwal & Survei):</strong> 0811-8500-177
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6281399810272" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
                             <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>Hotline Utama:</strong> 0813-9981-0272
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6287894580806" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>Silabus Teknis:</strong> 0878-9458-0806
+                            <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>Spesifikasi Teknis:</strong> 0878-9458-0806
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=6287894580649" target="_blank" style="color: #cbd5e1; display: flex; align-items: center; gap: 8px;">
-                            <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>In-House B2B:</strong> 0878-9458-0649
+                            <i class="bi bi-whatsapp" style="color: #fbbf24;"></i> <strong>Kontrak Industri:</strong> 0878-9458-0649
                         </a>
                     </div>
                 </div>
@@ -1854,7 +1854,7 @@
                     &copy; {{ date('Y') }} Jasa Coating Blasting Painting. Seluruh hak cipta dilindungi.
                 </div>
                 <div>
-                    Pusat Layanan Pengerjaan & Sertifikasi K3 Korporat • Standar Audit SMK3 PP 50/2012 & ISO 45001:2018 Terakreditasi
+                    Kontraktor & Aplikator Proteksi Korosi Nasional • Standar Mutu SSPC, NACE / AMPP, ISO 8501-1 & ISO 12944 Terakreditasi
                 </div>
             </div>
         </div>
@@ -1869,8 +1869,8 @@
                     <span class="online-indicator"></span>
                 </div>
                 <div class="wa-header-info">
-                    <div class="wa-header-title">Customer Care Jasa Coating Blasting Painting | Pusat Layanan Pengerjaan & Sertifikasi K3 Korporasi Resmi</div>
-                    <div class="wa-header-subtitle">Konsultasi Coating Blasting Painting, Audit SMK3 & P2K3 Korporat 24/7</div>
+                    <div class="wa-header-title">Customer Care Jasa Coating Blasting Painting | Spesialis Proteksi Korosi & Blasting Painting Resmi</div>
+                    <div class="wa-header-subtitle">Konsultasi Teknis Blasting, Protective Coating & Coating Inspection 24/7</div>
                 </div>
                 <button type="button" class="wa-close-btn" id="waCloseBtn" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
             </div>
@@ -1881,7 +1881,7 @@
                 </div>
                 
                 <!-- Card CS Utama (081399810272) -->
-                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pendaftaran resmi sertifikasi Coating Blasting Painting, Audit SMK3, dan P2K3.') }}" target="_blank" class="wa-contact-card wa-primary-card">
+                <a href="https://api.whatsapp.com/send?phone=6281399810272&text={{ urlencode('Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi penawaran teknis pengerjaan abrasive blasting dan protective coating.') }}" target="_blank" class="wa-contact-card wa-primary-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-patch-check-fill"></i>
                     </div>
@@ -1890,59 +1890,59 @@
                             <span class="wa-contact-name">0813-9981-0272</span>
                             <span class="wa-contact-badge badge-primary-pulse">Hotline Utama</span>
                         </div>
-                        <div class="wa-contact-desc">Sertifikasi Coating Blasting Painting & Audit SMK3</div>
+                        <div class="wa-contact-desc">Konsultasi Utama Blasting & Protective Coating</div>
                     </div>
                     <i class="bi bi-whatsapp wa-icon-direct"></i>
                 </a>
 
                 <!-- Card CS 1 (08118500177) -->
-                <a href="https://api.whatsapp.com/send?phone=628118500177&text={{ urlencode('Halo CS 1 Jasa Coating Blasting Painting, saya ingin menanyakan jadwal batch jasa blasting painting terdekat dan kuota kelas di wilayah saya.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=628118500177&text={{ urlencode('Halo CS 1 Jasa Coating Blasting Painting, saya ingin menanyakan jadwal pengerjaan jasa blasting painting dan survei lokasi di wilayah saya.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-calendar2-check"></i>
                     </div>
                     <div class="wa-contact-details">
                         <div class="wa-contact-top">
                             <span class="wa-contact-name">0811-8500-177</span>
-                            <span class="wa-contact-badge">Jadwal & Kuota</span>
+                            <span class="wa-contact-badge">Jadwal & Survei</span>
                         </div>
-                        <div class="wa-contact-desc">Jadwal Pengerjaan Proyek Coating Blasting Painting & Kuota</div>
+                        <div class="wa-contact-desc">Jadwal Pengerjaan Proyek & Survei Lapangan</div>
                     </div>
                     <i class="bi bi-whatsapp wa-icon-direct"></i>
                 </a>
 
                 <!-- Card CS 2 (087894580806) -->
-                <a href="https://api.whatsapp.com/send?phone=6287894580806&text={{ urlencode('Halo Tim Teknis Jasa Coating Blasting Painting, saya ingin konsultasi silabus teknis Coating Blasting Painting, Audit SMK3, HIRADC, dan P2K3.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=6287894580806&text={{ urlencode('Halo Tim Teknis Jasa Coating Blasting Painting, saya ingin konsultasi spesifikasi teknis pengerjaan blasting, coating protective, dan coating inspection.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-book-half"></i>
                     </div>
                     <div class="wa-contact-details">
                         <div class="wa-contact-top">
                             <span class="wa-contact-name">0878-9458-0806</span>
-                            <span class="wa-contact-badge">Silabus Teknis</span>
+                            <span class="wa-contact-badge">Spesifikasi Teknis</span>
                         </div>
-                        <div class="wa-contact-desc">Silabus Audit SMK3, HIRADC & Investigasi Insiden</div>
+                        <div class="wa-contact-desc">Spesifikasi Teknis SSPC, NACE, Blasting & Coating Inspection</div>
                     </div>
                     <i class="bi bi-whatsapp wa-icon-direct"></i>
                 </a>
 
                 <!-- Card CS 3 (087894580649) -->
-                <a href="https://api.whatsapp.com/send?phone=6287894580649&text={{ urlencode('Halo Divisi Korporasi Jasa Coating Blasting Painting, kami ingin mengajukan penawaran Pengerjaan Proyek Industri K3 dan persiapan audit SMK3 untuk tim perusahaan kami.') }}" target="_blank" class="wa-contact-card">
+                <a href="https://api.whatsapp.com/send?phone=6287894580649&text={{ urlencode('Halo Divisi Korporasi Jasa Coating Blasting Painting, kami ingin mengajukan penawaran pengerjaan proyek industri blasting painting di fasilitas perusahaan kami.') }}" target="_blank" class="wa-contact-card">
                     <div class="wa-contact-avatar">
                         <i class="bi bi-building-gear"></i>
                     </div>
                     <div class="wa-contact-details">
                         <div class="wa-contact-top">
                             <span class="wa-contact-name">0878-9458-0649</span>
-                            <span class="wa-contact-badge">In-House B2B</span>
+                            <span class="wa-contact-badge">Proyek Industri B2B</span>
                         </div>
-                        <div class="wa-contact-desc">Pengerjaan Proyek Industri K3 Perusahaan & Mock Audit SMK3</div>
+                        <div class="wa-contact-desc">Kontrak Borongan Industri & On-Site Blasting Painting</div>
                     </div>
                     <i class="bi bi-whatsapp wa-icon-direct"></i>
                 </a>
             </div>
             
             <div class="wa-popup-footer">
-                <i class="bi bi-shield-check text-success me-1"></i> Layanan Resmi Terverifikasi Standar Coating Blasting Painting & SMK3 PP 50/2012
+                <i class="bi bi-shield-check text-success me-1"></i> Layanan Resmi Terverifikasi Standar SSPC, NACE / AMPP & ISO 12944
             </div>
         </div>
 

@@ -15,7 +15,7 @@ class SettingController extends Controller
         $whatsappDetail2 = Setting::get('whatsapp_detail_2', '081399810272');
         $whatsappDetail3 = Setting::get('whatsapp_detail_3', '087894580806');
         $whatsappDetail4 = Setting::get('whatsapp_detail_4', '087894580649');
-        $whatsappTemplate = Setting::get('whatsapp_template', 'Halo Admin Jasa Confined Space, saya ingin informasi dan konsultasi pendaftaran pelatihan K3 Ruang Terbatas untuk wilayah {region}. Mohon info jadwal terbaru dan persyaratannya.');
+        $whatsappTemplate = Setting::get('whatsapp_template', 'Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pengerjaan proyek dan penawaran teknis jasa blasting coating painting untuk wilayah {region}. Mohon info estimasi biaya dan survei teknis lapangan.');
 
         return view('admin.settings.whatsapp', compact(
             'whatsappNumber',

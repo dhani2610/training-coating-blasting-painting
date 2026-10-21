@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'Jasa Coating Blasting Painting ' . $kabkotName . ' | Sertifikasi Jasa Coating Blasting Painting & Personel Rig')
+@section('title', 'Jasa Coating Blasting Painting ' . $kabkotName . ' | Sertifikasi Jasa Coating Blasting Painting & Teknisi Blasting & Coating')
 @section('meta_description', 'Layanan resmi layanan pengerjaan dan inspeksi kompetensi Jasa Coating Blasting Painting di ' . $kabkotName . ', ' . $province['name'] . '. Hubungi WhatsApp 081399810272.')
 
 @section('content')
@@ -54,9 +54,9 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">6 Program Resmi di {{ $kabkotName }}</span>
-                <h2 class="section-title">Pilih Jenjang Layanan Jasa Personel Rig Keselamatan Kerja & Manajemen Risiko K3</h2>
+                <h2 class="section-title">Pilih Jenjang Layanan Jasa Jasa Proteksi Korosi & Blasting Painting & Manajemen Risiko K3</h2>
                 <p class="section-desc">
-                    Tersedia 6 layanan jasa resmi yang masing-masing memiliki panduan modul materi dan silabus kurikulum di {{ $kabkotName }}:
+                    Tersedia 8 layanan jasa profesional yang masing-masing memiliki panduan lingkup pengerjaan dan spesifikasi teknis di {{ $kabkotName }}:
                 </p>
             </div>
 
@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="program-body">
-                            <div class="program-level">{{ $progObj->level_name ?? 'Jasa Coating Blasting Painting & Personel Rig' }}</div>
+                            <div class="program-level">{{ $progObj->level_name ?? 'Jasa Coating Blasting Painting & Teknisi Blasting & Coating' }}</div>
                             <h3 class="program-title">{{ $progObj->title }}</h3>
                             <p class="program-desc">
                                 {{ Str::limit($progObj->short_description ?? ($progObj->full_description ?? ''), 125) }}
@@ -98,7 +98,7 @@
             <div class="wa-hotlines-box" style="margin-bottom: 48px;">
                 <div class="wa-hotlines-header">
                     <h3><i class="bi bi-telephone-inbound-fill" style="color: var(--accent-mint); margin-right: 8px;"></i> 4 Nomor WhatsApp Resmi Layanan di {{ $kabkotName }}</h3>
-                    <p>Hubungi petugas spesialis kami untuk konfirmasi ketersediaan kuota, silabus, atau pelaksanaan layanan jasa in-house:</p>
+                    <p>Hubungi petugas spesialis kami untuk survei lokasi, estimasi anggaran proyek, atau pengerjaan on-site di pabrik Anda:</p>
                 </div>
 
                 <div class="wa-hotlines-grid">
@@ -142,7 +142,7 @@
                 </div>
 
                 <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin-bottom: 20px;">
-                    Pilih kecamatan di bawah ini untuk membuka modul materi silabus dan jadwal pelaksanaan layanan jasa Jasa Coating Blasting Painting (Coating Blasting Painting, Auditor SMK3, Analis Risiko HIRADC, Manajemen Risiko K3, Pengurus P2K3 Bipartit) khusus area {{ $kabkotName }}:
+                    Pilih kecamatan di bawah ini untuk membuka lingkup pengerjaan, spesifikasi teknis, dan jadwal pelaksanaan layanan jasa Jasa Coating Blasting Painting (Coating Blasting Painting, Auditor SMK3, Analis Risiko HIRADC, Manajemen Risiko K3, Pengurus P2K3 Bipartit) khusus area {{ $kabkotName }}:
                 </p>
 
                 <!-- Filter Pencarian Cepat Nama Kecamatan -->
@@ -187,7 +187,7 @@
                         </h2>
                     </div>
                     <span style="font-size: 0.8rem; font-weight: 700; color: #4c1d95; background: #ecfdf5; padding: 6px 14px; border-radius: 20px; border: 1px solid #a7f3d0;">
-                        <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Personel Rig
+                        <i class="bi bi-shield-check"></i> Sertifikasi Kompetensi Teknisi Blasting & Coating
                     </span>
                 </div>
 
@@ -295,7 +295,7 @@
                 <div style="text-align: center; padding: 48px 20px; background: #f8fafc; border-radius: 12px; border: 1px dashed #cbd5e1;">
                     <i class="bi bi-search" style="font-size: 2.2rem; color: #94a3b8; display: block; margin-bottom: 10px;"></i>
                     <h4 style="font-size: 1rem; font-weight: 700; color: #0d4a39;">Tidak ada modul yang cocok dengan kata kunci</h4>
-                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Personel Rig Keselamatan Kerja (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
+                    <p style="font-size: 0.84rem; color: #64748b; margin-top: 4px;">Coba gunakan kata kunci lain seperti: Jasa Proteksi Korosi & Blasting Painting (Jasa Coating Blasting Painting Crew), K3 Corporate & Manajemen Risiko K3, LOTO, Izin Masuk, atau Penyelamat.</p>
                 </div>
             `;
             paginationNav.innerHTML = '';
@@ -315,7 +315,7 @@
                             MODUL ${item.index} DARI 200
                         </span>
                         <span style="font-size: 0.74rem; font-weight: 700; color: #4c1d95; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
-                            <i class="bi bi-journal-check"></i> Silabus Resmi Sertifikasi Resmi
+                            <i class="bi bi-journal-check"></i> Spesifikasi Teknis Standar SSPC NACE
                         </span>
                     </div>
 

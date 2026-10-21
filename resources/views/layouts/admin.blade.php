@@ -484,8 +484,8 @@
                 <i class="bi bi-speedometer2"></i>
             </div>
             <div class="sidebar-brand-text">
-                <h2>JASA COATING BLASTING PAINTINGORATE</h2>
-                <p>Pusat Layanan Jasa & Sertifikasi Ahli K3</p>
+                <h2>COATING & BLASTING</h2>
+                <p>Kontraktor & Aplikator Industri</p>
             </div>
         </div>
 

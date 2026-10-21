@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', 'Hubungi Kami | Konsultasi & Pendaftaran Jasa Coating Blasting Painting')
-@section('meta_description', 'Hubungi kami untuk informasi jadwal, proposal pengerjaan proyek industri perusahaan, silabus teknis, dan sertifikasi resmi Sertifikasi Resmi Personel Rig Keselamatan Kerja.')
+@section('meta_description', 'Hubungi kami untuk informasi jadwal, proposal pengerjaan proyek industri perusahaan, spesifikasi teknis, dan sertifikasi resmi Sertifikasi Resmi Jasa Proteksi Korosi & Blasting Painting.')
 
 @section('content')
 
@@ -17,7 +17,7 @@
             </h1>
 
             <p class="hero-lead" style="max-width: 820px; margin: 0 auto; color: #cbd5e1; font-size: 1rem; line-height: 1.7;">
-                Konsultasikan kebutuhan layanan pengerjaan sertifikasi Jasa Coating Blasting Painting & Personel Rig individu maupun proposal pengerjaan proyek industri perusahaan di seluruh 38 provinsi Indonesia bersama konsultan resmi kami.
+                Konsultasikan kebutuhan layanan pengerjaan sertifikasi Jasa Coating Blasting Painting & Teknisi Blasting & Coating individu maupun proposal pengerjaan proyek industri perusahaan di seluruh 38 provinsi Indonesia bersama konsultan resmi kami.
             </p>
         </div>
     </section>
@@ -85,7 +85,7 @@
                                     <i class="bi bi-journal-check"></i>
                                 </div>
                                 <div style="flex-grow: 1;">
-                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 3 (Silabus & Teknis K3 Corporate & Manajemen Risiko K3)</div>
+                                    <div style="font-size: 0.72rem; color: #a7f3d0; text-transform: uppercase; font-weight: 700; letter-spacing: 0.3px;">Hotline 3 (Spesifikasi Teknis SSPC, NACE, QA/QC & Coating Inspection)</div>
                                     <div style="font-size: 1rem; font-weight: 800; color: #ffffff;">0878-9458-0806</div>
                                 </div>
                                 <i class="bi bi-chevron-right" style="color: #a7f3d0; font-size: 0.85rem;"></i>
@@ -149,7 +149,7 @@
                             Formulir Permohonan Informasi & Proposal Layanan Jasa
                         </h3>
                         <p style="font-size: 0.88rem; color: #64748b; margin-bottom: 28px; line-height: 1.6;">
-                            Silakan lengkapi formulir di bawah ini. Tim kami akan segera mengirimkan proposal silabus, jadwal batch terdekat, dan penawaran resmi langsung ke WhatsApp Anda.
+                            Silakan lengkapi formulir di bawah ini. Tim kami akan segera mengirimkan proposal penawaran harga & lingkup kerja, penawaran resmi dan estimasi biaya proyek langsung ke WhatsApp Anda.
                         </p>
 
                         <form action="{{ route('contact.submit') }}" method="POST">
@@ -216,7 +216,7 @@
                                 <label class="form-label">
                                     <i class="bi bi-chat-left-text"></i> Pesan / Kebutuhan Layanan Jasa Khusus <span class="req">*</span>
                                 </label>
-                                <textarea name="message" rows="4" class="form-control" required placeholder="Tuliskan jumlah peserta yang didaftarkan, rencana tanggal layanan jasa, atau kebutuhan pengerjaan proyek industri di lokasi pabrik Anda..."></textarea>
+                                <textarea name="message" rows="4" class="form-control" required placeholder="Tuliskan jumlah luasan area yang akan dikerjakan (m2), rencana tanggal layanan jasa, atau kebutuhan pengerjaan proyek industri di lokasi pabrik Anda..."></textarea>
                             </div>
 
                             <!-- Submit Button -->
@@ -242,7 +242,7 @@
                     </div>
                     <div>
                         <h4 style="font-size: 1rem; font-weight: 800; color: #062e22; margin-bottom: 4px;">Sertifikasi Resmi Sertifikasi Resmi</h4>
-                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Lisensi Jasa Coating Blasting Painting resmi dengan SKP dan sertifikat terdaftar di Sertifikasi Resmi Personel Rig Keselamatan Kerja.</p>
+                        <p style="font-size: 0.82rem; color: #64748b; line-height: 1.5; margin: 0;">Lisensi Jasa Coating Blasting Painting resmi dengan SKP dan sertifikat terdaftar di Sertifikasi Resmi Jasa Proteksi Korosi & Blasting Painting.</p>
                     </div>
                 </div>
 

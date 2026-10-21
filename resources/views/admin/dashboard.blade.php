@@ -64,7 +64,7 @@
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
             <div>
                 <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 4px; color: #ffffff;">Pusat Kontrol Cepat</h3>
-                <p style="font-size: 0.82rem; color: #a7f3d0;">Kelola nomor WhatsApp utama, 4 hotline detail, serta kurikulum 6 program Jasa Coating Blasting Painting & Kru Rig Pengeboran Profesional.</p>
+                <p style="font-size: 0.82rem; color: #a7f3d0;">Kelola nomor WhatsApp utama, 4 hotline detail, serta 8 layanan Jasa Coating Blasting Painting & Protective Coating Profesional.</p>
             </div>
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
                 <a href="{{ route('admin.settings.whatsapp') }}" class="btn-admin-gold" style="background: #10b981; color: white;">

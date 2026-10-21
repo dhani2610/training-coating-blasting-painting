@@ -52,7 +52,7 @@
                         </p>
 
                         <div class="article-footer">
-                            <div><i class="bi bi-person-fill"></i> {{ $art->author ?? 'Instruktur Personel Rig Keselamatan Kerja' }}</div>
+                            <div><i class="bi bi-person-fill"></i> {{ $art->author ?? 'Instruktur Jasa Proteksi Korosi & Blasting Painting' }}</div>
                             <div><i class="bi bi-eye"></i> {{ number_format($art->views_count ?? 300) }} x dibaca</div>
                         </div>
 
@@ -170,7 +170,7 @@
                     <span class="section-tag">Direktori Panduan per Daerah</span>
                     <h2 class="section-title">Jelajahi Direktori Panduan di 38 Provinsi</h2>
                     <p class="section-desc">
-                        Setiap provinsi dan kabupaten/kota memiliki materi kurikulum dan panduan teknis komprehensif yang siap dibaca:
+                        Setiap provinsi dan kabupaten/kota memiliki direktori panduan teknis komprehensif komprehensif yang siap dibaca:
                     </p>
                 </div>
 
@@ -281,7 +281,7 @@
                             MODUL ${item.index} DARI 200
                         </span>
                         <span style="font-size: 0.74rem; font-weight: 700; color: #4c1d95; background: #f0fdf4; padding: 2px 8px; border-radius: 4px;">
-                            <i class="bi bi-journal-check"></i> Silabus Resmi Sertifikasi Resmi
+                            <i class="bi bi-journal-check"></i> Spesifikasi Teknis Standar SSPC NACE
                         </span>
                     </div>
 

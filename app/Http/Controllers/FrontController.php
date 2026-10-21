@@ -28,10 +28,10 @@ class FrontController extends Controller
             $phone = '62' . substr($phone, 1);
         }
 
-        $template = Setting::get('whatsapp_template', 'Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pendaftaran pelatihan sertifikasi dan jasa blasting coating painting untuk wilayah {region}. Mohon info jadwal batch terbaru dan penawaran teknis.');
+        $template = Setting::get('whatsapp_template', 'Halo Admin Utama Jasa Coating Blasting Painting, saya ingin konsultasi pengerjaan proyek dan penawaran teknis jasa blasting coating painting untuk wilayah {region}. Mohon info estimasi biaya dan survei teknis lapangan.');
         
         $regionText = $regionName ?? 'Nasional';
-        $programText = $programName ? " program {$programName}" : '';
+        $programText = $programName ? " layanan {$programName}" : '';
 
         $message = str_replace(
             ['{region}', '{program}'],
@@ -52,7 +52,7 @@ class FrontController extends Controller
     protected function get4WaHotlines(?string $regionName = null, ?string $programTitle = null): array
     {
         $regionText = $regionName ?: 'Indonesia';
-        $progText = $programTitle ? " program {$programTitle}" : ' Pelatihan & Jasa Coating Blasting Painting';
+        $progText = $programTitle ? " layanan {$programTitle}" : ' Jasa Coating Blasting Painting';
 
         $raw1 = Setting::get('whatsapp', '081399810272');
         $raw2 = Setting::get('whatsapp_detail_1', '08118500177');
@@ -150,16 +150,16 @@ class FrontController extends Controller
         $waNumbers = $this->get4WaHotlines('Indonesia');
 
         $partners = [
-            ['name' => 'PT Pertamina (Persero)', 'role' => 'Standardisasi Sistem Manajemen HSE & Pembinaan Ahli K3 Operasional Migas'],
-            ['name' => 'PT PLN (Persero)', 'role' => 'Implementasi K3 Ketenagalistrikan & Sertifikasi Pengawas K3 Pembangkit'],
-            ['name' => 'PT Astra International Tbk', 'role' => 'Budaya Keselamatan Kerja Terpadu & Audit SMK3 Rantai Pasok Otomotif'],
-            ['name' => 'PT Telkom Indonesia Tbk', 'role' => 'K3 Infrastruktur Telekomunikasi & Manajemen Risiko Operasional Lapangan'],
-            ['name' => 'PT Unilever Indonesia Tbk', 'role' => 'Zero Harm Initiative & Pelatihan Tim Tanggap Darurat Pabrik Kimia'],
-            ['name' => 'PT Indofood Sukses Makmur Tbk', 'role' => 'Sertifikasi Personel P2K3 & Penerapan Higiene Industri Manufaktur Pangan'],
-            ['name' => 'PT Adaro Energy Indonesia Tbk', 'role' => 'Manajemen Risiko Tinggi Tambang Batubara & Sistem Pelaporan Insiden'],
-            ['name' => 'PT Freeport Indonesia', 'role' => 'Penerapan Golden Safety Rules & Pelatihan Keselamatan Kerja Bawah Tanah'],
-            ['name' => 'PT Vale Indonesia Tbk', 'role' => 'Standarisasi Audit SMK3 Pabrik Peleburan Nikel & Tata Kelola ESG'],
-            ['name' => 'PT Wijaya Karya (Persero) Tbk', 'role' => 'K3 Konstruksi Gedung Tinggi & Infrastruktur Strategis Nasional'],
+            ['name' => 'PT Pertamina (Persero)', 'role' => 'Proteksi Korosi Kilang Minyak, Sandblasting Sa 2.5 Tangki Timbun & Coating Pipa Migas'],
+            ['name' => 'PT PLN (Persero)', 'role' => 'Protective Coating Tower Transmisi, Penstock PLTA & Struktur Baja Pembangkit Listrik'],
+            ['name' => 'PT Astra International Tbk', 'role' => 'Pengecatan Fasilitas Manufaktur Berat, Epoxy Flooring Workshop & Proteksi Logam'],
+            ['name' => 'PT Pupuk Indonesia', 'role' => 'Chemical Resistant Tank Lining, Protective Coating Struktur Baja Pabrik & Sandblasting'],
+            ['name' => 'PT Petrokimia Gresik', 'role' => 'Proteksi Korosi Lingkungan Kimia Agresif, Glass Flake Epoxy Coating & Blasting'],
+            ['name' => 'PT Krakatau Steel', 'role' => 'Preparasi Sa 3 White Metal & Aplikasi Inorganic Zinc Ethyl Silicate Primer'],
+            ['name' => 'PT Adaro Energy Indonesia Tbk', 'role' => 'Thermal Spray Aluminium (TSA) Fasilitas Pelabuhan & Heavy Duty Coating Alat Tambang'],
+            ['name' => 'PT Freeport Indonesia', 'role' => 'Heavy Duty Protective Coating Struktur Konsentrator & Pipa Slurry Tahan Abrasi Ekstrem'],
+            ['name' => 'PT Vale Indonesia Tbk', 'role' => 'Protective Coating Tahan Temperatur Tinggi & Korosi Lingkungan Smelter Pengolahan Nikel'],
+            ['name' => 'PT PAL Indonesia (Persero)', 'role' => 'Marine Coating Lambung Kapal, Blasting Sa 2.5 & Pengawasan Coating Inspector QC'],
         ];
 
         return view('front.index', compact(
@@ -190,7 +190,7 @@ class FrontController extends Controller
     }
 
     /**
-     * 3. Program Pelatihan (Daftar Program)
+     * 3. Layanan Jasa (Daftar Layanan Jasa)
      */
     public function programs()
     {

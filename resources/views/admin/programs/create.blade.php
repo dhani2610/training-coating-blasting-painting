@@ -11,7 +11,7 @@
                 <div>
                     <h3 class="admin-card-title">Form Tambah Layanan Jasa</h3>
                     <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                        Lengkapi detail layanan jasa k3 corporate, silabus materi teknis pengeboran, durasi, dan sertifikasi.
+                        Lengkapi detail layanan jasa coating blasting painting, spesifikasi teknis pengerjaan, durasi, dan standar mutu.
                     </p>
                 </div>
                 <a href="{{ route('admin.programs.index') }}" class="btn-view-site">
@@ -24,18 +24,18 @@
 
                 <div class="form-group">
                     <label class="form-label">Judul Layanan Jasa *</label>
-                    <input type="text" name="title" class="form-control" required placeholder="Contoh: Jasa Coating Blasting Painting (Driller) Migas, Panas Bumi & Eksplorasi" value="{{ old('title') }}">
+                    <input type="text" name="title" class="form-control" required placeholder="Contoh: Jasa Operator Abrasive Blasting (Dry Blasting Sa 2.5 & Sa 3)" value="{{ old('title') }}">
                 </div>
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
                     <div class="form-group">
                         <label class="form-label">Kategori / Nama Jenjang *</label>
-                        <input type="text" name="level_name" class="form-control" required placeholder="Contoh: Tingkat Pertama / Operasional" value="{{ old('level_name') }}">
+                        <input type="text" name="level_name" class="form-control" required placeholder="Contoh: Layanan Utama / Jasa Abrasive Blasting" value="{{ old('level_name') }}">
                     </div>
 
                     <div class="form-group">
                         <label class="form-label">Kode / Singkatan Jenjang</label>
-                        <input type="text" name="level_code" class="form-control" placeholder="Contoh: Coating Blasting Painting / Driller" value="{{ old('level_code') }}">
+                        <input type="text" name="level_code" class="form-control" placeholder="Contoh: Blasting Operator / Sa 2.5" value="{{ old('level_code') }}">
                     </div>
 
                     <div class="form-group">
@@ -79,14 +79,14 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Sasaran Peserta (Target Audience)</label>
-                    <input type="text" name="target_audience" class="form-control" placeholder="Contoh: Auditor SMK3, Analis Risiko HIRADC, Junior Driller, Teknisi Rig Pengeboran" value="{{ old('target_audience') }}">
+                    <label class="form-label">Sasaran Fasilitas / Klien Industri (Target Scope)</label>
+                    <input type="text" name="target_audience" class="form-control" placeholder="Contoh: Kilang Migas, Galangan Kapal, Fabrikator Baja, Pembangkit Listrik" value="{{ old('target_audience') }}">
                 </div>
 
                 <!-- DYNAMIC CURRICULUM MODULES -->
                 <div class="form-group" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
-                        <label class="form-label" style="margin-bottom: 0;">Silabus / Modul Materi Layanan Jasa</label>
+                        <label class="form-label" style="margin-bottom: 0;">Spesifikasi Teknis / Lingkup Pengerjaan</label>
                         <button type="button" class="btn-admin-primary" id="btnAddCurriculum" style="padding: 6px 12px; font-size: 0.75rem;">
                             <i class="bi bi-plus-lg"></i> Tambah Modul
                         </button>
@@ -94,15 +94,15 @@
 
                     <div id="curriculumList" style="display: flex; flex-direction: column; gap: 10px;">
                         <div class="curriculum-item" style="display: flex; gap: 10px;">
-                            <input type="text" name="curriculum[]" class="form-control" placeholder="Modul 1: Prinsip Mekanika Pengeboran, Rotary Table & Drawworks">
+                            <input type="text" name="curriculum[]" class="form-control" placeholder="Scope 1: Asesmen Awal Korosi Substrat Baja & Standar Kebersihan ISO 8501-1">
                             <button type="button" class="btn-admin-danger btnRemoveModule" style="padding: 0 12px;"><i class="bi bi-trash"></i></button>
                         </div>
                         <div class="curriculum-item" style="display: flex; gap: 10px;">
-                            <input type="text" name="curriculum[]" class="form-control" placeholder="Modul 2: Karakteristik Fluida Pengeboran (Jasa Coating Blasting Painting Mud) & Sirkulasi Tekanan">
+                            <input type="text" name="curriculum[]" class="form-control" placeholder="Scope 2: Eksekusi Dry Abrasive Blasting Sa 2.5 dan Pengukuran Profil Press-O-Film">
                             <button type="button" class="btn-admin-danger btnRemoveModule" style="padding: 0 12px;"><i class="bi bi-trash"></i></button>
                         </div>
                         <div class="curriculum-item" style="display: flex; gap: 10px;">
-                            <input type="text" name="curriculum[]" class="form-control" placeholder="Modul 3: Prosedur Pengendalian Tekanan Sumur (Manajemen Risiko K3) & Operasi BOP">
+                            <input type="text" name="curriculum[]" class="form-control" placeholder="Scope 3: Pengujian Mutu Kebersihan Garam Klorida Bresle Test & Pengawasan QA/QC">
                             <button type="button" class="btn-admin-danger btnRemoveModule" style="padding: 0 12px;"><i class="bi bi-trash"></i></button>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
 
                     <div style="display: flex; align-items: center; gap: 8px; margin-top: 24px;">
                         <input type="checkbox" name="is_active" id="is_active" value="1" checked style="width: 18px; height: 18px;">
-                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Program Aktif</label>
+                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Layanan Jasa Aktif</label>
                     </div>
                 </div>
 

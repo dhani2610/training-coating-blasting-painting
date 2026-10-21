@@ -11,7 +11,7 @@
                 <div>
                     <h3 class="admin-card-title">Edit Program: {{ $program->title }}</h3>
                     <p style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">
-                        Perbarui detail program, silabus materi, durasi, dan status aktif.
+                        Perbarui detail layanan jasa, spesifikasi teknis, durasi pengerjaan, dan status aktif.
                     </p>
                 </div>
                 <a href="{{ route('admin.programs.index') }}" class="btn-view-site">
@@ -80,14 +80,14 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Sasaran Peserta (Target Audience)</label>
+                    <label class="form-label">Sasaran Fasilitas / Klien Industri (Target Scope)</label>
                     <input type="text" name="target_audience" class="form-control" value="{{ old('target_audience', $program->target_audience) }}">
                 </div>
 
                 <!-- DYNAMIC CURRICULUM MODULES -->
                 <div class="form-group" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px;">
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
-                        <label class="form-label" style="margin-bottom: 0;">Silabus / Modul Materi Layanan Jasa</label>
+                        <label class="form-label" style="margin-bottom: 0;">Spesifikasi Teknis / Lingkup Pengerjaan</label>
                         <button type="button" class="btn-admin-primary" id="btnAddCurriculum" style="padding: 6px 12px; font-size: 0.75rem;">
                             <i class="bi bi-plus-lg"></i> Tambah Modul
                         </button>
@@ -116,7 +116,7 @@
 
                     <div style="display: flex; align-items: center; gap: 8px; margin-top: 24px;">
                         <input type="checkbox" name="is_active" id="is_active" value="1" {{ $program->is_active ? 'checked' : '' }} style="width: 18px; height: 18px;">
-                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Program Aktif</label>
+                        <label for="is_active" style="font-size: 0.88rem; font-weight: 700; color: #1e293b; cursor: pointer;">Status Layanan Jasa Aktif</label>
                     </div>
                 </div>
 

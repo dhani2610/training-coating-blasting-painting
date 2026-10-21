@@ -122,7 +122,7 @@
                                     <i class="bi bi-whatsapp"></i> Konsultasi Audit SMK3: 0813-9981-0272
                                 </a>
                                 <a href="{{ route('program.detail', 'jasa-aplikator-protective-coating-painting') }}" class="btn-outline-white">
-                                    <i class="bi bi-file-earmark-check"></i> Silabus 166 Kriteria
+                                    <i class="bi bi-file-earmark-check"></i> Standar SSPC & NACE
                                 </a>
                             </div>
 
@@ -302,7 +302,7 @@
                             <i class="bi bi-file-earmark-check-fill"></i>
                         </div>
                         <h3 style="font-size: 1.12rem; font-weight: 800; color: #062e22; margin-bottom: 8px;">166 Kriteria Audit SMK3 & ISO 45001</h3>
-                        <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Kurikulum dirancang komprehensif mengacu pada 12 elemen dan 166 kriteria pemenuhan audit SMK3 PP 50/2012 serta keselarasan dengan sistem manajemen ISO 45001:2018.</p>
+                        <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Metodologi pengerjaan dirancang komprehensif mengacu pada standar mutu internasional ISO 8501-1, ISO 12944, SSPC, serta NACE/AMPP untuk ketahanan korosi jangka panjang.</p>
                     </div>
 
                     <!-- Card 2 -->
@@ -320,7 +320,7 @@
                             <i class="bi bi-building-check"></i>
                         </div>
                         <h3 style="font-size: 1.12rem; font-weight: 800; color: #062e22; margin-bottom: 8px;">Simulasi Mock Audit & Plant Tour Nyata</h3>
-                        <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Peserta tidak hanya belajar teori, melainkan melakukan simulasi langsung inspeksi K3, penulisan laporan temuan bahaya, serta penyusunan corrective action plan siap pakai.</p>
+                        <p style="font-size: 0.88rem; color: #475569; line-height: 1.6; margin: 0;">Tim juru blasting dan aplikator kami mengoperasikan peralatan bertekanan tinggi dengan pengawasan langsung Coating Inspector QA/QC bersertifikat di setiap proyek.</p>
                     </div>
 
                     <!-- Card 4 -->
@@ -388,7 +388,7 @@
 
                             <div class="program-footer-btn">
                                 <a href="{{ route('program.detail', $prog->slug) }}" class="btn-primary-green" style="width: 100%; justify-content: center; font-size: 0.88rem; padding: 11px 16px;">
-                                    <i class="bi bi-info-circle-fill"></i> Detail Program & Silabus
+                                    <i class="bi bi-info-circle-fill"></i> Detail Layanan & Lingkup Kerja
                                 </a>
                             </div>
                         </div>
@@ -458,7 +458,7 @@
                             </div>
                             <div>
                                 <h4 style="font-size: 0.98rem; font-weight: 700; color: #062e22; margin-bottom: 3px;">Kesesuaian Regulasi Nasional & Standar ISO 45001</h4>
-                                <p style="font-size: 0.84rem; color: #64748b; line-height: 1.5; margin: 0;">Kurikulum layanan jasa mengacu langsung pada undang-undang keselamatan kerja, 166 kriteria SMK3 PP 50/2012, serta integrasi High Level Structure ISO 45001.</p>
+                                <p style="font-size: 0.84rem; color: #64748b; line-height: 1.5; margin: 0;">Seluruh prosedur pengerjaan jasa mengacu langsung pada standar proteksi korosi internasional ISO 12944, SSPC-PA 2, dan NACE SP0188.</p>
                             </div>
                         </div>
 

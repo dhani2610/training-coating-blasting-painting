@@ -1,29 +1,49 @@
-# Training TKBT Indonesia - Web Pelatihan Sertifikasi Kemnaker RI
+# Jasa Coating Blasting Painting Indonesia
 
-Platform resmi informasi dan pendaftaran **Pelatihan & Sertifikasi Tenaga Kerja Bangunan Tinggi (TKBT)** berdasarkan regulasi ketenagakerjaan Permenaker RI No. 09 Tahun 2016.
-
----
-
-## 🏗️ Program Pelatihan
-1. **Training TKBT (Tenaga Kerja Bangunan Tinggi) Tingkat 1**
-   - Sertifikasi Resmi Kemnaker RI
-   - Standar Bekerja Pada Ketinggian dengan Akses Tali (*Rope Access* Dasar), Penahan Jatuh (*Fall Arrest*), Posisi Kerja (*Work Positioning*), dan Penyelamatan Mandiri.
-2. **Training TKBT (Tenaga Kerja Bangunan Tinggi) Tingkat 2**
-   - Sertifikasi Resmi Kemnaker RI
-   - Tingkat Lanjut: Perencanaan Akses Tali, Pembuatan Lintasan (*Rigging* & *Anchorage*), Supervisi Keselamatan Ketinggian, dan Evakuasi Kompleks (*High-Angle Rescue*).
+Portal resmi layanan **Jasa Protective Coating, Sandblasting Sa 2.5 Sa 3, dan Industrial Painting di Indonesia** berstandar internasional SSPC, NACE / AMPP, ISO 8501-1, dan ISO 12944.
 
 ---
 
-## 🚀 Fitur Unggulan
+## 🛠️ 8 Layanan Jasa Unggulan
+1. **Jasa Operator Abrasive Blasting (Dry Blasting Sa 2.5 & Sa 3)**
+   - Standar Kebersihan Substrat ISO 8501-1 & SSPC-SP 10 / NACE No. 2
+   - Preparasi permukaan baja struktural, pelat kapal, tangki timbun, dan fasilitas perpipaan migas menggunakan media garnet, steel grit, dan copper slag.
+2. **Jasa Aplikator Protective Coating & Industrial Painting**
+   - Standar Aplikasi SSPC-PA 2 & ISO 12944 (C1 hingga CX Marine)
+   - Aplikasi sistem cat protektif primer, intermediate, dan topcoat (Inorganic Zinc, High-Build Epoxy, Polyurethane, Polyurea) menggunakan airless spray bertekanan tinggi.
+3. **Jasa Coating Inspector QA/QC & Proteksi Korosi**
+   - Standar Kualifikasi NACE / AMPP Level 2/3 & SSPC BCI
+   - Inspeksi independen third-party: pengujian profil kekasaran Press-O-Film, uji kontaminasi klorida Bresle Patch, survei DFT magnetik, uji adhesi hidrolik ASTM D4541, dan holiday detection NACE SP0188.
+4. **Jasa Hydroblasting & UHP Waterjetting (Pembersihan Tekanan Ultra Tinggi)**
+   - Standar ISO 8501-4 & SSPC-SP WJ-1 hingga WJ-4
+   - Solusi pembersihan permukaan ramah lingkungan bebas debu pasir hingga tekanan 40.000 PSI untuk area kilang aktif yang sensitif terhadap percikan api.
+5. **Jasa Internal Lining Tangki Timbun & Bejana Tekan**
+   - Standar API 652, SSPC-CS 23.00 & NACE SP0287
+   - Pelapisan lining tahan korosi kimia agresif (Glass Flake Epoxy, Vinyl Ester, Novolac) untuk tangki minyak mentah, bahan kimia asam, dan storage tank industri.
+6. **Jasa Pipe Coating, Field Joint Coating & Wrapping Pipa**
+   - Standar ISO 21809, NACE SP0169 & AWWA C214
+   - Proteksi korosi perpipaan bawah tanah dan bawah laut (3LPE, Heat Shrink Sleeve, Visco-Elastic Wrapping, FBE).
+7. **Jasa Hot-Dip Galvanizing & Thermal Spray Metalizing (TSA)**
+   - Standar ASTM A123, ISO 1461, AWS C2.23M & NACE No. 12
+   - Pelapisan seng celup panas (galvanis) dan thermal spray aluminium/zinc (TSA) untuk perlindungan jangka panjang hingga 30+ tahun pada infrastruktur lepas pantai dan jembatan.
+8. **Jasa K3 & Supervisi Blasting Painting Ruang Terbatas (Confined Space)**
+   - Standar Keselamatan Kerja Internasional, Respirator Udara Grade D, Sirkulasi Ventilasi & Gas Monitoring
+   - Pengawasan keselamatan kerja ketat saat eksekusi blasting painting di dalam tangki, bejana tekan, ballast tank kapal, dan area terbatas.
+
+---
+
+## 🚀 Fitur Unggulan Sistem
 - **Website Publik**:
-  - Tema Modern & Elegan dengan aksen dominan **Hijau Muda / Mint Emerald**.
-  - Navigasi 1-baris responsif (Beranda, Tentang Kami, Program, Artikel, Wilayah, Kontak).
+  - Tema Modern Industrial beraksen Oranye Industri (`#f97316` / `#ea580c`), Hijau Segar (`#10b981`), dan Slate Dark (`#0f172a`).
+  - Hero slider interaktif berdesain industrial telemetry HUD tanpa foto.
+  - Interactive Keunggulan Slider.
   - Floating WhatsApp Interaktif multi-agent dengan 4 nomor resmi (Hotline Utama: `081399810272` disorot).
   - Direktori Wilayah Nasional mencakup **38 Provinsi, Seluruh Kabupaten/Kota, dan Kecamatan**.
-  - Dynamic Regional Article Engine: 200 topik artikel per wilayah (6.000 - 9.000 kata per artikel kaya konteks K3 & TKBT).
+  - Hierarki Halaman Wilayah: Section daftar Kabkot / Kecamatan tampil SEBELUM section daftar artikel.
+  - Dynamic Regional Article Engine: 200 topik artikel pengerjaan jasa per wilayah (panjang 6.000 - 9.000 kata kaya detail teknis standar SSPC/NACE/ISO).
 - **Admin Panel**:
-  - Desain modern bertema **Biru Muda / Sky Blue**.
-  - Manajemen Program Pelatihan, Artikel Berita, Pesan Masuk Kontak, dan Pengaturan Sistem (Termasuk kontak WhatsApp dinamis).
+  - Desain modern bertema **Biru Langit Sejuk / Sky Blue** (`#0284c7`, `#0ea5e9`).
+  - Manajemen Layanan Jasa, Artikel, Pesan Masuk Kontak, dan Pengaturan Sistem.
   - Akses Admin: `/admin/login`
 
 ---
@@ -32,58 +52,33 @@ Platform resmi informasi dan pendaftaran **Pelatihan & Sertifikasi Tenaga Kerja 
 - PHP >= 8.2 (Ekstensi: `pdo_mysql`, `mbstring`, `openssl`, `tokenizer`, `xml`, `ctype`, `json`)
 - Composer
 - MySQL >= 5.7 / MariaDB >= 10.3
-- Node.js & NPM (Opsional untuk asset compilation)
 
 ---
 
-## 📦 Panduan Instalasi Lokal
-1. **Clone Repository**:
-   ```bash
-   git clone https://github.com/dhani2610/training-tkbt.git
-   cd training-tkbt
-   ```
-2. **Install Dependencies**:
-   ```bash
-   composer install
-   ```
-3. **Konfigurasi Environment**:
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
-   Sesuaikan konfigurasi database di file `.env`:
+## 📦 Panduan Menjalankan Lokal
+1. **Konfigurasi Environment**:
+   Pastikan file `.env` terkonfigurasi dengan database:
    ```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=db_training_tkbt
+   DB_DATABASE=db_jasa_coating_blasting_painting
    DB_USERNAME=root
    DB_PASSWORD=
    ```
-4. **Migrasi dan Seeder**:
+2. **Migrate & Seed**:
    ```bash
-   php artisan migrate --seed
+   php artisan migrate:fresh --seed
    ```
-5. **Jalankan Aplikasi**:
+3. **Jalankan Aplikasi**:
    ```bash
-   php artisan serve
+   php artisan serve --port=8016
    ```
-   Buka di browser: `http://127.0.0.1:8000`
 
 ---
 
-## 👤 Kredensial Default Admin
-- **URL**: `http://127.0.0.1:8000/admin/login`
-- **Email**: `admin@trainingtkbt.id`
-- **Password**: `admin123`
-
----
-
-## 📞 Layanan Konsultasi & WhatsApp
-- **Hotline Utama**: 0813-9981-0272
-- **CS 2**: 0811-8500-177
-- **CS 3**: 0878-9458-0806
-- **CS 4**: 0878-9458-0649
-
----
-*Dikembangkan dengan standar industri K3 Kemnaker RI.*
+## 📞 4 Kontak WhatsApp Resmi
+- **Hotline Utama (Konsultasi & Estimasi Proyek)**: `081399810272` (Highlighted)
+- **CS 2 (Jadwal Pengerjaan & Survei Lokasi)**: `08118500177`
+- **Hotline 3 (Spesifikasi Teknis SSPC/NACE & QA/QC)**: `087894580806`
+- **Hotline 4 (Divisi Kerjasama Proyek Industri)**: `087894580649`

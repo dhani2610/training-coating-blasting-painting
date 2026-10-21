@@ -53,7 +53,7 @@ class ProgramController extends Controller
 
         Program::create($validated);
 
-        return redirect()->route('admin.programs.index')->with('success', 'Program pelatihan baru berhasil ditambahkan!');
+        return redirect()->route('admin.programs.index')->with('success', 'Layanan jasa baru berhasil ditambahkan!');
     }
 
     public function edit(Program $program)
@@ -93,13 +93,13 @@ class ProgramController extends Controller
 
         $program->update($validated);
 
-        return redirect()->route('admin.programs.index')->with('success', 'Data program pelatihan berhasil diperbarui!');
+        return redirect()->route('admin.programs.index')->with('success', 'Data layanan jasa berhasil diperbarui!');
     }
 
     public function destroy(Program $program)
     {
         $program->delete();
-        return redirect()->route('admin.programs.index')->with('success', 'Program pelatihan berhasil dihapus.');
+        return redirect()->route('admin.programs.index')->with('success', 'Layanan jasa berhasil dihapus.');
     }
 
     public function toggleStatus(Program $program)

@@ -18,7 +18,7 @@
             </h1>
 
             <p class="hero-lead" style="max-width: 800px;">
-                Tingkatkan kompetensi pengawasan norma K3 industri, audit SMK3 166 kriteria, manajemen risiko HIRADC, dan kepatuhan perundangan K3 korporasi Anda melalui kurikulum komprehensif, instruktur lead auditor senior, dan sertifikasi terakreditasi resmi.
+                Layanan komprehensif jasa pengerjaan abrasive blasting Sa 2.5 Sa 3, aplikasi protective coating industri, coating inspection QA/QC, hydroblasting UHP, tank lining, hingga hot-dip galvanizing dan metallizing di seluruh Indonesia.
             </p>
         </div>
     </section>
@@ -76,7 +76,7 @@
                     <h3 style="font-size: 1.35rem; font-weight: 800; color: #ffffff; margin-bottom: 8px;">
                         <i class="bi bi-headset" style="color: #f97316; margin-right: 8px;"></i> 4 Hotline WhatsApp Layanan Konsultasi & Pendaftaran K3 Korporasi
                     </h3>
-                    <p style="font-size: 0.88rem; color: #cbd5e1;">Hubungi petugas spesialis kami untuk konfirmasi ketersediaan kuota, silabus rinci, atau pengerjaan proyek industri perusahaan:</p>
+                    <p style="font-size: 0.88rem; color: #cbd5e1;">Hubungi petugas spesialis kami untuk survei lokasi, estimasi anggaran proyek, atau pengerjaan on-site di fasilitas Anda:</p>
                 </div>
 
                 <div class="wa-hotlines-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">

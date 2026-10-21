@@ -18,7 +18,7 @@
 
             <div class="hero-badge">
                 <i class="bi bi-shield-check"></i>
-                {{ $program->level_name ?? 'Sertifikasi Personel Rig Resmi' }}
+                {{ $program->level_name ?? 'Sertifikasi Standar Mutu SSPC & NACE Resmi' }}
             </div>
 
             <h1 class="hero-title" style="margin-left: 0; font-size: 2.35rem; margin-bottom: 14px;">
@@ -58,12 +58,12 @@
                             <p>{{ $program->full_description ?? $program->short_description }}</p>
                         </div>
 
-                        <!-- Silabus & Kurikulum -->
+                        <!-- Lingkup Pekerjaan & Spesifikasi Teknis -->
                         <h3 style="font-size: 1.25rem; font-weight: 800; color: #062e22; margin-bottom: 16px; border-top: 1px solid #f1f5f9; padding-top: 24px;">
-                            Silabus & Modul Pembelajaran Teknis
+                            Lingkup Pekerjaan & Spesifikasi Teknis (Scope of Work)
                         </h3>
                         <p style="font-size: 0.86rem; color: #64748b; margin-bottom: 18px;">
-                            Kurikulum mengacu pada Standar Kompetensi Personel Rig Keselamatan Kerja Nasional, Standar Kelaikan Manajemen Keselamatan Kerja Keselamatan Kerja, Prosedur Keselamatan Manajemen Risiko K3, dan Standar Asosiasi Rig Internasional (IADC & ISO 45001):
+                            Lingkup pengerjaan dan standar teknis mengacu pada spesifikasi internasional SSPC, NACE/AMPP, ISO 8501-1, ISO 12944, dan ASTM:
                         </p>
 
                         <div style="display: flex; flex-direction: column; gap: 10px;">
@@ -90,10 +90,10 @@
                         </div>
                     </div>
 
-                    <!-- Persyaratan Peserta -->
+                    <!-- Persyaratan Pengerjaan Proyek -->
                     <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: var(--radius-xl); padding: 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
                         <h3 style="font-size: 1.2rem; font-weight: 800; color: #062e22; margin-bottom: 14px; display: flex; align-items: center; gap: 10px;">
-                            <i class="bi bi-card-checklist" style="color: #10b981;"></i> Persyaratan Wajib Peserta
+                            <i class="bi bi-card-checklist" style="color: #10b981;"></i> Persyaratan & Kesiapan Area Pengerjaan
                         </h3>
                         <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; color: #475569; padding: 0;">
                             @php
@@ -151,7 +151,7 @@
                                 <i class="bi bi-award-fill" style="color: #10b981; font-size: 1.15rem;"></i>
                                 <div>
                                     <div style="font-size: 0.74rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">Badan Sertifikasi</div>
-                                    <div style="font-size: 0.88rem; font-weight: 700; color: #062e22;">{{ $program->certification_body ?? 'Sertifikasi Resmi Personel Rig Keselamatan Kerja' }}</div>
+                                    <div style="font-size: 0.88rem; font-weight: 700; color: #062e22;">{{ $program->certification_body ?? 'Sertifikasi Resmi Jasa Proteksi Korosi & Blasting Painting' }}</div>
                                 </div>
                             </li>
 
