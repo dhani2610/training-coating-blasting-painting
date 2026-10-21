@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', $program['title'] . ' di ' . $regionName . ' | Direktori Panduan & Sertifikasi Ahli K3')
+@section('title', $program['title'] . ' di ' . $regionName . ' | Direktori Panduan & Sertifikasi Proteksi Korosi')
 @section('meta_description', 'Program pelatihan resmi, estimasi biaya investasi, dan silabus materi ' . $program['title'] . ' di ' . $regionName . '. Sertifikasi resmi kompetensi teknisi coating & blasting berstandar internasional. Hubungi 081399810272.')
 
 @section('content')

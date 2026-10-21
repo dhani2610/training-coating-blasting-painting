@@ -413,8 +413,8 @@ class FrontController extends Controller
             'district' => $kecamatan['name'] ?? ''
         ], 200);
 
-        $waLink = $this->getWaLink($regionName, $program ? $program->title : 'Ahli K3 Umum Corporate');
-        $waNumbers = $this->get4WaHotlines($regionName, $program ? $program->title : 'Ahli K3 Umum Corporate');
+        $waLink = $this->getWaLink($regionName, $program ? $program->title : 'Training Coating Blasting Painting');
+        $waNumbers = $this->get4WaHotlines($regionName, $program ? $program->title : 'Training Coating Blasting Painting');
         $mapUrl = RegionService::getMapUrl($regionName);
 
         return view('front.program-region-detail', compact(

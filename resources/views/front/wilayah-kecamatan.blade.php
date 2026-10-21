@@ -75,7 +75,7 @@
                         </div>
 
                         <div class="program-body">
-                            <div class="program-level">{{ $progObj->level_name ?? 'Sertifikasi Ahli K3 Keselamatan Kerja' }}</div>
+                            <div class="program-level">{{ $progObj->level_name ?? 'Sertifikasi Proteksi Korosi Industri' }}</div>
                             <h3 class="program-title">{{ $progObj->title }}</h3>
                             <p class="program-desc">
                                 {{ Str::limit($progObj->short_description ?? ($progObj->full_description ?? ''), 130) }}

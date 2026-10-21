@@ -425,7 +425,7 @@
                 <span class="section-tag">Kemitraan Korporasi Nasional</span>
                 <h2 class="section-title">Dipercaya Pemimpin Industri & Korporasi Multinasional</h2>
                 <p class="section-desc" style="max-width: 760px; margin: 0 auto;">
-                    Kami bangga mendampingi implementasi keselamatan kerja, sertifikasi personel Ahli K3, dan audit SMK3 di berbagai perusahaan terkemuka di Indonesia:
+                    Kami bangga mendampingi implementasi perlindungan korosi industri, pelatihan juru blasting, sertifikasi operator coating, dan inspeksi painting di berbagai perusahaan terkemuka di Indonesia:
                 </p>
             </div>
 
