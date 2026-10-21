@@ -32,3 +32,5 @@ check_*.php
 render_view_test.php
 test_db_conn.php
 test_structure.php
+
+*.sqlite
